@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder particlefx_mps/Assets": {
+                    "watch": "@GEMROOT:particlefx_mps@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder particlefx_mps/Registry": {
+                    "watch": "@GEMROOT:particlefx_mps@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}
