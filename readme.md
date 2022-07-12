@@ -20,9 +20,9 @@ These gems are required for and utilized by the o3de-multiplayer sample project,
 
 **!!! Skip to Option #2 !!!**
 
-**Use of this as a remote gem repository is not yet implemented</u>**
+**<u>Use of this as a remote gem repository is not yet implemented</u>**
 
-Add this remote repository in the Project Manager using this URL
+Add this remote repository in the Project Manager using this URL:
 
 ```
 https://raw.githubusercontent.com/AMZN-temp-user-replace-me/o3de-remote-gem-repo-demo/main
