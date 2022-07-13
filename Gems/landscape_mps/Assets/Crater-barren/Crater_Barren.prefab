@@ -1,0 +1,282 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Crater_Barren",
+        "Components": {
+            "Component_[105878443023679639]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 105878443023679639
+            },
+            "Component_[11978070308050811113]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 11978070308050811113
+            },
+            "Component_[15690658309394975426]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 15690658309394975426
+            },
+            "Component_[17546839104528928474]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17546839104528928474,
+                "Parent Entity": ""
+            },
+            "Component_[3972457726928002079]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 3972457726928002079,
+                "Child Entity Order": [
+                    "Entity_[5183064498745]"
+                ]
+            },
+            "Component_[457872416638199680]": {
+                "$type": "SelectionComponent",
+                "Id": 457872416638199680
+            },
+            "Component_[4900707996210359941]": {
+                "$type": "EditorLockComponent",
+                "Id": 4900707996210359941
+            },
+            "Component_[5602139686679530524]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 5602139686679530524
+            },
+            "Component_[5884504455902514332]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 5884504455902514332
+            },
+            "Component_[6697778432056026774]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 6697778432056026774
+            },
+            "Component_[8436904062669238086]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 8436904062669238086
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[5183064498745]": {
+            "Id": "Entity_[5183064498745]",
+            "Name": "Crater_Barren",
+            "Components": {
+                "Component_[10980421614521816185]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10980421614521816185,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[11486725764404896689]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11486725764404896689
+                },
+                "Component_[12193066090526751844]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12193066090526751844
+                },
+                "Component_[12552427453431104637]": {
+                    "$type": "EditorTerrainHeightGradientListComponent",
+                    "Id": 12552427453431104637,
+                    "Configuration": {
+                        "GradientEntities": [
+                            "Entity_[5187359466041]"
+                        ]
+                    }
+                },
+                "Component_[16278842339729699385]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16278842339729699385
+                },
+                "Component_[3433480643318833146]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3433480643318833146
+                },
+                "Component_[3666810416144547490]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3666810416144547490
+                },
+                "Component_[3833485648729633112]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3833485648729633112
+                },
+                "Component_[4426282884955569836]": {
+                    "$type": "EditorAxisAlignedBoxShapeComponent",
+                    "Id": 4426282884955569836,
+                    "AxisAlignedBoxShape": {
+                        "Configuration": {
+                            "Dimensions": [
+                                2048.0,
+                                2048.0,
+                                256.0
+                            ]
+                        }
+                    }
+                },
+                "Component_[6654653702774755808]": {
+                    "$type": "EditorTerrainLayerSpawnerComponent",
+                    "Id": 6654653702774755808,
+                    "Configuration": {
+                        "Layer": 0
+                    }
+                },
+                "Component_[6768131634841704201]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6768131634841704201,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10980421614521816185
+                        },
+                        {
+                            "ComponentId": 4426282884955569836,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 6654653702774755808,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 12552427453431104637,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 8094962462619820114,
+                            "SortIndex": 4
+                        }
+                    ]
+                },
+                "Component_[8094962462619820114]": {
+                    "$type": "EditorTerrainMacroMaterialComponent",
+                    "Id": 8094962462619820114,
+                    "Configuration": {
+                        "MacroColor": {
+                            "assetId": {
+                                "guid": "{C9D4D7F4-6018-51F5-A3BD-3057D34031A8}",
+                                "subId": 1000
+                            },
+                            "assetHint": "crater-barren/macro_color.png.streamingimage"
+                        },
+                        "MacroNormal": {
+                            "assetId": {
+                                "guid": "{E012BEFC-90AA-50C6-9A5A-40232D1B0B9D}",
+                                "subId": 1000
+                            },
+                            "assetHint": "crater-barren/normalmap.png.streamingimage"
+                        }
+                    }
+                },
+                "Component_[839983871933067603]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 839983871933067603
+                },
+                "Component_[8962102435949269559]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8962102435949269559,
+                    "Child Entity Order": [
+                        "Entity_[5187359466041]"
+                    ]
+                }
+            }
+        },
+        "Entity_[5187359466041]": {
+            "Id": "Entity_[5187359466041]",
+            "Name": "Height",
+            "Components": {
+                "Component_[10022660447225725934]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10022660447225725934
+                },
+                "Component_[10609059897244201036]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10609059897244201036
+                },
+                "Component_[1101818497480197330]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1101818497480197330
+                },
+                "Component_[11785480580657316966]": {
+                    "$type": "EditorReferenceShapeComponent",
+                    "Id": 11785480580657316966,
+                    "Configuration": {
+                        "ShapeEntityId": "Entity_[5183064498745]"
+                    }
+                },
+                "Component_[14052237830109108314]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14052237830109108314,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9605851833699774243
+                        },
+                        {
+                            "ComponentId": 6444486332465596476,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 17803133750877521948,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 11785480580657316966,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[15023365232895106884]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15023365232895106884
+                },
+                "Component_[17803133750877521948]": {
+                    "$type": "EditorGradientTransformComponent",
+                    "Id": 17803133750877521948,
+                    "Configuration": {
+                        "WrappingType": 1,
+                        "ShapeReference": "",
+                        "Bounds": [
+                            2048.0,
+                            2048.0,
+                            256.0
+                        ],
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            128.0
+                        ]
+                    }
+                },
+                "Component_[2453118807834376467]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2453118807834376467
+                },
+                "Component_[4793572849170908769]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4793572849170908769
+                },
+                "Component_[587991779562415080]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 587991779562415080
+                },
+                "Component_[6444486332465596476]": {
+                    "$type": "EditorImageGradientComponent",
+                    "Id": 6444486332465596476,
+                    "Configuration": {
+                        "StreamingImageAsset": {
+                            "assetId": {
+                                "guid": "{15BF6774-B173-5740-97BE-CF00F8441932}",
+                                "subId": 1000
+                            },
+                            "assetHint": "crater-barren/height.exr.streamingimage"
+                        },
+                        "SamplingType": 1
+                    },
+                    "PreviewEntity": "Entity_[5187359466041]"
+                },
+                "Component_[7153873216979122230]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7153873216979122230
+                },
+                "Component_[9605851833699774243]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9605851833699774243,
+                    "Parent Entity": "Entity_[5183064498745]"
+                }
+            }
+        }
+    }
+}

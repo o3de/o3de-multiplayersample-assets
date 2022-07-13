@@ -154,3 +154,123 @@ There are a numebr of hooks for the file tree pattern, see the docs here:
 https://docs.quadspinner.com/Guide/Build/Manager.html
 
 # O3DE Terrain workflow
+
+Nates and things to know:
+
+- The exr files for height that were generated out of Gaea failed in the AP.
+  
+  - This might be because it ran out of memory, this can happen especially with high resolution images.  Try to shut down and restart the AP and see if it makes it through.
+  
+  - Another option, is to open them in Photoshop (PS) and resave them as exr.
+    
+    - Make sure they are 32-bit RGB (our image builder may not yet know what to do with single channel / luminance exr images.)
+  
+  - note: I was able to get them to stop failing after a re-save from PS
+
+- In Gaea, the easiest way to colorize terrain is a use of the **<u>SatMap Node</u>** which has a lot of color ramps (CLUTs, used as a ramp look up table.)  These color ramps are generated from satelite data... and they can look deceivingly good in Gaea, however O3de Atom is a PBR renderer and the Terrain rendering is a varation on the StandardPBR materialType; so to be accurate the albedo color (derived from the basecolor/macrocolor texture) should be within the correct luminance range.
+  
+  - Unity for insatnce has some built in validation tools: [Unity - Manual: Physically Based Rendering Material Validator](https://docs.unity3d.com/2018.3/Documentation/Manual/MaterialValidator.html)
+  
+  - And Substance Designer also has a validaor, this post covers various ways to validate: [ArtStation - PBR, Color space conversion and Albedo chart](https://www.artstation.com/blogs/shinsoj/Q9j6/pbr-color-space-conversion-and-albedo-chart)
+  
+  - And Substance has an Albedo correction node (note, not meant to always be accurate!): [PBR Albedo Safe Color | Substance 3D Designer](https://substance3d.adobe.com/documentation/sddoc/pbr-albedo-safe-color-159451045.html)
+  
+  - ... moving on, I could go deep into this rabbit hole.
+
+
+
+The source image output for terrain is placed in the Gem assets folder such as
+
+`o3de-multiplayersample-assets/Gems/landscape_mps/Assets/cliff`
+
+`o3de-multiplayersample-assets/Gems/landscape_mps/Assets/Crater-barren`
+
+
+
+Image files are processed as into runtime textures by the ImageBuilder in the AssetProcessor
+
+C:/path/to/o3de/Gems/Atom/Asset/ImageProcessingAtom
+
+There are two ways tha you can inform the ImageBuilder what processing and format to apply to the input image.  Option #1 Naming Conventions, Option #2 Image Settings
+
+## Option #1 Naming Conventions
+
+fooey
+
+## Option #2 Image Settings
+
+fooey
+
+## Setting up a Level with Terrain
+
+(make sure the terrain gems and landscape canvas are enabled in project)
+
+Create a new level
+
+Select the root Level entity from the outliner
+
+Add Terrain World Component, here are my settings
+
+![](C:\Users\gallowj\AppData\Roaming\marktext\images\2022-07-13-17-03-36-image.png)
+
+Add the Terrain World Renderer Component (I left default settings, so no pic)
+
+Created a entity, named it Terrain:
+
+    moved to 0,0,0
+
+    Added Box Shape Component
+
+        Dimensions: 1024, 1024, 512
+
+    Added Terrain Layer Spawner (set Layer priority: Background)
+
+    Added Terrain Height Gradient List Component
+
+        Hit + to add one sampler index
+
+Created a child entity, named it Height
+
+    Added Shape Reference (referenced the parent Terrain, to share world box)
+
+    Added a Image Gradient Component
+
+        Loaded 
+
+       `o3de-multiplayersample-assets\Gems\landscape_mps\Assets\cliff\height.exr`
+
+    
+
+
+
+Note: my terrain looked stair stepped, so not sure exactly how the height.exr is processed or samples.
+
+    Find the height.exr in the Asset Browser
+
+    Right-Click and select "Texture Settings"
+
+    Note: it was using albedo profile
+
+        Not good, maybe just height doesn't work like _height convention?
+
+            Probably wouldn't work the way we wanted it to anyway
+
+                Height is for material height maps
+
+        Switched to GSI32 (32-bit gradient signal, I know this is what I actually want)
+
+        Hit Apply button (and waited, this is a big image)
+
+            Whoops this crashed the editor!
+
+            note: it did create the height.exr.assetinfo file on disk though
+
+            Whoops my level changes are gone (have to redo, ack!)
+
+            note: remember to save often
+
+
+
+
+
+
