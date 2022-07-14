@@ -135,7 +135,15 @@ I used the following options:
 
 <img title="" src="file:///C:/Users/gallowj/AppData/Roaming/marktext/images/2022-07-12-17-07-42-image.png" alt="" width="234" data-align="center">
 
-##### Build Destination
+##### Build Destinations
+
+There are a numebr of hooks for the file tree pattern, see the docs here:
+
+[Build Manager - Gaea Documentation - QuadSpinner](https://docs.quadspinner.com/Guide/Build/Manager.html)
+
+###### Option 1: Build directly into assets
+
+I choose to build directly into the asset directory, if I am working with the target resolution that the output will be used at and I don't intend to modify the output.  I use Option#2 f I am going to modify the output post (like alter the target resolution, manually edit in photoshop, or run thourhg other processing like Substance Designer.)
 
 I set the build destination file pattern to:
 
@@ -149,9 +157,11 @@ This will build output image files directly into the equivelant asset folder:
 etc ...
 ```
 
-There are a numebr of hooks for the file tree pattern, see the docs here:
+###### Option 2: Build into the .src folder, modify and copy to assets
 
-https://docs.quadspinner.com/Guide/Build/Manager.html
+I use this option if Gaea isn't the last stop for my work.  I generally use Option#1 early in my work, while prototyping and setting up, and then move to Option#2 as I being to make modifications and refinements (there are various reasons to do so.)
+
+*< To Do: write this section... >*
 
 # O3DE Terrain workflow
 
@@ -240,8 +250,6 @@ Created a child entity, named it Height
        `o3de-multiplayersample-assets\Gems\landscape_mps\Assets\cliff\height.exr`
 
     
-
-
 
 Note: my terrain looked stair stepped, so not sure exactly how the height.exr is processed or samples.
 
