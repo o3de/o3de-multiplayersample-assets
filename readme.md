@@ -107,6 +107,10 @@ Now these Gems will be available in the Project Manager and can be added to your
 
 # Appendix
 
+After the gems are registered and added to a project, you can validate they are operational via the Asset Processor
+
+![image](https://user-images.githubusercontent.com/23222931/178357181-b9d6689e-00c1-46b3-84a7-049615c6d244.png)
+
 How these Asset Gems were made with O3DE.
 
 1. The Gems were created from the Asset Gem template
