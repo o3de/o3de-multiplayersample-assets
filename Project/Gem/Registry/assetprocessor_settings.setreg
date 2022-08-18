@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder MPS-Asset-Test/Assets": {
+                    "watch": "@GEMROOT:MPS-Asset-Test@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder MPS-Asset-Test/Registry": {
+                    "watch": "@GEMROOT:MPS-Asset-Test@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}
