@@ -157,11 +157,11 @@ This should generate a build\O3DE.sln file, which can be opened in Visual Studio
 
 Don't forget to build the project in Profile
 
-< image >
+![image](https://user-images.githubusercontent.com/23222931/185497967-b94e1e5e-722c-4b84-b950-a00477343e56.png)
 
 Building the Editor project will build with all dependencies.
 
-< image >
+![image](https://user-images.githubusercontent.com/23222931/185498026-0f235b71-ff10-4135-8008-ba067b6a285b.png)
 
 The built binary executables will be in:
 
