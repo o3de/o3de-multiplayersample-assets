@@ -127,3 +127,7 @@ scripts\o3de create-gem --gem-path C:\o3de-multiplayersample-assets\Gems\pbr_mat
 scripts\o3de create-gem --gem-path C:\o3de-multiplayersample-assets\Gems\particlefx_mps --template-path C:\o3de\Templates\AssetGem
 scripts\o3de create-gem --gem-path C:\o3de-multiplayersample-assets\Gems\kb3d_mps --template-path C:\o3de\Templates\AssetGem
 ```
+
+# License
+
+For terms please see the LICENSE*.TXT files within this distribution.
