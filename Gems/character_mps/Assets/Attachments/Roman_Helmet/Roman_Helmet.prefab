@@ -1,0 +1,293 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Roman_Helmet",
+        "Components": {
+            "Component_[10826441407471230095]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 10826441407471230095
+            },
+            "Component_[12995701126070169040]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 12995701126070169040,
+                "Parent Entity": ""
+            },
+            "Component_[16095184622207245426]": {
+                "$type": "EditorLockComponent",
+                "Id": 16095184622207245426
+            },
+            "Component_[16875603560363760412]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 16875603560363760412,
+                "Child Entity Order": [
+                    "Entity_[92564090025245]"
+                ]
+            },
+            "Component_[17946053631243669922]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 17946053631243669922
+            },
+            "Component_[3094042489678075674]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3094042489678075674
+            },
+            "Component_[4613852983132685139]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 4613852983132685139
+            },
+            "Component_[6500040019313388733]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 6500040019313388733
+            },
+            "Component_[7364985822181158140]": {
+                "$type": "SelectionComponent",
+                "Id": 7364985822181158140
+            },
+            "Component_[9073954718687414943]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 9073954718687414943
+            },
+            "Component_[92071615729952476]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 92071615729952476
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[92564090025245]": {
+            "Id": "Entity_[92564090025245]",
+            "Name": "Roman_Helmet",
+            "Components": {
+                "Component_[11679467580596466976]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11679467580596466976,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4900405915947837707
+                        },
+                        {
+                            "ComponentId": 4811548522782008140,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 12229610186694480272,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 13601304028049827375,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[12229610186694480272]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 12229610186694480272,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{7067593E-2E29-56B5-8585-EBAE20D3158E}",
+                                    "subId": 279558984
+                                },
+                                "assetHint": "assets/attachments/roman_helmet/romanhelmet.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[13601304028049827375]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13601304028049827375,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {},
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{68D8248F-8FC6-5F77-8E6B-BC6F5805FDDC}"
+                                            },
+                                            "assetHint": "assets/attachments/roman_helmet/romanhelmet_romanhelmettopmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1647701870
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{68D8248F-8FC6-5F77-8E6B-BC6F5805FDDC}"
+                                            },
+                                            "assetHint": "assets/attachments/roman_helmet/romanhelmet_romanhelmettopmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[15208708758519168429]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15208708758519168429,
+                    "Child Entity Order": [
+                        "Entity_[92568384992541]"
+                    ]
+                },
+                "Component_[17231880438149545275]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17231880438149545275
+                },
+                "Component_[18259046167970866086]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 18259046167970866086
+                },
+                "Component_[2228628406903088201]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2228628406903088201
+                },
+                "Component_[3023436097718967780]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3023436097718967780
+                },
+                "Component_[3476036354863876067]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3476036354863876067
+                },
+                "Component_[4103978327390813474]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4103978327390813474
+                },
+                "Component_[4811548522782008140]": {
+                    "$type": "EditorAttachmentComponent",
+                    "Id": 4811548522782008140,
+                    "Target ID": "",
+                    "Target Bone Name": "mixamorig:Head",
+                    "Position Offset": [
+                        0.0,
+                        0.0,
+                        0.11999999731779099
+                    ]
+                },
+                "Component_[4900405915947837707]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4900405915947837707,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[9087002289036675603]": {
+                    "$type": "SelectionComponent",
+                    "Id": 9087002289036675603
+                }
+            }
+        },
+        "Entity_[92568384992541]": {
+            "Id": "Entity_[92568384992541]",
+            "Name": "Fur",
+            "Components": {
+                "Component_[10175988318763507351]": {
+                    "$type": "SelectionComponent",
+                    "Id": 10175988318763507351
+                },
+                "Component_[11208083903270877184]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11208083903270877184
+                },
+                "Component_[15580434274025666682]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15580434274025666682
+                },
+                "Component_[15665708887838590631]": {
+                    "$type": "EditorClothComponent",
+                    "Id": 15665708887838590631,
+                    "Configuration": {
+                        "Mesh Node": "RomanHelmet_Fur",
+                        "Mass": 0.10000000149011612,
+                        "Use Custom Gravity": true,
+                        "Custom Gravity": [
+                            0.0,
+                            0.0,
+                            0.009999999776482582
+                        ],
+                        "Gravity Scale": 0.10000000149011612,
+                        "Damping": [
+                            0.6000000238418579,
+                            0.8999999761581421,
+                            0.800000011920929
+                        ],
+                        "Use Custom Wind Velocity": false,
+                        "Air Drag Coefficient": 0.009999999776482582,
+                        "Air Lift Coefficient": 0.009999999776482582
+                    }
+                },
+                "Component_[16206484031572887397]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 16206484031572887397,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3975389505
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EA4298A3-B372-5ED6-AFEB-2204963D64E6}"
+                                            },
+                                            "assetHint": "assets/attachments/roman_helmet/romanhelmetfur_romanhelmentfurmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[16789182679390903781]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16789182679390903781,
+                    "Parent Entity": "Entity_[92564090025245]"
+                },
+                "Component_[17846539684595987355]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17846539684595987355
+                },
+                "Component_[17907043011131522041]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17907043011131522041
+                },
+                "Component_[18298754043202352403]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18298754043202352403
+                },
+                "Component_[4243104091260475753]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4243104091260475753,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{5A485457-AF88-5B4E-8031-BA7997C222C4}",
+                                    "subId": 283788072
+                                },
+                                "assetHint": "assets/attachments/roman_helmet/romanhelmetfur.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[4981309872028150160]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4981309872028150160
+                },
+                "Component_[5109107292068250440]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5109107292068250440
+                },
+                "Component_[9101053167208650603]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9101053167208650603
+                }
+            }
+        }
+    }
+}
