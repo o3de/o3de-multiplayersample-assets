@@ -1,0 +1,1645 @@
+{
+    "values": [
+        {
+            "$type": "ActorGroup",
+            "name": "My_Actor_Cape_Skin_Attachment",
+            "selectedRootBone": "RootNode",
+            "id": "{5AA826F7-D160-5FA9-8F1A-E7C95F2845F4}",
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MetaDataRule",
+                        "metaData": "AdjustActor -actorID $(ACTORID) -name \"My_Actor_Cape_Skin_Attachment\"\nActorSetCollisionMeshes -actorID $(ACTORID) -lod 0 -nodeList \"\"\nAdjustActor -actorID $(ACTORID) -nodesExcludedFromBounds \"\" -nodeAction \"select\"\nAdjustActor -actorID $(ACTORID) -nodeAction \"replace\" -attachmentNodes \"\"\nAdjustActor -actorID $(ACTORID) -mirrorSetup \"\"\n"
+                    },
+                    {
+                        "$type": "ActorPhysicsSetupRule",
+                        "data": {
+                            "config": {
+                                "hitDetectionConfig": {
+                                    "nodes": [
+                                        {
+                                            "name": "mixamorig:Hips",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            -3.000000106112566e-7,
+                                                            -0.5248826742172241,
+                                                            3.7056775093078613
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "SphereShapeConfiguration",
+                                                        "Radius": 0.20000000298023224
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:Spine",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            0.00006939999730093405,
+                                                            -0.7111706733703613,
+                                                            5.822711944580078
+                                                        ],
+                                                        "Rotation": [
+                                                            0.06073030084371567,
+                                                            0.0000058999999055231456,
+                                                            -0.0,
+                                                            0.9981542229652405
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.30000001192092896,
+                                                        "Radius": 0.15000000596046448
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:Spine1",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            -0.00004569999873638153,
+                                                            -0.8132296800613403,
+                                                            6.680107116699219
+                                                        ],
+                                                        "Rotation": [
+                                                            0.06053439900279045,
+                                                            -0.0000033999999686784577,
+                                                            0.0,
+                                                            0.9981660842895508
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.4000000059604645,
+                                                        "Radius": 0.20000000298023224
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:Spine2",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            -0.00003020000076503493,
+                                                            0.3568989932537079,
+                                                            4.834586143493652
+                                                        ],
+                                                        "Rotation": [
+                                                            -0.03683590143918991,
+                                                            -0.000003099999958067201,
+                                                            0.0,
+                                                            0.9993212819099426
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.4000000059604645,
+                                                        "Radius": 0.15000000596046448
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:Neck",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            -0.0000012000000424450263,
+                                                            1.5712144374847412,
+                                                            5.160909652709961
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "SphereShapeConfiguration",
+                                                        "Radius": 0.10000000149011612
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:LeftShoulder",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            -6.327517509460449,
+                                                            -1.3004611730575562,
+                                                            -0.13297200202941895
+                                                        ],
+                                                        "Rotation": [
+                                                            -0.0,
+                                                            -0.7143458724021912,
+                                                            0.14088000357151031,
+                                                            0.6854652762413025
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.3499999940395355,
+                                                        "Radius": 0.125
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:LeftArm",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            -13.70234489440918,
+                                                            0.0000033999999686784577,
+                                                            0.000023799999326001853
+                                                        ],
+                                                        "Rotation": [
+                                                            -2.0000000233721948e-7,
+                                                            -0.7071061134338379,
+                                                            0.0,
+                                                            0.707107424736023
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.5,
+                                                        "Radius": 0.15000000596046448
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:LeftForeArm",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            -13.807228088378906,
+                                                            0.000009700000191514846,
+                                                            0.000017899999875226058
+                                                        ],
+                                                        "Rotation": [
+                                                            -4.999999987376214e-7,
+                                                            -0.7071062922477722,
+                                                            0.0,
+                                                            0.7071071863174438
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.5,
+                                                        "Radius": 0.11999999731779099
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:LeftHand",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            -5.18861722946167,
+                                                            -0.11172779649496078,
+                                                            -0.26150938868522644
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "SphereShapeConfiguration",
+                                                        "Radius": 0.10000000149011612
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:RightShoulder",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            6.327519416809082,
+                                                            -1.300447940826416,
+                                                            -0.13300180435180664
+                                                        ],
+                                                        "Rotation": [
+                                                            0.0,
+                                                            0.7143474817276001,
+                                                            -0.14087830483913422,
+                                                            0.6854640245437622
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.3499999940395355,
+                                                        "Radius": 0.125
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:RightArm",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            13.702337265014648,
+                                                            0.0000024000000848900527,
+                                                            0.000017899999875226058
+                                                        ],
+                                                        "Rotation": [
+                                                            -1.0000000116860974e-7,
+                                                            0.7071062922477722,
+                                                            0.0,
+                                                            0.7071071863174438
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.5,
+                                                        "Radius": 0.15000000596046448
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:RightForeArm",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            13.807232856750488,
+                                                            0.000009100000170292333,
+                                                            0.0
+                                                        ],
+                                                        "Rotation": [
+                                                            -4.999999987376214e-7,
+                                                            0.7071068286895752,
+                                                            0.0,
+                                                            0.7071068286895752
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.5,
+                                                        "Radius": 0.10000000149011612
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:RightHand",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            5.18861722946167,
+                                                            -0.11172869801521301,
+                                                            -0.26150938868522644
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "SphereShapeConfiguration",
+                                                        "Radius": 0.10000000149011612
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:RightUpLeg",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            0.12234000116586685,
+                                                            -0.25726398825645447,
+                                                            -20.297712326049805
+                                                        ],
+                                                        "Rotation": [
+                                                            0.0,
+                                                            0.9999753832817078,
+                                                            -0.006336799822747707,
+                                                            0.0030133998952805996
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.4059942066669464,
+                                                        "Radius": 0.20259110629558563
+                                                    }
+                                                ],
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            0.12234000116586685,
+                                                            -0.25726398825645447,
+                                                            -20.297712326049805
+                                                        ],
+                                                        "Rotation": [
+                                                            0.0,
+                                                            0.9999753832817078,
+                                                            -0.006336799822747707,
+                                                            0.0030133998952805996
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.4059942066669464,
+                                                        "Radius": 0.20259110629558563
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:RightLeg",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            -0.12233439832925797,
+                                                            -1.0301156044006348,
+                                                            -21.023941040039063
+                                                        ],
+                                                        "Rotation": [
+                                                            -0.0,
+                                                            -0.9996960759162903,
+                                                            0.024476300925016403,
+                                                            0.002906800014898181
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.4209902882575989,
+                                                        "Radius": 0.21007420122623444
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:LeftUpLeg",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            -0.12234000116586685,
+                                                            -0.2585205137729645,
+                                                            -20.29769515991211
+                                                        ],
+                                                        "Rotation": [
+                                                            -0.0,
+                                                            -0.9999752044677734,
+                                                            0.006367799825966358,
+                                                            0.0030133998952805996
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.4059942066669464,
+                                                        "Radius": 0.20259110629558563
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:LeftLeg",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            0.12233520299196243,
+                                                            -1.0288206338882446,
+                                                            -21.024005889892578
+                                                        ],
+                                                        "Rotation": [
+                                                            0.0,
+                                                            0.9996969103813171,
+                                                            -0.02444550022482872,
+                                                            0.002906800014898181
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.42099040746688843,
+                                                        "Radius": 0.21007420122623444
+                                                    }
+                                                ]
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "clothConfig": {
+                                    "nodes": [
+                                        {
+                                            "name": "mixamorig:Neck",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            -0.0000011853728665300878,
+                                                            1.5712144374847412,
+                                                            5.160909652709961
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "propertyVisibilityFlags": 248
+                                                    },
+                                                    {
+                                                        "$type": "SphereShapeConfiguration",
+                                                        "Radius": 0.10000000149011612
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:Spine2",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            -0.000030182183763827197,
+                                                            0.3568990230560303,
+                                                            4.834586143493652
+                                                        ],
+                                                        "Rotation": [
+                                                            -0.03683585301041603,
+                                                            -0.0000031151287203101674,
+                                                            0.0,
+                                                            0.9993212819099426
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "propertyVisibilityFlags": 248
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.4000000059604645,
+                                                        "Radius": 0.1499999761581421
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:RightShoulder",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            6.327519416809082,
+                                                            -1.300447940826416,
+                                                            -0.13300180435180664
+                                                        ],
+                                                        "Rotation": [
+                                                            0.0,
+                                                            0.7143475413322449,
+                                                            -0.14087830483913422,
+                                                            0.6854639649391174
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "propertyVisibilityFlags": 248
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.3499999940395355,
+                                                        "Radius": 0.125
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:LeftShoulder",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            -6.327517509460449,
+                                                            -1.3004611730575562,
+                                                            -0.13297200202941895
+                                                        ],
+                                                        "Rotation": [
+                                                            -0.0,
+                                                            -0.7143458724021912,
+                                                            0.1408800482749939,
+                                                            0.6854652762413025
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "propertyVisibilityFlags": 248
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.3499999940395355,
+                                                        "Radius": 0.125
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:LeftArm",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            -13.70234489440918,
+                                                            0.0000033527612686157227,
+                                                            0.00002384185791015625
+                                                        ],
+                                                        "Rotation": [
+                                                            -1.7301842092365405e-7,
+                                                            -0.7071061134338379,
+                                                            0.0,
+                                                            0.707107424736023
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "propertyVisibilityFlags": 248
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.5,
+                                                        "Radius": 0.15000000596046448
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:LeftForeArm",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            -13.807228088378906,
+                                                            0.000009685754776000977,
+                                                            0.000017881393432617188
+                                                        ],
+                                                        "Rotation": [
+                                                            -4.960342607773782e-7,
+                                                            -0.7071062922477722,
+                                                            0.0,
+                                                            0.7071072459220886
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "propertyVisibilityFlags": 248
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.5,
+                                                        "Radius": 0.11999999731779099
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:Spine1",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            -0.00004572035322780721,
+                                                            -0.8132297396659851,
+                                                            6.680107116699219
+                                                        ],
+                                                        "Rotation": [
+                                                            0.06053442135453224,
+                                                            -0.0000034032882467727177,
+                                                            0.0,
+                                                            0.9981661438941956
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "propertyVisibilityFlags": 248
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.4000000059604645,
+                                                        "Radius": 0.19999995827674866
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:Spine",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            0.0000694326008670032,
+                                                            -0.7111706733703613,
+                                                            5.822711944580078
+                                                        ],
+                                                        "Rotation": [
+                                                            0.06073031574487686,
+                                                            0.0000059291869547450915,
+                                                            -0.0,
+                                                            0.9981542229652405
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "propertyVisibilityFlags": 248
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.30000001192092896,
+                                                        "Radius": 0.1499999761581421
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:RightArm",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            13.702337265014648,
+                                                            0.000002421438694000244,
+                                                            0.000017881393432617188
+                                                        ],
+                                                        "Rotation": [
+                                                            -1.2495785028932005e-7,
+                                                            0.7071062922477722,
+                                                            0.0,
+                                                            0.7071072459220886
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "propertyVisibilityFlags": 248
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.5,
+                                                        "Radius": 0.15000000596046448
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:RightForeArm",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            13.807232856750488,
+                                                            0.00000912696123123169,
+                                                            0.0
+                                                        ],
+                                                        "Rotation": [
+                                                            -4.674170952512213e-7,
+                                                            0.7071067690849304,
+                                                            0.0,
+                                                            0.7071067690849304
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "propertyVisibilityFlags": 248
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.5,
+                                                        "Radius": 0.10000000149011612
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:RightHand",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            5.18861722946167,
+                                                            -0.1117287203669548,
+                                                            -0.26150941848754883
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "propertyVisibilityFlags": 248
+                                                    },
+                                                    {
+                                                        "$type": "SphereShapeConfiguration",
+                                                        "Radius": 0.10000000149011612
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:LeftHand",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            -5.18861722946167,
+                                                            -0.11172778904438019,
+                                                            -0.26150941848754883
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "propertyVisibilityFlags": 248
+                                                    },
+                                                    {
+                                                        "$type": "SphereShapeConfiguration",
+                                                        "Radius": 0.10000000149011612
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:RightUpLeg",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            0.12234002351760864,
+                                                            -0.25726398825645447,
+                                                            -20.297712326049805
+                                                        ],
+                                                        "Rotation": [
+                                                            0.0,
+                                                            0.9999753832817078,
+                                                            -0.006336797494441271,
+                                                            0.0030134182889014482
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "propertyVisibilityFlags": 248
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.4059942066669464,
+                                                        "Radius": 0.20259112119674683
+                                                    }
+                                                ],
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            0.12234002351760864,
+                                                            -0.25726398825645447,
+                                                            -20.297712326049805
+                                                        ],
+                                                        "Rotation": [
+                                                            0.0,
+                                                            0.9999753832817078,
+                                                            -0.006336797494441271,
+                                                            0.0030134182889014482
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "propertyVisibilityFlags": 248
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.4059942066669464,
+                                                        "Radius": 0.20259112119674683
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:RightLeg",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            -0.12233443558216095,
+                                                            -1.0301156044006348,
+                                                            -21.023941040039063
+                                                        ],
+                                                        "Rotation": [
+                                                            -0.0,
+                                                            -0.9996961355209351,
+                                                            0.024476300925016403,
+                                                            0.0029067557770758867
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "propertyVisibilityFlags": 248
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.42099034786224365,
+                                                        "Radius": 0.21007418632507324
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:LeftUpLeg",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            -0.12234002351760864,
+                                                            -0.25852054357528687,
+                                                            -20.29769515991211
+                                                        ],
+                                                        "Rotation": [
+                                                            -0.0,
+                                                            -0.9999752044677734,
+                                                            0.006367750000208616,
+                                                            0.003013418987393379
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "propertyVisibilityFlags": 248
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.405994176864624,
+                                                        "Radius": 0.20259110629558563
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:LeftLeg",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            0.12233518064022064,
+                                                            -1.0288206338882446,
+                                                            -21.024005889892578
+                                                        ],
+                                                        "Rotation": [
+                                                            0.0,
+                                                            0.9996969103813171,
+                                                            -0.024445513263344765,
+                                                            0.002906771143898368
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "propertyVisibilityFlags": 248
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 0.42099037766456604,
+                                                        "Radius": 0.21007420122623444
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:Hips",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "Visible": true,
+                                                        "Position": [
+                                                            -3.000000106112566e-7,
+                                                            -0.5248826742172241,
+                                                            3.7056775093078613
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "propertyVisibilityFlags": 248
+                                                    },
+                                                    {
+                                                        "$type": "SphereShapeConfiguration",
+                                                        "Radius": 0.20000000298023224
+                                                    }
+                                                ]
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{B3D0F3FF-F3D7-5E0C-A50A-E3B3E91BE825}",
+            "name": "My_Actor_Cape_Skin_Attachment",
+            "NodeSelectionList": {
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.Cape",
+                    "RootNode.Armature",
+                    "RootNode.Cape.Col0",
+                    "RootNode.Cape.SkinWeight_",
+                    "RootNode.Cape.transform",
+                    "RootNode.Cape.custom_properties",
+                    "RootNode.Cape.UVMap",
+                    "RootNode.Cape.TrooperCapMAT",
+                    "RootNode.Armature.transform",
+                    "RootNode.Armature.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips",
+                    "RootNode.Armature.mixamorig:Hips.transform",
+                    "RootNode.Armature.mixamorig:Hips.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot.mixamorig:RightToeBase",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot.mixamorig:LeftToeBase",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot.mixamorig:RightToeBase.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot.mixamorig:RightToeBase.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot.mixamorig:RightToeBase.mixamorig:RightToe_End",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot.mixamorig:LeftToeBase.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot.mixamorig:LeftToeBase.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot.mixamorig:LeftToeBase.mixamorig:LeftToe_End",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.mixamorig:HeadTop_End",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.mixamorig:LeftEye",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.mixamorig:RightEye",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot.mixamorig:RightToeBase.mixamorig:RightToe_End.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot.mixamorig:RightToeBase.mixamorig:RightToe_End.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot.mixamorig:LeftToeBase.mixamorig:LeftToe_End.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot.mixamorig:LeftToeBase.mixamorig:LeftToe_End.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.mixamorig:HeadTop_End.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.mixamorig:HeadTop_End.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.mixamorig:LeftEye.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.mixamorig:LeftEye.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.mixamorig:RightEye.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.mixamorig:RightEye.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2.mixamorig:LeftHandMiddle3",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2.mixamorig:LeftHandThumb3",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2.mixamorig:LeftHandIndex3",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2.mixamorig:LeftHandRing3",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2.mixamorig:LeftHandPinky3",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2.mixamorig:RightHandMiddle3",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2.mixamorig:RightHandThumb3",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2.mixamorig:RightHandIndex3",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2.mixamorig:RightHandRing3",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2.mixamorig:RightHandPinky3",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2.mixamorig:LeftHandMiddle3.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2.mixamorig:LeftHandMiddle3.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2.mixamorig:LeftHandMiddle3.mixamorig:LeftHandMiddle4",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2.mixamorig:LeftHandThumb3.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2.mixamorig:LeftHandThumb3.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2.mixamorig:LeftHandThumb3.mixamorig:LeftHandThumb4",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2.mixamorig:LeftHandIndex3.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2.mixamorig:LeftHandIndex3.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2.mixamorig:LeftHandIndex3.mixamorig:LeftHandIndex4",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2.mixamorig:LeftHandRing3.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2.mixamorig:LeftHandRing3.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2.mixamorig:LeftHandRing3.mixamorig:LeftHandRing4",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2.mixamorig:LeftHandPinky3.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2.mixamorig:LeftHandPinky3.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2.mixamorig:LeftHandPinky3.mixamorig:LeftHandPinky4",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2.mixamorig:RightHandMiddle3.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2.mixamorig:RightHandMiddle3.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2.mixamorig:RightHandMiddle3.mixamorig:RightHandMiddle4",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2.mixamorig:RightHandThumb3.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2.mixamorig:RightHandThumb3.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2.mixamorig:RightHandThumb3.mixamorig:RightHandThumb4",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2.mixamorig:RightHandIndex3.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2.mixamorig:RightHandIndex3.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2.mixamorig:RightHandIndex3.mixamorig:RightHandIndex4",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2.mixamorig:RightHandRing3.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2.mixamorig:RightHandRing3.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2.mixamorig:RightHandRing3.mixamorig:RightHandRing4",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2.mixamorig:RightHandPinky3.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2.mixamorig:RightHandPinky3.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2.mixamorig:RightHandPinky3.mixamorig:RightHandPinky4",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2.mixamorig:LeftHandMiddle3.mixamorig:LeftHandMiddle4.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2.mixamorig:LeftHandMiddle3.mixamorig:LeftHandMiddle4.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2.mixamorig:LeftHandThumb3.mixamorig:LeftHandThumb4.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2.mixamorig:LeftHandThumb3.mixamorig:LeftHandThumb4.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2.mixamorig:LeftHandIndex3.mixamorig:LeftHandIndex4.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2.mixamorig:LeftHandIndex3.mixamorig:LeftHandIndex4.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2.mixamorig:LeftHandRing3.mixamorig:LeftHandRing4.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2.mixamorig:LeftHandRing3.mixamorig:LeftHandRing4.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2.mixamorig:LeftHandPinky3.mixamorig:LeftHandPinky4.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2.mixamorig:LeftHandPinky3.mixamorig:LeftHandPinky4.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2.mixamorig:RightHandMiddle3.mixamorig:RightHandMiddle4.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2.mixamorig:RightHandMiddle3.mixamorig:RightHandMiddle4.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2.mixamorig:RightHandThumb3.mixamorig:RightHandThumb4.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2.mixamorig:RightHandThumb3.mixamorig:RightHandThumb4.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2.mixamorig:RightHandIndex3.mixamorig:RightHandIndex4.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2.mixamorig:RightHandIndex3.mixamorig:RightHandIndex4.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2.mixamorig:RightHandRing3.mixamorig:RightHandRing4.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2.mixamorig:RightHandRing3.mixamorig:RightHandRing4.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2.mixamorig:RightHandPinky3.mixamorig:RightHandPinky4.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2.mixamorig:RightHandPinky3.mixamorig:RightHandPinky4.custom_properties"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Entire object"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "My_Actor_Cape_Skin_Attachment",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Cape",
+                    "RootNode.Armature",
+                    "RootNode.Cape.Col0",
+                    "RootNode.Cape.SkinWeight_",
+                    "RootNode.Cape.transform",
+                    "RootNode.Cape.custom_properties",
+                    "RootNode.Cape.UVMap",
+                    "RootNode.Cape.TrooperCapMAT",
+                    "RootNode.Armature.transform",
+                    "RootNode.Armature.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips",
+                    "RootNode.Armature.mixamorig:Hips.transform",
+                    "RootNode.Armature.mixamorig:Hips.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot.mixamorig:RightToeBase",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot.mixamorig:LeftToeBase",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot.mixamorig:RightToeBase.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot.mixamorig:RightToeBase.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot.mixamorig:RightToeBase.mixamorig:RightToe_End",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot.mixamorig:LeftToeBase.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot.mixamorig:LeftToeBase.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot.mixamorig:LeftToeBase.mixamorig:LeftToe_End",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.mixamorig:HeadTop_End",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.mixamorig:LeftEye",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.mixamorig:RightEye",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot.mixamorig:RightToeBase.mixamorig:RightToe_End.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot.mixamorig:RightToeBase.mixamorig:RightToe_End.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot.mixamorig:LeftToeBase.mixamorig:LeftToe_End.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot.mixamorig:LeftToeBase.mixamorig:LeftToe_End.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.mixamorig:HeadTop_End.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.mixamorig:HeadTop_End.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.mixamorig:LeftEye.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.mixamorig:LeftEye.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.mixamorig:RightEye.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head.mixamorig:RightEye.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2.mixamorig:LeftHandMiddle3",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2.mixamorig:LeftHandThumb3",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2.mixamorig:LeftHandIndex3",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2.mixamorig:LeftHandRing3",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2.mixamorig:LeftHandPinky3",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2.mixamorig:RightHandMiddle3",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2.mixamorig:RightHandThumb3",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2.mixamorig:RightHandIndex3",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2.mixamorig:RightHandRing3",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2.mixamorig:RightHandPinky3",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2.mixamorig:LeftHandMiddle3.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2.mixamorig:LeftHandMiddle3.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2.mixamorig:LeftHandMiddle3.mixamorig:LeftHandMiddle4",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2.mixamorig:LeftHandThumb3.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2.mixamorig:LeftHandThumb3.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2.mixamorig:LeftHandThumb3.mixamorig:LeftHandThumb4",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2.mixamorig:LeftHandIndex3.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2.mixamorig:LeftHandIndex3.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2.mixamorig:LeftHandIndex3.mixamorig:LeftHandIndex4",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2.mixamorig:LeftHandRing3.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2.mixamorig:LeftHandRing3.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2.mixamorig:LeftHandRing3.mixamorig:LeftHandRing4",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2.mixamorig:LeftHandPinky3.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2.mixamorig:LeftHandPinky3.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2.mixamorig:LeftHandPinky3.mixamorig:LeftHandPinky4",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2.mixamorig:RightHandMiddle3.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2.mixamorig:RightHandMiddle3.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2.mixamorig:RightHandMiddle3.mixamorig:RightHandMiddle4",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2.mixamorig:RightHandThumb3.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2.mixamorig:RightHandThumb3.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2.mixamorig:RightHandThumb3.mixamorig:RightHandThumb4",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2.mixamorig:RightHandIndex3.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2.mixamorig:RightHandIndex3.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2.mixamorig:RightHandIndex3.mixamorig:RightHandIndex4",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2.mixamorig:RightHandRing3.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2.mixamorig:RightHandRing3.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2.mixamorig:RightHandRing3.mixamorig:RightHandRing4",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2.mixamorig:RightHandPinky3.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2.mixamorig:RightHandPinky3.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2.mixamorig:RightHandPinky3.mixamorig:RightHandPinky4",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2.mixamorig:LeftHandMiddle3.mixamorig:LeftHandMiddle4.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2.mixamorig:LeftHandMiddle3.mixamorig:LeftHandMiddle4.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2.mixamorig:LeftHandThumb3.mixamorig:LeftHandThumb4.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2.mixamorig:LeftHandThumb3.mixamorig:LeftHandThumb4.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2.mixamorig:LeftHandIndex3.mixamorig:LeftHandIndex4.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2.mixamorig:LeftHandIndex3.mixamorig:LeftHandIndex4.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2.mixamorig:LeftHandRing3.mixamorig:LeftHandRing4.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2.mixamorig:LeftHandRing3.mixamorig:LeftHandRing4.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2.mixamorig:LeftHandPinky3.mixamorig:LeftHandPinky4.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2.mixamorig:LeftHandPinky3.mixamorig:LeftHandPinky4.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2.mixamorig:RightHandMiddle3.mixamorig:RightHandMiddle4.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2.mixamorig:RightHandMiddle3.mixamorig:RightHandMiddle4.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2.mixamorig:RightHandThumb3.mixamorig:RightHandThumb4.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2.mixamorig:RightHandThumb3.mixamorig:RightHandThumb4.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2.mixamorig:RightHandIndex3.mixamorig:RightHandIndex4.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2.mixamorig:RightHandIndex3.mixamorig:RightHandIndex4.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2.mixamorig:RightHandRing3.mixamorig:RightHandRing4.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2.mixamorig:RightHandRing3.mixamorig:RightHandRing4.custom_properties",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2.mixamorig:RightHandPinky3.mixamorig:RightHandPinky4.transform",
+                    "RootNode.Armature.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2.mixamorig:RightHandPinky3.mixamorig:RightHandPinky4.custom_properties"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "SkinRule"
+                    },
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    },
+                    {
+                        "$type": "ClothRule",
+                        "meshNodeName": "RootNode.Cape",
+                        "inverseMassesStreamName": "Col0",
+                        "motionConstraintsStreamName": "Default: 1.0",
+                        "backstopStreamName": "Col0",
+                        "backstopOffsetChannel": 1,
+                        "backstopRadiusChannel": 2
+                    }
+                ]
+            },
+            "id": "{35B41F76-738C-5EE8-B919-3EFFED458E6B}"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{ACA532A9-3430-5CCC-82E7-7B882347CA4A}",
+            "name": "RomanHelmetFur",
+            "NodeSelectionList": {
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.RomanHelmet_Fur"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Entire object"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "RomanHelmetFur",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.RomanHelmet_Fur"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    },
+                    {
+                        "$type": "ClothRule",
+                        "meshNodeName": "RootNode.RomanHelmet_Fur",
+                        "inverseMassesStreamName": "Col0",
+                        "motionConstraintsStreamName": "Default: 1.0",
+                        "backstopStreamName": "None"
+                    }
+                ]
+            },
+            "id": "{3064FE83-64F5-56E5-A11E-396E4784E4C9}"
+        }
+    ]
+}
