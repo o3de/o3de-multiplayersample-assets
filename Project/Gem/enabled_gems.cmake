@@ -30,4 +30,5 @@ set(ENABLED_GEMS
     particlefx_mps
     Terrain
     DccScriptingInterface
+    QtForPython
 )
