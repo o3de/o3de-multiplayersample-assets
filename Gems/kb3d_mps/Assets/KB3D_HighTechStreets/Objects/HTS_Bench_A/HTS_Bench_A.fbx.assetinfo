@@ -1,0 +1,49 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{89C2627F-EBE1-5F80-ABAE-1F8C9D738AD8}",
+            "name": "HTS_Bench_A",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.KB3D_HTS_Bench_A_grp",
+                    "RootNode.KB3D_HTS_Bench_A_grp.KB3D_HTS_Bench_A_Main"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode"
+                ]
+            },
+            "MaterialSlots": [
+                "KB3D_HTS_PlasticWhite",
+                "KB3D_HTS_MetalWhite",
+                "KB3D_HTS_MetalGrey"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "HTS_Bench_A",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.KB3D_HTS_Bench_A_grp",
+                    "RootNode.KB3D_HTS_Bench_A_grp.KB3D_HTS_Bench_A_Main"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{735F63AF-36FB-52D9-AC1D-ED7B592C441F}"
+        }
+    ]
+}
