@@ -3,111 +3,133 @@
         "Id": "ContainerEntity",
         "Name": "HTS_PathB_A",
         "Components": {
-            "Component_[1046350735129123032]": {
-                "$type": "EditorPendingCompositionComponent",
-                "Id": 1046350735129123032
-            },
-            "Component_[10688591304732391900]": {
-                "$type": "EditorPrefabComponent",
-                "Id": 10688591304732391900
-            },
-            "Component_[11721624651330253895]": {
+            "Component_[12137432034925525654]": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                "Id": 11721624651330253895,
+                "Id": 12137432034925525654,
                 "Parent Entity": ""
             },
-            "Component_[14611984898681647554]": {
-                "$type": "SelectionComponent",
-                "Id": 14611984898681647554
-            },
-            "Component_[16149154045835487545]": {
+            "Component_[13455044298925416869]": {
                 "$type": "EditorVisibilityComponent",
-                "Id": 16149154045835487545
+                "Id": 13455044298925416869
             },
-            "Component_[17579762540587213639]": {
+            "Component_[13479564719944802156]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 13479564719944802156
+            },
+            "Component_[13806795469409552595]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 13806795469409552595
+            },
+            "Component_[17079171152976209857]": {
+                "$type": "EditorLockComponent",
+                "Id": 17079171152976209857
+            },
+            "Component_[2389979984660259520]": {
                 "$type": "EditorEntitySortComponent",
-                "Id": 17579762540587213639,
+                "Id": 2389979984660259520,
                 "Child Entity Order": [
-                    "Entity_[1882897195341]"
+                    "Entity_[9381964138161]"
                 ]
             },
-            "Component_[3527775794515415842]": {
-                "$type": "EditorDisabledCompositionComponent",
-                "Id": 3527775794515415842
-            },
-            "Component_[4577115028064040802]": {
-                "$type": "EditorOnlyEntityComponent",
-                "Id": 4577115028064040802
-            },
-            "Component_[7711284585774766770]": {
-                "$type": "EditorLockComponent",
-                "Id": 7711284585774766770
-            },
-            "Component_[9338719121839546065]": {
-                "$type": "EditorEntityIconComponent",
-                "Id": 9338719121839546065
-            },
-            "Component_[9400517071282099230]": {
+            "Component_[3276772345094481870]": {
                 "$type": "EditorInspectorComponent",
-                "Id": 9400517071282099230
+                "Id": 3276772345094481870
+            },
+            "Component_[3528123639634589936]": {
+                "$type": "SelectionComponent",
+                "Id": 3528123639634589936
+            },
+            "Component_[4342932226356799467]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 4342932226356799467
+            },
+            "Component_[5995160043681997533]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 5995160043681997533
+            },
+            "Component_[6568882891049028367]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 6568882891049028367
             }
         }
     },
     "Entities": {
-        "Entity_[1882897195341]": {
-            "Id": "Entity_[1882897195341]",
+        "Entity_[9381964138161]": {
+            "Id": "Entity_[9381964138161]",
             "Name": "HTS_PathB_A",
             "Components": {
-                "Component_[11544422606975720165]": {
+                "Component_[10047326876264549878]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10047326876264549878
+                },
+                "Component_[1015437850516422814]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1015437850516422814,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[10777190461769167278]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 10777190461769167278,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{D7136F4B-A1D1-5CDE-B9B4-A5DC514D08BC}",
+                                    "subId": 283076389
+                                },
+                                "assetHint": "kb3d_hightechstreets/objects/hts_pathb_a/hts_pathb_a.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[11433177519410679845]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11433177519410679845
+                },
+                "Component_[12181796617613804450]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12181796617613804450
+                },
+                "Component_[12857013500268833997]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12857013500268833997
+                },
+                "Component_[15348802869378509596]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15348802869378509596
+                },
+                "Component_[16553570882073537065]": {
                     "$type": "EditorInspectorComponent",
-                    "Id": 11544422606975720165,
+                    "Id": 16553570882073537065,
                     "ComponentOrderEntryArray": [
                         {
-                            "ComponentId": 8420503984957871074
+                            "ComponentId": 1015437850516422814
                         },
                         {
-                            "ComponentId": 8048003421992727610,
+                            "ComponentId": 10777190461769167278,
                             "SortIndex": 1
                         },
                         {
-                            "ComponentId": 17663595748210653103,
+                            "ComponentId": 2866428201852401267,
                             "SortIndex": 2
                         },
                         {
-                            "ComponentId": 15034541680226829313,
+                            "ComponentId": 16843386752419967471,
                             "SortIndex": 3
                         }
                     ]
                 },
-                "Component_[11827264335492482699]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 11827264335492482699
-                },
-                "Component_[14248555938440877317]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 14248555938440877317
-                },
-                "Component_[15034541680226829313]": {
+                "Component_[16843386752419967471]": {
                     "$type": "EditorColliderComponent",
-                    "Id": 15034541680226829313,
+                    "Id": 16843386752419967471,
                     "ColliderConfiguration": {
-                        "MaterialSlots": {
-                            "Slots": [
-                                {
-                                    "Name": "KB3D_HTS_MetalYellow"
-                                },
-                                {
-                                    "Name": "KB3D_HTS_MetalWhite"
-                                },
-                                {
-                                    "Name": "KB3D_HTS_RubberGray"
-                                },
-                                {
-                                    "Name": "KB3D_HTS_LightYellow"
-                                },
-                                {
-                                    "Name": "KB3D_HTS_GlassBlue"
-                                }
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {},
+                                {},
+                                {},
+                                {},
+                                {}
                             ]
                         }
                     },
@@ -133,9 +155,9 @@
                         }
                     }
                 },
-                "Component_[17663595748210653103]": {
+                "Component_[2866428201852401267]": {
                     "$type": "EditorMaterialComponent",
-                    "Id": 17663595748210653103,
+                    "Id": 2866428201852401267,
                     "Controller": {
                         "Configuration": {
                             "materials": [
@@ -208,49 +230,17 @@
                         }
                     }
                 },
-                "Component_[17697293164502675083]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 17697293164502675083
+                "Component_[3600088866634896654]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3600088866634896654
                 },
-                "Component_[3327756286698456744]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 3327756286698456744
-                },
-                "Component_[6591995429706872682]": {
-                    "$type": "SelectionComponent",
-                    "Id": 6591995429706872682
-                },
-                "Component_[6935258612596045356]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 6935258612596045356
-                },
-                "Component_[8048003421992727610]": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 8048003421992727610,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{D7136F4B-A1D1-5CDE-B9B4-A5DC514D08BC}",
-                                    "subId": 283076389
-                                },
-                                "assetHint": "kb3d_hightechstreets/objects/hts_pathb_a/hts_pathb_a.azmodel"
-                            }
-                        }
-                    }
-                },
-                "Component_[8420503984957871074]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 8420503984957871074,
-                    "Parent Entity": "ContainerEntity"
-                },
-                "Component_[8830157589738187151]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 8830157589738187151
-                },
-                "Component_[9789471707431644660]": {
+                "Component_[5456643198275869783]": {
                     "$type": "EditorLockComponent",
-                    "Id": 9789471707431644660
+                    "Id": 5456643198275869783
+                },
+                "Component_[792310270531828229]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 792310270531828229
                 }
             }
         }
