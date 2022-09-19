@@ -1,0 +1,55 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{DA90BCE6-7FF1-5628-9285-2D38F5E23631}",
+            "name": "HTS_PathB_C",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.KB3D_HTS_PathB_C_grp",
+                    "RootNode.KB3D_HTS_PathB_C_grp.KB3D_HTS_PathB_C_Main"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "KB3D_HTS_MetalWhite"
+                    },
+                    {
+                        "Name": "KB3D_HTS_MetalYellow"
+                    },
+                    {
+                        "Name": "KB3D_HTS_RubberGray"
+                    },
+                    {
+                        "Name": "KB3D_HTS_GlassBlue"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "HTS_PathB_C",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.KB3D_HTS_PathB_C_grp",
+                    "RootNode.KB3D_HTS_PathB_C_grp.KB3D_HTS_PathB_C_Main"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{E3E060D0-E958-5CD4-96BD-ACDB1C9E55E6}"
+        }
+    ]
+}
