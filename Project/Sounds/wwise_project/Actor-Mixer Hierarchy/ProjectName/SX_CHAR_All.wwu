@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BD8CB283-C47E-4BE7-A812-1661023D6B85}" SchemaVersion="103" RootDocumentID="{5930CCD7-A341-4498-8B4F-4E5C818401AA}">
+	<AudioObjects>
+		<WorkUnit Name="SX_CHAR_All" ID="{BD8CB283-C47E-4BE7-A812-1661023D6B85}" OwnerID="{8822B3EB-F73E-4863-927E-C0142B2EDB2D}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="SX_CHAR_All" ID="{0DF7EA32-BED0-4803-AC2E-E85DA32C488C}" ShortID="807916483">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A30699F-7E32-40EC-AFF7-FE0ACD73E066}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="SX_CHAR_All_Footsteps (Surface)" ID="{623B50B8-C3B8-4D49-AB81-A2871035249B}" ShortID="136785356">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{BF0C26B6-3B26-42FC-BB95-5E3AD67BF142}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="20"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0251FE87-CB3B-4050-8671-1BB203BE1F70}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="20"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{271B54C5-EEAD-4663-B2A4-B046DB2F53D2}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{75AD09D3-6A65-42CA-B5AF-5931D1E3D6C6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Concrete" ID="{C1D4021E-3947-49AD-BF43-091FF9D89833}" WorkUnitID="{41B820D5-6494-4A5C-B25B-F0DB44443808}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A30699F-7E32-40EC-AFF7-FE0ACD73E066}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Surface" ID="{06DF3E14-7FC3-49E2-85EE-C73CDBD07187}" WorkUnitID="{41B820D5-6494-4A5C-B25B-F0DB44443808}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="FS_Dirt" ID="{01B6A962-71A9-41A7-9DDC-C6EA86F2E898}" ShortID="925250099">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A30699F-7E32-40EC-AFF7-FE0ACD73E066}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FS_Grass" ID="{2820BC6A-EC33-484B-8781-9D3710F4CE2A}" ShortID="329040261">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SX_CHAR" ID="{E1D007B2-010E-41AC-A859-850392E96ADF}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FS_Gravel" ID="{E8EFD5AB-CABE-4C16-93C6-03CC93C195D6}" ShortID="655930044">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SX_CHAR" ID="{E1D007B2-010E-41AC-A859-850392E96ADF}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FS_Concrete" ID="{976F7E17-B38E-4F27-BB21-34FB256DC719}" ShortID="675443898">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SX_CHAR" ID="{E1D007B2-010E-41AC-A859-850392E96ADF}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FS_Metal" ID="{F7D2B845-4979-43B0-874E-F607F081FD3A}" ShortID="656701993">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SX_CHAR" ID="{E1D007B2-010E-41AC-A859-850392E96ADF}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FS_Wood" ID="{0C37171C-25E4-4BC4-B93F-70D2DB6E230A}" ShortID="224748854">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SX_CHAR" ID="{E1D007B2-010E-41AC-A859-850392E96ADF}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FS_Water" ID="{B817DBD9-B3CE-42CE-B25B-03B0A29A1AB4}" ShortID="680029501">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SX_CHAR" ID="{E1D007B2-010E-41AC-A859-850392E96ADF}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FS_Cloth" ID="{82A965F3-4F9A-4B20-B412-F7E0841713C8}" ShortID="374716459">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A30699F-7E32-40EC-AFF7-FE0ACD73E066}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FS_Snow" ID="{7DEC395A-90CF-402F-9FE1-057A3A8CDABE}" ShortID="897302513">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A30699F-7E32-40EC-AFF7-FE0ACD73E066}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="FS_Concrete" ID="{976F7E17-B38E-4F27-BB21-34FB256DC719}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FS_Wood" ID="{0C37171C-25E4-4BC4-B93F-70D2DB6E230A}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FS_Metal" ID="{F7D2B845-4979-43B0-874E-F607F081FD3A}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FS_Snow" ID="{7DEC395A-90CF-402F-9FE1-057A3A8CDABE}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FS_Dirt" ID="{01B6A962-71A9-41A7-9DDC-C6EA86F2E898}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FS_Grass" ID="{2820BC6A-EC33-484B-8781-9D3710F4CE2A}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FS_Gravel" ID="{E8EFD5AB-CABE-4C16-93C6-03CC93C195D6}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FS_Water" ID="{B817DBD9-B3CE-42CE-B25B-03B0A29A1AB4}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FS_Cloth" ID="{82A965F3-4F9A-4B20-B412-F7E0841713C8}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Concrete" ID="{C1D4021E-3947-49AD-BF43-091FF9D89833}"/>
+										<ItemList>
+											<ItemRef Name="FS_Concrete" ID="{976F7E17-B38E-4F27-BB21-34FB256DC719}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Dirt" ID="{830FCC2C-113A-4F56-BC5B-7FFA99D3230B}"/>
+										<ItemList>
+											<ItemRef Name="FS_Dirt" ID="{01B6A962-71A9-41A7-9DDC-C6EA86F2E898}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Wood" ID="{5DC8DC62-7811-426E-8E10-227EC9D61C3A}"/>
+										<ItemList>
+											<ItemRef Name="FS_Wood" ID="{0C37171C-25E4-4BC4-B93F-70D2DB6E230A}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Cloth" ID="{6DC48B7B-D5F9-4B6B-972B-F777B7E34B4C}"/>
+										<ItemList>
+											<ItemRef Name="FS_Cloth" ID="{82A965F3-4F9A-4B20-B412-F7E0841713C8}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Grass" ID="{B18FFD91-34F3-4EA6-921B-EB821781ECE3}"/>
+										<ItemList>
+											<ItemRef Name="FS_Grass" ID="{2820BC6A-EC33-484B-8781-9D3710F4CE2A}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Gravel" ID="{E934C7E8-2106-465C-BBFE-05315B9E9558}"/>
+										<ItemList>
+											<ItemRef Name="FS_Gravel" ID="{E8EFD5AB-CABE-4C16-93C6-03CC93C195D6}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Snow" ID="{1CD898EC-A068-4B1D-BE8E-A7AA14613868}"/>
+										<ItemList>
+											<ItemRef Name="FS_Snow" ID="{7DEC395A-90CF-402F-9FE1-057A3A8CDABE}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Metal" ID="{5F352BF0-C08E-42DF-A889-7E24C2DC2231}"/>
+										<ItemList>
+											<ItemRef Name="FS_Metal" ID="{F7D2B845-4979-43B0-874E-F607F081FD3A}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Water" ID="{470C57F5-6F3D-45A4-B4C8-37F71E7FD32A}"/>
+										<ItemList>
+											<ItemRef Name="FS_Water" ID="{B817DBD9-B3CE-42CE-B25B-03B0A29A1AB4}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AD9601AC-9F09-46F9-B8DC-6940CE13567C}" SchemaVersion="103" RootDocumentID="{5930CCD7-A341-4498-8B4F-4E5C818401AA}">
+	<AudioObjects>
+		<WorkUnit Name="SX_All" ID="{AD9601AC-9F09-46F9-B8DC-6940CE13567C}" OwnerID="{9CDCABCB-726F-49DC-9545-708106FC7E6C}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="SX_All" ID="{F52B2015-D20D-422D-9255-B6A2488FD9E5}" ShortID="305969312">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A30699F-7E32-40EC-AFF7-FE0ACD73E066}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

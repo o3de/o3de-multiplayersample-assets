@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{437A112B-F061-4312-8CA8-A21DDCF73650}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="VX" ID="{437A112B-F061-4312-8CA8-A21DDCF73650}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="20"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="VX" ID="{EA6110FE-EF9D-483E-BEA8-A3778CB62957}" ShortID="312674173">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="VX" ID="{9C0FE76E-D519-49CD-ABD5-F788069FF0E8}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="VX_FrontEnd" ID="{E74FB00B-A91F-447B-8673-5DD19DE7997C}" PersistMode="Reference"/>
+						<WorkUnit Name="VX_Gameplay" ID="{FE6ED3D0-1AE0-44B7-91DB-8DF7B3321A6B}" PersistMode="Reference"/>
+						<WorkUnit Name="VX_All" ID="{431624F5-9930-4D0D-A72F-BB573254805A}" PersistMode="Reference"/>
+						<WorkUnit Name="VX_IGC" ID="{B23858C8-7D89-4A39-970E-269CD1345A98}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

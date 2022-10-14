@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{317C6503-8E5A-448C-AF1D-40528FE1F8E1}" SchemaVersion="103" RootDocumentID="{2A30699F-7E32-40EC-AFF7-FE0ACD73E066}">
+	<Busses>
+		<WorkUnit Name="Mixer_Secondary" ID="{317C6503-8E5A-448C-AF1D-40528FE1F8E1}" OwnerID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" PersistMode="Nested">
+			<ChildrenList>
+				<Bus Name="Mixer_Secondary" ID="{507056F6-D918-499E-B621-43E4E69C3CBD}">
+					<ChildrenList>
+						<Bus Name="Mono" ID="{29182145-A8C7-45B6-A074-C0F51C19852D}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>16641</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<AuxBus Name="AUX_Mono" ID="{D94E1196-B395-461A-8AC3-8BE0131E4355}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="LFE" ID="{D3CC824B-E3A1-4CA9-B08F-BAA2387E0BC2}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>33025</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<AuxBus Name="AUX_LFE" ID="{465DEE62-9BFA-4F11-9A27-78E3A4430D25}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Sidechains" ID="{A61204E2-0A1D-44F2-8B97-0ECFB71E9C4A}">
+							<ChildrenList>
+								<AuxBus Name="AUX_Sidechain_01" ID="{6579BDE5-39C3-4AFE-8037-090E6E1DBD37}"/>
+								<AuxBus Name="AUX_Sidechain_02" ID="{8C5C9A6F-AB5D-438D-9FA3-F83FF26CD337}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

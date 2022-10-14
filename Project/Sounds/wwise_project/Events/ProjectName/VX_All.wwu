@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{25664D7B-9AF9-47B5-94B8-6FDC24CF7686}" SchemaVersion="103" RootDocumentID="{E7D637C0-0DFA-48F8-AC1C-5FE768856B6C}">
+	<Events>
+		<WorkUnit Name="VX_All" ID="{25664D7B-9AF9-47B5-94B8-6FDC24CF7686}" OwnerID="{E7D637C0-0DFA-48F8-AC1C-5FE768856B6C}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Mute_VX_All" ID="{21DE461A-62F0-4EBE-A556-5886421D8C62}">
+					<ChildrenList>
+						<Action Name="" ID="{DA9BEEA4-D6BC-4CD3-B01B-8D59752BFF1D}" ShortID="718626272">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VX" ID="{9C0FE76E-D519-49CD-ABD5-F788069FF0E8}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Unmute_VX_All" ID="{CC16CBB8-11FF-4BAB-8A4A-209177B63FE8}">
+					<ChildrenList>
+						<Action Name="" ID="{F134C9E1-FB7F-4F31-A6BB-7EAB341498CD}" ShortID="146662361">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VX" ID="{9C0FE76E-D519-49CD-ABD5-F788069FF0E8}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

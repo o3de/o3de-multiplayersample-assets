@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}" SchemaVersion="103" RootDocumentID="{2A30699F-7E32-40EC-AFF7-FE0ACD73E066}">
+	<Busses>
+		<WorkUnit Name="Mixer_Main" ID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}" OwnerID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" PersistMode="Nested">
+			<ChildrenList>
+				<Bus Name="Mixer_Main" ID="{BADB5634-DF4D-4B11-BB28-EFFABEA0DD48}">
+					<ChildrenList>
+						<Bus Name="SX" ID="{C6D2C81D-5022-4C1A-BF5C-421B96542FBC}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{558853AF-843A-4C4E-9CCC-82794928EE0C}" ShortID="604986429">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Vol_SX_All" ID="{8F8DD522-ED61-45D0-B36A-011C08E84ADD}" WorkUnitID="{7E6D1D4E-FB84-46BC-8CDB-6FE7818159A1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{DB1CED5E-0B4D-4AD5-BAF2-8D1264BE97B6}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Color" Type="int16" Value="22"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="___Reverbs" ID="{B21201F3-59A4-4097-A0D5-4A8BC6AA6DD4}">
+									<PropertyList>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<AuxBus Name="RVB_SmallRoom" ID="{350F76D7-BC02-402E-9642-63871FA8B7B8}"/>
+										<AuxBus Name="RVB_MediumRoom" ID="{8072AF97-17AC-474E-BB7D-90BC6D828354}"/>
+										<AuxBus Name="RVB_LargeRoom" ID="{C9CD464C-E5E3-465A-A3C6-E83FE38C4D3D}"/>
+										<AuxBus Name="RVB_Hallway" ID="{575EF133-1833-415F-BB69-3B119A85BC8E}"/>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="SX_UI" ID="{0189AA2E-2894-4829-9E69-98F6E07789F2}">
+									<PropertyList>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="SX_FrontEnd" ID="{C3EB9F27-BA09-45F5-B1A5-25279F3B54D0}">
+									<PropertyList>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="SX_Gameplay" ID="{CB8FBBBD-67D2-4F98-A7EF-A904DCAAF450}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="22"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="SX_CHAR" ID="{E1D007B2-010E-41AC-A859-850392E96ADF}">
+											<ChildrenList>
+												<Bus Name="SX_CHAR_Player" ID="{AFF5EE10-3B1B-4237-AEB3-C90A541E2717}">
+													<PropertyList>
+														<Property Name="Color" Type="int16" Value="10"/>
+														<Property Name="OverrideColor" Type="bool" Value="True"/>
+													</PropertyList>
+												</Bus>
+												<Bus Name="SX_CHAR_NPC" ID="{A01BDDE8-BE38-43E9-BC60-F9B1379A672A}">
+													<PropertyList>
+														<Property Name="Color" Type="int16" Value="14"/>
+													</PropertyList>
+												</Bus>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="SX_WPN" ID="{C98A2AA0-147D-4631-A42C-DB40975031EC}">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="12"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+										</Bus>
+										<Bus Name="SX_VEH" ID="{7A9843BC-AD34-4971-B265-72D9A9C00268}">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="1"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+										</Bus>
+										<Bus Name="SX_LVL" ID="{3EB66E7E-B0E9-49EE-B1A8-5EC1FDDD1D41}">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="3"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<Bus Name="SX_AMB" ID="{B31DA3F5-EDDD-4C92-97DB-09C17CA50E68}">
+													<PropertyList>
+														<Property Name="Color" Type="int16" Value="3"/>
+														<Property Name="OverrideColor" Type="bool" Value="True"/>
+													</PropertyList>
+												</Bus>
+												<Bus Name="SX_ENV" ID="{6BA65A26-7955-48FA-B0CE-15C04B0F98D6}">
+													<PropertyList>
+														<Property Name="Color" Type="int16" Value="17"/>
+														<Property Name="OverrideColor" Type="bool" Value="True"/>
+													</PropertyList>
+												</Bus>
+											</ChildrenList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="SX_IGC" ID="{961B3AA1-ECED-418E-ADC9-089236672209}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="26"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="MX" ID="{4C78C2B3-5A6C-41CD-9D00-5197917A7E9C}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{AE05B950-4E80-469E-B73D-FAF8EAE31663}" ShortID="500691861">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Vol_MX_All" ID="{67EC3A79-7AA5-4396-BA2E-95851F96981C}" WorkUnitID="{7E6D1D4E-FB84-46BC-8CDB-6FE7818159A1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{70DC2595-82E5-4358-8D47-CC765B633372}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Color" Type="int16" Value="15"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="MX_FrontEnd" ID="{2CD1CC2E-405C-4091-AF66-B3B32035D66E}"/>
+								<Bus Name="MX_Gameplay" ID="{847A3895-2525-4CB1-8FDD-740759542ACA}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="1"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="MX_IGC" ID="{2574B6A7-7BCB-46D1-A48D-C3DB0F99C1FE}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="26"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="VX" ID="{9C0FE76E-D519-49CD-ABD5-F788069FF0E8}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{694F81C6-CEEC-483E-AD23-949460315AF5}" ShortID="360198327">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Vol_VX_All" ID="{4F1913FC-1FD0-4C3A-96AE-789748168DFA}" WorkUnitID="{7E6D1D4E-FB84-46BC-8CDB-6FE7818159A1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{1E1D477C-261B-4E5C-B967-642CD42318B5}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Color" Type="int16" Value="20"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="VX_FrontEnd" ID="{F9871FDA-769A-4B35-8F14-CBB53F5CF705}"/>
+								<Bus Name="VX_Gameplay" ID="{0607EB6E-3C18-4927-AB52-A84327A14795}">
+									<ChildrenList>
+										<Bus Name="VX_Player" ID="{61741AC9-3785-486D-9893-C755DD8E42D3}">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="19"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+										</Bus>
+										<Bus Name="VX_NPC" ID="{E9B0CD58-B6CB-4209-A693-CFA000AEE49D}">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="20"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="VX_IGC" ID="{5574BC00-AF77-4044-BF8D-C21BE51032D7}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="26"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

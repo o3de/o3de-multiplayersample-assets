@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ACB9F5ED-5587-4C85-B94C-A216881DCE8B}" SchemaVersion="103" RootDocumentID="{5930CCD7-A341-4498-8B4F-4E5C818401AA}">
+	<AudioObjects>
+		<WorkUnit Name="SX_CHAR_Player" ID="{ACB9F5ED-5587-4C85-B94C-A216881DCE8B}" OwnerID="{8822B3EB-F73E-4863-927E-C0142B2EDB2D}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="SX_CHAR_Player" ID="{48018357-135F-41B0-AC69-3D7E6D5E1BB9}" ShortID="957252570">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SX_CHAR_Player" ID="{AFF5EE10-3B1B-4237-AEB3-C90A541E2717}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="SX_CHAR_PlayerCharacterName" ID="{08236902-6E2A-44EB-ADA6-59E2D4A02275}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

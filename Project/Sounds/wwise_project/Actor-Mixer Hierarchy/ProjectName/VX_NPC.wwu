@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A41653EE-6A6A-4F50-8264-97A6157C07FE}" SchemaVersion="103" RootDocumentID="{437A112B-F061-4312-8CA8-A21DDCF73650}">
+	<AudioObjects>
+		<WorkUnit Name="VX_NPC" ID="{A41653EE-6A6A-4F50-8264-97A6157C07FE}" OwnerID="{9BD80AA9-FD92-4D90-9CB4-6B5F03104088}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="VX_NPC" ID="{EFBB3EAF-A271-490C-ACC5-3595356C3D93}" ShortID="192409203">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="VX_NPC" ID="{E9B0CD58-B6CB-4209-A693-CFA000AEE49D}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="VX_CharacterName" ID="{0F30B15E-A34D-4140-B473-1B05274F7F6D}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

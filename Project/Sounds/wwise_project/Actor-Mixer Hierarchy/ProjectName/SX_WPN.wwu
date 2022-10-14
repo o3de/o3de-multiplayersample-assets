@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B42C0D3C-2C87-489C-A938-A8152AD7F55E}" SchemaVersion="103" RootDocumentID="{5930CCD7-A341-4498-8B4F-4E5C818401AA}">
+	<AudioObjects>
+		<WorkUnit Name="SX_WPN" ID="{B42C0D3C-2C87-489C-A938-A8152AD7F55E}" OwnerID="{4C7456DD-C7B6-4EB5-A2FD-20F7EC3B19DC}" PersistMode="Nested">
+			<Comment>Weapons</Comment>
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="12"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="SX_WPN" ID="{D79B0668-FE9B-4584-A43F-AAEF1C64A5C8}" ShortID="205319756">
+					<Comment>Weapons</Comment>
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SX_WPN" ID="{C98A2AA0-147D-4631-A42C-DB40975031EC}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

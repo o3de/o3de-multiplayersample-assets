@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{55569F08-DF89-444E-AF94-591DC91C3B1C}" SchemaVersion="103" RootDocumentID="{1497609C-4743-4D16-B272-4211C649C6C0}">
+	<InteractiveMusic>
+		<WorkUnit Name="MX_All" ID="{55569F08-DF89-444E-AF94-591DC91C3B1C}" OwnerID="{1497609C-4743-4D16-B272-4211C649C6C0}" PersistMode="Nested">
+			<ChildrenList>
+				<MusicSwitchContainer Name="MX_All" ID="{995F06A5-2D73-420D-BDD0-2F8B267B097D}" ShortID="36669581">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A30699F-7E32-40EC-AFF7-FE0ACD73E066}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="MX_All" ID="{F4205F44-326E-4712-99D5-7C3ABFD590BA}" ShortID="251207101">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MX_FrontEnd" ID="{2CD1CC2E-405C-4091-AF66-B3B32035D66E}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{B8173DB7-9825-4F96-8DB5-A686F4B520E0}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{DFA25DD2-7A8C-4A01-A9BE-BB3EE0D497CE}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{6C4A6A69-D2BF-4E07-ABF3-48475C180B3A}" ShortID="1000302073">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{E5562B04-A498-44B7-A80B-E65A3A883132}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{3CD8D110-9AF4-4BF7-B70A-FFF774625687}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5930CCD7-A341-4498-8B4F-4E5C818401AA}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="SX" ID="{5930CCD7-A341-4498-8B4F-4E5C818401AA}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="23"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="SX" ID="{9CDCABCB-726F-49DC-9545-708106FC7E6C}" ShortID="876400622">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SX" ID="{C6D2C81D-5022-4C1A-BF5C-421B96542FBC}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="SX_FrontEnd" ID="{048B3A6A-C76C-4D51-8FB2-36B4DEDEFF1E}" PersistMode="Reference"/>
+						<WorkUnit Name="SX_Gameplay" ID="{68FDFA7F-0225-4012-A838-5B060D839B69}" PersistMode="Reference"/>
+						<WorkUnit Name="SX_UI" ID="{2A91A1A3-5EBE-4074-9759-A9CF456BE9BB}" PersistMode="Reference"/>
+						<WorkUnit Name="SX_IGC" ID="{03243BDF-9508-4A2B-BBC5-410877F1FD79}" PersistMode="Reference"/>
+						<WorkUnit Name="SX_All" ID="{AD9601AC-9F09-46F9-B8DC-6940CE13567C}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

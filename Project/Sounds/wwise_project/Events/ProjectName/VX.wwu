@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E7D637C0-0DFA-48F8-AC1C-5FE768856B6C}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="VX" ID="{E7D637C0-0DFA-48F8-AC1C-5FE768856B6C}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="20"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="VX_FrontEnd" ID="{0891CE3E-AA12-44DE-B562-79315D588021}" PersistMode="Reference"/>
+				<WorkUnit Name="VX_All" ID="{25664D7B-9AF9-47B5-94B8-6FDC24CF7686}" PersistMode="Reference"/>
+				<WorkUnit Name="VX_Gameplay" ID="{77D9C44A-32E7-4F8D-A48F-5D3574748CF7}" PersistMode="Reference"/>
+				<WorkUnit Name="VX_IGC" ID="{1373B1B0-D7C3-44C9-AED5-4EA098459DEE}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

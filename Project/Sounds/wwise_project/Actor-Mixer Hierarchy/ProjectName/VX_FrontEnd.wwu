@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E74FB00B-A91F-447B-8673-5DD19DE7997C}" SchemaVersion="103" RootDocumentID="{437A112B-F061-4312-8CA8-A21DDCF73650}">
+	<AudioObjects>
+		<WorkUnit Name="VX_FrontEnd" ID="{E74FB00B-A91F-447B-8673-5DD19DE7997C}" OwnerID="{EA6110FE-EF9D-483E-BEA8-A3778CB62957}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="VX_FrontEnd" ID="{C3B2A275-E888-4781-9755-6CCA8B2B85CE}" ShortID="797581999">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="VX_FrontEnd" ID="{F9871FDA-769A-4B35-8F14-CBB53F5CF705}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1EFDDCFB-6443-4FE9-878A-A0612458E4FA}" SchemaVersion="103" RootDocumentID="{437A112B-F061-4312-8CA8-A21DDCF73650}">
+	<AudioObjects>
+		<WorkUnit Name="VX_PlayerCharacterName" ID="{1EFDDCFB-6443-4FE9-878A-A0612458E4FA}" OwnerID="{ED445E25-D828-4EE9-BEAD-AD6A42C8360E}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="VX _PlayerCharacterName" ID="{C7192ADD-0FDE-48FA-8232-B44089F927E9}" ShortID="253904189">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A30699F-7E32-40EC-AFF7-FE0ACD73E066}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

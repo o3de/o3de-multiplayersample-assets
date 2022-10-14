@@ -1,0 +1,62 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	4091656514	GameState			\Main\Global States\GameState	
+
+State	ID	Name	State Group			Notes
+	89505537	Gameplay	GameState			
+	411591644	IGC	GameState			
+	748895195	None	GameState			
+	3128734023	Menu_FrontEnd	GameState			
+	3272335887	Menu_Gameplay	GameState			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2094608618	Vol_SX_All			\Main\Global Params\VolumeControls\Vol_SX_All	
+	2586542861	Vol_VX_All			\Main\Global Params\VolumeControls\Vol_VX_All	
+	3391499625	Vol_Master			\Main\Global Params\VolumeControls\Vol_Master	
+	3781132188	Vol_MX_All			\Main\Global Params\VolumeControls\Vol_MX_All	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	267053836	MX_IGC			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\MX\MX_IGC	
+	482194673	MX_FrontEnd			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\MX\MX_FrontEnd	
+	696369880	LFE			\ProjectName\Main\Master Audio Bus\Mixer_Secondary\Mixer_Secondary\LFE	
+	1277101407	VX_NPC			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\VX\VX_Gameplay\VX_NPC	
+	1367444071	Mixer_Secondary			\ProjectName\Main\Master Audio Bus\Mixer_Secondary\Mixer_Secondary	
+	1455034891	SX_Gameplay			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\SX_Gameplay	
+	1528618529	VX_IGC			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\VX\VX_IGC	
+	1534528563	VX			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\VX	
+	1584861564	SX			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX	
+	1685527054	MX			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\MX	
+	1728828729	VX_Player			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\VX\VX_Gameplay\VX_Player	
+	1762358309	SX_UI			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\SX_UI	
+	1857854686	Sidechains			\ProjectName\Main\Master Audio Bus\Mixer_Secondary\Mixer_Secondary\Sidechains	
+	1980764744	SX_VEH			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\SX_Gameplay\SX_VEH	
+	2171918758	VX_Gameplay			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\VX\VX_Gameplay	
+	2232178760	SX_WPN			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\SX_Gameplay\SX_WPN	
+	2285468702	SX_IGC			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\SX_IGC	
+	2303085167	SX_LVL			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\SX_Gameplay\SX_LVL	
+	2585712187	SX_FrontEnd			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\SX_FrontEnd	
+	2653296389	SX_AMB			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\SX_Gameplay\SX_LVL\SX_AMB	
+	2655229457	MX_Gameplay			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\MX\MX_Gameplay	
+	2670662432	SX_ENV			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\SX_Gameplay\SX_LVL\SX_ENV	
+	2775838233	SX_CHAR_Player			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\SX_Gameplay\SX_CHAR\SX_CHAR_Player	
+	3145425408	Mono			\ProjectName\Main\Master Audio Bus\Mixer_Secondary\Mixer_Secondary\Mono	
+	3195850638	VX_FrontEnd			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\VX\VX_FrontEnd	
+	3273726892	Mixer_Main			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main	
+	3551096137	___Reverbs			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\___Reverbs	
+	3764722111	SX_CHAR_NPC			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\SX_Gameplay\SX_CHAR\SX_CHAR_NPC	
+	3803692087	Master Audio Bus			\ProjectName\Main\Master Audio Bus	
+	4246329427	SX_CHAR			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\SX_Gameplay\SX_CHAR	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1131429908	RVB_SmallRoom			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\___Reverbs\RVB_SmallRoom	
+	2176225445	AUX_Sidechain_02			\ProjectName\Main\Master Audio Bus\Mixer_Secondary\Mixer_Secondary\Sidechains\AUX_Sidechain_02	
+	2176225446	AUX_Sidechain_01			\ProjectName\Main\Master Audio Bus\Mixer_Secondary\Mixer_Secondary\Sidechains\AUX_Sidechain_01	
+	2259325731	AUX_LFE			\ProjectName\Main\Master Audio Bus\Mixer_Secondary\Mixer_Secondary\LFE\AUX_LFE	
+	2473811741	AUX_Mono			\ProjectName\Main\Master Audio Bus\Mixer_Secondary\Mixer_Secondary\Mono\AUX_Mono	
+	2796094580	RVB_MediumRoom			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\___Reverbs\RVB_MediumRoom	
+	3872597500	RVB_LargeRoom			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\___Reverbs\RVB_LargeRoom	
+	3953587442	RVB_Hallway			\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\___Reverbs\RVB_Hallway	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

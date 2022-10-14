@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{68FDFA7F-0225-4012-A838-5B060D839B69}" SchemaVersion="103" RootDocumentID="{5930CCD7-A341-4498-8B4F-4E5C818401AA}">
+	<AudioObjects>
+		<WorkUnit Name="SX_Gameplay" ID="{68FDFA7F-0225-4012-A838-5B060D839B69}" OwnerID="{9CDCABCB-726F-49DC-9545-708106FC7E6C}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="22"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="SX_Gameplay" ID="{4C7456DD-C7B6-4EB5-A2FD-20F7EC3B19DC}" ShortID="368554885">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SX_Gameplay" ID="{CB8FBBBD-67D2-4F98-A7EF-A904DCAAF450}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="SX_LVL" ID="{3CA392FB-9F8D-45C8-A712-5622D8E9E39F}" PersistMode="Reference"/>
+						<WorkUnit Name="SX_CHAR" ID="{E106B3AF-79F0-404E-98E6-FA967FCE2AC3}" PersistMode="Reference"/>
+						<WorkUnit Name="SX_VEH" ID="{A1560B22-E536-45BA-9459-FA1D75433FF2}" PersistMode="Reference"/>
+						<WorkUnit Name="SX_WPN" ID="{B42C0D3C-2C87-489C-A938-A8152AD7F55E}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

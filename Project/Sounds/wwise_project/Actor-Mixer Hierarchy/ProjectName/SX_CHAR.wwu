@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E106B3AF-79F0-404E-98E6-FA967FCE2AC3}" SchemaVersion="103" RootDocumentID="{5930CCD7-A341-4498-8B4F-4E5C818401AA}">
+	<AudioObjects>
+		<WorkUnit Name="SX_CHAR" ID="{E106B3AF-79F0-404E-98E6-FA967FCE2AC3}" OwnerID="{4C7456DD-C7B6-4EB5-A2FD-20F7EC3B19DC}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="SX_CHAR" ID="{8822B3EB-F73E-4863-927E-C0142B2EDB2D}" ShortID="573149835">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6F5B8A-46A3-4BF3-B7A6-AF2C04FE1462}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SX_CHAR" ID="{E1D007B2-010E-41AC-A859-850392E96ADF}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="SX_CHAR_NPC" ID="{6892CF34-36B3-4531-A7FD-B28E18002789}" PersistMode="Reference"/>
+						<WorkUnit Name="SX_CHAR_Player" ID="{ACB9F5ED-5587-4C85-B94C-A216881DCE8B}" PersistMode="Reference"/>
+						<WorkUnit Name="SX_CHAR_All" ID="{BD8CB283-C47E-4BE7-A812-1661023D6B85}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
