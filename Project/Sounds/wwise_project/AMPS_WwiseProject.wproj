@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="Project" SchemaVersion="103" WwiseVersion="v2021.1.9" WwiseBuild="7847">
 	<ProjectInfo>
-		<Project Name="WwiseProjectTemplate" ID="{27A63116-7FBD-4497-B2BB-ACC640FE254F}">
+		<Project Name="AMPS_WwiseProject" ID="{27A63116-7FBD-4497-B2BB-ACC640FE254F}">
 			<Platforms>
 				<Platform Name="Windows" ReferencePlatform="Windows" ID="{9403CC90-674C-44C6-9E6B-8A8AC3677E75}"/>
 			</Platforms>
@@ -19,16 +19,20 @@
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
+					</ValueList>
+				</Property>
+				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
+					<ValueList>
+						<Value Platform="Windows">256</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
-				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="../HexanyAudio Wwise/My project/Assets/StreamingAssets/Audio/GeneratedSoundBanks"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\HexanyAudio Wwise\My project\Assets\StreamingAssets\Audio\GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Windows">..\wwise\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
@@ -51,8 +55,17 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="VolumeThreshold" Type="Real64">
+					<ValueList>
+						<Value Platform="Windows">-80</Value>
+					</ValueList>
+				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2019.2|Build=7616|VersionName=v2019.2.14|Config=Release"/>
 			</PropertyList>
+			<MiscSettings>
+				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>
+				<MiscSettingEntry Name="Originals"><![CDATA[Originals]]></MiscSettingEntry>
+			</MiscSettings>
 			<SharedValues>
 				<SharedPropertyList ClassName="AudioSource" PluginType="0" CompanyID="1" PluginID="0">
 					<PropertyList>
@@ -11581,8 +11594,8 @@
 				<PhysicalFolder Path="Actor-Mixer Hierarchy">
 					<WorkUnit Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" PersistMode="Standalone"/>
 				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\ProjectName">
-					<WorkUnit Name="ProjectName" ID="{9D778AD1-26EB-4495-97DB-66BD0450CCCF}" PersistMode="Standalone"/>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\AMPS">
+					<WorkUnit Name="AMPS" ID="{9D778AD1-26EB-4495-97DB-66BD0450CCCF}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Attenuations">
 					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone"/>
@@ -11614,8 +11627,8 @@
 				<PhysicalFolder Path="Events">
 					<WorkUnit Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" PersistMode="Standalone"/>
 				</PhysicalFolder>
-				<PhysicalFolder Path="Events\ProjectName">
-					<WorkUnit Name="ProjectName" ID="{088EB86B-7C54-41B7-BA6E-3A29CC580065}" PersistMode="Standalone"/>
+				<PhysicalFolder Path="Events\AMPS">
+					<WorkUnit Name="AMPS" ID="{088EB86B-7C54-41B7-BA6E-3A29CC580065}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Game Parameters">
 					<WorkUnit Name="Game Parameters" ID="{4025818E-097F-4A72-B692-B8A2E2663DCB}" PersistMode="Standalone"/>
@@ -11629,8 +11642,8 @@
 				<PhysicalFolder Path="Interactive Music Hierarchy">
 					<WorkUnit Name="Interactive Music Hierarchy" ID="{49FED366-B530-42A8-993B-924873AAB707}" PersistMode="Standalone"/>
 				</PhysicalFolder>
-				<PhysicalFolder Path="Interactive Music Hierarchy\ProjectName">
-					<WorkUnit Name="ProjectName" ID="{251FD4FA-A295-4768-A7E4-A81D998DC782}" PersistMode="Standalone">
+				<PhysicalFolder Path="Interactive Music Hierarchy\AMPS">
+					<WorkUnit Name="AMPS" ID="{251FD4FA-A295-4768-A7E4-A81D998DC782}" PersistMode="Standalone">
 						<PropertyList>
 							<Property Name="Color" Type="int16" Value="15"/>
 						</PropertyList>
@@ -11639,8 +11652,8 @@
 				<PhysicalFolder Path="Master-Mixer Hierarchy">
 					<WorkUnit Name="Master-Mixer Hierarchy" ID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" PersistMode="Standalone"/>
 				</PhysicalFolder>
-				<PhysicalFolder Path="Master-Mixer Hierarchy\ProjectName">
-					<WorkUnit Name="ProjectName" ID="{108F8F74-F49B-44D7-B337-5250BC0B955E}" PersistMode="Standalone"/>
+				<PhysicalFolder Path="Master-Mixer Hierarchy\AMPS">
+					<WorkUnit Name="AMPS" ID="{108F8F74-F49B-44D7-B337-5250BC0B955E}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Metadata">
 					<WorkUnit Name="Metadata" ID="{B6F4A62E-4F9B-45A6-B280-C80685E65296}" PersistMode="Standalone"/>
@@ -11660,8 +11673,8 @@
 				<PhysicalFolder Path="SoundBanks">
 					<WorkUnit Name="SoundBanks" ID="{C98E673F-A24C-48A8-960F-10565FFE70A0}" PersistMode="Standalone"/>
 				</PhysicalFolder>
-				<PhysicalFolder Path="SoundBanks\ProjectName">
-					<WorkUnit Name="ProjectName" ID="{C7D33806-4F92-491F-A016-617F959C6C0C}" PersistMode="Standalone"/>
+				<PhysicalFolder Path="SoundBanks\AMPS">
+					<WorkUnit Name="AMPS" ID="{C7D33806-4F92-491F-A016-617F959C6C0C}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Soundcaster Sessions">
 					<WorkUnit Name="Soundcaster Sessions" ID="{4C96B38B-3DB4-40C7-91C9-665510E38993}" PersistMode="Standalone"/>

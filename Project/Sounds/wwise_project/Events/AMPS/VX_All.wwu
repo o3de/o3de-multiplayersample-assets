@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{25664D7B-9AF9-47B5-94B8-6FDC24CF7686}" SchemaVersion="103" RootDocumentID="{E7D637C0-0DFA-48F8-AC1C-5FE768856B6C}" ParentDocumentID="{E7D637C0-0DFA-48F8-AC1C-5FE768856B6C}">
+	<Events>
+		<WorkUnit Name="VX_All" ID="{25664D7B-9AF9-47B5-94B8-6FDC24CF7686}" OwnerID="{E7D637C0-0DFA-48F8-AC1C-5FE768856B6C}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Mute_VX_All" ID="{21DE461A-62F0-4EBE-A556-5886421D8C62}">
+					<ChildrenList>
+						<Action Name="" ID="{DA9BEEA4-D6BC-4CD3-B01B-8D59752BFF1D}" ShortID="718626272">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VX" ID="{9C0FE76E-D519-49CD-ABD5-F788069FF0E8}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Unmute_VX_All" ID="{CC16CBB8-11FF-4BAB-8A4A-209177B63FE8}">
+					<ChildrenList>
+						<Action Name="" ID="{F134C9E1-FB7F-4F31-A6BB-7EAB341498CD}" ShortID="146662361">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VX" ID="{9C0FE76E-D519-49CD-ABD5-F788069FF0E8}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Placeholder" ID="{51BA614A-7D6E-4020-A6CC-407486CE87F3}" ShortID="363305259">
+					<ChildrenList>
+						<Event Name="Play_sx_robotvoice_number_08" ID="{CF406457-989F-44EA-A054-93BAD65F274E}">
+							<ChildrenList>
+								<Action Name="" ID="{A784A54C-96A1-4EA0-8C8B-7B3A3F95B146}" ShortID="861799481">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sx_robotvoice_number_08" ID="{E5FDC909-6DD2-4E45-B059-480EB0652CCC}" WorkUnitID="{431624F5-9930-4D0D-A72F-BB573254805A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_sx_robotvoice_number_09" ID="{8C2F786C-6EDB-4FEE-B781-CD8BC87722A7}">
+							<ChildrenList>
+								<Action Name="" ID="{134A6463-A9F2-4A03-AA37-84906A791DBE}" ShortID="238177438">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sx_robotvoice_number_09" ID="{82187D78-437E-4473-9616-77D77EE775D2}" WorkUnitID="{431624F5-9930-4D0D-A72F-BB573254805A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_sx_robotvoice_number_07" ID="{1BFB0529-0818-416A-93F2-7EFC29393EA8}">
+							<ChildrenList>
+								<Action Name="" ID="{E8A2166D-DF9F-43DD-9FE6-DC11BA2BFAC4}" ShortID="1019669667">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sx_robotvoice_number_07" ID="{526CB2B5-64F2-4885-B823-8E85F4A3DB5D}" WorkUnitID="{431624F5-9930-4D0D-A72F-BB573254805A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_sx_robotvoice_number_10" ID="{74A2D640-60A9-421A-9397-4B72C57DC80C}">
+							<ChildrenList>
+								<Action Name="" ID="{E3DB3A71-6062-429B-8772-040D2E3546F8}" ShortID="577423742">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sx_robotvoice_number_10" ID="{EF3D0691-3EB6-4349-86A8-B7FE60FF31C8}" WorkUnitID="{431624F5-9930-4D0D-A72F-BB573254805A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_sx_robotvoice_number_06" ID="{ECE6FEEF-60BE-41AE-843D-6166BE56BEEC}">
+							<ChildrenList>
+								<Action Name="" ID="{2F532CD9-35D5-41DA-ADA5-94DDA31A024C}" ShortID="590515783">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sx_robotvoice_number_06" ID="{CE8F2CB0-DA0B-49CE-9472-3A2C8F983F5F}" WorkUnitID="{431624F5-9930-4D0D-A72F-BB573254805A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_sx_robotvoice_number_02" ID="{9FE56E82-E5C4-4C12-A366-1AE866F9B84F}">
+							<ChildrenList>
+								<Action Name="" ID="{D39255B3-1496-4DC0-871C-66C5B18681B9}" ShortID="505403176">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sx_robotvoice_number_02" ID="{ED4DEB0D-A6AC-414F-B857-F36FAE800D85}" WorkUnitID="{431624F5-9930-4D0D-A72F-BB573254805A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_sx_robotvoice_number_03" ID="{5F073109-9FED-4C72-9001-0B26F50DFBBD}">
+							<ChildrenList>
+								<Action Name="" ID="{4C72F25F-E824-49D6-8A5F-2FE92172A0F2}" ShortID="772792831">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sx_robotvoice_number_03" ID="{4FBA51B8-6C61-48FC-8268-92DD18617C23}" WorkUnitID="{431624F5-9930-4D0D-A72F-BB573254805A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_sx_robotvoice_number_04" ID="{92AD8464-2B0C-416E-9E7D-4235D6A882C8}">
+							<ChildrenList>
+								<Action Name="" ID="{6260FD2B-508C-4A56-913D-B24C76B17576}" ShortID="718720444">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sx_robotvoice_number_04" ID="{398B6245-B9ED-48F7-AFEB-6AA29F8F0CA7}" WorkUnitID="{431624F5-9930-4D0D-A72F-BB573254805A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_sx_robotvoice_number_05" ID="{09F5586F-3DB6-4ACC-BFB9-446308043074}">
+							<ChildrenList>
+								<Action Name="" ID="{57D0D651-7032-4006-B810-4FD407E606A7}" ShortID="1057592935">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sx_robotvoice_number_05" ID="{EAA0A707-F7F2-49B9-A0BB-564804E3BDE2}" WorkUnitID="{431624F5-9930-4D0D-A72F-BB573254805A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_sx_robotvoice_number_01" ID="{B84172D3-1712-41F9-AD82-10A1BFA77DA2}">
+							<ChildrenList>
+								<Action Name="" ID="{A35AE600-6526-4CA7-A958-BFC7E663FE94}" ShortID="750221600">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sx_robotvoice_number_01" ID="{66B07BBD-C157-4FFD-80D9-5E5EBC81E073}" WorkUnitID="{431624F5-9930-4D0D-A72F-BB573254805A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

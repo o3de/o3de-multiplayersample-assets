@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FBDCDEA1-E6DE-4256-A446-4D05ADBD0EEC}" SchemaVersion="103" RootDocumentID="{FBEF2117-544F-434B-82BB-7FEB5C5D3967}" ParentDocumentID="{FBEF2117-544F-434B-82BB-7FEB5C5D3967}">
+	<Events>
+		<WorkUnit Name="SX_All" ID="{FBDCDEA1-E6DE-4256-A446-4D05ADBD0EEC}" OwnerID="{FBEF2117-544F-434B-82BB-7FEB5C5D3967}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Mute_SX_All" ID="{16D35268-7F9C-4EF9-87FE-83766EFA9A6C}">
+					<ChildrenList>
+						<Action Name="" ID="{B501EDC5-2B95-41A2-A8F2-9EEBADF1E0A3}" ShortID="1003075236">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SX" ID="{C6D2C81D-5022-4C1A-BF5C-421B96542FBC}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Unmute_SX_All" ID="{91A45BC1-4DA9-4E72-A34C-B95861652943}">
+					<ChildrenList>
+						<Action Name="" ID="{26DDDF50-401F-45FF-AD97-50A32422ABFB}" ShortID="485176742">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SX" ID="{C6D2C81D-5022-4C1A-BF5C-421B96542FBC}" WorkUnitID="{87036FBD-17BB-48A8-AA12-143457EB0B1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Placeholder" ID="{BF019E46-7F5B-4B94-82FF-2E79FE892D60}" ShortID="68305305">
+					<ChildrenList>
+						<Event Name="Stop_temp_stereo_loop" ID="{8B0D33A6-AB47-4AEB-B78D-A4DA834AE12A}">
+							<ChildrenList>
+								<Action Name="" ID="{7E9F72CE-7B38-4705-AF23-ED250805B092}" ShortID="849051765">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="temp_stereo_loop" ID="{9CBD6F46-F946-4708-94B9-6EE32B31BE0C}" WorkUnitID="{D20ECCA7-968A-4175-9621-C76B4A029E9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_temp_stereo_ambience" ID="{EE8A04AF-B8ED-4B0D-9634-493FBE6F2693}">
+							<ChildrenList>
+								<Action Name="" ID="{6729A5C2-055B-42E4-AFB8-33298C4FBFAB}" ShortID="647807826">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="temp_stereo_ambience" ID="{3AAE1E59-A888-4911-80CC-B6ECE7E4441B}" WorkUnitID="{D20ECCA7-968A-4175-9621-C76B4A029E9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_temp_stereo_ambience" ID="{9EEAC8DE-C0B8-4C46-8442-B4856510F8F6}">
+							<ChildrenList>
+								<Action Name="" ID="{D8B856A6-F187-4BBD-B059-010DBBE1DC09}" ShortID="184078143">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="temp_stereo_ambience" ID="{3AAE1E59-A888-4911-80CC-B6ECE7E4441B}" WorkUnitID="{D20ECCA7-968A-4175-9621-C76B4A029E9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_temp_stereo_loop" ID="{A9CF28DD-605F-49E7-8799-3C59CB42CFEF}">
+							<ChildrenList>
+								<Action Name="" ID="{51645839-83E0-428C-85CA-E2DA25D8B18B}" ShortID="331325215">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="temp_stereo_loop" ID="{9CBD6F46-F946-4708-94B9-6EE32B31BE0C}" WorkUnitID="{D20ECCA7-968A-4175-9621-C76B4A029E9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

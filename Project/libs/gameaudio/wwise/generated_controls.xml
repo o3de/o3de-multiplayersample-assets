@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ATLConfig atl_name="generated_controls">
   <AudioEnvironments>
-    <ATLEnvironment atl_name="AUX_LFE" path="ProjectName/Main/Master Audio Bus/Mixer_Secondary/Mixer_Secondary/LFE">
+    <ATLEnvironment atl_name="AUX_LFE" path="AMPS/Main/Master Audio Bus/Mixer_Secondary/Mixer_Secondary/LFE">
       <WwiseAuxBus wwise_name="AUX_LFE"/>
     </ATLEnvironment>
-    <ATLEnvironment atl_name="AUX_Mono" path="ProjectName/Main/Master Audio Bus/Mixer_Secondary/Mixer_Secondary/Mono">
+    <ATLEnvironment atl_name="AUX_Mono" path="AMPS/Main/Master Audio Bus/Mixer_Secondary/Mixer_Secondary/Mono">
       <WwiseAuxBus wwise_name="AUX_Mono"/>
     </ATLEnvironment>
-    <ATLEnvironment atl_name="AUX_Sidechain_01" path="ProjectName/Main/Master Audio Bus/Mixer_Secondary/Mixer_Secondary/Sidechains">
+    <ATLEnvironment atl_name="AUX_Sidechain_01" path="AMPS/Main/Master Audio Bus/Mixer_Secondary/Mixer_Secondary/Sidechains">
       <WwiseAuxBus wwise_name="AUX_Sidechain_01"/>
     </ATLEnvironment>
-    <ATLEnvironment atl_name="AUX_Sidechain_02" path="ProjectName/Main/Master Audio Bus/Mixer_Secondary/Mixer_Secondary/Sidechains">
+    <ATLEnvironment atl_name="AUX_Sidechain_02" path="AMPS/Main/Master Audio Bus/Mixer_Secondary/Mixer_Secondary/Sidechains">
       <WwiseAuxBus wwise_name="AUX_Sidechain_02"/>
     </ATLEnvironment>
-    <ATLEnvironment atl_name="RVB_Hallway" path="ProjectName/Main/Master Audio Bus/Mixer_Main/Mixer_Main/SX/___Reverbs">
+    <ATLEnvironment atl_name="RVB_Hallway" path="AMPS/Main/Master Audio Bus/Mixer_Main/Mixer_Main/SX/___Reverbs">
       <WwiseAuxBus wwise_name="RVB_Hallway"/>
     </ATLEnvironment>
-    <ATLEnvironment atl_name="RVB_LargeRoom" path="ProjectName/Main/Master Audio Bus/Mixer_Main/Mixer_Main/SX/___Reverbs">
+    <ATLEnvironment atl_name="RVB_LargeRoom" path="AMPS/Main/Master Audio Bus/Mixer_Main/Mixer_Main/SX/___Reverbs">
       <WwiseAuxBus wwise_name="RVB_LargeRoom"/>
     </ATLEnvironment>
-    <ATLEnvironment atl_name="RVB_MediumRoom" path="ProjectName/Main/Master Audio Bus/Mixer_Main/Mixer_Main/SX/___Reverbs">
+    <ATLEnvironment atl_name="RVB_MediumRoom" path="AMPS/Main/Master Audio Bus/Mixer_Main/Mixer_Main/SX/___Reverbs">
       <WwiseAuxBus wwise_name="RVB_MediumRoom"/>
     </ATLEnvironment>
-    <ATLEnvironment atl_name="RVB_SmallRoom" path="ProjectName/Main/Master Audio Bus/Mixer_Main/Mixer_Main/SX/___Reverbs">
+    <ATLEnvironment atl_name="RVB_SmallRoom" path="AMPS/Main/Master Audio Bus/Mixer_Main/Mixer_Main/SX/___Reverbs">
       <WwiseAuxBus wwise_name="RVB_SmallRoom"/>
     </ATLEnvironment>
   </AudioEnvironments>
@@ -70,23 +70,77 @@
     </ATLSwitch>
   </AudioSwitches>
   <AudioTriggers>
-    <ATLTrigger atl_name="Break_All" path="ProjectName/Global">
+    <ATLTrigger atl_name="Break_All" path="AMPS/Global">
       <WwiseEvent wwise_name="Break_All"/>
     </ATLTrigger>
-    <ATLTrigger atl_name="Mute_All" path="ProjectName/Global">
+    <ATLTrigger atl_name="Mute_All" path="AMPS/Global">
       <WwiseEvent wwise_name="Mute_All"/>
     </ATLTrigger>
-    <ATLTrigger atl_name="Pause_All" path="ProjectName/Global">
+    <ATLTrigger atl_name="Mute_SX_All" path="AMPS/SX/SX_All">
+      <WwiseEvent wwise_name="Mute_SX_All"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="Mute_VX_All" path="AMPS/VX/VX_All">
+      <WwiseEvent wwise_name="Mute_VX_All"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="Pause_All" path="AMPS/Global">
       <WwiseEvent wwise_name="Pause_All"/>
     </ATLTrigger>
-    <ATLTrigger atl_name="Resume_All" path="ProjectName/Global">
+    <ATLTrigger atl_name="Play_sx_robotvoice_number_01" path="AMPS/VX/VX_All/Placeholder">
+      <WwiseEvent wwise_name="Play_sx_robotvoice_number_01"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="Play_sx_robotvoice_number_02" path="AMPS/VX/VX_All/Placeholder">
+      <WwiseEvent wwise_name="Play_sx_robotvoice_number_02"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="Play_sx_robotvoice_number_03" path="AMPS/VX/VX_All/Placeholder">
+      <WwiseEvent wwise_name="Play_sx_robotvoice_number_03"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="Play_sx_robotvoice_number_04" path="AMPS/VX/VX_All/Placeholder">
+      <WwiseEvent wwise_name="Play_sx_robotvoice_number_04"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="Play_sx_robotvoice_number_05" path="AMPS/VX/VX_All/Placeholder">
+      <WwiseEvent wwise_name="Play_sx_robotvoice_number_05"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="Play_sx_robotvoice_number_06" path="AMPS/VX/VX_All/Placeholder">
+      <WwiseEvent wwise_name="Play_sx_robotvoice_number_06"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="Play_sx_robotvoice_number_07" path="AMPS/VX/VX_All/Placeholder">
+      <WwiseEvent wwise_name="Play_sx_robotvoice_number_07"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="Play_sx_robotvoice_number_08" path="AMPS/VX/VX_All/Placeholder">
+      <WwiseEvent wwise_name="Play_sx_robotvoice_number_08"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="Play_sx_robotvoice_number_09" path="AMPS/VX/VX_All/Placeholder">
+      <WwiseEvent wwise_name="Play_sx_robotvoice_number_09"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="Play_sx_robotvoice_number_10" path="AMPS/VX/VX_All/Placeholder">
+      <WwiseEvent wwise_name="Play_sx_robotvoice_number_10"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="Play_temp_stereo_ambience" path="AMPS/SX/SX_All/Placeholder">
+      <WwiseEvent wwise_name="Play_temp_stereo_ambience"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="Play_temp_stereo_loop" path="AMPS/SX/SX_All/Placeholder">
+      <WwiseEvent wwise_name="Play_temp_stereo_loop"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="Resume_All" path="AMPS/Global">
       <WwiseEvent wwise_name="Resume_All"/>
     </ATLTrigger>
-    <ATLTrigger atl_name="Stop_All" path="ProjectName/Global">
+    <ATLTrigger atl_name="Stop_All" path="AMPS/Global">
       <WwiseEvent wwise_name="Stop_All"/>
     </ATLTrigger>
-    <ATLTrigger atl_name="Unmute_All" path="ProjectName/Global">
+    <ATLTrigger atl_name="Stop_temp_stereo_ambience" path="AMPS/SX/SX_All/Placeholder">
+      <WwiseEvent wwise_name="Stop_temp_stereo_ambience"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="Stop_temp_stereo_loop" path="AMPS/SX/SX_All/Placeholder">
+      <WwiseEvent wwise_name="Stop_temp_stereo_loop"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="Unmute_All" path="AMPS/Global">
       <WwiseEvent wwise_name="Unmute_All"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="Unmute_SX_All" path="AMPS/SX/SX_All">
+      <WwiseEvent wwise_name="Unmute_SX_All"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="Unmute_VX_All" path="AMPS/VX/VX_All">
+      <WwiseEvent wwise_name="Unmute_VX_All"/>
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -145,7 +199,7 @@
       <WwiseFile wwise_name="sb_sx_ui_gameplay.bnk"/>
     </ATLPreloadRequest>
     <ATLPreloadRequest atl_name="sb_vx_all" path="SoundBanks" atl_type="AutoLoad">
-      <WwiseFile wwise_name="sb_vx_all.bnk"/>
+      <WwiseFile wwise_name="sb_vx_all.bnk" wwise_localized="true"/>
     </ATLPreloadRequest>
     <ATLPreloadRequest atl_name="sb_vx_charactername" path="SoundBanks" atl_type="AutoLoad">
       <WwiseFile wwise_name="sb_vx_charactername.bnk"/>

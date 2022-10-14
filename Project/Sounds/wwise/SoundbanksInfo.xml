@@ -12,27 +12,49 @@
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
 		<SoundBank Id="140146556" Language="SFX" Hash="924298748">
-			<ObjectPath>\SoundBanks\ProjectName\SX\SX_UI\SB_SX_UI_Gameplay</ObjectPath>
+			<ObjectPath>\SoundBanks\AMPS\SX\SX_UI\SB_SX_UI_Gameplay</ObjectPath>
 			<ShortName>SB_SX_UI_Gameplay</ShortName>
 			<Path>SB_SX_UI_Gameplay.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="273258069" Language="SFX" Hash="3956912920">
-			<ObjectPath>\SoundBanks\ProjectName\SX\SX_Gameplay\SX_LVL\SB_SX_LVL_Level01</ObjectPath>
+			<ObjectPath>\SoundBanks\AMPS\SX\SX_Gameplay\SX_LVL\SB_SX_LVL_Level01</ObjectPath>
 			<ShortName>SB_SX_LVL_Level01</ShortName>
 			<Path>SB_SX_LVL_Level01.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="273258070" Language="SFX" Hash="1913187619">
-			<ObjectPath>\SoundBanks\ProjectName\SX\SX_Gameplay\SX_LVL\SB_SX_LVL_Level02</ObjectPath>
+			<ObjectPath>\SoundBanks\AMPS\SX\SX_Gameplay\SX_LVL\SB_SX_LVL_Level02</ObjectPath>
 			<ShortName>SB_SX_LVL_Level02</ShortName>
 			<Path>SB_SX_LVL_Level02.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1113184064" Language="SFX" Hash="797810043">
-			<ObjectPath>\SoundBanks\ProjectName\SX\SX_All\SB_SX_All</ObjectPath>
+		<SoundBank Id="1113184064" Language="SFX" Hash="3486102130">
+			<ObjectPath>\SoundBanks\AMPS\SX\SX_All\SB_SX_All</ObjectPath>
 			<ShortName>SB_SX_All</ShortName>
 			<Path>SB_SX_All.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1177955748" Name="Mute_SX_All" ObjectPath="\Events\AMPS\SX\SX_All\Mute_SX_All" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2702379426" Name="Play_temp_stereo_ambience" ObjectPath="\Events\AMPS\SX\SX_All\Placeholder\Play_temp_stereo_ambience" DurationType="OneShot" DurationMin="19.766666" DurationMax="19.766666">
+					<IncludedMemoryFiles>
+						<File Id="1044476785" Language="SFX">
+							<ShortName>Placeholder\temp_stereo_ambience.wav</ShortName>
+							<Path>SFX\Placeholder\temp_stereo_ambience_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2966127584" Name="Play_temp_stereo_loop" ObjectPath="\Events\AMPS\SX\SX_All\Placeholder\Play_temp_stereo_loop" MaxAttenuation="5000." DurationType="OneShot" DurationMin="11.2" DurationMax="11.2">
+					<IncludedMemoryFiles>
+						<File Id="804565341" Language="SFX">
+							<ShortName>Placeholder\temp_stereo_loop.wav</ShortName>
+							<Path>SFX\Placeholder\temp_stereo_loop_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="916318224" Name="Stop_temp_stereo_ambience" ObjectPath="\Events\AMPS\SX\SX_All\Placeholder\Stop_temp_stereo_ambience" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1109888154" Name="Stop_temp_stereo_loop" ObjectPath="\Events\AMPS\SX\SX_All\Placeholder\Stop_temp_stereo_loop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3059249675" Name="Unmute_SX_All" ObjectPath="\Events\AMPS\SX\SX_All\Unmute_SX_All" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="1250486009" Language="SFX" Hash="2826236520">
-			<ObjectPath>\SoundBanks\ProjectName\SX\SX_UI\SB_SX_UI_All</ObjectPath>
+			<ObjectPath>\SoundBanks\AMPS\SX\SX_UI\SB_SX_UI_All</ObjectPath>
 			<ShortName>SB_SX_UI_All</ShortName>
 			<Path>SB_SX_UI_All.bnk</Path>
 		</SoundBank>
@@ -41,14 +63,14 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
-				<AuxBus Id="1131429908" Name="RVB_SmallRoom" ObjectPath="\Master-Mixer Hierarchy\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\___Reverbs\RVB_SmallRoom"/>
-				<AuxBus Id="2176225445" Name="AUX_Sidechain_02" ObjectPath="\Master-Mixer Hierarchy\ProjectName\Main\Master Audio Bus\Mixer_Secondary\Mixer_Secondary\Sidechains\AUX_Sidechain_02"/>
-				<AuxBus Id="2176225446" Name="AUX_Sidechain_01" ObjectPath="\Master-Mixer Hierarchy\ProjectName\Main\Master Audio Bus\Mixer_Secondary\Mixer_Secondary\Sidechains\AUX_Sidechain_01"/>
-				<AuxBus Id="2259325731" Name="AUX_LFE" ObjectPath="\Master-Mixer Hierarchy\ProjectName\Main\Master Audio Bus\Mixer_Secondary\Mixer_Secondary\LFE\AUX_LFE"/>
-				<AuxBus Id="2473811741" Name="AUX_Mono" ObjectPath="\Master-Mixer Hierarchy\ProjectName\Main\Master Audio Bus\Mixer_Secondary\Mixer_Secondary\Mono\AUX_Mono"/>
-				<AuxBus Id="2796094580" Name="RVB_MediumRoom" ObjectPath="\Master-Mixer Hierarchy\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\___Reverbs\RVB_MediumRoom"/>
-				<AuxBus Id="3872597500" Name="RVB_LargeRoom" ObjectPath="\Master-Mixer Hierarchy\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\___Reverbs\RVB_LargeRoom"/>
-				<AuxBus Id="3953587442" Name="RVB_Hallway" ObjectPath="\Master-Mixer Hierarchy\ProjectName\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\___Reverbs\RVB_Hallway"/>
+				<AuxBus Id="1131429908" Name="RVB_SmallRoom" ObjectPath="\Master-Mixer Hierarchy\AMPS\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\___Reverbs\RVB_SmallRoom"/>
+				<AuxBus Id="2176225445" Name="AUX_Sidechain_02" ObjectPath="\Master-Mixer Hierarchy\AMPS\Main\Master Audio Bus\Mixer_Secondary\Mixer_Secondary\Sidechains\AUX_Sidechain_02"/>
+				<AuxBus Id="2176225446" Name="AUX_Sidechain_01" ObjectPath="\Master-Mixer Hierarchy\AMPS\Main\Master Audio Bus\Mixer_Secondary\Mixer_Secondary\Sidechains\AUX_Sidechain_01"/>
+				<AuxBus Id="2259325731" Name="AUX_LFE" ObjectPath="\Master-Mixer Hierarchy\AMPS\Main\Master Audio Bus\Mixer_Secondary\Mixer_Secondary\LFE\AUX_LFE"/>
+				<AuxBus Id="2473811741" Name="AUX_Mono" ObjectPath="\Master-Mixer Hierarchy\AMPS\Main\Master Audio Bus\Mixer_Secondary\Mixer_Secondary\Mono\AUX_Mono"/>
+				<AuxBus Id="2796094580" Name="RVB_MediumRoom" ObjectPath="\Master-Mixer Hierarchy\AMPS\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\___Reverbs\RVB_MediumRoom"/>
+				<AuxBus Id="3872597500" Name="RVB_LargeRoom" ObjectPath="\Master-Mixer Hierarchy\AMPS\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\___Reverbs\RVB_LargeRoom"/>
+				<AuxBus Id="3953587442" Name="RVB_Hallway" ObjectPath="\Master-Mixer Hierarchy\AMPS\Main\Master Audio Bus\Mixer_Main\Mixer_Main\SX\___Reverbs\RVB_Hallway"/>
 			</IncludedAuxBusses>
 			<GameParameters>
 				<GameParameter Id="2094608618" Name="Vol_SX_All" ObjectPath="\Game Parameters\Main\Global Params\VolumeControls\Vol_SX_All"/>
@@ -58,95 +80,179 @@
 			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="1480239962" Language="SFX" Hash="4288001269">
-			<ObjectPath>\SoundBanks\ProjectName\SX\SX_Gameplay\SX_CHAR\SX_CHAR_NPC\SB_SX_CHAR_CharacterName</ObjectPath>
+			<ObjectPath>\SoundBanks\AMPS\SX\SX_Gameplay\SX_CHAR\SX_CHAR_NPC\SB_SX_CHAR_CharacterName</ObjectPath>
 			<ShortName>SB_SX_CHAR_CharacterName</ShortName>
 			<Path>SB_SX_CHAR_CharacterName.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="1564899734" Language="SFX" Hash="2945421228">
-			<ObjectPath>\SoundBanks\ProjectName\SX\SX_IGC\SB_SX_IGC</ObjectPath>
+			<ObjectPath>\SoundBanks\AMPS\SX\SX_IGC\SB_SX_IGC</ObjectPath>
 			<ShortName>SB_SX_IGC</ShortName>
 			<Path>SB_SX_IGC.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="2316319923" Language="SFX" Hash="1197935470">
-			<ObjectPath>\SoundBanks\ProjectName\VX\VX_Gameplay\VX_Player\SB_VX_PlayerCharacterName</ObjectPath>
+			<ObjectPath>\SoundBanks\AMPS\VX\VX_Gameplay\VX_Player\SB_VX_PlayerCharacterName</ObjectPath>
 			<ShortName>SB_VX_PlayerCharacterName</ShortName>
 			<Path>SB_VX_PlayerCharacterName.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="2502738532" Language="SFX" Hash="516786336">
-			<ObjectPath>\SoundBanks\ProjectName\MX\MX_Gameplay\SB_MX_LVL_Level02</ObjectPath>
+			<ObjectPath>\SoundBanks\AMPS\MX\MX_Gameplay\SB_MX_LVL_Level02</ObjectPath>
 			<ShortName>SB_MX_LVL_Level02</ShortName>
 			<Path>SB_MX_LVL_Level02.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="2502738535" Language="SFX" Hash="255960896">
-			<ObjectPath>\SoundBanks\ProjectName\MX\MX_Gameplay\SB_MX_LVL_Level01</ObjectPath>
+			<ObjectPath>\SoundBanks\AMPS\MX\MX_Gameplay\SB_MX_LVL_Level01</ObjectPath>
 			<ShortName>SB_MX_LVL_Level01</ShortName>
 			<Path>SB_MX_LVL_Level01.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="2518488404" Language="SFX" Hash="2454976314">
-			<ObjectPath>\SoundBanks\ProjectName\MX\MX_IGC\SB_MX_IGC</ObjectPath>
+			<ObjectPath>\SoundBanks\AMPS\MX\MX_IGC\SB_MX_IGC</ObjectPath>
 			<ShortName>SB_MX_IGC</ShortName>
 			<Path>SB_MX_IGC.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2593585835" Language="SFX" Hash="1129103640">
-			<ObjectPath>\SoundBanks\ProjectName\VX\VX_All\SB_VX_All</ObjectPath>
+		<SoundBank Id="2593585835" Language="English(US)" Hash="19104618">
+			<ObjectPath>\SoundBanks\AMPS\VX\VX_All\SB_VX_All</ObjectPath>
 			<ShortName>SB_VX_All</ShortName>
-			<Path>SB_VX_All.bnk</Path>
+			<Path>English(US)\SB_VX_All.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3153660887" Name="Mute_VX_All" ObjectPath="\Events\AMPS\VX\VX_All\Mute_VX_All" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="514737466" Name="Play_sx_robotvoice_number_01" ObjectPath="\Events\AMPS\VX\VX_All\Placeholder\Play_sx_robotvoice_number_01" MaxAttenuation="2000." DurationType="OneShot" DurationMin="0.412271" DurationMax="0.412271">
+					<IncludedMemoryFiles>
+						<File Id="379431001" Language="English(US)">
+							<ShortName>Placeholder\sx_robotvoice_number_01.wav</ShortName>
+							<Path>Voices\English(US)\Placeholder\sx_robotvoice_number_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="514737465" Name="Play_sx_robotvoice_number_02" ObjectPath="\Events\AMPS\VX\VX_All\Placeholder\Play_sx_robotvoice_number_02" MaxAttenuation="2000." DurationType="OneShot" DurationMin="0.384396" DurationMax="0.384396">
+					<IncludedMemoryFiles>
+						<File Id="1039244331" Language="English(US)">
+							<ShortName>Placeholder\sx_robotvoice_number_02.wav</ShortName>
+							<Path>Voices\English(US)\Placeholder\sx_robotvoice_number_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="514737464" Name="Play_sx_robotvoice_number_03" ObjectPath="\Events\AMPS\VX\VX_All\Placeholder\Play_sx_robotvoice_number_03" MaxAttenuation="2000." DurationType="OneShot" DurationMin="0.472021" DurationMax="0.472021">
+					<IncludedMemoryFiles>
+						<File Id="5739892" Language="English(US)">
+							<ShortName>Placeholder\sx_robotvoice_number_03.wav</ShortName>
+							<Path>Voices\English(US)\Placeholder\sx_robotvoice_number_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="514737471" Name="Play_sx_robotvoice_number_04" ObjectPath="\Events\AMPS\VX\VX_All\Placeholder\Play_sx_robotvoice_number_04" MaxAttenuation="2000." DurationType="OneShot" DurationMin="0.478875" DurationMax="0.478875">
+					<IncludedMemoryFiles>
+						<File Id="148931721" Language="English(US)">
+							<ShortName>Placeholder\sx_robotvoice_number_04.wav</ShortName>
+							<Path>Voices\English(US)\Placeholder\sx_robotvoice_number_04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="514737470" Name="Play_sx_robotvoice_number_05" ObjectPath="\Events\AMPS\VX\VX_All\Placeholder\Play_sx_robotvoice_number_05" MaxAttenuation="2000." DurationType="OneShot" DurationMin="0.493354" DurationMax="0.493354">
+					<IncludedMemoryFiles>
+						<File Id="490166686" Language="English(US)">
+							<ShortName>Placeholder\sx_robotvoice_number_05.wav</ShortName>
+							<Path>Voices\English(US)\Placeholder\sx_robotvoice_number_05_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="514737469" Name="Play_sx_robotvoice_number_06" ObjectPath="\Events\AMPS\VX\VX_All\Placeholder\Play_sx_robotvoice_number_06" MaxAttenuation="2000." DurationType="OneShot" DurationMin="0.527646" DurationMax="0.527646">
+					<IncludedMemoryFiles>
+						<File Id="898724940" Language="English(US)">
+							<ShortName>Placeholder\sx_robotvoice_number_06.wav</ShortName>
+							<Path>Voices\English(US)\Placeholder\sx_robotvoice_number_06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="514737468" Name="Play_sx_robotvoice_number_07" ObjectPath="\Events\AMPS\VX\VX_All\Placeholder\Play_sx_robotvoice_number_07" MaxAttenuation="2000." DurationType="OneShot" DurationMin="0.543771" DurationMax="0.543771">
+					<IncludedMemoryFiles>
+						<File Id="786641593" Language="English(US)">
+							<ShortName>Placeholder\sx_robotvoice_number_07.wav</ShortName>
+							<Path>Voices\English(US)\Placeholder\sx_robotvoice_number_07_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="514737459" Name="Play_sx_robotvoice_number_08" ObjectPath="\Events\AMPS\VX\VX_All\Placeholder\Play_sx_robotvoice_number_08" MaxAttenuation="2000." DurationType="OneShot" DurationMin="0.327875" DurationMax="0.327875">
+					<IncludedMemoryFiles>
+						<File Id="1037919088" Language="English(US)">
+							<ShortName>Placeholder\sx_robotvoice_number_08.wav</ShortName>
+							<Path>Voices\English(US)\Placeholder\sx_robotvoice_number_08_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="514737458" Name="Play_sx_robotvoice_number_09" ObjectPath="\Events\AMPS\VX\VX_All\Placeholder\Play_sx_robotvoice_number_09" MaxAttenuation="2000." DurationType="OneShot" DurationMin="0.483938" DurationMax="0.483938">
+					<IncludedMemoryFiles>
+						<File Id="660140528" Language="English(US)">
+							<ShortName>Placeholder\sx_robotvoice_number_09.wav</ShortName>
+							<Path>Voices\English(US)\Placeholder\sx_robotvoice_number_09_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="497959752" Name="Play_sx_robotvoice_number_10" ObjectPath="\Events\AMPS\VX\VX_All\Placeholder\Play_sx_robotvoice_number_10" MaxAttenuation="2000." DurationType="OneShot" DurationMin="0.420354" DurationMax="0.420354">
+					<IncludedMemoryFiles>
+						<File Id="444719732" Language="English(US)">
+							<ShortName>Placeholder\sx_robotvoice_number_10.wav</ShortName>
+							<Path>Voices\English(US)\Placeholder\sx_robotvoice_number_10_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3237806368" Name="Unmute_VX_All" ObjectPath="\Events\AMPS\VX\VX_All\Unmute_VX_All" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="2711878180" Language="SFX" Hash="111858253">
-			<ObjectPath>\SoundBanks\ProjectName\Global\SB_Global</ObjectPath>
+			<ObjectPath>\SoundBanks\AMPS\Global\SB_Global</ObjectPath>
 			<ShortName>SB_Global</ShortName>
 			<Path>SB_Global.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2535776102" Name="Break_All" ObjectPath="\Events\ProjectName\Global\Break_All" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="1739713018" Name="Mute_All" ObjectPath="\Events\ProjectName\Global\Mute_All" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="3864097025" Name="Pause_All" ObjectPath="\Events\ProjectName\Global\Pause_All" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="3679762312" Name="Resume_All" ObjectPath="\Events\ProjectName\Global\Resume_All" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\ProjectName\Global\Stop_All" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="4003578643" Name="Unmute_All" ObjectPath="\Events\ProjectName\Global\Unmute_All" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2535776102" Name="Break_All" ObjectPath="\Events\AMPS\Global\Break_All" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1739713018" Name="Mute_All" ObjectPath="\Events\AMPS\Global\Mute_All" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3864097025" Name="Pause_All" ObjectPath="\Events\AMPS\Global\Pause_All" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3679762312" Name="Resume_All" ObjectPath="\Events\AMPS\Global\Resume_All" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\AMPS\Global\Stop_All" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="4003578643" Name="Unmute_All" ObjectPath="\Events\AMPS\Global\Unmute_All" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="2792706484" Language="SFX" Hash="3388956913">
-			<ObjectPath>\SoundBanks\ProjectName\SX\SX_UI\SB_SX_UI_FrontEnd</ObjectPath>
+			<ObjectPath>\SoundBanks\AMPS\SX\SX_UI\SB_SX_UI_FrontEnd</ObjectPath>
 			<ShortName>SB_SX_UI_FrontEnd</ShortName>
 			<Path>SB_SX_UI_FrontEnd.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="2842741951" Language="SFX" Hash="3251977976">
-			<ObjectPath>\SoundBanks\ProjectName\SX\SX_Gameplay\SX_LVL\SB_SX_LVL_All</ObjectPath>
+			<ObjectPath>\SoundBanks\AMPS\SX\SX_Gameplay\SX_LVL\SB_SX_LVL_All</ObjectPath>
 			<ShortName>SB_SX_LVL_All</ShortName>
 			<Path>SB_SX_LVL_All.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="2936648886" Language="SFX" Hash="1705000461">
-			<ObjectPath>\SoundBanks\ProjectName\MX\MX_All\SB_MX_All</ObjectPath>
+			<ObjectPath>\SoundBanks\AMPS\MX\MX_All\SB_MX_All</ObjectPath>
 			<ShortName>SB_MX_All</ShortName>
 			<Path>SB_MX_All.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="3570341686" Language="SFX" Hash="963363232">
-			<ObjectPath>\SoundBanks\ProjectName\VX\VX_FrontEnd\SB_VX_FrontEnd</ObjectPath>
+			<ObjectPath>\SoundBanks\AMPS\VX\VX_FrontEnd\SB_VX_FrontEnd</ObjectPath>
 			<ShortName>SB_VX_FrontEnd</ShortName>
 			<Path>SB_VX_FrontEnd.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="3718463466" Language="SFX" Hash="2469068307">
-			<ObjectPath>\SoundBanks\ProjectName\VX\VX_Gameplay\VX_NPC\SB_VX_CharacterName</ObjectPath>
+			<ObjectPath>\SoundBanks\AMPS\VX\VX_Gameplay\VX_NPC\SB_VX_CharacterName</ObjectPath>
 			<ShortName>SB_VX_CharacterName</ShortName>
 			<Path>SB_VX_CharacterName.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="3775326275" Language="SFX" Hash="2996833142">
-			<ObjectPath>\SoundBanks\ProjectName\SX\SX_Gameplay\SX_CHAR\SX_CHAR_Player\SB_SX_CHAR_PlayerCharacterName</ObjectPath>
+			<ObjectPath>\SoundBanks\AMPS\SX\SX_Gameplay\SX_CHAR\SX_CHAR_Player\SB_SX_CHAR_PlayerCharacterName</ObjectPath>
 			<ShortName>SB_SX_CHAR_PlayerCharacterName</ShortName>
 			<Path>SB_SX_CHAR_PlayerCharacterName.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="3980619005" Language="SFX" Hash="902805124">
-			<ObjectPath>\SoundBanks\ProjectName\MX\MX_Gameplay\SB_MX_LVL_All</ObjectPath>
+			<ObjectPath>\SoundBanks\AMPS\MX\MX_Gameplay\SB_MX_LVL_All</ObjectPath>
 			<ShortName>SB_MX_LVL_All</ShortName>
 			<Path>SB_MX_LVL_All.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="4036771331" Language="SFX" Hash="2232231980">
-			<ObjectPath>\SoundBanks\ProjectName\SX\SX_FrontEnd\SB_SX_FrontEnd</ObjectPath>
+			<ObjectPath>\SoundBanks\AMPS\SX\SX_FrontEnd\SB_SX_FrontEnd</ObjectPath>
 			<ShortName>SB_SX_FrontEnd</ShortName>
 			<Path>SB_SX_FrontEnd.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="4249449417" Language="SFX" Hash="558964215">
-			<ObjectPath>\SoundBanks\ProjectName\MX\MX_FrontEnd\SB_MX_FrontEnd</ObjectPath>
+			<ObjectPath>\SoundBanks\AMPS\MX\MX_FrontEnd\SB_MX_FrontEnd</ObjectPath>
 			<ShortName>SB_MX_FrontEnd</ShortName>
 			<Path>SB_MX_FrontEnd.bnk</Path>
 		</SoundBank>
