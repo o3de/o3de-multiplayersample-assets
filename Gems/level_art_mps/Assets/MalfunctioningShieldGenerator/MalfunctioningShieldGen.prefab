@@ -1,0 +1,192 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "MalfunctioningShieldGen",
+        "Components": {
+            "Component_[10208050900840172336]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 10208050900840172336
+            },
+            "Component_[10856774406071336220]": {
+                "$type": "SelectionComponent",
+                "Id": 10856774406071336220
+            },
+            "Component_[1247794415259126012]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 1247794415259126012
+            },
+            "Component_[12780925288710845656]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12780925288710845656
+            },
+            "Component_[16157164407284493908]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 16157164407284493908
+            },
+            "Component_[18066672954092236624]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 18066672954092236624,
+                "Child Entity Order": [
+                    "Entity_[736358548825]"
+                ]
+            },
+            "Component_[1958513160757087443]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 1958513160757087443
+            },
+            "Component_[2028060094763489161]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2028060094763489161
+            },
+            "Component_[284586112481907885]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 284586112481907885,
+                "Parent Entity": "",
+                "Transform Data": {
+                    "Translate": [
+                        0.0,
+                        0.0,
+                        1.0626388788223267
+                    ]
+                }
+            },
+            "Component_[7861958380674848599]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7861958380674848599
+            },
+            "Component_[9373184866108483222]": {
+                "$type": "EditorLockComponent",
+                "Id": 9373184866108483222
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[736358548825]": {
+            "Id": "Entity_[736358548825]",
+            "Name": "mshieldgen",
+            "Components": {
+                "Component_[11499009147311791863]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11499009147311791863
+                },
+                "Component_[11940863273105326901]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11940863273105326901
+                },
+                "Component_[1232812468338363547]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1232812468338363547
+                },
+                "Component_[12384822219478056670]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12384822219478056670
+                },
+                "Component_[13232582453573070845]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13232582453573070845,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1458347081
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EF088968-14EB-59D9-8175-6A28EAEB3D13}"
+                                            },
+                                            "assetHint": "malfunctioningshieldgenerator/mshieldgen_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13805807852532080261]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13805807852532080261
+                },
+                "Component_[15277575486760440380]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 15277575486760440380,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{0643DB73-0A88-5D39-8C51-CDF93A7534E9}",
+                                    "subId": 3518047537
+                                },
+                                "assetHint": "malfunctioningshieldgenerator/mshieldgen.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{0643DB73-0A88-5D39-8C51-CDF93A7534E9}",
+                                        "subId": 3518047537
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "malfunctioningshieldgenerator/mshieldgen.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
+                "Component_[15836260103447543625]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15836260103447543625
+                },
+                "Component_[18400370369944568015]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 18400370369944568015
+                },
+                "Component_[3424805850231837857]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3424805850231837857,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            3.506542921066284,
+                            0.0,
+                            -1.0493278503417969
+                        ]
+                    }
+                },
+                "Component_[5926079763344079304]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5926079763344079304
+                },
+                "Component_[7882837247413760620]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7882837247413760620
+                },
+                "Component_[8107302926253716702]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8107302926253716702,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{0643DB73-0A88-5D39-8C51-CDF93A7534E9}",
+                                    "subId": 272285815
+                                },
+                                "assetHint": "malfunctioningshieldgenerator/mshieldgen.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
