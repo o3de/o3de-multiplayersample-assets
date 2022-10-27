@@ -26,7 +26,8 @@
                     "Instance_[620830130169]/ContainerEntity",
                     "Instance_[633878347007]/ContainerEntity",
                     "Instance_[1806404418815]/ContainerEntity",
-                    "Instance_[712571402152]/ContainerEntity"
+                    "Instance_[712571402152]/ContainerEntity",
+                    "Instance_[745082579329]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -245,7 +246,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 55.0,
-                            "EditorEntityId": 17303100121118901666
+                            "EditorEntityId": 3082538132641751275
                         }
                     }
                 },
@@ -966,6 +967,26 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[16812468064845127834]/Transform Data/Translate/1",
                     "value": -7.1180267333984375
+                }
+            ]
+        },
+        "Instance_[745082579329]": {
+            "Source": "DeciduousPlanter/DeciduousPlanter.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7677721964835656918]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7677721964835656918]/Transform Data/Translate/1",
+                    "value": 0.10000133514404297
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7677721964835656918]/Transform Data/Translate/2",
+                    "value": 4.005249500274658
                 }
             ]
         },
