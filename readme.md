@@ -5,8 +5,9 @@ This repository contains:
 1. A collection of O3DE Asset Gems, used in o3de-multiplayersample project
    1. The source folder for each Gem, for development by Contributors.
    2. e.g. a gem for sample characters: https://github.com/o3de/o3de-multiplayersample-assets/Gems/character_mps
-2. (Future) A `repo.json` file containing information about this O3DE Remote Gem Repository
-3. (Future) A GitHub release folder
+2. "MPS-Asset-Test" project in: o3de-multiplayersample-assets/tree/main/Project
+3. (Future) A `repo.json` file containing information about this O3DE Remote Gem Repository
+4. (Future) A GitHub release folder
    1. The gem .zip containing the gem and associated gem.json for each gem
 
 ## If you are using o3de-multiplayer-sample Game
@@ -91,7 +92,7 @@ Make sure your project is registered.
 
 ```batch
 :: register the project with the engine, you only need to do this once
-> c:\path\to\o3de\scripts\o3de register -p c:/path\to\o3de-multiplayersample
+> c:\path\to\o3de\scripts\o3de register -p c:\path\to\o3de-multiplayersample
 ```
 
 Now make sure that the source gems are registered
