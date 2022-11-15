@@ -19,9 +19,9 @@
                 "$type": "EditorEntitySortComponent",
                 "Id": 14126657869720434043,
                 "Child Entity Order": [
-                    "Entity_[1176639161715]",
-                    "Entity_[652588165776]",
-                    "Entity_[1212170005646]"
+                    "Entity_[390745003004]",
+                    "Entity_[1212170005646]",
+                    "Entity_[6863260718076]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -104,12 +104,12 @@
                         "Translate": [
                             0.0,
                             0.0,
-                            13.487043380737305
+                            10.0
                         ],
                         "Rotate": [
-                            -76.13099670410156,
-                            -0.847000002861023,
-                            -15.8100004196167
+                            -45.0,
+                            0.0,
+                            -45.0
                         ]
                     }
                 },
@@ -202,7 +202,7 @@
                 "Component_[10757302973393310045]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 10757302973393310045,
-                    "Parent Entity": "Entity_[1146574390643]"
+                    "Parent Entity": "Entity_[390745003004]"
                 },
                 "Component_[14505817420424255464]": {
                     "$type": "EditorInspectorComponent",
@@ -248,6 +248,60 @@
                 }
             }
         },
+        "Entity_[1189608920060]": {
+            "Id": "Entity_[1189608920060]",
+            "Name": "EBT_Projectile",
+            "Components": {
+                "Component_[10597594482778280735]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10597594482778280735,
+                    "Parent Entity": "Entity_[631263171580]"
+                },
+                "Component_[10623765742465926409]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10623765742465926409
+                },
+                "Component_[13823603592528573770]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13823603592528573770
+                },
+                "Component_[14049766786381883707]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14049766786381883707
+                },
+                "Component_[17256149733042971862]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17256149733042971862
+                },
+                "Component_[1981023727340623271]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 1981023727340623271,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{44E34C3D-7A31-503B-A440-0AB5F5738FFB}"
+                        },
+                        "assetHint": "pkfx/particles/energyballtrap/fx_energyballtrap_projectile.pkfx"
+                    },
+                    "PrewarmTime": 0.0
+                },
+                "Component_[5962475673186418708]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5962475673186418708
+                },
+                "Component_[5998998432804621000]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5998998432804621000
+                },
+                "Component_[7832331901590758894]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7832331901590758894
+                },
+                "Component_[8949589964082612212]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8949589964082612212
+                }
+            }
+        },
         "Entity_[1212170005646]": {
             "Id": "Entity_[1212170005646]",
             "Name": "VFX",
@@ -277,6 +331,8 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 5659018495349776219,
                     "Child Entity Order": [
+                        "Entity_[631263171580]",
+                        "Entity_[5381497000956]",
                         "Entity_[755955383497]"
                     ]
                 },
@@ -317,7 +373,8 @@
                                     "subId": 1000
                                 },
                                 "assetHint": "lightingpresets/highcontrast/goegap_4k_skyboxcm.exr.streamingimage"
-                            }
+                            },
+                            "Exposure": 0.5
                         }
                     }
                 },
@@ -345,10 +402,79 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 3777685764536289344
                 },
+                "Component_[5220611558867221019]": {
+                    "$type": "AZ::Render::EditorImageBasedLightComponent",
+                    "Id": 5220611558867221019,
+                    "Controller": {
+                        "Configuration": {
+                            "diffuseImageAsset": {
+                                "assetId": {
+                                    "guid": "{215E47FD-D181-5832-B1AB-91673ABF6399}",
+                                    "subId": 1000
+                                },
+                                "assetHint": "lightingpresets/highcontrast/goegap_4k_skyboxcm.exr.streamingimage"
+                            }
+                        }
+                    }
+                },
                 "Component_[542146153425282260]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 542146153425282260,
                     "Parent Entity": "Entity_[1176639161715]"
+                }
+            }
+        },
+        "Entity_[1760839570428]": {
+            "Id": "Entity_[1760839570428]",
+            "Name": "EBT_Explosion",
+            "Components": {
+                "Component_[10597594482778280735]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10597594482778280735,
+                    "Parent Entity": "Entity_[631263171580]"
+                },
+                "Component_[10623765742465926409]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10623765742465926409
+                },
+                "Component_[13823603592528573770]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13823603592528573770
+                },
+                "Component_[14049766786381883707]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14049766786381883707
+                },
+                "Component_[17256149733042971862]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17256149733042971862
+                },
+                "Component_[1981023727340623271]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 1981023727340623271,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{65261C35-5B94-5A9C-BAEB-EA0E977DF12A}"
+                        },
+                        "assetHint": "pkfx/particles/energyballtrap/fx_energyballtrap_explosion.pkfx"
+                    },
+                    "PrewarmTime": 0.0
+                },
+                "Component_[5962475673186418708]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5962475673186418708
+                },
+                "Component_[5998998432804621000]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5998998432804621000
+                },
+                "Component_[7832331901590758894]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7832331901590758894
+                },
+                "Component_[8949589964082612212]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8949589964082612212
                 }
             }
         },
@@ -495,6 +621,53 @@
                 "Component_[7530482719958200469]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 7530482719958200469
+                }
+            }
+        },
+        "Entity_[390745003004]": {
+            "Id": "Entity_[390745003004]",
+            "Name": "Environment",
+            "Components": {
+                "Component_[1031009638882039417]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1031009638882039417
+                },
+                "Component_[11696040978607840747]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11696040978607840747
+                },
+                "Component_[11750517502891649592]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11750517502891649592
+                },
+                "Component_[15102971525374541843]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15102971525374541843
+                },
+                "Component_[15656951951558471083]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15656951951558471083
+                },
+                "Component_[178015652880541862]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 178015652880541862
+                },
+                "Component_[200424557711224952]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 200424557711224952
+                },
+                "Component_[2364308319607328284]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2364308319607328284,
+                    "Parent Entity": "Entity_[1146574390643]"
+                },
+                "Component_[9824761079793257772]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9824761079793257772,
+                    "Child Entity Order": [
+                        "Entity_[1176639161715]",
+                        "Entity_[652588165776]"
+                    ]
                 }
             }
         },
@@ -790,6 +963,451 @@
                 }
             }
         },
+        "Entity_[5381497000956]": {
+            "Id": "Entity_[5381497000956]",
+            "Name": "VFX_DefenseTurret",
+            "Components": {
+                "Component_[10597594482778280735]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10597594482778280735,
+                    "Parent Entity": "Entity_[1212170005646]",
+                    "Transform Data": {
+                        "Translate": [
+                            -5.0,
+                            0.0,
+                            2.0
+                        ]
+                    }
+                },
+                "Component_[10623765742465926409]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10623765742465926409,
+                    "Child Entity Order": [
+                        "Entity_[5394381902844]",
+                        "Entity_[5385791968252]",
+                        "Entity_[5390086935548]"
+                    ]
+                },
+                "Component_[13823603592528573770]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13823603592528573770
+                },
+                "Component_[14049766786381883707]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14049766786381883707
+                },
+                "Component_[17256149733042971862]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17256149733042971862
+                },
+                "Component_[5962475673186418708]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5962475673186418708
+                },
+                "Component_[5998998432804621000]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5998998432804621000
+                },
+                "Component_[7832331901590758894]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7832331901590758894
+                },
+                "Component_[8949589964082612212]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8949589964082612212
+                }
+            }
+        },
+        "Entity_[5385791968252]": {
+            "Id": "Entity_[5385791968252]",
+            "Name": "DT_Projectile",
+            "Components": {
+                "Component_[10597594482778280735]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10597594482778280735,
+                    "Parent Entity": "Entity_[5381497000956]"
+                },
+                "Component_[10623765742465926409]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10623765742465926409
+                },
+                "Component_[13823603592528573770]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13823603592528573770
+                },
+                "Component_[14049766786381883707]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14049766786381883707
+                },
+                "Component_[17256149733042971862]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17256149733042971862
+                },
+                "Component_[1981023727340623271]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 1981023727340623271,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{7456C612-B5F6-51B7-A87A-C29327E427A1}"
+                        },
+                        "assetHint": "pkfx/particles/defenseturret/fx_defenseturret_projectile.pkfx"
+                    },
+                    "PrewarmTime": 0.0,
+                    "AttributeList": {
+                        "Attributes": [
+                            {
+                                "Name": "Fire Rate",
+                                "Type": 31
+                            },
+                            {
+                                "Name": "Color1",
+                                "Type": 34
+                            },
+                            {
+                                "Name": "Color2",
+                                "Type": 34
+                            }
+                        ],
+                        "AttributesRawData": "AABAQAAAAAAAAAAAAAAAAAAAgD/YGNM+AAAAAAAAgD9Qv/E+AAAAAAAAgD8AAIA/"
+                    },
+                    "EditorAttributeList": {
+                        "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 3.0
+                                    },
+                                    {
+                                        "Color": [
+                                            1.0,
+                                            0.41229891777038574,
+                                            0.0
+                                        ]
+                                    },
+                                    {
+                                        "Color": [
+                                            0.47216272354125977,
+                                            0.0,
+                                            1.0
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Component_[5962475673186418708]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5962475673186418708
+                },
+                "Component_[5998998432804621000]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5998998432804621000
+                },
+                "Component_[7832331901590758894]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7832331901590758894
+                },
+                "Component_[8949589964082612212]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8949589964082612212
+                }
+            }
+        },
+        "Entity_[5390086935548]": {
+            "Id": "Entity_[5390086935548]",
+            "Name": "DT_Explosion",
+            "Components": {
+                "Component_[10597594482778280735]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10597594482778280735,
+                    "Parent Entity": "Entity_[5381497000956]"
+                },
+                "Component_[10623765742465926409]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10623765742465926409
+                },
+                "Component_[13823603592528573770]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13823603592528573770
+                },
+                "Component_[14049766786381883707]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14049766786381883707
+                },
+                "Component_[17256149733042971862]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17256149733042971862
+                },
+                "Component_[1981023727340623271]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 1981023727340623271,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{485191F9-1C1F-549C-9604-CB1059AC6EBB}"
+                        },
+                        "assetHint": "pkfx/particles/defenseturret/fx_defenseturret_explosion.pkfx"
+                    },
+                    "PrewarmTime": 0.0,
+                    "AttributeList": {
+                        "Attributes": [
+                            {
+                                "Name": "Color1",
+                                "Type": 34
+                            },
+                            {
+                                "Name": "Color2",
+                                "Type": 34
+                            },
+                            {
+                                "Name": "Impact Normal",
+                                "Type": 33
+                            }
+                        ],
+                        "AttributesRawData": "AACAP9gY0z4AAAAAAACAP1C/8T4AAAAAAACAPwAAgD8AAAAAAAAAAAAAgD8AAAAA"
+                    },
+                    "EditorAttributeList": {
+                        "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "Color": [
+                                            1.0,
+                                            0.41229891777038574,
+                                            0.0
+                                        ]
+                                    },
+                                    {
+                                        "Color": [
+                                            0.47216272354125977,
+                                            0.0,
+                                            1.0
+                                        ]
+                                    },
+                                    {
+                                        "ValueFZ": 1.0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Component_[5962475673186418708]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5962475673186418708
+                },
+                "Component_[5998998432804621000]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5998998432804621000
+                },
+                "Component_[7832331901590758894]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7832331901590758894
+                },
+                "Component_[8949589964082612212]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8949589964082612212
+                }
+            }
+        },
+        "Entity_[5394381902844]": {
+            "Id": "Entity_[5394381902844]",
+            "Name": "DT_Blast",
+            "Components": {
+                "Component_[10597594482778280735]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10597594482778280735,
+                    "Parent Entity": "Entity_[5381497000956]"
+                },
+                "Component_[10623765742465926409]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10623765742465926409
+                },
+                "Component_[13823603592528573770]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13823603592528573770
+                },
+                "Component_[14049766786381883707]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14049766786381883707
+                },
+                "Component_[17256149733042971862]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17256149733042971862
+                },
+                "Component_[1981023727340623271]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 1981023727340623271,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{AD1072A7-0310-5360-9AE9-16FF817A0ABA}"
+                        },
+                        "assetHint": "pkfx/particles/defenseturret/fx_defenseturret_blast.pkfx"
+                    },
+                    "PrewarmTime": 0.0,
+                    "AttributeList": {
+                        "Attributes": [
+                            {
+                                "Name": "Color1",
+                                "Type": 34
+                            },
+                            {
+                                "Name": "Color2",
+                                "Type": 34
+                            }
+                        ],
+                        "AttributesRawData": "AACAP9gY0z4AAAAAAACAP1C/8T4AAAAAAACAPwAAgD8="
+                    },
+                    "EditorAttributeList": {
+                        "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "Color": [
+                                            1.0,
+                                            0.41229891777038574,
+                                            0.0
+                                        ]
+                                    },
+                                    {
+                                        "Color": [
+                                            0.47216272354125977,
+                                            0.0,
+                                            1.0
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Component_[5962475673186418708]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5962475673186418708
+                },
+                "Component_[5998998432804621000]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5998998432804621000
+                },
+                "Component_[7832331901590758894]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7832331901590758894
+                },
+                "Component_[8949589964082612212]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8949589964082612212
+                }
+            }
+        },
+        "Entity_[631263171580]": {
+            "Id": "Entity_[631263171580]",
+            "Name": "VFX_EnergyBallTrap",
+            "Components": {
+                "Component_[10597594482778280735]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10597594482778280735,
+                    "Parent Entity": "Entity_[1212170005646]",
+                    "Transform Data": {
+                        "Translate": [
+                            -5.0,
+                            0.0,
+                            2.0
+                        ]
+                    }
+                },
+                "Component_[10623765742465926409]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10623765742465926409,
+                    "Child Entity Order": [
+                        "Entity_[648443040764]",
+                        "Entity_[1189608920060]",
+                        "Entity_[1760839570428]"
+                    ]
+                },
+                "Component_[13823603592528573770]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13823603592528573770
+                },
+                "Component_[14049766786381883707]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14049766786381883707
+                },
+                "Component_[17256149733042971862]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17256149733042971862
+                },
+                "Component_[5962475673186418708]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5962475673186418708
+                },
+                "Component_[5998998432804621000]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5998998432804621000
+                },
+                "Component_[7832331901590758894]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7832331901590758894
+                },
+                "Component_[8949589964082612212]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8949589964082612212
+                }
+            }
+        },
+        "Entity_[648443040764]": {
+            "Id": "Entity_[648443040764]",
+            "Name": "EBT_BuildUp",
+            "Components": {
+                "Component_[10597594482778280735]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10597594482778280735,
+                    "Parent Entity": "Entity_[631263171580]"
+                },
+                "Component_[10623765742465926409]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10623765742465926409
+                },
+                "Component_[13823603592528573770]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13823603592528573770
+                },
+                "Component_[14049766786381883707]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14049766786381883707
+                },
+                "Component_[17256149733042971862]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17256149733042971862
+                },
+                "Component_[1981023727340623271]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 1981023727340623271,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{81B8853D-AAF9-5C02-8591-84FBD8DF4AB1}"
+                        },
+                        "assetHint": "pkfx/particles/energyballtrap/fx_energyballtrap_buildup.pkfx"
+                    },
+                    "PrewarmTime": 0.0
+                },
+                "Component_[5962475673186418708]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5962475673186418708
+                },
+                "Component_[5998998432804621000]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5998998432804621000
+                },
+                "Component_[7832331901590758894]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7832331901590758894
+                },
+                "Component_[8949589964082612212]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8949589964082612212
+                }
+            }
+        },
         "Entity_[652588165776]": {
             "Id": "Entity_[652588165776]",
             "Name": "Arena",
@@ -824,7 +1442,7 @@
                 "Component_[32062703548468720]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 32062703548468720,
-                    "Parent Entity": "Entity_[1146574390643]"
+                    "Parent Entity": "Entity_[390745003004]"
                 },
                 "Component_[3389802515876966153]": {
                     "$type": "EditorOnlyEntityComponent",
@@ -957,6 +1575,67 @@
                 }
             }
         },
+        "Entity_[6863260718076]": {
+            "Id": "Entity_[6863260718076]",
+            "Name": "PP",
+            "Components": {
+                "Component_[12291393447321920363]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12291393447321920363
+                },
+                "Component_[12534377998729296981]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12534377998729296981
+                },
+                "Component_[1354127575068937924]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1354127575068937924
+                },
+                "Component_[16349577163978897935]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16349577163978897935
+                },
+                "Component_[17358039739698416186]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17358039739698416186
+                },
+                "Component_[2082074189110680498]": {
+                    "$type": "AZ::Render::EditorBloomComponent",
+                    "Id": 2082074189110680498,
+                    "Controller": {
+                        "Configuration": {
+                            "Enabled": true
+                        }
+                    }
+                },
+                "Component_[3076510485850454910]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3076510485850454910
+                },
+                "Component_[3796522981186795090]": {
+                    "$type": "AZ::Render::EditorPostFxLayerComponent",
+                    "Id": 3796522981186795090,
+                    "Controller": {
+                        "Configuration": {
+                            "layerCategory": 3000000
+                        }
+                    }
+                },
+                "Component_[6963791785124896930]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6963791785124896930
+                },
+                "Component_[8497985064394237999]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8497985064394237999
+                },
+                "Component_[948593196305028475]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 948593196305028475,
+                    "Parent Entity": "Entity_[1146574390643]"
+                }
+            }
+        },
         "Entity_[703887257537]": {
             "Id": "Entity_[703887257537]",
             "Name": "Player",
@@ -967,9 +1646,9 @@
                     "Parent Entity": "Entity_[755955383497]",
                     "Transform Data": {
                         "Translate": [
-                            -0.018687725067138672,
-                            0.01794612407684326,
-                            0.15808558464050293
+                            0.0,
+                            0.0,
+                            0.11999999731779099
                         ],
                         "Rotate": [
                             0.0,
@@ -1196,9 +1875,9 @@
                     "Parent Entity": "Entity_[1212170005646]",
                     "Transform Data": {
                         "Translate": [
+                            -0.0006002672016620636,
                             0.0,
-                            0.0,
-                            -0.3952139616012573
+                            -0.30000001192092896
                         ],
                         "UniformScale": 2.5
                     }
