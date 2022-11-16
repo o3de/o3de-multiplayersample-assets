@@ -1,0 +1,117 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "VFX_LaserPistol",
+        "Components": {
+            "Component_[13509764232850312088]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 13509764232850312088
+            },
+            "Component_[13892731206681900256]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 13892731206681900256,
+                "Parent Entity": "",
+                "Transform Data": {
+                    "Translate": [
+                        -15.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            "Component_[1510054019127928218]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 1510054019127928218
+            },
+            "Component_[16528009652613492009]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16528009652613492009
+            },
+            "Component_[1662641418006617854]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 1662641418006617854
+            },
+            "Component_[17113459285722617719]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 17113459285722617719
+            },
+            "Component_[331211568272544655]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 331211568272544655
+            },
+            "Component_[4116187769965594549]": {
+                "$type": "EditorLockComponent",
+                "Id": 4116187769965594549
+            },
+            "Component_[4733291173775421654]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4733291173775421654,
+                "Child Entity Order": [
+                    "Entity_[8034992598162]"
+                ]
+            },
+            "Component_[7943664263158096905]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 7943664263158096905
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[8034992598162]": {
+            "Id": "Entity_[8034992598162]",
+            "Name": "LP_Beam",
+            "Components": {
+                "Component_[1101565051742166264]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1101565051742166264
+                },
+                "Component_[14178051864589832048]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14178051864589832048
+                },
+                "Component_[14930657745513259782]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14930657745513259782
+                },
+                "Component_[16568633313153604182]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16568633313153604182
+                },
+                "Component_[370442112861491395]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 370442112861491395
+                },
+                "Component_[4384099549754939816]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4384099549754939816,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[5995706240568522927]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 5995706240568522927,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{1D43075A-690C-58FB-8433-050F35D41F37}"
+                        },
+                        "assetHint": "pkfx/particles/laserpistol/fx_laserpistol_display.pkfx"
+                    },
+                    "AttributeList": {
+                        "AttributesRawData": "AAAgQQAAAAAAAAAAAAAAAAAAAAA41UI//u1lPwAAgD8AAIA/AAAAAAAAAAAAAAAA/u1lP2Xj0j4AAAAAAACAPwAASEIAAAAAAAAAAAAAAAAzM7M+AAAAAAAAAAAAAAAA"
+                    }
+                },
+                "Component_[6929580789932258928]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6929580789932258928
+                },
+                "Component_[7191168253923317721]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7191168253923317721
+                },
+                "Component_[8001718998931194151]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8001718998931194151
+                }
+            }
+        }
+    }
+}

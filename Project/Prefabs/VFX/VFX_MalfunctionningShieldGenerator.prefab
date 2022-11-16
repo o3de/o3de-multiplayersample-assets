@@ -1,0 +1,329 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "VFX_MalfunctionningShieldGenerator",
+        "Components": {
+            "Component_[10172366231925734059]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 10172366231925734059
+            },
+            "Component_[1068268539291053336]": {
+                "$type": "EditorLockComponent",
+                "Id": 1068268539291053336
+            },
+            "Component_[1194061055848438199]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1194061055848438199
+            },
+            "Component_[14323223817246022756]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14323223817246022756
+            },
+            "Component_[189289464793913670]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 189289464793913670
+            },
+            "Component_[2904510101107492447]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2904510101107492447
+            },
+            "Component_[7305483709735046729]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7305483709735046729
+            },
+            "Component_[8089897479619056717]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 8089897479619056717,
+                "Child Entity Order": [
+                    "Entity_[10191723905677]",
+                    "Entity_[10196018872973]",
+                    "Entity_[10200313840269]"
+                ]
+            },
+            "Component_[8613705082793623955]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 8613705082793623955
+            },
+            "Component_[894676311918997456]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 894676311918997456,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[10191723905677]": {
+            "Id": "Entity_[10191723905677]",
+            "Name": "MSN_Idle",
+            "Components": {
+                "Component_[10040885820069305928]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10040885820069305928
+                },
+                "Component_[11074376457908342523]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11074376457908342523
+                },
+                "Component_[1251869082504095457]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1251869082504095457,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 7373152618680589075
+                        },
+                        {
+                            "ComponentId": 3234713445979366400,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[13450799899000447234]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13450799899000447234
+                },
+                "Component_[14358970118647557646]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14358970118647557646
+                },
+                "Component_[15289662140961835806]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15289662140961835806
+                },
+                "Component_[3234713445979366400]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 3234713445979366400,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{BBFC5D22-AE26-50A8-B70F-708A977C9757}"
+                        },
+                        "assetHint": "pkfx/particles/malfunctionningshieldgenerator/fx_malfunctionningshieldgenerator_idle.pkfx"
+                    },
+                    "PrewarmTime": 0.0,
+                    "AttributeList": {
+                        "Attributes": [
+                            {
+                                "Name": "RNG Delay",
+                                "Type": 32
+                            },
+                            {
+                                "Name": "Global Scale",
+                                "Type": 31
+                            }
+                        ],
+                        "AttributesRawData": "AACAPgAAAD8AAAAAAAAAAAAAgEAAAAAAAAAAAAAAAAA="
+                    },
+                    "EditorAttributeList": {
+                        "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 0.25,
+                                        "ValueFY": 0.5
+                                    },
+                                    {
+                                        "ValueFX": 4.0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Component_[7373152618680589075]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7373152618680589075,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[7522844500557801902]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7522844500557801902
+                },
+                "Component_[9908544188953655267]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9908544188953655267
+                }
+            }
+        },
+        "Entity_[10196018872973]": {
+            "Id": "Entity_[10196018872973]",
+            "Name": "MSN_BuildUp",
+            "Components": {
+                "Component_[10040885820069305928]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10040885820069305928
+                },
+                "Component_[11074376457908342523]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11074376457908342523
+                },
+                "Component_[1251869082504095457]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1251869082504095457,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 7373152618680589075
+                        },
+                        {
+                            "ComponentId": 3234713445979366400,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[13450799899000447234]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13450799899000447234
+                },
+                "Component_[14358970118647557646]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14358970118647557646
+                },
+                "Component_[15289662140961835806]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15289662140961835806
+                },
+                "Component_[3234713445979366400]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 3234713445979366400,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{48154170-AF52-558F-B0F9-5C9C83A05952}"
+                        },
+                        "assetHint": "pkfx/particles/malfunctionningshieldgenerator/fx_malfunctionningshieldgenerator_buildup.pkfx"
+                    },
+                    "PrewarmTime": 0.0,
+                    "AttributeList": {
+                        "Attributes": [
+                            {
+                                "Name": "RNG Delay",
+                                "Type": 32
+                            },
+                            {
+                                "Name": "Global Scale",
+                                "Type": 31
+                            }
+                        ],
+                        "AttributesRawData": "AACAPgAAAD8AAAAAAAAAAAAAgEAAAAAAAAAAAAAAAAA="
+                    },
+                    "EditorAttributeList": {
+                        "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 0.25,
+                                        "ValueFY": 0.5
+                                    },
+                                    {
+                                        "ValueFX": 4.0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Component_[7373152618680589075]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7373152618680589075,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[7522844500557801902]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7522844500557801902
+                },
+                "Component_[9908544188953655267]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9908544188953655267
+                }
+            }
+        },
+        "Entity_[10200313840269]": {
+            "Id": "Entity_[10200313840269]",
+            "Name": "MSN_Explosion",
+            "Components": {
+                "Component_[10040885820069305928]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10040885820069305928
+                },
+                "Component_[11074376457908342523]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11074376457908342523
+                },
+                "Component_[1251869082504095457]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1251869082504095457,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 7373152618680589075
+                        },
+                        {
+                            "ComponentId": 3234713445979366400,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[13450799899000447234]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13450799899000447234
+                },
+                "Component_[14358970118647557646]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14358970118647557646
+                },
+                "Component_[15289662140961835806]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15289662140961835806
+                },
+                "Component_[3234713445979366400]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 3234713445979366400,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{C6FF9EB2-B4EC-5B27-9714-38D563B346BC}"
+                        },
+                        "assetHint": "pkfx/particles/malfunctionningshieldgenerator/fx_malfunctionningshieldgenerator_explosion.pkfx"
+                    },
+                    "PrewarmTime": 0.0,
+                    "AttributeList": {
+                        "Attributes": [
+                            {
+                                "Name": "RNG Delay",
+                                "Type": 32
+                            },
+                            {
+                                "Name": "Global Scale",
+                                "Type": 31
+                            }
+                        ],
+                        "AttributesRawData": "AABAQAAAoEAAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAAA="
+                    },
+                    "EditorAttributeList": {
+                        "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 3.0,
+                                        "ValueFY": 5.0
+                                    },
+                                    {
+                                        "ValueFX": 4.0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Component_[7373152618680589075]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7373152618680589075,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[7522844500557801902]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7522844500557801902
+                },
+                "Component_[9908544188953655267]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9908544188953655267
+                }
+            }
+        }
+    }
+}

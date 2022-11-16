@@ -1,57 +1,57 @@
 {
     "ContainerEntity": {
         "Id": "ContainerEntity",
-        "Name": "ArmorPowerUp",
+        "Name": "VFX_ArmorPowerUp",
         "Components": {
-            "Component_[10119426554405576763]": {
-                "$type": "EditorVisibilityComponent",
-                "Id": 10119426554405576763
-            },
-            "Component_[10629478191060781284]": {
-                "$type": "EditorPendingCompositionComponent",
-                "Id": 10629478191060781284
-            },
-            "Component_[10641443154943840132]": {
-                "$type": "EditorDisabledCompositionComponent",
-                "Id": 10641443154943840132
-            },
-            "Component_[12021569826183845399]": {
-                "$type": "EditorLockComponent",
-                "Id": 12021569826183845399
-            },
-            "Component_[15824518675400825620]": {
-                "$type": "EditorEntitySortComponent",
-                "Id": 15824518675400825620,
-                "Child Entity Order": [
-                    "Entity_[47779749323128]"
-                ]
-            },
-            "Component_[17499378918275433105]": {
+            "Component_[13565976525798410457]": {
                 "$type": "EditorOnlyEntityComponent",
-                "Id": 17499378918275433105
+                "Id": 13565976525798410457
             },
-            "Component_[410861618892580258]": {
-                "$type": "EditorEntityIconComponent",
-                "Id": 410861618892580258
-            },
-            "Component_[8317192622214012525]": {
-                "$type": "EditorInspectorComponent",
-                "Id": 8317192622214012525
-            },
-            "Component_[8862566224958693294]": {
+            "Component_[14871661921840929887]": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                "Id": 8862566224958693294,
+                "Id": 14871661921840929887,
                 "Parent Entity": ""
             },
-            "Component_[9999352845635376822]": {
+            "Component_[1688468953936436177]": {
+                "$type": "EditorLockComponent",
+                "Id": 1688468953936436177
+            },
+            "Component_[17991226100419411381]": {
                 "$type": "EditorPrefabComponent",
-                "Id": 9999352845635376822
+                "Id": 17991226100419411381
+            },
+            "Component_[4703714045374163166]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4703714045374163166
+            },
+            "Component_[4897506968162993320]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4897506968162993320,
+                "Child Entity Order": [
+                    "Entity_[755023031442]"
+                ]
+            },
+            "Component_[5208320764711929826]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5208320764711929826
+            },
+            "Component_[5499506523789081674]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5499506523789081674
+            },
+            "Component_[7046456381692957169]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 7046456381692957169
+            },
+            "Component_[8711617607880246107]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 8711617607880246107
             }
         }
     },
     "Entities": {
-        "Entity_[47779749323128]": {
-            "Id": "Entity_[47779749323128]",
+        "Entity_[755023031442]": {
+            "Id": "Entity_[755023031442]",
             "Name": "ArmorPowerUp",
             "Components": {
                 "Component_[14520515549971758043]": {
@@ -70,15 +70,15 @@
                             "ComponentId": 16201962332994798658
                         },
                         {
-                            "ComponentId": 17265309356257159474,
+                            "ComponentId": 3077979769184771587,
                             "SortIndex": 1
                         },
                         {
-                            "ComponentId": 1837286717718438312,
+                            "ComponentId": 17265309356257159474,
                             "SortIndex": 2
                         },
                         {
-                            "ComponentId": 3077979769184771587,
+                            "ComponentId": 1837286717718438312,
                             "SortIndex": 3
                         }
                     ]
@@ -159,81 +159,7 @@
                 },
                 "Component_[8582145663172099639]": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 8582145663172099639,
-                    "Child Entity Order": [
-                        "Entity_[47784044290424]"
-                    ]
-                }
-            }
-        },
-        "Entity_[47784044290424]": {
-            "Id": "Entity_[47784044290424]",
-            "Name": "Player",
-            "Components": {
-                "Component_[10074803560667747353]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 10074803560667747353,
-                    "Parent Entity": "Entity_[47779749323128]",
-                    "Transform Data": {
-                        "Translate": [
-                            0.0,
-                            0.0,
-                            0.11999999731779099
-                        ],
-                        "Rotate": [
-                            0.0,
-                            0.0,
-                            180.0
-                        ],
-                        "UniformScale": 0.4000000059604645
-                    }
-                },
-                "Component_[1282770387817282569]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 1282770387817282569
-                },
-                "Component_[1286744171325866906]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 1286744171325866906
-                },
-                "Component_[13444090542736063916]": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 13444090542736063916,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{49D8DCD0-7383-5AC7-8A87-CE6267605407}",
-                                    "subId": 281551180
-                                },
-                                "assetHint": "mixamo/ybot/default_ybot_81d1c594_e857_55ca_ad40_5aa883cb81cf_.azmodel"
-                            }
-                        }
-                    }
-                },
-                "Component_[1374382757549658682]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 1374382757549658682
-                },
-                "Component_[14964157579038432110]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 14964157579038432110
-                },
-                "Component_[17658761429073450344]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 17658761429073450344
-                },
-                "Component_[17810530676031093727]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 17810530676031093727
-                },
-                "Component_[3218348110885173260]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 3218348110885173260
-                },
-                "Component_[8380548651781124930]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 8380548651781124930
+                    "Id": 8582145663172099639
                 }
             }
         }
