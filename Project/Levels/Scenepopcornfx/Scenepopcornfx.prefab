@@ -332,8 +332,7 @@
                     "Id": 5659018495349776219,
                     "Child Entity Order": [
                         "Entity_[631263171580]",
-                        "Entity_[5381497000956]",
-                        "Entity_[755955383497]"
+                        "Entity_[5381497000956]"
                     ]
                 },
                 "Component_[6931210487214091036]": {
@@ -1092,6 +1091,27 @@
                                         ]
                                     }
                                 ]
+                            },
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 3.0
+                                    },
+                                    {
+                                        "Color": [
+                                            1.0,
+                                            0.41229891777038574,
+                                            0.0
+                                        ]
+                                    },
+                                    {
+                                        "Color": [
+                                            0.47216272354125977,
+                                            0.0,
+                                            1.0
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -1188,6 +1208,27 @@
                                         "ValueFZ": 1.0
                                     }
                                 ]
+                            },
+                            {
+                                "Attributes": [
+                                    {
+                                        "Color": [
+                                            1.0,
+                                            0.41229891777038574,
+                                            0.0
+                                        ]
+                                    },
+                                    {
+                                        "Color": [
+                                            0.47216272354125977,
+                                            0.0,
+                                            1.0
+                                        ]
+                                    },
+                                    {
+                                        "ValueFZ": 1.0
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -1260,6 +1301,24 @@
                     },
                     "EditorAttributeList": {
                         "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "Color": [
+                                            1.0,
+                                            0.41229891777038574,
+                                            0.0
+                                        ]
+                                    },
+                                    {
+                                        "Color": [
+                                            0.47216272354125977,
+                                            0.0,
+                                            1.0
+                                        ]
+                                    }
+                                ]
+                            },
                             {
                                 "Attributes": [
                                     {
@@ -1636,77 +1695,6 @@
                 }
             }
         },
-        "Entity_[703887257537]": {
-            "Id": "Entity_[703887257537]",
-            "Name": "Player",
-            "Components": {
-                "Component_[10074803560667747353]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 10074803560667747353,
-                    "Parent Entity": "Entity_[755955383497]",
-                    "Transform Data": {
-                        "Translate": [
-                            0.0,
-                            0.0,
-                            0.11999999731779099
-                        ],
-                        "Rotate": [
-                            0.0,
-                            0.0,
-                            180.0
-                        ],
-                        "UniformScale": 0.4000000059604645
-                    }
-                },
-                "Component_[1282770387817282569]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 1282770387817282569
-                },
-                "Component_[1286744171325866906]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 1286744171325866906
-                },
-                "Component_[13444090542736063916]": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 13444090542736063916,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{49D8DCD0-7383-5AC7-8A87-CE6267605407}",
-                                    "subId": 281551180
-                                },
-                                "assetHint": "mixamo/ybot/default_ybot_81d1c594_e857_55ca_ad40_5aa883cb81cf_.azmodel"
-                            }
-                        }
-                    }
-                },
-                "Component_[1374382757549658682]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 1374382757549658682
-                },
-                "Component_[14964157579038432110]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 14964157579038432110
-                },
-                "Component_[17658761429073450344]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 17658761429073450344
-                },
-                "Component_[17810530676031093727]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 17810530676031093727
-                },
-                "Component_[3218348110885173260]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 3218348110885173260
-                },
-                "Component_[8380548651781124930]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 8380548651781124930
-                }
-            }
-        },
         "Entity_[742782478992]": {
             "Id": "Entity_[742782478992]",
             "Name": "Wall01",
@@ -1852,93 +1840,28 @@
                     "Id": 7530482719958200469
                 }
             }
-        },
-        "Entity_[755955383497]": {
-            "Id": "Entity_[755955383497]",
-            "Name": "ArmorPowerUp",
-            "Components": {
-                "Component_[14520515549971758043]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 14520515549971758043
+        }
+    },
+    "Instances": {
+        "Instance_[47771159388536]": {
+            "Source": "Prefabs/ArmorPowerUp.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[8862566224958693294]/Parent Entity",
+                    "value": "../Entity_[1212170005646]"
                 },
-                "Component_[147813019651072758]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 147813019651072758
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[8862566224958693294]/Transform Data/Translate/0",
+                    "value": -0.0006002672016620636
                 },
-                "Component_[14824938202215686664]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 14824938202215686664
-                },
-                "Component_[16201962332994798658]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 16201962332994798658,
-                    "Parent Entity": "Entity_[1212170005646]",
-                    "Transform Data": {
-                        "Translate": [
-                            -0.0006002672016620636,
-                            0.0,
-                            -0.30000001192092896
-                        ],
-                        "UniformScale": 2.5
-                    }
-                },
-                "Component_[16207546360593731872]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 16207546360593731872
-                },
-                "Component_[17265309356257159474]": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 17265309356257159474,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{6373F5F5-C403-5126-A9A9-8682C321579B}",
-                                    "subId": 278095953
-                                },
-                                "assetHint": "materialeditor/viewportmodels/polarsphere.azmodel"
-                            }
-                        }
-                    }
-                },
-                "Component_[1837286717718438312]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 1837286717718438312,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": {
-                                "{}": {
-                                    "MaterialAsset": {
-                                        "assetId": {
-                                            "guid": "{73881AAA-931F-5B36-A53D-0124A7059D69}"
-                                        },
-                                        "assetHint": "assets/materials/armorpowerup.azmaterial"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                },
-                "Component_[2204577704701418040]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 2204577704701418040
-                },
-                "Component_[7452690845587483811]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 7452690845587483811
-                },
-                "Component_[7581940926525940740]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 7581940926525940740
-                },
-                "Component_[8582145663172099639]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 8582145663172099639,
-                    "Child Entity Order": [
-                        "Entity_[703887257537]"
-                    ]
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[8862566224958693294]/Transform Data/Translate/2",
+                    "value": -0.30000001192092896
                 }
-            }
+            ]
         }
     }
 }

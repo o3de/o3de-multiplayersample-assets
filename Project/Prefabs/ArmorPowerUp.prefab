@@ -3,55 +3,55 @@
         "Id": "ContainerEntity",
         "Name": "ArmorPowerUp",
         "Components": {
-            "Component_[11924538426917035727]": {
+            "Component_[10119426554405576763]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 10119426554405576763
+            },
+            "Component_[10629478191060781284]": {
                 "$type": "EditorPendingCompositionComponent",
-                "Id": 11924538426917035727
+                "Id": 10629478191060781284
             },
-            "Component_[12462872582248710761]": {
-                "$type": "EditorLockComponent",
-                "Id": 12462872582248710761
-            },
-            "Component_[13479121970208466794]": {
-                "$type": "EditorPrefabComponent",
-                "Id": 13479121970208466794
-            },
-            "Component_[14813284312979962230]": {
+            "Component_[10641443154943840132]": {
                 "$type": "EditorDisabledCompositionComponent",
-                "Id": 14813284312979962230
+                "Id": 10641443154943840132
             },
-            "Component_[16584700326702676976]": {
-                "$type": "EditorInspectorComponent",
-                "Id": 16584700326702676976
+            "Component_[12021569826183845399]": {
+                "$type": "EditorLockComponent",
+                "Id": 12021569826183845399
             },
-            "Component_[16826396093292484013]": {
+            "Component_[15824518675400825620]": {
                 "$type": "EditorEntitySortComponent",
-                "Id": 16826396093292484013,
+                "Id": 15824518675400825620,
                 "Child Entity Order": [
-                    "Entity_[674890179520]"
+                    "Entity_[47779749323128]"
                 ]
             },
-            "Component_[18293645473745503047]": {
+            "Component_[17499378918275433105]": {
                 "$type": "EditorOnlyEntityComponent",
-                "Id": 18293645473745503047
+                "Id": 17499378918275433105
             },
-            "Component_[474264556794934609]": {
-                "$type": "EditorVisibilityComponent",
-                "Id": 474264556794934609
-            },
-            "Component_[6381900684525500253]": {
+            "Component_[410861618892580258]": {
                 "$type": "EditorEntityIconComponent",
-                "Id": 6381900684525500253
+                "Id": 410861618892580258
             },
-            "Component_[7817155715185673612]": {
+            "Component_[8317192622214012525]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 8317192622214012525
+            },
+            "Component_[8862566224958693294]": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                "Id": 7817155715185673612,
+                "Id": 8862566224958693294,
                 "Parent Entity": ""
+            },
+            "Component_[9999352845635376822]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 9999352845635376822
             }
         }
     },
     "Entities": {
-        "Entity_[674890179520]": {
-            "Id": "Entity_[674890179520]",
+        "Entity_[47779749323128]": {
+            "Id": "Entity_[47779749323128]",
             "Name": "ArmorPowerUp",
             "Components": {
                 "Component_[14520515549971758043]": {
@@ -76,6 +76,10 @@
                         {
                             "ComponentId": 1837286717718438312,
                             "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 3077979769184771587,
+                            "SortIndex": 3
                         }
                     ]
                 },
@@ -128,9 +132,9 @@
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 2204577704701418040
                 },
-                "Component_[2898588236807910462]": {
+                "Component_[3077979769184771587]": {
                     "$type": "EditorScriptCanvasComponent",
-                    "Id": 2898588236807910462,
+                    "Id": 3077979769184771587,
                     "configuration": {
                         "sourceHandle": {
                             "id": "{F6AC97DB-6813-5940-B095-CB56D190DD17}",
@@ -157,24 +161,24 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 8582145663172099639,
                     "Child Entity Order": [
-                        "Entity_[679185146816]"
+                        "Entity_[47784044290424]"
                     ]
                 }
             }
         },
-        "Entity_[679185146816]": {
-            "Id": "Entity_[679185146816]",
+        "Entity_[47784044290424]": {
+            "Id": "Entity_[47784044290424]",
             "Name": "Player",
             "Components": {
                 "Component_[10074803560667747353]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 10074803560667747353,
-                    "Parent Entity": "Entity_[674890179520]",
+                    "Parent Entity": "Entity_[47779749323128]",
                     "Transform Data": {
                         "Translate": [
-                            -0.018687725067138672,
-                            0.01794612407684326,
-                            0.15808558464050293
+                            0.0,
+                            0.0,
+                            0.11999999731779099
                         ],
                         "Rotate": [
                             0.0,
