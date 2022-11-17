@@ -1,0 +1,36 @@
+//----------------------------------------------------------------------------
+// Copyright Persistant Studios, SARL. All Rights Reserved.
+// https://www.popcornfx.com/terms-and-conditions/
+//----------------------------------------------------------------------------
+
+#pragma once
+
+#include <Atom/Features/SrgSemantics.azsli>
+
+ShaderResourceGroup MaterialSrg : SRG_PerMaterial
+{
+    // Textures:
+    Sampler     m_sampler
+    {
+        AddressU = Wrap;
+        AddressV = Wrap;
+        MinFilter = Linear;
+        MagFilter = Linear;
+        MipFilter = Linear;
+    };
+
+    Texture2D                   m_diffuseMap;
+    Texture2D                   m_diffuseRampMap;
+    Texture2D                   m_emissiveMap;
+    Texture2D                   m_emissiveRampMap;
+    Texture2D                   m_motionVectorsMap;
+    Texture2D                   m_alphaMap;
+    Texture2D                   m_normalMap;
+    Texture2D                   m_distortionMap;
+
+    float                       m_roughness;
+    float                       m_metalness;
+    float2                      m_motionVectorsScale;
+    float                       m_invSoftnessDistance;
+    float                       m_maskThreshold;
+}

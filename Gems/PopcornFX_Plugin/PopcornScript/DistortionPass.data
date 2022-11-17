@@ -1,0 +1,28 @@
+{
+	"Name": "DistortionPass",
+	"TemplateName": "DistortionParentTemplate",
+	"Enabled": false,
+	"Connections": [
+		{
+			"LocalSlot": "InputLinearDepth",
+			"AttachmentRef": {
+				"Pass": "DepthPrePass",
+				"Attachment": "DepthLinear"
+			}
+		},
+		{
+			"LocalSlot": "InputDepthStencil",
+			"AttachmentRef": {
+				"Pass": "DepthPrePass",
+				"Attachment": "Depth"
+			}
+		},
+		{
+			"LocalSlot": "InputColor",
+			"AttachmentRef": {
+				"Pass": "TransparentPass",
+				"Attachment": "InputOutput"
+			}
+		}
+	]
+}

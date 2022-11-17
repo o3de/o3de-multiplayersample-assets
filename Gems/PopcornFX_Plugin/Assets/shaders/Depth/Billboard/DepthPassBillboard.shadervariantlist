@@ -1,0 +1,11 @@
+{
+    "Shader" : "DepthPassBillboard.shader",
+    "Variants" : [
+        {
+            "StableId": 1, "Options": { "o_hasBillboardCapsules": "false" }
+        },
+        {
+            "StableId": 2, "Options": { "o_hasBillboardCapsules": "true" }
+        }
+    ]
+}

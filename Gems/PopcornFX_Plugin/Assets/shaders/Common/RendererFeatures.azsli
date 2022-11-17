@@ -1,0 +1,219 @@
+//----------------------------------------------------------------------------
+// Copyright Persistant Studios, SARL. All Rights Reserved.
+// https://www.popcornfx.com/terms-and-conditions/
+//----------------------------------------------------------------------------
+
+// Needs "Atom/Features/PBR/TransparentPassSrg.azsli" and "MaterialSrg.azsli" included before
+
+#pragma once
+
+#include <Atom/Features/PBR/AlphaUtils.azsli>
+
+//----------------------------------------------------------------------------
+// Motion vectors:
+//----------------------------------------------------------------------------
+
+void 	GetMotionVectorsUV(inout float2 uv0, inout float2 uv1, float frameLerp)
+{
+	if (HasOneRendererFlags(Has_AnimBlend_MotionVectors))
+	{
+		float2	scale = MaterialSrg::m_motionVectorsScale;
+		float2 	curVector = MaterialSrg::m_motionVectorsMap.Sample(MaterialSrg::m_sampler, uv0).xy;
+		float2 	nextVector = MaterialSrg::m_motionVectorsMap.Sample(MaterialSrg::m_sampler, uv1).xy;
+
+		curVector = ((curVector * 2.0f) - 1.0f) * scale;
+		nextVector = ((nextVector * 2.0f) - 1.0f) * scale;
+
+		curVector *= frameLerp;
+		nextVector *= (1.0f - frameLerp);
+
+		uv0 = uv0 - curVector;
+		uv1 = uv1 + nextVector;
+	}
+}
+
+//----------------------------------------------------------------------------
+// Sample particle textures:
+//----------------------------------------------------------------------------
+
+float4 	GetColorWithRamp(Texture2D colorMap, Texture2D rampMap, float2 uv, bool hasRamp)
+{
+	float4 	diffuseColor = colorMap.Sample(MaterialSrg::m_sampler, uv);
+	if (hasRamp)
+	{
+		float2 	rampUV = float2(diffuseColor.r, 0.0);
+		diffuseColor.rgb = rampMap.Sample(MaterialSrg::m_sampler, rampUV).rgb;
+	}
+	return diffuseColor;
+}
+
+float4 	GetColorWithRamp(Texture2D colorMap, Texture2D rampMap, float2 uv0, float2 uv1, float frameLerp, bool hasRamp)
+{
+	float4 	diffuseColor = colorMap.Sample(MaterialSrg::m_sampler, uv0);
+	float4 	diffuseColor1 = colorMap.Sample(MaterialSrg::m_sampler, uv1);
+	diffuseColor = lerp(diffuseColor, diffuseColor1, frameLerp);
+	if (hasRamp)
+	{
+		float2 	rampUV = float2(diffuseColor.r, 0.0);
+		diffuseColor.rgb = rampMap.Sample(MaterialSrg::m_sampler, rampUV).rgb;
+	}
+	return diffuseColor;
+}
+
+//----------------------------------------------------------------------------
+// Diffuse Texture:
+//----------------------------------------------------------------------------
+
+float4 	GetDiffuseColor(float2 uv)
+{
+	if (HasOneRendererFlags(Has_Diffuse))
+	{
+		const bool 	hasRamp = HasOneRendererFlags(Has_DiffuseRamp);
+		return GetColorWithRamp(MaterialSrg::m_diffuseMap, MaterialSrg::m_diffuseRampMap, uv, hasRamp);
+	}
+	return float4(0, 0, 0, 0);
+}
+
+float4 	GetDiffuseColor(float2 uv0, float2 uv1, float frameLerp)
+{
+	if (HasOneRendererFlags(Has_Diffuse))
+	{
+		const bool 	hasRamp = HasOneRendererFlags(Has_DiffuseRamp);
+		return GetColorWithRamp(MaterialSrg::m_diffuseMap, MaterialSrg::m_diffuseRampMap, uv0, uv1, frameLerp, hasRamp);
+	}
+	return float4(0, 0, 0, 0);
+}
+
+//----------------------------------------------------------------------------
+// Emissive Texture:
+//----------------------------------------------------------------------------
+
+float4 	GetEmissiveColor(float2 uv)
+{
+	if (HasOneRendererFlags(Has_Emissive))
+	{
+		const bool 	hasRamp = HasOneRendererFlags(Has_EmissiveRamp);
+		return GetColorWithRamp(MaterialSrg::m_emissiveMap, MaterialSrg::m_emissiveRampMap, uv, hasRamp);
+	}
+	return float4(0, 0, 0, 0);
+}
+
+float4 	GetEmissiveColor(float2 uv0, float2 uv1, float frameLerp)
+{
+	if (HasOneRendererFlags(Has_Emissive))
+	{
+		const bool 	hasRamp = HasOneRendererFlags(Has_EmissiveRamp);
+		return GetColorWithRamp(MaterialSrg::m_emissiveMap, MaterialSrg::m_emissiveRampMap, uv0, uv1, frameLerp, hasRamp);
+	}
+	return float4(0, 0, 0, 0);
+}
+
+//----------------------------------------------------------------------------
+// Distortion Texture:
+//----------------------------------------------------------------------------
+
+float4 	GetDistortionColor(float2 uv)
+{
+	if (HasOneRendererFlags(Has_Distortion))
+	{
+		float4 val = MaterialSrg::m_distortionMap.Sample(MaterialSrg::m_sampler, uv).yxzw;
+		val.xy *= step(float2(0.005f, 0.005f), abs(val.xy));
+		return val;
+	}
+	return float4(0, 0, 0, 0);
+}
+
+
+float4 	GetDistortionColor(float2 uv0, float2 uv1, float frameLerp)
+{
+	if (HasOneRendererFlags(Has_Distortion))
+	{
+		float4 	distortionColor = MaterialSrg::m_distortionMap.Sample(MaterialSrg::m_sampler, uv0);
+		float4 	distortionColor1 = MaterialSrg::m_distortionMap.Sample(MaterialSrg::m_sampler, uv1);
+		float4	val = lerp(distortionColor, distortionColor1, frameLerp).yxzw;
+		val.xy *= step(float2(0.005f, 0.005f), abs(val.xy));
+		return val;
+	}
+	return float4(0, 0, 0, 0);
+}
+
+//----------------------------------------------------------------------------
+// Alpha Remap:
+//----------------------------------------------------------------------------
+
+float4 	ApplyAlphaRemap(float4 diffuseColor, float cursor)
+{
+	float2    alphaTexCoord = float2(diffuseColor.a, cursor);
+	diffuseColor.a = MaterialSrg::m_alphaMap.Sample(MaterialSrg::m_sampler, alphaTexCoord).r;
+	return diffuseColor;
+}
+
+//----------------------------------------------------------------------------
+// Ribbons Correct Deformation:
+//----------------------------------------------------------------------------
+
+float4 	GetCorrectDeformationUVFactors(float2 uvFactors, uint vtxID)
+{
+	uint        corner = vtxID % 4U;
+    switch (corner)
+    {
+    case 0U:
+        return float4(1.0, 1.0, 1.0, 1.0);
+    case 1U:
+        return float4(uvFactors.x, 1.0, 1.0, 1.0 / uvFactors.y);
+    case 2U:
+        return float4(1.0, uvFactors.y, 1.0 / uvFactors.x, 1.0);
+    default:
+        return float4(1.0, 1.0, 1.0, 1.0);
+    }
+}
+
+float2 	GetCorrectDeformationUV(float2 texCoords, float4 uvFactors, float4 uvRemap)
+{
+	float2    uv;
+    if (texCoords.x + texCoords.y < 1)
+        uv = texCoords / uvFactors.xy;
+    else
+        uv = 1.0 - ((1.0 - texCoords) / uvFactors.zw);
+    if (HasOneRendererFlags(HAS_RotateUV))
+        uv = uv.yx;
+    uv = uv * uvRemap.xy + uvRemap.zw;
+    return uv;
+}
+
+//----------------------------------------------------------------------------
+// Soft particles:
+//----------------------------------------------------------------------------
+
+float   GetLinearDepth(float depth)
+{
+	const float zFar = ViewSrg::GetFarZ();
+	const float zRange = ViewSrg::GetFarZMinusNearZ();
+	const float zFarTimesNear = ViewSrg::GetFarZTimesNearZ();
+	return (-zFarTimesNear) / (depth * zRange - zFar);
+}
+
+float   GetSoftParticleFade(float3 clipPos)
+{
+	// Get screen UV:
+	float2 screenUV = clipPos.xy * 0.5f + 0.5f;
+	screenUV.y = 1.0f - screenUV.y;
+	// Get depth:
+	const float fragDepth = GetLinearDepth(clipPos.z);
+	// Sample linear depth:
+	const float sceneDepth = PassSrg::m_linearDepthTexture.Sample(PassSrg::LinearSampler, screenUV).r;
+	const float invSoftnessDistance = MaterialSrg::m_invSoftnessDistance;
+	const float depthFade = saturate((sceneDepth - fragDepth) * invSoftnessDistance);
+	return depthFade;
+}
+
+//----------------------------------------------------------------------------
+// Masked particles:
+//----------------------------------------------------------------------------
+
+void    ApplyOpaqueMasked(float alpha)
+{
+	if (HasOneRendererFlags(HAS_Masked))
+        CheckClipping(alpha, 1.0f - MaterialSrg::m_maskThreshold);
+}
+

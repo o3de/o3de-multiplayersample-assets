@@ -1,0 +1,32 @@
+//----------------------------------------------------------------------------
+// Copyright Persistant Studios, SARL. All Rights Reserved.
+// https://www.popcornfx.com/terms-and-conditions/
+//----------------------------------------------------------------------------
+
+#include <viewsrg.srgi>
+
+#include    "../../Common/MeshSrg.azsli"
+
+struct VertexInput
+{
+    float3  m_position : POSITION;
+    uint    m_instanceID : SV_InstanceID;
+};
+
+struct VSDepthOutput
+{
+    float4 m_position : SV_Position;
+};
+
+VSDepthOutput DepthPassVS(VertexInput input)
+{
+    VSDepthOutput	output;
+
+    uint        particleIdx = input.m_instanceID;
+
+    float4x4    mat = transpose(RendererSrg::m_matrices[particleIdx]);
+    float4      pos = mul(mat, float4(input.m_position.xyz, 1));
+    output.m_position = mul(ViewSrg::m_viewProjectionMatrix, float4(pos.xyz, 1.0f));
+
+    return output;
+}

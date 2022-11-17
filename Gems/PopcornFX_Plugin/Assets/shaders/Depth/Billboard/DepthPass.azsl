@@ -1,0 +1,36 @@
+//----------------------------------------------------------------------------
+// Copyright Persistant Studios, SARL. All Rights Reserved.
+// https://www.popcornfx.com/terms-and-conditions/
+//----------------------------------------------------------------------------
+
+#include <viewsrg.srgi>
+#include <Atom/Features/PBR/DefaultObjectSrg.azsli>
+
+// Billboarding shader:
+#define 	PK_DEPTH_ONLY_SHADER
+#include "../../Common/ComputeBillboardVertex.azsli"
+
+struct VertexInput
+{
+    float2 m_uv : POSITION;
+    uint m_instanceID : SV_InstanceID;
+};
+
+struct VSDepthOutput
+{
+    float4 m_position : SV_Position;
+};
+
+VSDepthOutput DepthPassVS(VertexInput input)
+{
+    VSDepthOutput	output;
+    uint			particleIdx = RendererSrg::m_indices[input.m_instanceID];
+
+    // Billboarding outputs:
+    float3  vtxWorldPos;
+
+    ComputeBillboardVertex(particleIdx, input.m_uv, vtxWorldPos);
+ 
+    output.m_position = mul(ViewSrg::m_viewProjectionMatrix, float4(vtxWorldPos, 1.0f));
+    return output;
+}

@@ -1,0 +1,17 @@
+{
+    "Shader" : "MeshLit_Legacy.shader",
+    "Variants" : [
+        {
+            "StableId": 1, "Options": { "o_hasDiffuse": "false", "o_hasEmissive": "false" }
+        },
+        {
+            "StableId": 2, "Options": { "o_hasDiffuse": "true", "o_hasEmissive": "false" }
+        },
+        {
+            "StableId": 3, "Options": { "o_hasDiffuse": "true", "o_hasEmissive": "true" }
+        },
+        {
+            "StableId": 4, "Options": { "o_hasDiffuse": "false", "o_hasEmissive": "true" }
+        }
+    ]
+}

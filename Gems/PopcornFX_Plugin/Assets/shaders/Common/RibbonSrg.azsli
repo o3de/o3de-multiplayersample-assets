@@ -1,0 +1,30 @@
+//----------------------------------------------------------------------------
+// Copyright Persistant Studios, SARL. All Rights Reserved.
+// https://www.popcornfx.com/terms-and-conditions/
+//----------------------------------------------------------------------------
+
+#pragma once
+
+#include <Atom/Features/SrgSemantics.azsli>
+
+ShaderResourceGroup RendererSrg : SRG_PerDraw
+{
+    // Draw call flags:
+    uint                        m_rendererFlags;
+    uint 						m_particleCount;
+    // Material:
+    StructuredBuffer<float4>    m_diffuseColors;
+    StructuredBuffer<float>    	m_emissiveColors;
+    StructuredBuffer<float4>    m_distortionColors;
+    StructuredBuffer<float>    	m_alphaCursors;
+}
+
+uint 	GetParticleIdx(uint vertexIdx)
+{
+	uint 	particleIdx = vertexIdx / 4;
+	if (vertexIdx % 4 > 1)
+		particleIdx = min(particleIdx + 1, RendererSrg::m_particleCount - 1);
+	return particleIdx;
+}
+
+#include "RendererSrg.azsli"

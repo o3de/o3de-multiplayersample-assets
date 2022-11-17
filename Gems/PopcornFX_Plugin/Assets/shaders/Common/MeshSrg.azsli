@@ -1,0 +1,30 @@
+//----------------------------------------------------------------------------
+// Copyright Persistant Studios, SARL. All Rights Reserved.
+// https://www.popcornfx.com/terms-and-conditions/
+//----------------------------------------------------------------------------
+
+#pragma once
+
+#include <Atom/Features/SrgSemantics.azsli>
+
+ShaderResourceGroup RendererSrg : SRG_PerDraw
+{
+    // Draw call flags:
+    uint                        m_rendererFlags;
+
+    // Geometry:
+    StructuredBuffer<float4x4>  m_matrices;
+
+    // Material:
+    StructuredBuffer<float4>    m_diffuseColors;
+    StructuredBuffer<float>     m_emissiveColors;
+    StructuredBuffer<float>     m_alphaCursors;
+
+    struct  SBillboardDrawRequest
+    {
+        uint    m_flags;
+        float   m_normalBendingFactor;
+    };
+}
+
+#include "RendererSrg.azsli"

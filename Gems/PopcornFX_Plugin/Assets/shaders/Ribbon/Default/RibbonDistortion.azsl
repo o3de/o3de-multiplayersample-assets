@@ -1,0 +1,80 @@
+//----------------------------------------------------------------------------
+// Copyright Persistant Studios, SARL. All Rights Reserved.
+// https://www.popcornfx.com/terms-and-conditions/
+//----------------------------------------------------------------------------
+
+#include <scenesrg.srgi>
+#include <viewsrg.srgi>
+
+#include "../../Common/PopcornOptions.azsli"
+#if PK_O3DE_NEW_PBR
+#include <Atom/Features/Pipeline/Forward/ForwardPassSrg.azsli>
+#else
+#include <Atom/Features/PBR/ForwardPassSrg.azsli>
+#endif
+
+#include "../../Common/MaterialSrg.azsli"
+#include "../../Common/RibbonSrg.azsli"
+
+#include "../../Common/RendererFeatures.azsli"
+
+struct VertexInput
+{
+    float4 m_position : POSITION;
+    float2 m_texCoord0 : UV0;
+
+    uint m_vertexID : SV_VertexID;
+};
+
+struct VertexOutput
+{
+    float4 m_position : SV_Position;
+    float2 m_texCoord0 : UV0;
+    float4 m_distortionColor : UV1;
+    float4 m_clipPosition : UV2;
+};
+
+VertexOutput RibbonVS(VertexInput input)
+{
+    VertexOutput    output;
+
+	uint    particleID = GetParticleIdx(input.m_vertexID);
+
+    // Billboarding outputs:
+    output.m_position = mul(ViewSrg::m_viewProjectionMatrix, float4(input.m_position.xyz, 1.0f));
+    output.m_clipPosition = output.m_position;
+    output.m_texCoord0 = input.m_texCoord0;
+
+    // Diffuse particle color:
+    output.m_distortionColor = float4(0, 0, 0, 0);
+    output.m_distortionColor = RendererSrg::m_distortionColors[particleID];
+    return output;
+}
+
+struct PixelOutput
+{
+    float4 m_color : SV_Target0;
+};
+
+PixelOutput RibbonFS(VertexOutput input)
+{
+    PixelOutput output;
+
+    float2  texCoord0 = input.m_texCoord0;
+
+    float4 distortionColor = input.m_distortionColor;
+    float4 textureColor = float4(0, 0, 0, 0);
+
+    textureColor = GetDistortionColor(texCoord0);
+
+    distortionColor *= textureColor;
+
+    if (HasOneRendererFlags(Has_Soft))
+    {
+        float3 clipPos = input.m_clipPosition.xyz / input.m_clipPosition.w;
+        float fade = GetSoftParticleFade(clipPos);
+        distortionColor.a *= fade;
+    }
+    output.m_color = distortionColor;
+    return output;
+}
