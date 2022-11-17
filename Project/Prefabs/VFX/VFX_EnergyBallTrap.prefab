@@ -112,6 +112,16 @@
                                         "ValueFX": 1.0
                                     }
                                 ]
+                            },
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 2.0
+                                    },
+                                    {
+                                        "ValueFX": 1.0
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -202,6 +212,16 @@
                                         "ValueFX": 1.0
                                     }
                                 ]
+                            },
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 4.0
+                                    },
+                                    {
+                                        "ValueFX": 1.0
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -267,7 +287,34 @@
                         },
                         "assetHint": "pkfx/particles/energyballtrap/fx_energyballtrap_explosion.pkfx"
                     },
-                    "PrewarmTime": 0.0
+                    "PrewarmTime": 0.0,
+                    "AttributeList": {
+                        "Attributes": [
+                            {
+                                "Name": "Global Scale",
+                                "Type": 31
+                            },
+                            {
+                                "Name": "Color Intensity",
+                                "Type": 31
+                            }
+                        ],
+                        "AttributesRawData": "AACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAA="
+                    },
+                    "EditorAttributeList": {
+                        "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 1.0
+                                    },
+                                    {
+                                        "ValueFX": 1.0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
                 },
                 "Component_[5962475673186418708]": {
                     "$type": "EditorInspectorComponent",
