@@ -1,0 +1,198 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "E_barricade",
+        "Components": {
+            "Component_[10054067537152652710]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 10054067537152652710
+            },
+            "Component_[10198449623373068451]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 10198449623373068451
+            },
+            "Component_[11775223185451715120]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 11775223185451715120
+            },
+            "Component_[1208072983841079285]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1208072983841079285
+            },
+            "Component_[12997778816672165852]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 12997778816672165852
+            },
+            "Component_[15863047953870477763]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 15863047953870477763
+            },
+            "Component_[17757001625068330551]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17757001625068330551,
+                "Parent Entity": ""
+            },
+            "Component_[2886179065463791022]": {
+                "$type": "SelectionComponent",
+                "Id": 2886179065463791022
+            },
+            "Component_[3674082716897619480]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3674082716897619480
+            },
+            "Component_[4099942041035559742]": {
+                "$type": "EditorLockComponent",
+                "Id": 4099942041035559742
+            },
+            "Component_[6247312503242676614]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 6247312503242676614,
+                "Child Entity Order": [
+                    "Entity_[1732881682866]"
+                ]
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1732881682866]": {
+            "Id": "Entity_[1732881682866]",
+            "Name": "e_barricade",
+            "Components": {
+                "Component_[11749854356048258090]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 11749854356048258090,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{5E3F96EC-5DD5-5676-9205-297936877290}",
+                                    "subId": 272622894
+                                },
+                                "assetHint": "e_barricade/e_barricade.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[11830015587831033156]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11830015587831033156,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            4.522468090057373,
+                            -9.798389434814453,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[14359958543243888729]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14359958543243888729
+                },
+                "Component_[14671174030110804535]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14671174030110804535
+                },
+                "Component_[14878376629094937809]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14878376629094937809
+                },
+                "Component_[15373103149330488630]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15373103149330488630,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 169692944
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8B4A20D7-E595-5CBA-B729-19A062211C21}"
+                                            },
+                                            "assetHint": "e_barricade/e_barricade_trans_01_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2852200230
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EBA9FAA8-B0A2-5A15-9CB6-F42EE455CEA4}"
+                                            },
+                                            "assetHint": "e_barricade/e_barricade_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[16160337642068003557]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16160337642068003557
+                },
+                "Component_[16633413975825123073]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16633413975825123073
+                },
+                "Component_[17114936796689999018]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17114936796689999018
+                },
+                "Component_[17192344986083504025]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17192344986083504025
+                },
+                "Component_[17350843884665182516]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17350843884665182516
+                },
+                "Component_[6047187950084176908]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6047187950084176908
+                },
+                "Component_[6418227576793919616]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 6418227576793919616,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{5E3F96EC-5DD5-5676-9205-297936877290}",
+                                    "subId": 3859661154
+                                },
+                                "assetHint": "e_barricade/e_barricade.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{5E3F96EC-5DD5-5676-9205-297936877290}",
+                                        "subId": 3859661154
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "e_barricade/e_barricade.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                }
+            }
+        }
+    }
+}
