@@ -1,0 +1,43 @@
+{
+    "values": [
+        {
+            "$type": "MotionGroup",
+            "name": "Running",
+            "selectedRootBone": "RootNode",
+            "id": "{91693B83-252B-5BC3-885E-866F40EBED72}",
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MotionSamplingRule"
+                    },
+                    {
+                        "$type": "EMotionFX::Pipeline::Rule::MotionMetaDataRule",
+                        "data": {
+                            "motionEventTable": {
+                                "tracks": [
+                                    {
+                                        "$type": "AnimGraphSyncTrack",
+                                        "name": "Sync",
+                                        "deletable": false
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "$type": "EMotionFX::Pipeline::Rule::RootMotionExtractionRule",
+                        "data": {
+                            "sampleJoint": "RootNode.mixamorig:Hips",
+                            "extractRotation": true
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "Mixamo/Animations/Running_fbx.procprefab",
+            "id": "{F3D55416-608D-5856-A11A-AC39A41D6FB0}"
+        }
+    ]
+}
