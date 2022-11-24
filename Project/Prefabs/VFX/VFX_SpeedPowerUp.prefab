@@ -1,0 +1,162 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "VFX_SpeedPowerUp",
+        "Components": {
+            "Component_[1152200907845989870]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 1152200907845989870
+            },
+            "Component_[12793200864905122539]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 12793200864905122539
+            },
+            "Component_[16790192304992862050]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 16790192304992862050
+            },
+            "Component_[1698563746212720011]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1698563746212720011,
+                "Child Entity Order": [
+                    "Entity_[6085699425136]"
+                ]
+            },
+            "Component_[17266996996616023248]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17266996996616023248,
+                "Parent Entity": ""
+            },
+            "Component_[2358285854002535316]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 2358285854002535316
+            },
+            "Component_[4451140799576515736]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4451140799576515736
+            },
+            "Component_[4622655403993843236]": {
+                "$type": "EditorLockComponent",
+                "Id": 4622655403993843236
+            },
+            "Component_[5173019605225590598]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 5173019605225590598
+            },
+            "Component_[9638950610053849093]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 9638950610053849093
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[6085699425136]": {
+            "Id": "Entity_[6085699425136]",
+            "Name": "VFX_SpeedPowerUp",
+            "Components": {
+                "Component_[13226542420941952874]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13226542420941952874
+                },
+                "Component_[15759855206777137506]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15759855206777137506
+                },
+                "Component_[1613865591880098372]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1613865591880098372
+                },
+                "Component_[3863311239445442029]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 3863311239445442029,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{0A16B1F9-EF0F-5810-9429-29DCF0358B6E}"
+                        },
+                        "assetHint": "pkfx/particles/vfx_speedpowerup.pkfx"
+                    },
+                    "PrewarmTime": 0.0,
+                    "AttributeList": {
+                        "Attributes": [
+                            {
+                                "Name": "GlobalScale",
+                                "Type": 31
+                            },
+                            {
+                                "Name": "Particules Count",
+                                "Type": 31
+                            },
+                            {
+                                "Name": "Color_Wind",
+                                "Type": 34
+                            },
+                            {
+                                "Name": "duration",
+                                "Type": 31
+                            }
+                        ],
+                        "AttributesRawData": "AACAPwAAAAAAAAAAAAAAAAAAIEEAAAAAAAAAAAAAAAAAAIA/nJB+PyFTZD8AAIA/AACgQAAAAAAAAAAAAAAAAA=="
+                    },
+                    "EditorAttributeList": {
+                        "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 1.0
+                                    },
+                                    {
+                                        "ValueFX": 10.0
+                                    },
+                                    {
+                                        "Color": [
+                                            1.0,
+                                            0.994394063949585,
+                                            0.8918934464454651
+                                        ]
+                                    },
+                                    {
+                                        "ValueFX": 5.0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Component_[5225417726478509245]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5225417726478509245,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5426615716134698067
+                        },
+                        {
+                            "ComponentId": 3863311239445442029,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[5426615716134698067]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5426615716134698067,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[6757019319162646245]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6757019319162646245
+                },
+                "Component_[793081565722722442]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 793081565722722442
+                },
+                "Component_[8781759599277415835]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8781759599277415835
+                },
+                "Component_[9880870540003863601]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9880870540003863601
+                }
+            }
+        }
+    }
+}
