@@ -119,12 +119,6 @@
                         ]
                     }
                 },
-                "Component_[13810961993487198975]": {
-                    "$type": "PopcornFXHelperLoopEmitterEditorComponent",
-                    "Id": 13810961993487198975,
-                    "LoopInEditor": true,
-                    "Delay": 4.0
-                },
                 "Component_[14141057062408196656]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 14141057062408196656,
@@ -147,7 +141,14 @@
                 },
                 "Component_[17386268685253462615]": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 17386268685253462615
+                    "Id": 17386268685253462615,
+                    "DisabledComponents": [
+                        {
+                            "$type": "PopcornFXHelperLoopEmitterEditorComponent",
+                            "Id": 13810961993487198975,
+                            "Delay": 4.0
+                        }
+                    ]
                 },
                 "Component_[17481236408759665719]": {
                     "$type": "EditorInspectorComponent",
