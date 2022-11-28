@@ -1,0 +1,234 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "HTS_PathA_D",
+        "Components": {
+            "Component_[10433032937617158068]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 10433032937617158068
+            },
+            "Component_[17400541525513352323]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 17400541525513352323
+            },
+            "Component_[17775196828767779606]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 17775196828767779606
+            },
+            "Component_[3889029311500747353]": {
+                "$type": "SelectionComponent",
+                "Id": 3889029311500747353
+            },
+            "Component_[3938372448542796138]": {
+                "$type": "EditorLockComponent",
+                "Id": 3938372448542796138
+            },
+            "Component_[5543325623135229559]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5543325623135229559
+            },
+            "Component_[5792112486111886967]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5792112486111886967,
+                "Child Entity Order": [
+                    "Entity_[3450614302385]"
+                ]
+            },
+            "Component_[6324130981375904318]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 6324130981375904318
+            },
+            "Component_[6431463902209024411]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 6431463902209024411
+            },
+            "Component_[7713943026943502836]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7713943026943502836
+            },
+            "Component_[8968162795472989130]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 8968162795472989130,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[3450614302385]": {
+            "Id": "Entity_[3450614302385]",
+            "Name": "HTS_PathA_D",
+            "Components": {
+                "Component_[10773901210360879345]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10773901210360879345
+                },
+                "Component_[12145558868110342778]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12145558868110342778
+                },
+                "Component_[12762278233565443953]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12762278233565443953
+                },
+                "Component_[14170801141593568981]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14170801141593568981
+                },
+                "Component_[15876040400861331371]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 15876040400861331371,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{95A43A48-100D-5597-9DA7-E517E5EECF5C}",
+                                    "subId": 971079579
+                                },
+                                "assetHint": "kb3d_hightechstreets/objects/hts_patha_d/hts_patha_d.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{95A43A48-100D-5597-9DA7-E517E5EECF5C}",
+                                        "subId": 971079579
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "kb3d_hightechstreets/objects/hts_patha_d/hts_patha_d.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[17421638890183136388]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17421638890183136388
+                },
+                "Component_[17842456491146380334]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17842456491146380334
+                },
+                "Component_[18037821678380501351]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 18037821678380501351,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[5984326951303740644]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5984326951303740644,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 18037821678380501351
+                        },
+                        {
+                            "ComponentId": 7409665225222742952,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 9760192460746879986,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 15876040400861331371,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[6999144461042814361]": {
+                    "$type": "SelectionComponent",
+                    "Id": 6999144461042814361
+                },
+                "Component_[7409665225222742952]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 7409665225222742952,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{95A43A48-100D-5597-9DA7-E517E5EECF5C}",
+                                    "subId": 284372467
+                                },
+                                "assetHint": "kb3d_hightechstreets/objects/hts_patha_d/hts_patha_d.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[8869814104885970767]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8869814104885970767
+                },
+                "Component_[9760192460746879986]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 9760192460746879986,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 9265600
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C0291857-9628-5760-8CA5-B4086A2E417E}"
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_patha_d/hts_patha_d_kb3d_hts_rubbergray.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 537732690
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7EADC6D3-F0AC-5711-908A-2A194C26BC2E}"
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_patha_d/hts_patha_d_kb3d_hts_glassblue.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 881380358
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D4311050-9716-5E54-A56B-F0ADA195D74A}"
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_patha_d/hts_patha_d_kb3d_hts_plasticwhite.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4202942227
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DF6B6ABC-F384-5801-9132-6AA2C7CB1F2B}"
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_patha_d/hts_patha_d_kb3d_hts_metalyellow.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
