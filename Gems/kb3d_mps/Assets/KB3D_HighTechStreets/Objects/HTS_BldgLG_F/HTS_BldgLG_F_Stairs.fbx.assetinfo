@@ -1,0 +1,58 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{B346754C-F17B-521F-A4D6-166D78B6005D}",
+            "name": "HTS_BldgLG_F_Stairs",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.KB3D_HTS_BldgLG_F_Stairs_phys"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.KB3D_HTS_BldgLG_F_Stairs"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "HTS_BldgLG_F_Stairs",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.KB3D_HTS_BldgLG_F_Stairs"
+                ],
+                "unselectedNodes": [
+                    "RootNode.KB3D_HTS_BldgLG_F_Stairs_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{9A0CB95E-4E80-503E-81B8-C2667124DCF7}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "KB3D_HighTechStreets/Objects/HTS_BldgLG_F/HTS_BldgLG_F_Stairs_fbx.procprefab",
+            "id": "{9663C22A-8F66-5C9C-BB4E-C34A6E7BCEA8}",
+            "createProceduralPrefab": false
+        }
+    ]
+}
