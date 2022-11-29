@@ -1,0 +1,154 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{E7E8C188-C1A9-554B-860B-136AA72A1B2E}",
+            "name": "HTS_BldgSM_M_Main",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.KB3D_HTS_BldgSM_M_Main_phys"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.KB3D_HTS_BldgSM_M_Main",
+                    "RootNode.KB3D_HTS_BldgSM_M_PillarB",
+                    "RootNode.KB3D_HTS_BldgSM_M_Antenna",
+                    "RootNode.KB3D_HTS_BldgSM_M_PillarA"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "HTS_BldgSM_M_Main",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.KB3D_HTS_BldgSM_M_Main",
+                    "RootNode.KB3D_HTS_BldgSM_M_PillarB",
+                    "RootNode.KB3D_HTS_BldgSM_M_Antenna",
+                    "RootNode.KB3D_HTS_BldgSM_M_PillarA"
+                ],
+                "unselectedNodes": [
+                    "RootNode.KB3D_HTS_BldgSM_M_Main_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{6488E983-BB82-538B-9731-F2A2575A552E}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_HTS_BldgSM_M_Main_59C57131_596B_524A_962D_5F0754E29A93_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.KB3D_HTS_BldgSM_M_PillarB"
+                ],
+                "unselectedNodes": [
+                    "RootNode.KB3D_HTS_BldgSM_M_PillarA",
+                    "RootNode.KB3D_HTS_BldgSM_M_Antenna",
+                    "RootNode.KB3D_HTS_BldgSM_M_Main_phys",
+                    "RootNode.KB3D_HTS_BldgSM_M_Main"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{59C57131-596B-524A-962D-5F0754E29A93}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_HTS_BldgSM_M_Main_4F289E1E_21DF_5EF1_840E_EB9204C9CF40_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.KB3D_HTS_BldgSM_M_Main_phys"
+                ],
+                "unselectedNodes": [
+                    "RootNode.KB3D_HTS_BldgSM_M_PillarA",
+                    "RootNode.KB3D_HTS_BldgSM_M_Antenna",
+                    "RootNode.KB3D_HTS_BldgSM_M_PillarB",
+                    "RootNode.KB3D_HTS_BldgSM_M_Main"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{4F289E1E-21DF-5EF1-840E-EB9204C9CF40}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_HTS_BldgSM_M_Main_E1800829_29D8_562A_97FE_93337B8B75DA_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.KB3D_HTS_BldgSM_M_Main"
+                ],
+                "unselectedNodes": [
+                    "RootNode.KB3D_HTS_BldgSM_M_PillarA",
+                    "RootNode.KB3D_HTS_BldgSM_M_Antenna",
+                    "RootNode.KB3D_HTS_BldgSM_M_PillarB",
+                    "RootNode.KB3D_HTS_BldgSM_M_Main_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{E1800829-29D8-562A-97FE-93337B8B75DA}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "KB3D_HighTechStreets/Objects/HTS_BldgSM_M/HTS_BldgSM_M_Main_fbx.procprefab",
+            "id": "{B3D8624C-CB73-5E4F-BD44-7AB731647F86}",
+            "createProceduralPrefab": false
+        }
+    ]
+}
