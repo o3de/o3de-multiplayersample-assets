@@ -1,0 +1,62 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{F5F26DC0-9691-5624-892B-31282E016792}",
+            "name": "HTS_BldgMD_J_Main",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.KB3D_HTS_BldgMD_J_Main_phys",
+                    "RootNode.KB3D_HTS_BldgMD_J_Support_phys"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.KB3D_HTS_BldgMD_J_Main",
+                    "RootNode.KB3D_HTS_BldgMD_J_Support"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "HTS_BldgMD_J_Main",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.KB3D_HTS_BldgMD_J_Main",
+                    "RootNode.KB3D_HTS_BldgMD_J_Support"
+                ],
+                "unselectedNodes": [
+                    "RootNode.KB3D_HTS_BldgMD_J_Main_phys",
+                    "RootNode.KB3D_HTS_BldgMD_J_Support_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{87347DA9-1011-51E1-B94A-160CC3B8D907}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "KB3D_HighTechStreets/Objects/HTS_BldgMD_J/HTS_BldgMD_J_Main_fbx.procprefab",
+            "id": "{BB99C55A-A2CA-5B5E-B4FC-488660A45B57}",
+            "createProceduralPrefab": false
+        }
+    ]
+}

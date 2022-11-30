@@ -1,0 +1,60 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{F449ECA8-559B-58C5-B5CF-3B95F6975F91}",
+            "name": "HTS_BldgMD_E_HoloProjector",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.KB3D_HTS_BldgMD_E_HoloProjectorA_phys"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.KB3D_HTS_BldgMD_E_HoloProjectorA",
+                    "RootNode.KB3D_HTS_BldgMD_E_HoloA"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "HTS_BldgMD_E_HoloProjector",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.KB3D_HTS_BldgMD_E_HoloProjectorA",
+                    "RootNode.KB3D_HTS_BldgMD_E_HoloA"
+                ],
+                "unselectedNodes": [
+                    "RootNode.KB3D_HTS_BldgMD_E_HoloProjectorA_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{003E5FF5-1A45-5168-9773-37B414E53756}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "KB3D_HighTechStreets/Objects/HTS_BldgMD_E/HTS_BldgMD_E_HoloProjector_fbx.procprefab",
+            "id": "{E972126A-BA85-56B2-BDB1-058FEFB315E4}",
+            "createProceduralPrefab": false
+        }
+    ]
+}
