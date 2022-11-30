@@ -1,0 +1,58 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{698A84A7-0F25-536B-A201-DD2C9FA01B64}",
+            "name": "HTS_Planter_A_Main",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.KB3D_HTS_Planter_A_Main_phys"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.KB3D_HTS_Planter_A_Main"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "HTS_Planter_A_Main",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.KB3D_HTS_Planter_A_Main"
+                ],
+                "unselectedNodes": [
+                    "RootNode.KB3D_HTS_Planter_A_Main_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{BD1D5EAF-8033-57E3-A5F0-7CDFBD22C267}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "KB3D_HighTechStreets/Objects/HTS_Planter_A/HTS_Planter_A_Main_fbx.procprefab",
+            "id": "{4AA6EB4E-A700-5874-B3A4-DBC8A03AD4AA}",
+            "createProceduralPrefab": false
+        }
+    ]
+}

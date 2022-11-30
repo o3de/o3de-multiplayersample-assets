@@ -1,0 +1,42 @@
+{
+    "values": [
+        {
+            "$type": "MotionGroup",
+            "name": "Pistol Strafe 2",
+            "selectedRootBone": "RootNode",
+            "id": "{5ACF93EC-79E1-5110-822A-5EF34AF9BB0A}",
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MotionSamplingRule"
+                    },
+                    {
+                        "$type": "EMotionFX::Pipeline::Rule::MotionMetaDataRule",
+                        "data": {
+                            "motionEventTable": {
+                                "tracks": [
+                                    {
+                                        "$type": "AnimGraphSyncTrack",
+                                        "name": "Sync",
+                                        "deletable": false
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "$type": "EMotionFX::Pipeline::Rule::RootMotionExtractionRule",
+                        "data": {
+                            "sampleJoint": "mixamorig:Hips"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "Mixamo/Animations/Pistol Strafe 2_fbx.procprefab",
+            "id": "{C95DE53D-096B-50CE-B868-28CFD0FE3E75}"
+        }
+    ]
+}

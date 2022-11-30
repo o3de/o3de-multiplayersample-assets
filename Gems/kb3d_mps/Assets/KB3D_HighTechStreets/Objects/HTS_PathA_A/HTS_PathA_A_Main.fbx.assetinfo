@@ -1,0 +1,86 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{4D330A36-A092-58D2-8234-925A683AB9E6}",
+            "name": "HTS_PathA_A_Main",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.KB3D_HTS_PathA_A_Main_phys",
+                    "RootNode.KB3D_HTS_PathA_A_Main_phys.transform",
+                    "RootNode.KB3D_HTS_PathA_A_Main_phys.custom_properties",
+                    "RootNode.KB3D_HTS_PathA_A_Main_phys.UVMap",
+                    "RootNode.KB3D_HTS_PathA_A_Main_phys.DefaultMaterial"
+                ],
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.KB3D_HTS_PathA_A_Main",
+                    "RootNode.KB3D_HTS_PathA_A_Main.Col0",
+                    "RootNode.KB3D_HTS_PathA_A_Main.Col1",
+                    "RootNode.KB3D_HTS_PathA_A_Main.transform",
+                    "RootNode.KB3D_HTS_PathA_A_Main.custom_properties",
+                    "RootNode.KB3D_HTS_PathA_A_Main.UV0",
+                    "RootNode.KB3D_HTS_PathA_A_Main.UV1",
+                    "RootNode.KB3D_HTS_PathA_A_Main.KB3D_HTS_PlasticWhite_008",
+                    "RootNode.KB3D_HTS_PathA_A_Main.KB3D_HTS_RubberGray_008",
+                    "RootNode.KB3D_HTS_PathA_A_Main.KB3D_HTS_MetalDarkGrey_008",
+                    "RootNode.KB3D_HTS_PathA_A_Main.KB3D_HTS_MetalYellow_008",
+                    "RootNode.KB3D_HTS_PathA_A_Main.KB3D_HTS_GlassBlue"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "HTS_PathA_A_Main",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.KB3D_HTS_PathA_A_Main",
+                    "RootNode.KB3D_HTS_PathA_A_Main.Col0",
+                    "RootNode.KB3D_HTS_PathA_A_Main.Col1",
+                    "RootNode.KB3D_HTS_PathA_A_Main.transform",
+                    "RootNode.KB3D_HTS_PathA_A_Main.custom_properties",
+                    "RootNode.KB3D_HTS_PathA_A_Main.UV0",
+                    "RootNode.KB3D_HTS_PathA_A_Main.UV1",
+                    "RootNode.KB3D_HTS_PathA_A_Main.KB3D_HTS_PlasticWhite_008",
+                    "RootNode.KB3D_HTS_PathA_A_Main.KB3D_HTS_RubberGray_008",
+                    "RootNode.KB3D_HTS_PathA_A_Main.KB3D_HTS_MetalDarkGrey_008",
+                    "RootNode.KB3D_HTS_PathA_A_Main.KB3D_HTS_MetalYellow_008",
+                    "RootNode.KB3D_HTS_PathA_A_Main.KB3D_HTS_GlassBlue"
+                ],
+                "unselectedNodes": [
+                    "RootNode.KB3D_HTS_PathA_A_Main_phys",
+                    "RootNode.KB3D_HTS_PathA_A_Main_phys.transform",
+                    "RootNode.KB3D_HTS_PathA_A_Main_phys.custom_properties",
+                    "RootNode.KB3D_HTS_PathA_A_Main_phys.UVMap",
+                    "RootNode.KB3D_HTS_PathA_A_Main_phys.DefaultMaterial"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{75BFE29E-D5E9-5224-92B6-593A9BAFD565}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "KB3D_HighTechStreets/Objects/HTS_PathA_A/HTS_PathA_A_Main_fbx.procprefab",
+            "id": "{B1825203-AAEB-5739-B8B1-D4C6DF3D2BCC}",
+            "createProceduralPrefab": false
+        }
+    ]
+}
