@@ -1,0 +1,121 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "HTS_Road_B",
+        "Components": {
+            "Component_[11960462555508753650]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 11960462555508753650
+            },
+            "Component_[13459290296236921094]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 13459290296236921094,
+                "Child Entity Order": [
+                    "Entity_[8725670578695]"
+                ]
+            },
+            "Component_[13582569891791771894]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 13582569891791771894,
+                "Parent Entity": ""
+            },
+            "Component_[2432068456514996432]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 2432068456514996432
+            },
+            "Component_[3162734285285524045]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 3162734285285524045
+            },
+            "Component_[3824235783147109243]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 3824235783147109243
+            },
+            "Component_[5261176624010321935]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 5261176624010321935
+            },
+            "Component_[5838305821797573534]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5838305821797573534
+            },
+            "Component_[7083004445928190661]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7083004445928190661
+            },
+            "Component_[9534744964499953366]": {
+                "$type": "EditorLockComponent",
+                "Id": 9534744964499953366
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[8725670578695]": {
+            "Id": "Entity_[8725670578695]",
+            "Name": "hts_road_b_main",
+            "Components": {
+                "Component_[1186711143549406261]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1186711143549406261
+                },
+                "Component_[12732778392456374508]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12732778392456374508,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[15698759888468886420]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15698759888468886420
+                },
+                "Component_[16092030291980510093]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16092030291980510093
+                },
+                "Component_[1798517525421205284]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 1798517525421205284,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{F5306D05-C993-5BA2-A476-AE8EFF9E2868}",
+                                    "subId": 283349486
+                                },
+                                "assetHint": "kb3d_hightechstreets/objects/hts_road_b/hts_road_b_main.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[3364057356191587330]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3364057356191587330,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 12732778392456374508
+                        },
+                        {
+                            "ComponentId": 1798517525421205284,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[4962586609037121926]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4962586609037121926
+                },
+                "Component_[8228556966927865545]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8228556966927865545
+                },
+                "Component_[8589412971028626565]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8589412971028626565
+                },
+                "Component_[9132088475316543183]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9132088475316543183
+                }
+            }
+        }
+    }
+}
