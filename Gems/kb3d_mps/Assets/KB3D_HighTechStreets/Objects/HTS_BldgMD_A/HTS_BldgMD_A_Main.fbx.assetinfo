@@ -1,0 +1,72 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{6D1ECC59-2F89-5B4D-B654-50F76A819BF6}",
+            "name": "HTS_BldgMD_A_Main",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.KB3D_HTS_BldgMD_A_Main_phys"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.KB3D_HTS_BldgMD_A_Main",
+                    "RootNode.KB3D_HTS_BldgMD_A_ChairC",
+                    "RootNode.KB3D_HTS_BldgMD_A_ChairF",
+                    "RootNode.KB3D_HTS_BldgMD_A_ChairE",
+                    "RootNode.KB3D_HTS_BldgMD_A_ChairD",
+                    "RootNode.KB3D_HTS_BldgMD_A_ChairA",
+                    "RootNode.KB3D_HTS_BldgMD_A_HoloA",
+                    "RootNode.KB3D_HTS_BldgMD_A_ChairB"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "HTS_BldgMD_A_Main",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.KB3D_HTS_BldgMD_A_Main",
+                    "RootNode.KB3D_HTS_BldgMD_A_ChairC",
+                    "RootNode.KB3D_HTS_BldgMD_A_ChairF",
+                    "RootNode.KB3D_HTS_BldgMD_A_ChairE",
+                    "RootNode.KB3D_HTS_BldgMD_A_ChairD",
+                    "RootNode.KB3D_HTS_BldgMD_A_ChairA",
+                    "RootNode.KB3D_HTS_BldgMD_A_HoloA",
+                    "RootNode.KB3D_HTS_BldgMD_A_ChairB"
+                ],
+                "unselectedNodes": [
+                    "RootNode.KB3D_HTS_BldgMD_A_Main_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{7384E553-1BEB-5C47-A8CB-614F9C007F85}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "KB3D_HighTechStreets/Objects/HTS_BldgMD_A/HTS_BldgMD_A_Main_fbx.procprefab",
+            "id": "{062DEFEC-74DD-565F-8532-E7A0F258A24F}",
+            "createProceduralPrefab": false
+        }
+    ]
+}
