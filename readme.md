@@ -132,7 +132,7 @@ This repository contains it's own O3DE Game project, which can be used by contri
 You can use the o3de cli tools to register your project with your engine.
 
 ```shell
-# change directory to the egine root folder
+# change directory to the engine root folder
 > cd c:\path\to\your\o3de-engine
 # register the gems with the engine, you only need to do this once
 > scripts\o3de register --project-path C:\depot\o3de-multiplayersample-assets\Project
@@ -145,12 +145,12 @@ There are a number of ways to configure and build the engine and project ...
 As a developer, I often find it useful to build in an engine-centric way
 
 ```shell
-# change directory to the egine root folder
+# change directory to the engine root folder
 > cd c:\path\to\your\o3de-engine
 # create a build folder
 > mkdir build
 > cd build
-# configure cmake and create sollutiuon
+# configure cmake and create solution
 > cmake .. -G "Visual Studio 16" -A x64 -DLY_3RDPARTY_PATH="%LY_3RDPARTY_PATH%" -DLY_UNITY_BUILD=OFF -DLY_PROJECTS="C:\path\to\repo\o3de-multiplayersample-assets\Project"
 ```
 
@@ -169,7 +169,7 @@ The built binary executables will be in:
 ```shell
 # bin folder
 > cd C:\depot\o3de-dev\build\bin\profile\
-# executbales
+# executables
 # C:\depot\o3de-dev\build\bin\profile\o3de.exe
 # C:\depot\o3de-dev\build\bin\profile\editor.exe
 # ...
@@ -178,7 +178,7 @@ The built binary executables will be in:
 If this is the project you are primarily working with, you can also set it as the "default project". 
 
 ```shell
-# change directory to the egine root folder
+# change directory to the engine root folder
 > cd c:\path\to\your\o3de-engine
 # register the gems with the engine, you only need to do this once
 > scripts\o3de set-global-project -pp <project-path>
@@ -199,11 +199,11 @@ After the Asset Processor (https://www.o3de.org/docs/user-guide/assets/asset-pro
 1. In the Windows task-bar tray, there should be an icon for the O3DE Asset Processor
    - ![image](https://user-images.githubusercontent.com/67011188/201197997-d8908bed-cb42-4604-bb87-8b08fa34c233.png)
 2. To view the Asset Processor interface, *right-click* the  Asset Processor icon in the system tray and select *Show*.
-2. Click on the Assets tab
-3. The Project: path should be visible, something like: 
-    - C:\path\to\repo\o3de-multiplayersample-assets\Project
-4. The Root: is the path to the active engine install
-5. The o3de-multiplayersample-assests\Gems should be visible:
+3. Click on the Assets tab
+4. The Project: path should be visible, something like: 
+   - C:\path\to\repo\o3de-multiplayersample-assets\Project
+5. The Root: is the path to the active engine install
+6. The o3de-multiplayersample-assets\Gems should be visible:
 7. ![image](https://user-images.githubusercontent.com/67011188/201198240-fb9aa04c-9f62-4849-afd8-4e13e890cf96.png)
 
 ## MPS Asset Gem Folders
@@ -214,21 +214,21 @@ This is a collection of modular Asset Gems used in o3de-multiplayersample game, 
 
 1. Asset Gems have an Assets/ folder, this is the default location within the gem folder structure that the AP scans for assets to process and make game ready.
 2. From the AP, you can get to the folder by ...
-    1. Selecting the gem, such as ‘character_mps’
-    2. Right-click, from the context menu select ‘Open in Explorer’
+   1. Selecting the gem, such as ‘character_mps’
+   2. Right-click, from the context menu select ‘Open in Explorer’
 3. Or you can manually browse to them on disk in Windows File Explorer
-    1. Examples:
-        1. C:\path\to\repo\o3de-multiplayersample-assets\Gems\kb3d_mps\Assets
-        2. C:\path\to\repo\o3de-multiplayersample-assets\Gems\character_mps\Assets
-        3. ...
+   1. Examples:
+      1. C:\path\to\repo\o3de-multiplayersample-assets\Gems\kb3d_mps\Assets
+      2. C:\path\to\repo\o3de-multiplayersample-assets\Gems\character_mps\Assets
+      3. ...
 4. Organize your files into the \Assets folder.  We prefer one-folder per-asset, such as:
-    1. Gems\character_mps\Assets\MyCharacter\
-    2. Gems\character_mps\Assets\MyCharacter\mycharacter.fbx
-    3. Gems\character_mps\Assets\MyCharacter\mycharacter.material
-    4. Gems\character_mps\Assets\MyCharacter\textures
-    5. Gems\character_mps\Assets\MyCharacter\textures\mycharacter_basecolor.png
-    6. Gems\character_mps\Assets\MyCharacter\textures\mycharacter_roughness.png
-    7. ...
+   1. Gems\character_mps\Assets\MyCharacter\
+   2. Gems\character_mps\Assets\MyCharacter\mycharacter.fbx
+   3. Gems\character_mps\Assets\MyCharacter\mycharacter.material
+   4. Gems\character_mps\Assets\MyCharacter\textures
+   5. Gems\character_mps\Assets\MyCharacter\textures\mycharacter_basecolor.png
+   6. Gems\character_mps\Assets\MyCharacter\textures\mycharacter_roughness.png
+   7. ...
 5. As you add asset files to the Gem folder, the AP will scan and process them (into runtime ready assets); so they will show up in your Game Project data in the Editor
 
 ### Asset/ Folders in Editor
@@ -236,15 +236,17 @@ This is a collection of modular Asset Gems used in o3de-multiplayersample game, 
 The folder structure for each asset gem is retained and accessible in the Editor as well.
 
 1. Select a folder, right-click and ‘Open in Explorer’
-![image](https://user-images.githubusercontent.com/67011188/201198691-df9f074c-13af-4c42-9375-b465753e77f4.png)
+   ![image](https://user-images.githubusercontent.com/67011188/201198691-df9f074c-13af-4c42-9375-b465753e77f4.png)
 
 ### Create a new branch in your local workspace
 
 *Switch to the branch you want to use as a base (e.g. create a feature branch off of development)*
+
 > git switch development
 > git pull
 
 *Create a new branch*
+
 > git switch -c <user/branch_name>
 
 ### Develop on Branch
@@ -252,28 +254,31 @@ The folder structure for each asset gem is retained and accessible in the Editor
 Make changes (like adding new asset files) and commit these locally
 
 *This will display files that have changes:*
->git status
->git add <filename_or_directory>
->git commit -s -m "<description of your change>"
+
+> git status
+> git add <filename_or_directory>
+> git commit -s -m "<description of your change>"
 
 Push changes to the origin. This is required to share your changes, run Automated Reviews, and submit Pull Requests.
 
 *Use the following to push the commits in your current branch to origin. -u will set the branch to track the origin repo. Only required one time.*
->git push -u origin HEAD
+
+> git push -u origin HEAD
 
 *After using -u, the next time, you can just run a simple push for that branch*
->git push
 
-## Submit a Pull Request 
+> git push
+
+## Submit a Pull Request
 
 You’ll want to submit a Pull Request and get 2 reviewers before you merge your changes to the public repo.
 
 1. Go to: https://github.com/o3de/o3de-multiplayersample-assets 
 2. Click *New Pull Request*
 3. Click compare and select your branch. 
-    1. Base branch: development
-    2. Compare: <user/branch_name>
-    3. Click *Create pull request*
+   1. Base branch: development
+   2. Compare: <user/branch_name>
+   3. Click *Create pull request*
 
 Note: If you are comparing across forks (if you made one), the workflow will be slightly different.  If you have any trouble, let us know so we can help.
 
@@ -293,11 +298,9 @@ Notes:
 * Get a few distinctly different people to review your PR, this repo only requires 2 approvals to merge, but it’s not a bad idea to get others to not only look at the changes but also try the asset changes themselves.
 * This repo is not set up with AR, so make sure your changes work before merging to development, or from development to main.
 * Test your changes, you don’t need to test them in MultiplayerSample (game)
-    * You can use the MPS Asset Test Project folder:
-        * C:\path\to\repo\o3de-multiplayersample-assets\Project
-    * Or, you can activate these asset gems into your own test project...
-
-
+  * You can use the MPS Asset Test Project folder:
+    * C:\path\to\repo\o3de-multiplayersample-assets\Project
+  * Or, you can activate these asset gems into your own test project...
 
 # Appendix
 
