@@ -47,7 +47,9 @@
                 "$type": "EditorEntitySortComponent",
                 "Id": 4733291173775421654,
                 "Child Entity Order": [
-                    "Entity_[8034992598162]"
+                    "Entity_[8034992598162]",
+                    "Entity_[43290138912731]",
+                    "Entity_[43298728847323]"
                 ]
             },
             "Component_[7943664263158096905]": {
@@ -58,9 +60,9 @@
         }
     },
     "Entities": {
-        "Entity_[8034992598162]": {
-            "Id": "Entity_[8034992598162]",
-            "Name": "LP_Beam",
+        "Entity_[43290138912731]": {
+            "Id": "Entity_[43290138912731]",
+            "Name": "LP_Ray",
             "Components": {
                 "Component_[1101565051742166264]": {
                     "$type": "EditorEntitySortComponent",
@@ -92,9 +94,9 @@
                     "Id": 5995706240568522927,
                     "ParticleSystem": {
                         "assetId": {
-                            "guid": "{8B1E3D9B-53BF-544C-AADE-8717D7480DB5}"
+                            "guid": "{40E83B3D-9D24-58E9-943D-BA3052D433E8}"
                         },
-                        "assetHint": "pkfx/particles/laserpistol/fx_laserpistol.pkfx"
+                        "assetHint": "pkfx/particles/laserpistol/fx_laserpistol_ray.pkfx"
                     },
                     "PrewarmTime": 0.0,
                     "AttributeList": {
@@ -118,12 +120,284 @@
                             {
                                 "Name": "Laser lifetime",
                                 "Type": 31
+                            },
+                            {
+                                "Name": "Hit Position",
+                                "Type": 33
                             }
                         ],
-                        "AttributesRawData": "AAAAADjVQj/+7WU/AACAPwAAgD8AAAAAAAAAAAAAAAD+7WU/ZePSPgAAAAAAAIA/AABIQgAAAAAAAAAAAAAAADMzsz4AAAAAAAAAAAAAAAA="
+                        "AttributesRawData": "AAAAADjVQj/+7WU/AACAPwAAgD8AAAAAAAAAAAAAAAD+7WU/ZePSPgAAAAAAAIA/AABIQgAAAAAAAAAAAAAAADMzsz4AAAAAAAAAAAAAAAAAACDCAAC0wQAAgD8AAAAA"
                     },
                     "EditorAttributeList": {
                         "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "Color": [
+                                            0.0,
+                                            0.7610659599304199,
+                                            0.8981627225875854
+                                        ]
+                                    },
+                                    {
+                                        "ValueFX": 1.0
+                                    },
+                                    {
+                                        "Color": [
+                                            0.8981627225875854,
+                                            0.4118911325931549,
+                                            0.0
+                                        ]
+                                    },
+                                    {
+                                        "ValueFX": 50.0
+                                    },
+                                    {
+                                        "ValueFX": 0.3499999940395355
+                                    },
+                                    {
+                                        "ValueFX": -40.0,
+                                        "ValueFY": -22.5,
+                                        "ValueFZ": 1.0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Component_[6929580789932258928]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6929580789932258928
+                },
+                "Component_[7191168253923317721]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7191168253923317721
+                },
+                "Component_[8001718998931194151]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8001718998931194151
+                }
+            }
+        },
+        "Entity_[43298728847323]": {
+            "Id": "Entity_[43298728847323]",
+            "Name": "LP_Explosion",
+            "Components": {
+                "Component_[1101565051742166264]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1101565051742166264
+                },
+                "Component_[14178051864589832048]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14178051864589832048
+                },
+                "Component_[14930657745513259782]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14930657745513259782
+                },
+                "Component_[16568633313153604182]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16568633313153604182
+                },
+                "Component_[370442112861491395]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 370442112861491395
+                },
+                "Component_[4384099549754939816]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4384099549754939816,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[5995706240568522927]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 5995706240568522927,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{68E9704D-C6F4-58F8-BFA1-6A67B7DE6017}"
+                        },
+                        "assetHint": "pkfx/particles/laserpistol/fx_laserpistol_explosion.pkfx"
+                    },
+                    "PrewarmTime": 0.0,
+                    "AttributeList": {
+                        "Attributes": [
+                            {
+                                "Name": "Color 01",
+                                "Type": 34
+                            },
+                            {
+                                "Name": "Global Size",
+                                "Type": 31
+                            },
+                            {
+                                "Name": "Color 02",
+                                "Type": 34
+                            },
+                            {
+                                "Name": "Max Length",
+                                "Type": 31
+                            },
+                            {
+                                "Name": "Laser lifetime",
+                                "Type": 31
+                            },
+                            {
+                                "Name": "Hit Position",
+                                "Type": 33
+                            },
+                            {
+                                "Name": "Hit Normal",
+                                "Type": 33
+                            },
+                            {
+                                "Name": "Distortion Power",
+                                "Type": 31
+                            }
+                        ],
+                        "AttributesRawData": "AAAAADjVQj/+7WU/AACAPwAAgD8AAAAAAAAAAAAAAAD+7WU/ZePSPgAAAAAAAIA/AABIQgAAAAAAAAAAAAAAADMzsz4AAAAAAAAAAAAAAAAAACDCAAC0wQAAgD8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAA="
+                    },
+                    "EditorAttributeList": {
+                        "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "Color": [
+                                            0.0,
+                                            0.7610659599304199,
+                                            0.8981627225875854
+                                        ]
+                                    },
+                                    {
+                                        "ValueFX": 1.0
+                                    },
+                                    {
+                                        "Color": [
+                                            0.8981627225875854,
+                                            0.4118911325931549,
+                                            0.0
+                                        ]
+                                    },
+                                    {
+                                        "ValueFX": 50.0
+                                    },
+                                    {
+                                        "ValueFX": 0.3499999940395355
+                                    },
+                                    {
+                                        "ValueFX": -40.0,
+                                        "ValueFY": -22.5,
+                                        "ValueFZ": 1.0
+                                    },
+                                    {
+                                        "ValueFY": -1.0
+                                    },
+                                    {
+                                        "ValueFX": 1.0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Component_[6929580789932258928]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6929580789932258928
+                },
+                "Component_[7191168253923317721]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7191168253923317721
+                },
+                "Component_[8001718998931194151]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8001718998931194151
+                }
+            }
+        },
+        "Entity_[8034992598162]": {
+            "Id": "Entity_[8034992598162]",
+            "Name": "LP_Blast",
+            "Components": {
+                "Component_[1101565051742166264]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1101565051742166264
+                },
+                "Component_[14178051864589832048]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14178051864589832048
+                },
+                "Component_[14930657745513259782]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14930657745513259782
+                },
+                "Component_[16568633313153604182]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16568633313153604182
+                },
+                "Component_[370442112861491395]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 370442112861491395
+                },
+                "Component_[4384099549754939816]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4384099549754939816,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[5995706240568522927]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 5995706240568522927,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{6D26EC0E-F483-5C18-8DDA-F8D2C6AA37CC}"
+                        },
+                        "assetHint": "pkfx/particles/laserpistol/fx_laserpistol_blast.pkfx"
+                    },
+                    "PrewarmTime": 0.0,
+                    "AttributeList": {
+                        "Attributes": [
+                            {
+                                "Name": "Color 01",
+                                "Type": 34
+                            },
+                            {
+                                "Name": "Global Size",
+                                "Type": 31
+                            },
+                            {
+                                "Name": "Color 02",
+                                "Type": 34
+                            },
+                            {
+                                "Name": "Distortion Power",
+                                "Type": 31
+                            }
+                        ],
+                        "AttributesRawData": "AAAAADjVQj/+7WU/AACAPwAAgD8AAAAAAAAAAAAAAAD+7WU/ZePSPgAAAAAAAIA/AACAPwAAAAAAAAAAAAAAAA=="
+                    },
+                    "EditorAttributeList": {
+                        "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "Color": [
+                                            0.0,
+                                            0.7610659599304199,
+                                            0.8981627225875854
+                                        ]
+                                    },
+                                    {
+                                        "ValueFX": 1.0
+                                    },
+                                    {
+                                        "Color": [
+                                            0.8981627225875854,
+                                            0.4118911325931549,
+                                            0.0
+                                        ]
+                                    },
+                                    {
+                                        "ValueFX": 1.0
+                                    }
+                                ]
+                            },
                             {
                                 "Attributes": [
                                     {

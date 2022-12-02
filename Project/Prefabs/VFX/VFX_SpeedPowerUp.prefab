@@ -95,7 +95,7 @@
                                 "Type": 31
                             }
                         ],
-                        "AttributesRawData": "AACAPwAAAAAAAAAAAAAAAAAAIEEAAAAAAAAAAAAAAAAAAIA/nJB+PyFTZD8AAIA/AACgQAAAAAAAAAAAAAAAAA=="
+                        "AttributesRawData": "AACAPwAAAAAAAAAAAAAAAAAAoEEAAAAAAAAAAAAAAAAAAIA//5B+P+RSZD8AAIA/AABAQAAAAAAAAAAAAAAAAA=="
                     },
                     "EditorAttributeList": {
                         "AttributeCategories": [
@@ -105,17 +105,17 @@
                                         "ValueFX": 1.0
                                     },
                                     {
-                                        "ValueFX": 10.0
+                                        "ValueFX": 20.0
                                     },
                                     {
                                         "Color": [
                                             1.0,
-                                            0.994394063949585,
-                                            0.8918934464454651
+                                            0.9943999648094177,
+                                            0.8918898105621338
                                         ]
                                     },
                                     {
-                                        "ValueFX": 5.0
+                                        "ValueFX": 3.0
                                     }
                                 ]
                             }
@@ -139,6 +139,12 @@
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 5426615716134698067,
                     "Parent Entity": "ContainerEntity"
+                },
+                "Component_[5984386273947845371]": {
+                    "$type": "PopcornFXHelperLoopEmitterEditorComponent",
+                    "Id": 5984386273947845371,
+                    "LoopInEditor": true,
+                    "Delay": 6.0
                 },
                 "Component_[6757019319162646245]": {
                     "$type": "EditorLockComponent",
