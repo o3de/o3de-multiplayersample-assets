@@ -3,10 +3,6 @@
         "Id": "ContainerEntity",
         "Name": "HTS_Bench_A",
         "Components": {
-            "Component_[12045762681586940809]": {
-                "$type": "SelectionComponent",
-                "Id": 12045762681586940809
-            },
             "Component_[13479950991503042358]": {
                 "$type": "EditorInspectorComponent",
                 "Id": 13479950991503042358
@@ -79,6 +75,13 @@
                     "$type": "EditorColliderComponent",
                     "Id": 1820864736712061341,
                     "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial"
+                                }
+                            ]
+                        },
                         "MaterialSelection": {
                             "MaterialIds": [
                                 {},
@@ -209,10 +212,6 @@
                             }
                         }
                     }
-                },
-                "Component_[9863474473349343216]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9863474473349343216
                 }
             }
         }
