@@ -35,7 +35,11 @@
                     "Instance_[1005323244988]/ContainerEntity",
                     "Instance_[1053855330039]/ContainerEntity",
                     "Instance_[4154821717751]/ContainerEntity",
-                    "Instance_[4773297008375]/ContainerEntity"
+                    "Instance_[4773297008375]/ContainerEntity",
+                    "Instance_[2051676711651]/ContainerEntity",
+                    "Instance_[2399569062627]/ContainerEntity",
+                    "Instance_[2764641282787]/ContainerEntity",
+                    "Instance_[3146893372131]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -254,7 +258,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 55.0,
-                            "EditorEntityId": 7786346510910171375
+                            "EditorEntityId": 12108636519434914585
                         }
                     }
                 },
@@ -933,6 +937,46 @@
                 }
             ]
         },
+        "Instance_[2051676711651]": {
+            "Source": "LECstraight/LECstraight.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[806209415438007648]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                }
+            ]
+        },
+        "Instance_[2399569062627]": {
+            "Source": "LECT/LECT.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[429465310568206761]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                }
+            ]
+        },
+        "Instance_[2764641282787]": {
+            "Source": "LEC45d/LEC45d.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4946249500352254131]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                }
+            ]
+        },
+        "Instance_[3146893372131]": {
+            "Source": "LEC30d/LEC30d.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16235027017842961326]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                }
+            ]
+        },
         "Instance_[3484695284506]": {
             "Source": "Barrel01/Barrel01.prefab",
             "Patches": [
@@ -950,6 +994,11 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[6227335245203497726]/Parent Entity",
                     "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6227335245203497726]/Transform Data/Translate/1",
+                    "value": 17.083110809326172
                 }
             ]
         },
