@@ -52,10 +52,6 @@
                 "Id": 18225413929989878930,
                 "LocalBookmarkFileName": "MPS-Asset-Test_86433838269.setreg"
             },
-            "Component_[1897136525162337093]": {
-                "$type": "SelectionComponent",
-                "Id": 1897136525162337093
-            },
             "Component_[5688118765544765547]": {
                 "$type": "EditorEntityIconComponent",
                 "Id": 5688118765544765547
@@ -75,6 +71,77 @@
         }
     },
     "Entities": {
+        "Entity_[1001735090408]": {
+            "Id": "Entity_[1001735090408]",
+            "Name": "Entity1",
+            "Components": {
+                "Component_[1045174215860537537]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1045174215860537537
+                },
+                "Component_[11299505426576571236]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11299505426576571236
+                },
+                "Component_[11660712023455985532]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11660712023455985532
+                },
+                "Component_[14644278790833907879]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14644278790833907879
+                },
+                "Component_[1518515754748564007]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1518515754748564007
+                },
+                "Component_[18330092958027548986]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 18330092958027548986,
+                    "Parent Entity": "Entity_[1176639161715]"
+                },
+                "Component_[1937179284467217195]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1937179284467217195
+                },
+                "Component_[457555937268767980]": {
+                    "$type": "AZ::Render::EditorSkyAtmosphereComponent",
+                    "Id": 457555937268767980,
+                    "Controller": {
+                        "Configuration": {
+                            "LuminanceFactor": [
+                                0.25,
+                                0.25,
+                                0.25
+                            ],
+                            "SunColor": [
+                                0.5254902243614197,
+                                0.46666666865348816,
+                                0.40784314274787903
+                            ],
+                            "SunLuminanceFactor": 2.0,
+                            "SunLimbColor": [
+                                0.5254902243614197,
+                                0.46666666865348816,
+                                0.40784314274787903
+                            ],
+                            "SunOrientation": "Entity_[1155164325235]",
+                            "SunRadiusFactor": 4.000095844268799,
+                            "SunFalloffFactor": 1.100000023841858,
+                            "ShadowsEnabled": true
+                        }
+                    }
+                },
+                "Component_[7079444475536339354]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7079444475536339354
+                },
+                "Component_[8827587055418150948]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8827587055418150948
+                }
+            }
+        },
         "Entity_[1155164325235]": {
             "Id": "Entity_[1155164325235]",
             "Name": "Sun",
@@ -82,10 +149,6 @@
                 "Component_[13620450453324765907]": {
                     "$type": "EditorLockComponent",
                     "Id": 13620450453324765907
-                },
-                "Component_[15444991171796301871]": {
-                    "$type": "SelectionComponent",
-                    "Id": 15444991171796301871
                 },
                 "Component_[2134313378593666258]": {
                     "$type": "EditorInspectorComponent",
@@ -112,9 +175,15 @@
                     "Id": 7378860763541895402,
                     "Controller": {
                         "Configuration": {
-                            "Intensity": 1.0,
+                            "Color": [
+                                0.239215686917305,
+                                0.18431372940540314,
+                                0.13725490868091583
+                            ],
+                            "Intensity": 2.0,
                             "CameraEntityId": "",
-                            "ShadowFilterMethod": 1
+                            "ShadowFilterMethod": 1,
+                            "CascadeBlendingEnabled": true
                         }
                     }
                 },
@@ -129,9 +198,9 @@
                             13.487043380737305
                         ],
                         "Rotate": [
-                            -76.13099670410156,
-                            -0.847000002861023,
-                            -15.8100004196167
+                            144.58335876464844,
+                            -16.499818801879883,
+                            178.48873901367188
                         ]
                     }
                 },
@@ -149,10 +218,6 @@
             "Id": "Entity_[1159459292531]",
             "Name": "Ground",
             "Components": {
-                "Component_[11219772407812102134]": {
-                    "$type": "SelectionComponent",
-                    "Id": 11219772407812102134
-                },
                 "Component_[12260880513256986252]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 12260880513256986252
@@ -187,6 +252,13 @@
                             0.0,
                             -0.5
                         ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
                         "MaterialSelection": {
                             "MaterialIds": [
                                 {}
@@ -248,13 +320,23 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 11895140916889160460
                 },
+                "Component_[12751084557309533176]": {
+                    "$type": "AZ::Render::EditorExposureControlComponent",
+                    "Id": 12751084557309533176,
+                    "Controller": {
+                        "Configuration": {
+                            "ExposureControlType": 1,
+                            "ManualCompensation": 0.5
+                        }
+                    }
+                },
                 "Component_[16880285896855930892]": {
                     "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
                     "Id": 16880285896855930892,
                     "Controller": {
                         "Configuration": {
                             "Field of View": 55.0,
-                            "EditorEntityId": 7786346510910171375
+                            "EditorEntityId": 15151370614107164316
                         }
                     }
                 },
@@ -287,6 +369,10 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 2654521436129313160
                 },
+                "Component_[3951624115283448895]": {
+                    "$type": "AZ::Render::EditorPostFxLayerComponent",
+                    "Id": 3951624115283448895
+                },
                 "Component_[5265045084611556958]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 5265045084611556958
@@ -294,10 +380,6 @@
                 "Component_[7169798125182238623]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 7169798125182238623
-                },
-                "Component_[7211756977111227588]": {
-                    "$type": "SelectionComponent",
-                    "Id": 7211756977111227588
                 },
                 "Component_[7255796294953281766]": {
                     "$type": "GenericComponentWrapper",
@@ -357,10 +439,6 @@
                     "Id": 380249072065273654,
                     "Parent Entity": "Entity_[1176639161715]"
                 },
-                "Component_[4139677630197219475]": {
-                    "$type": "SelectionComponent",
-                    "Id": 4139677630197219475
-                },
                 "Component_[7476660583684339787]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 7476660583684339787
@@ -394,10 +472,6 @@
                 "Component_[12037033284781049225]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 12037033284781049225
-                },
-                "Component_[12519590048009987801]": {
-                    "$type": "SelectionComponent",
-                    "Id": 12519590048009987801
                 },
                 "Component_[13759153306105970079]": {
                     "$type": "EditorPendingCompositionComponent",
@@ -471,10 +545,6 @@
                         }
                     ]
                 },
-                "Component_[1467995629308728923]": {
-                    "$type": "SelectionComponent",
-                    "Id": 1467995629308728923
-                },
                 "Component_[14988041764659020032]": {
                     "$type": "EditorLockComponent",
                     "Id": 14988041764659020032
@@ -504,7 +574,8 @@
                         "Entity_[1172344194419]",
                         "Entity_[1168049227123]",
                         "Entity_[1163754259827]",
-                        "Entity_[1159459292531]"
+                        "Entity_[1159459292531]",
+                        "Entity_[1001735090408]"
                     ]
                 },
                 "Component_[9277695270015777859]": {
@@ -524,17 +595,14 @@
                         "Configuration": {
                             "CubemapAsset": {
                                 "assetId": {
-                                    "guid": "{215E47FD-D181-5832-B1AB-91673ABF6399}",
+                                    "guid": "{733ED774-2940-5740-B334-2A16A25AE052}",
                                     "subId": 1000
                                 },
-                                "assetHint": "lightingpresets/highcontrast/goegap_4k_skyboxcm.exr.streamingimage"
-                            }
+                                "assetHint": "skies/starmap_2020_iblskyboxcm.exr.streamingimage"
+                            },
+                            "Exposure": 3.0
                         }
                     }
-                },
-                "Component_[11305290403401821446]": {
-                    "$type": "SelectionComponent",
-                    "Id": 11305290403401821446
                 },
                 "Component_[1428633914413949476]": {
                     "$type": "EditorLockComponent",
@@ -547,20 +615,36 @@
                         "Configuration": {
                             "diffuseImageAsset": {
                                 "assetId": {
-                                    "guid": "{3FD09945-D0F2-55C8-B9AF-B2FD421FE3BE}",
+                                    "guid": "{733ED774-2940-5740-B334-2A16A25AE052}",
                                     "subId": 3000
                                 },
-                                "assetHint": "lightingpresets/highcontrast/goegap_4k_iblglobalcm_ibldiffuse.exr.streamingimage"
+                                "assetHint": "skies/starmap_2020_iblskyboxcm_ibldiffuse.exr.streamingimage"
                             },
                             "specularImageAsset": {
                                 "assetId": {
-                                    "guid": "{3FD09945-D0F2-55C8-B9AF-B2FD421FE3BE}",
+                                    "guid": "{733ED774-2940-5740-B334-2A16A25AE052}",
                                     "subId": 2000
                                 },
-                                "assetHint": "lightingpresets/highcontrast/goegap_4k_iblglobalcm_iblspecular.exr.streamingimage"
-                            }
+                                "assetHint": "skies/starmap_2020_iblskyboxcm_iblspecular.exr.streamingimage"
+                            },
+                            "exposure": 3.0
                         }
-                    }
+                    },
+                    "diffuseImageAsset": {
+                        "assetId": {
+                            "guid": "{733ED774-2940-5740-B334-2A16A25AE052}",
+                            "subId": 3000
+                        },
+                        "assetHint": "skies/starmap_2020_iblskyboxcm_ibldiffuse.exr.streamingimage"
+                    },
+                    "specularImageAsset": {
+                        "assetId": {
+                            "guid": "{733ED774-2940-5740-B334-2A16A25AE052}",
+                            "subId": 2000
+                        },
+                        "assetHint": "skies/starmap_2020_iblskyboxcm_iblspecular.exr.streamingimage"
+                    },
+                    "exposure": 3.0
                 },
                 "Component_[14994774102579326069]": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -773,10 +857,6 @@
                 "Component_[9257432994196758248]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 9257432994196758248
-                },
-                "Component_[9390072468528402395]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9390072468528402395
                 }
             }
         },
@@ -873,10 +953,6 @@
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 4541269734555853195
                 },
-                "Component_[568742110740409254]": {
-                    "$type": "SelectionComponent",
-                    "Id": 568742110740409254
-                },
                 "Component_[6844522713015350749]": {
                     "$type": "EditorLockComponent",
                     "Id": 6844522713015350749
@@ -930,6 +1006,11 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[7968127118296968054]/Transform Data/Translate/1",
                     "value": -9.964027404785156
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2377036055897]/Components/Component_[6568286573377831044]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "lambert1"
                 }
             ]
         },
@@ -1064,7 +1145,12 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[17157686771089913101]/Transform Data/Translate/1",
-                    "value": -9.364770889282228
+                    "value": -9.364770889282227
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[894913145928]/Components/Component_[8782545539835015194]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "lambert2"
                 }
             ]
         },
