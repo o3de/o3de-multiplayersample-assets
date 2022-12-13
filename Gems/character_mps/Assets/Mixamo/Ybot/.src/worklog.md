@@ -1,3 +1,21 @@
+# Mixamo, YBot, Worklog
+
+## [0.0.0] - 2022-12-13
+
+Baked textures with Marmoset Toolbag (bake scene files included in .src)
+
+    set the HIGH with 3 subD levels to smooth out sampling anomlies
+
+    baked one set with Joints (for occlusion)
+
+    baked second set without joints (so joints aren't sampled in normals)
+
+Added ybot\base.material with basecolor, normals and AO
+
+Added mixamo logo textures
+
+## [0.0.0] - 2022-12-09
+
 created nest .src\ directry
 
 modified the Gems asset processor setreg, to exclude scanning .src\
@@ -103,5 +121,3 @@ Exported this single combined mesh to: .src\Alpha_Smooth_LOW.fbx
     - with triangulation enabled
 
     - without tangent/binormals (going to bake MikkT in Marmoset)
-
-
