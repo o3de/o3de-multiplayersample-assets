@@ -11,7 +11,12 @@
                     "watch": "@GEMROOT:character_mps@/Registry",
                     "recursive": 1,
                     "order": 102
-                }
+                },
+			    "Exclude":{
+				    "Exclude .src source folders": {
+					    "glob": "*/.src/*"
+					}
+				}
             }
         }
     }
