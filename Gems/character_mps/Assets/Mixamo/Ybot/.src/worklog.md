@@ -1,6 +1,16 @@
 # Mixamo, YBot, Worklog
 
-## [0.0.0] - 2022-12-13
+This is a worklog of changes made to the YBot for MPS
+
+## [0.0.2] - 2022-12-13
+
+Updated the tangent orientation settings in marmoset to left handed
+
+Updated the bake settings in marmoset from per-pixel to per-vertex
+
+Rebake of texture channels and texture updates
+
+## [0.0.1] - 2022-12-13
 
 Baked textures with Marmoset Toolbag (bake scene files included in .src)
 
@@ -16,7 +26,7 @@ Added mixamo logo textures
 
 ## [0.0.0] - 2022-12-09
 
-created nest .src\ directry
+created nest .src\ directory
 
 modified the Gems asset processor setreg, to exclude scanning .src\
 
@@ -56,7 +66,7 @@ Going to set up the native_mesh as High-res (for baking)
 
     - going to avoid mirror on head/chest
 
-    - but going to encourage mirroring arms/legs (so rmove one side)
+    - but going to encourage mirroring arms/legs (so remove one side)
 
     - see 00_native_mesh.png
 
