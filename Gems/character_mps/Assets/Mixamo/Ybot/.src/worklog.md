@@ -2,6 +2,14 @@
 
 This is a worklog of changes made to the YBot for MPS
 
+## [0.0.2] - 2022-12-14
+
+Added the right hand side (flip/mirror) of arms and legs into the HIGH bake model set, so they are accounted for in the AO bake pass (inner thighs, etc.) 
+
+Tweaked the bake settings in the marmoset files
+
+Adjusted the normals on the bake set geometry.
+
 ## [0.0.2] - 2022-12-13
 
 Updated the tangent orientation settings in marmoset to left handed
