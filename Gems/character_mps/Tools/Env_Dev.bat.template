@@ -1,0 +1,23 @@
+REM
+REM Copyright (c) Contributors to the Open 3D Engine Project.
+REM For complete copyright and license terms please see the LICENSE at the root of this distribution.
+REM
+REM SPDX-License-Identifier: Apache-2.0 OR MIT
+REM
+REM
+
+echo.
+echo _____________________________________________________________________
+echo.
+echo ~    O3DE DCCsi Env Dev ...
+echo _____________________________________________________________________
+echo.
+echo ~    local env settings
+echo.
+
+:: These are local overrides for developers launching the dev environment
+:: Using the .bat files (for windows)
+
+:: set the location of the engine root
+set O3DE_DEV=C:\depot\o3de-dev
+echo     O3DE_DEV = %O3DE_DEV%
