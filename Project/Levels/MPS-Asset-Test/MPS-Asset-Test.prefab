@@ -39,7 +39,9 @@
                     "Instance_[2051676711651]/ContainerEntity",
                     "Instance_[2399569062627]/ContainerEntity",
                     "Instance_[2764641282787]/ContainerEntity",
-                    "Instance_[3146893372131]/ContainerEntity"
+                    "Instance_[3146893372131]/ContainerEntity",
+                    "Instance_[24237596969497]/ContainerEntity",
+                    "Instance_[1393455482954]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -560,6 +562,7 @@
                                 0.13725490868091583
                             ],
                             "Intensity": 2.0,
+                            "AngularDiameter": 1.0,
                             "CameraEntityId": "",
                             "ShadowFilterMethod": 1,
                             "CascadeBlendingEnabled": true
@@ -1536,6 +1539,31 @@
                 }
             ]
         },
+        "Instance_[1393455482954]": {
+            "Source": "KB3D_HighTechStreets/Objects/RoadTile/road_tile.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4436910717373248819]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4436910717373248819]/Transform Data/Translate/0",
+                    "value": -3.598296642303467
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4436910717373248819]/Transform Data/Translate/1",
+                    "value": -18.98159408569336
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4436910717373248819]/Transform Data/Translate/2",
+                    "value": -0.03361344337463379
+                }
+            ]
+        },
         "Instance_[1806404418815]": {
             "Source": "DefenceTurret/DefenceTurret.prefab",
             "Patches": [
@@ -1561,21 +1589,6 @@
                 }
             ]
         },
-        "Instance_[24237596969497]": {
-            "Source": "Prefabs/Canyon-Barren-Terrain.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[16893389135966699929]/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[16893389135966699929]/Transform Data/Translate/2",
-                    "value": 28.52194023132324
-                }
-            ]
-        },
         "Instance_[2051676711651]": {
             "Source": "LECstraight/LECstraight.prefab",
             "Patches": [
@@ -1593,6 +1606,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[429465310568206761]/Parent Entity",
                     "value": "../Entity_[1146574390643]"
+                }
+            ]
+        },
+        "Instance_[24237596969497]": {
+            "Source": "Prefabs/Canyon-Barren-Terrain.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16893389135966699929]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16893389135966699929]/Transform Data/Translate/2",
+                    "value": 28.52194023132324
                 }
             ]
         },
