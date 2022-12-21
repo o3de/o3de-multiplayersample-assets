@@ -40,7 +40,8 @@
                     "Instance_[2399569062627]/ContainerEntity",
                     "Instance_[2764641282787]/ContainerEntity",
                     "Instance_[3146893372131]/ContainerEntity",
-                    "Instance_[24237596969497]/ContainerEntity"
+                    "Instance_[24237596969497]/ContainerEntity",
+                    "Instance_[1294296433725]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -1652,6 +1653,26 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[10748140798445095430]/Parent Entity",
                     "value": "../Entity_[1146574390643]"
+                }
+            ]
+        },
+        "Instance_[1294296433725]": {
+            "Source": "KB3D_HighTechStreets/Objects/Platform_Tile/Platform_Tile.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9803039979756737014]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9803039979756737014]/Transform Data/Translate/0",
+                    "value": -5.186746597290039
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9803039979756737014]/Transform Data/Translate/1",
+                    "value": -20.090431213378906
                 }
             ]
         },
