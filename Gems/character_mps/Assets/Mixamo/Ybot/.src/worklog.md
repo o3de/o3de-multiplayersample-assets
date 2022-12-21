@@ -19,7 +19,7 @@ These are production working files for the YBot model.  As production stages of 
 | Marmoset_TB_Alpha_Joints_Bake.tbscene | This bake scene includes the joints, so we can bake good AO, etc.                                                                             |
 | Alpha_mesh_final.fbx                  | This is an export of the final cleaned up low poly game model ready for import into the actual runtime model (in the root folder above /.src) |
 
-## [0.0.2] - 2022-12-14
+## [0.0.3] - 2022-12-21
 
 Added section of this document above, to describe /.src files usage.
 
@@ -142,6 +142,48 @@ in Alpha_mesh_working.mb:
   - Both bake projects need Alpha_Joints_HIGH to be included in HIGH
   
   - Bake project outputs, switch to: Texture_Bake_Channels/**With_Joints**/*
+
+- /Ybot (the asset folder)
+  
+  - in ybot_yup_working:
+    
+    - set the scene settings to centimeter
+    
+    - cleaned out the rig/model, to be replaced
+    
+    - imported the /.src/native_mesh.fbx (want native rig)
+    
+    - parented rig under Armature (locator)
+    
+    - moved the original body mesh into REFERENCE
+    
+    - imported the /.src/Alpha_mesh_final.fbx
+    
+    - included the meshes in a group: body, head, joints, logo plate
+    
+    - made sure mesh transforms were frozen, then deleted history on them
+    
+    - then used 'bind skin' on them, using mixamorig:Hips as the selected root node
+    
+    - then with only the 'mesh group' selected, use the edit > LOD > generate LOD meshes.  This creates a 'LOD_Group_1' node, with grouped hierarchy of decimated LOD meshes beneath it (this can also propagate skinning, which is why I skinned first)
+    
+    - NOTE: you really need to clean up the node names after creating the 'LOD group node', as they don't match the default soft naming conventions:
+      
+      - LOD_0 changed to LOD0, as an example
+      
+      - the on the sub-meshes also added _lod0
+      
+      - this helps make sure that all the automated mesh groups in scene settings are handled correctly
+  
+  - selected the YBot_LOD_Group and Armature, used the Game Exporter, to export the FBX, with skinning, etc.  make sure that the triangulation flag is on.
+    
+    - exported as YBot.fbx
+  
+  - In Editor
+    
+    - opened the Material Editor and fixed-up the ybot_body_base and ybot_head_base materials (corrected texture assignment and such.)
+    
+    - Then put the Ybot ActorAsset into a Entity with Actor Component to load the ybot, and then a Simple Motion Component - and validated several mixamo animations (the skinning needs to be improve, letting Alex D handle that.)  What's important (Ithink), is that the motions work without 'retarget' enabled.
 
 ## [0.0.2] - 2022-12-14
 
