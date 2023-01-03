@@ -1,0 +1,58 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{5C07A2D2-1971-5B80-B7F7-FC3EB5F7881A}",
+            "name": "HTS_BldgMD_G_Chair",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.KB3D_HTS_BldgMD_G_ChairA_phys"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.KB3D_HTS_BldgMD_G_ChairA"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "HTS_BldgMD_G_Chair",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.KB3D_HTS_BldgMD_G_ChairA"
+                ],
+                "unselectedNodes": [
+                    "RootNode.KB3D_HTS_BldgMD_G_ChairA_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{0B57606E-993F-5964-B507-F0514302409B}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "KB3D_HighTechStreets/Objects/HTS_BldgMD_G/HTS_BldgMD_G_Chair_fbx.procprefab",
+            "id": "{510D9C57-C13A-5E65-A62D-D130E4F82B0E}",
+            "createProceduralPrefab": false
+        }
+    ]
+}

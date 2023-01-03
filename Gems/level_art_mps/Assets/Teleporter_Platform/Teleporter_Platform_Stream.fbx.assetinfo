@@ -1,0 +1,61 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{AC9C70C0-66F7-5E3B-AADE-6EB08253294D}",
+            "name": "Teleporter_Platform_Stream",
+            "NodeSelectionList": {
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.StreamFX",
+                    "RootNode.StreamFX.Col0",
+                    "RootNode.StreamFX.transform",
+                    "RootNode.StreamFX.custom_properties",
+                    "RootNode.StreamFX.UVMap",
+                    "RootNode.StreamFX.StreamMAT"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Entire object"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Teleporter_Platform_Stream",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.StreamFX",
+                    "RootNode.StreamFX.Col0",
+                    "RootNode.StreamFX.transform",
+                    "RootNode.StreamFX.custom_properties",
+                    "RootNode.StreamFX.UVMap",
+                    "RootNode.StreamFX.StreamMAT"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    },
+                    {
+                        "$type": "ClothRule",
+                        "meshNodeName": "RootNode.StreamFX",
+                        "inverseMassesStreamName": "Col0",
+                        "motionConstraintsStreamName": "Col0",
+                        "backstopStreamName": "None"
+                    }
+                ]
+            },
+            "id": "{8EDFD5C8-FF35-55D9-812A-1DF0FF2753BD}"
+        }
+    ]
+}
