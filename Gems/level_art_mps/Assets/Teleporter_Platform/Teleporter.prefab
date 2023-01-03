@@ -1,0 +1,262 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Teleporter",
+        "Components": {
+            "Component_[10032663049320092600]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 10032663049320092600,
+                "Child Entity Order": [
+                    "Entity_[721662789418]"
+                ]
+            },
+            "Component_[11778874595243631957]": {
+                "$type": "EditorLockComponent",
+                "Id": 11778874595243631957
+            },
+            "Component_[12027868928839074199]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12027868928839074199
+            },
+            "Component_[1340886723482881960]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1340886723482881960,
+                "Parent Entity": ""
+            },
+            "Component_[14558703325077495525]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 14558703325077495525
+            },
+            "Component_[15506385226429022509]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 15506385226429022509
+            },
+            "Component_[16731862356720286901]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 16731862356720286901
+            },
+            "Component_[4211016826885104428]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 4211016826885104428
+            },
+            "Component_[7264408756577350745]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 7264408756577350745
+            },
+            "Component_[7681637307313043172]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7681637307313043172
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[721662789418]": {
+            "Id": "Entity_[721662789418]",
+            "Name": "Teleporter",
+            "Components": {
+                "Component_[10112924460877714862]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 10112924460877714862,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "TeleporterGlassMAT"
+                                },
+                                {
+                                    "Name": "TeleporterMAT"
+                                },
+                                {
+                                    "Name": "TeleScreenMAT"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{F00EEE67-F976-51F4-87D9-D0FE48E04321}",
+                                    "subId": 539595421
+                                },
+                                "assetHint": "assets/teleporter_platform/teleporter_platform.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{F00EEE67-F976-51F4-87D9-D0FE48E04321}",
+                                        "subId": 539595421
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "assets/teleporter_platform/teleporter_platform.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
+                "Component_[13801805935512504733]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13801805935512504733,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1570805810
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EE858547-6989-5DAD-9ADD-4C2683450642}"
+                                            },
+                                            "assetHint": "assets/teleporter_platform/teleporter_platform_teleporterglassmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3056499394
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9BFD9BB6-7105-5800-BF1F-84C30981A445}"
+                                            },
+                                            "assetHint": "assets/teleporter_platform/teleporter_platform_telescreenmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3477108463
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EC4069D9-2E70-574C-B050-D593F1E0E70F}"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[16185029289100414968]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16185029289100414968
+                },
+                "Component_[17175297100459666491]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17175297100459666491
+                },
+                "Component_[192811015384260712]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 192811015384260712
+                },
+                "Component_[2496384515008999953]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2496384515008999953
+                },
+                "Component_[2595461524513053718]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2595461524513053718
+                },
+                "Component_[2617115515770634840]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 2617115515770634840,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{53D126DE-5316-5A0C-8E97-99426583126E}",
+                            "path": "Assets/Teleporter_Platform/TeleportFX.scriptcanvas"
+                        },
+                        "sourceName": "TeleportFX.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{53D126DE-5316-5A0C-8E97-99426583126E}",
+                                "path": "Assets/Teleporter_Platform/TeleportFX.scriptcanvas"
+                            },
+                            "overridesUnused": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 5
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                        "value": "StreamMAT"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{6631FEE3-6A36-4525-BAD6-80D093C0E5D5}"
+                                    },
+                                    "VariableName": "Variable 3",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[411956965284001432]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 411956965284001432
+                },
+                "Component_[4502221447987674939]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4502221447987674939,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 7332157232204005176
+                        },
+                        {
+                            "ComponentId": 2617115515770634840,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4727088304284548133,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 16968532220800137955,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 10112924460877714862,
+                            "SortIndex": 4
+                        }
+                    ]
+                },
+                "Component_[4727088304284548133]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4727088304284548133,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{F00EEE67-F976-51F4-87D9-D0FE48E04321}",
+                                    "subId": 271572783
+                                },
+                                "assetHint": "assets/teleporter_platform/teleporter_platform.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[7332157232204005176]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7332157232204005176,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[7353658281855334280]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7353658281855334280
+                }
+            }
+        }
+    }
+}

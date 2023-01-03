@@ -1,0 +1,254 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "HTS_Bldgsm_M",
+        "Components": {
+            "Component_[10332712864756476261]": {
+                "$type": "EditorLockComponent",
+                "Id": 10332712864756476261
+            },
+            "Component_[11646061547481289706]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 11646061547481289706
+            },
+            "Component_[13235423535119927985]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 13235423535119927985
+            },
+            "Component_[14220041649937672945]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 14220041649937672945
+            },
+            "Component_[16237068544565649519]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 16237068544565649519,
+                "Parent Entity": ""
+            },
+            "Component_[18297662792250366916]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 18297662792250366916
+            },
+            "Component_[2255731286851248519]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 2255731286851248519
+            },
+            "Component_[4692097475364951261]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4692097475364951261
+            },
+            "Component_[877722534746472946]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 877722534746472946,
+                "Child Entity Order": [
+                    "Entity_[38987507904742]"
+                ]
+            },
+            "Component_[9998969246389723591]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 9998969246389723591
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[38987507904742]": {
+            "Id": "Entity_[38987507904742]",
+            "Name": "hts_bldgsm_m_main",
+            "Components": {
+                "Component_[11515330859574081440]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11515330859574081440
+                },
+                "Component_[12044828508847331598]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12044828508847331598
+                },
+                "Component_[13483394016126495909]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 13483394016126495909,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3525E950-48FF-56A5-B350-96B451453B86}",
+                                    "subId": 271247584
+                                },
+                                "assetHint": "kb3d_hightechstreets/objects/hts_bldgsm_m/hts_bldgsm_m_main.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[14209857640887715320]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14209857640887715320
+                },
+                "Component_[15501372865514389965]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15501372865514389965
+                },
+                "Component_[16659920757753329012]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16659920757753329012,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[16727707460929895347]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 16727707460929895347,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 275705640
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DFDE33C2-DC39-5CEE-888E-2AC4E82D1E96}"
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_bldgsm_m/hts_bldgsm_m_kb3d_hts_holoinfoa.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 349629606
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{31C81445-62EF-5B86-94CE-0B124A373005}"
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_bldgsm_m/hts_bldgsm_m_kb3d_hts_metalgrey.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1407400302
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{FD51B71B-6F45-52C4-80DE-67D4129E3BA4}"
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_bldgsm_m/hts_bldgsm_m_kb3d_hts_metalwhite.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3110794210
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{62515B17-0DE8-5F11-B500-454F20A96184}"
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_bldgsm_m/hts_bldgsm_m_kb3d_hts_plasticwhite.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3882819120
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{5A67BB3E-29C4-5EE4-9A9F-266102AB744D}"
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_bldgsm_m/hts_bldgsm_m_kb3d_hts_metalyellow.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4039333696
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2BFCEE19-4B3A-52EA-A2F9-7FF589E0D283}"
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_bldgsm_m/hts_bldgsm_m_kb3d_hts_lightyellow.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[18158660565326183316]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 18158660565326183316,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 16659920757753329012
+                        },
+                        {
+                            "ComponentId": 13483394016126495909,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16727707460929895347,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 3487576162907657499,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[3487576162907657499]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 3487576162907657499,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{3525E950-48FF-56A5-B350-96B451453B86}",
+                                    "subId": 3360302035
+                                },
+                                "assetHint": "kb3d_hightechstreets/objects/hts_bldgsm_m/hts_bldgsm_m_main.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{3525E950-48FF-56A5-B350-96B451453B86}",
+                                        "subId": 3360302035
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "kb3d_hightechstreets/objects/hts_bldgsm_m/hts_bldgsm_m_main.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
+                "Component_[3705163083695476439]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3705163083695476439
+                },
+                "Component_[5758600201980263514]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5758600201980263514
+                },
+                "Component_[5944992287966262723]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5944992287966262723
+                }
+            }
+        }
+    }
+}

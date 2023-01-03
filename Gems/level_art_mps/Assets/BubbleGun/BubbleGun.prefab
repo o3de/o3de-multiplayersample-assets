@@ -1,0 +1,223 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "BubbleGun",
+        "Components": {
+            "Component_[10092383020743819126]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 10092383020743819126
+            },
+            "Component_[13358256175975388056]": {
+                "$type": "EditorLockComponent",
+                "Id": 13358256175975388056
+            },
+            "Component_[14405161548735037094]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14405161548735037094
+            },
+            "Component_[17157686771089913101]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17157686771089913101,
+                "Parent Entity": ""
+            },
+            "Component_[1833486022653748883]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1833486022653748883
+            },
+            "Component_[3935135515786180663]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 3935135515786180663,
+                "Child Entity Order": [
+                    "Entity_[894913145928]"
+                ]
+            },
+            "Component_[4379034778842484168]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4379034778842484168
+            },
+            "Component_[7096558046727937973]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 7096558046727937973
+            },
+            "Component_[7259282277721142607]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7259282277721142607
+            },
+            "Component_[8896181498539578270]": {
+                "$type": "SelectionComponent",
+                "Id": 8896181498539578270
+            },
+            "Component_[9362726707861249267]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9362726707861249267
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[894913145928]": {
+            "Id": "Entity_[894913145928]",
+            "Name": "BubbleGun",
+            "Components": {
+                "Component_[10448078542985707204]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 10448078542985707204,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17460843761232657072
+                        },
+                        {
+                            "ComponentId": 7016637777302255643,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1202807479953975271,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 8782545539835015194,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[11353441610948995582]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11353441610948995582
+                },
+                "Component_[1202807479953975271]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1202807479953975271,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2365128453
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E419042E-B9BB-55AE-9FF3-18D0F0EEC1B8}"
+                                            },
+                                            "assetHint": "bubblegun/bubblegun_bubblegun_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 2.0
+                                            },
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13952908905200374230]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13952908905200374230
+                },
+                "Component_[16943500929350735430]": {
+                    "$type": "SelectionComponent",
+                    "Id": 16943500929350735430
+                },
+                "Component_[17460843761232657072]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17460843761232657072,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[198344617976007535]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 198344617976007535
+                },
+                "Component_[7016637777302255643]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 7016637777302255643,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C073EA8E-BD16-5E05-8A30-F0A99EB2A249}",
+                                    "subId": 282677457
+                                },
+                                "assetHint": "bubblegun/bubblegun.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[7624640347717838598]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7624640347717838598
+                },
+                "Component_[7851908416680593456]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7851908416680593456
+                },
+                "Component_[8782545539835015194]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 8782545539835015194,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{C073EA8E-BD16-5E05-8A30-F0A99EB2A249}",
+                                    "subId": 3209762941
+                                },
+                                "assetHint": "bubblegun/bubblegun.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{C073EA8E-BD16-5E05-8A30-F0A99EB2A249}",
+                                        "subId": 3209762941
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "bubblegun/bubblegun.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
+                "Component_[9164861344505556464]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9164861344505556464
+                },
+                "Component_[9409743670236544698]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9409743670236544698
+                }
+            }
+        }
+    }
+}

@@ -1,14 +1,22 @@
 {
     "description": "For reference, lists the default values for every available property in 'Materials/Types/StandardPBR.materialtype'",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
     "materialTypeVersion": 5,
     "propertyValues": {
-        "baseColor.textureMap": "KB3D_HighTechStreets/KB3DTextures/KB3D_HTS_HoloInfoA_basecolor.png",
-        "emissive.textureMap": "KB3D_HighTechStreets/KB3DTextures/KB3D_HTS_HoloInfoA_emissive.png",
-        "parallax.textureMap": "KB3D_HighTechStreets/KB3DTextures/KB3D_HTS_HoloInfoA_height.png",
-        "metallic.textureMap": "KB3D_HighTechStreets/KB3DTextures/KB3D_HTS_HoloInfoA_metallic.png",
-        "normal.textureMap": "KB3D_HighTechStreets/KB3DTextures/KB3D_HTS_HoloInfoA_normal.png",
-        "opacity.textureMap": "KB3D_HighTechStreets/KB3DTextures/KB3D_HTS_HoloInfoA_opacity.png",
-        "roughness.textureMap": "KB3D_HighTechStreets/KB3DTextures/KB3D_HTS_HoloInfoA_roughness.png"
+        "baseColor.textureBlendMode": "Overlay",
+        "baseColor.textureMap": "../../KB3DTextures/KB3D_HTS_HoloInfoA_basecolor.png",
+        "emissive.enable": true,
+        "emissive.intensity": 5.0,
+        "emissive.textureMap": "../../KB3DTextures/KB3D_HTS_HoloInfoA_emissive.png",
+        "general.enableShadows": false,
+        "metallic.textureMap": "../../KB3DTextures/KB3D_HTS_HoloInfoA_metallic.png",
+        "normal.textureMap": "../../KB3DTextures/KB3D_HTS_HoloInfoA_normal.png",
+        "opacity.alphaSource": "Split",
+        "opacity.factor": 1.0,
+        "opacity.mode": "TintedTransparent",
+        "opacity.textureMap": "../../KB3DTextures/KB3D_HTS_HoloInfoA_opacity.png",
+        "parallax.factor": 0.0010000000474974513,
+        "parallax.textureMap": "../../KB3DTextures/KB3D_HTS_HoloInfoA_height.png",
+        "roughness.textureMap": "../../KB3DTextures/KB3D_HTS_HoloInfoA_roughness.png"
     }
 }
