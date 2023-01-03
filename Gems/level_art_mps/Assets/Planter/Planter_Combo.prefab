@@ -1,0 +1,174 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Planter_Combo",
+        "Components": {
+            "Component_[11161191186467275593]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 11161191186467275593
+            },
+            "Component_[11224802320542241499]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 11224802320542241499,
+                "Child Entity Order": [
+                    "Entity_[534550826619]"
+                ]
+            },
+            "Component_[14282208158147015904]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 14282208158147015904
+            },
+            "Component_[14426729784599978032]": {
+                "$type": "EditorLockComponent",
+                "Id": 14426729784599978032
+            },
+            "Component_[16429820417166390330]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 16429820417166390330,
+                "Parent Entity": ""
+            },
+            "Component_[16841366084181926447]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 16841366084181926447
+            },
+            "Component_[3222541260582505378]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 3222541260582505378
+            },
+            "Component_[3278026370853497676]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 3278026370853497676
+            },
+            "Component_[3864199753303922268]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3864199753303922268
+            },
+            "Component_[9472866122204430904]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 9472866122204430904
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[534550826619]": {
+            "Id": "Entity_[534550826619]",
+            "Name": "Planter_Combo",
+            "Components": {
+                "Component_[10637112501156714535]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 10637112501156714535,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{459506EC-0B78-5B3E-9477-899F5906E7CE}",
+                                    "subId": 277658274
+                                },
+                                "assetHint": "planter/planter_wall_large.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[11056315753770751977]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11056315753770751977
+                },
+                "Component_[12803905039441626590]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12803905039441626590
+                },
+                "Component_[15193892138979140495]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15193892138979140495
+                },
+                "Component_[17266938474887062637]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17266938474887062637
+                },
+                "Component_[4195674963388115129]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4195674963388115129,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[425539338245819138]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 425539338245819138
+                },
+                "Component_[4924944172207854603]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 4924944172207854603,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 238110730
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{783B0D2A-EA3F-53C3-A7E1-4D6CD128CE58}"
+                                            },
+                                            "assetHint": "planter/planter_wall_large_dirtmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1487111801
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D8F2E4BB-26C2-59F1-A21E-0C72FC7FA373}"
+                                            },
+                                            "assetHint": "planter/planter_wall_large_planter_wall_lightsmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3220853173
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{13C6C379-90DF-5E35-B312-1DFF13C6E329}"
+                                            },
+                                            "assetHint": "planter/planter_wall_large_planter_wall_largemat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[629202833994742796]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 629202833994742796
+                },
+                "Component_[6385199906977283944]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6385199906977283944
+                },
+                "Component_[9665424903910578722]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9665424903910578722,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4195674963388115129
+                        },
+                        {
+                            "ComponentId": 10637112501156714535,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4924944172207854603,
+                            "SortIndex": 2
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
