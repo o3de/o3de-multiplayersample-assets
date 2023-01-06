@@ -1,33 +1,22 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
     "propertyValues": {
-        "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "LEC30d/textures/LEC30d_BaseColor.jpg",
-        "baseColor.textureMapUv": "Unwrapped",
-        "emissive.color": [
-            0.29019609093666077,
-            0.800000011920929,
-            1.0,
+        "baseColor.color": [
+            0.5,
+            0.5,
+            0.5,
             1.0
         ],
-        "emissive.enable": true,
-        "emissive.intensity": 3.0,
-        "emissive.textureMap": "LEC30d/textures/LEC30d_Emissive.jpg",
-        "emissive.textureMapUv": "Unwrapped",
-        "metallic.textureMap": "LEC30d/textures/LEC30d_Metallic.jpg",
-        "metallic.textureMapUv": "Unwrapped",
-        "normal.textureMap": "LEC30d/textures/LEC30d_Normal.jpg",
-        "normal.textureMapUv": "Unwrapped",
-        "occlusion.diffuseTextureMap": "LEC30d/textures/LEC30d_AO.jpg",
-        "occlusion.diffuseTextureMapUv": "Unwrapped",
-        "opacity.alphaSource": "Split",
+        "baseColor.textureBlendMode": "Lerp",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "emissive.intensity": 0.0,
         "opacity.factor": 1.0,
-        "opacity.mode": "Blended",
-        "opacity.textureMap": "LEC30d/textures/LEC30d_opacity.jpg",
-        "opacity.textureMapUv": "Unwrapped",
-        "roughness.factor": 0.33000001311302185,
-        "roughness.textureMap": "LEC30d/textures/LEC30d_Roughness.jpg",
-        "roughness.textureMapUv": "Unwrapped"
+        "roughness.factor": 0.33000001311302185
     }
 }
