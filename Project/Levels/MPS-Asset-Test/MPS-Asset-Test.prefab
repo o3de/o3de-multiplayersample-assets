@@ -44,6 +44,7 @@
                     "Instance_[13186152712913]/ContainerEntity",
                     "Instance_[18108185234129]/ContainerEntity",
                     "Instance_[1285077408282]/ContainerEntity",
+                    "Instance_[6581648402017]/ContainerEntity",
                     "Instance_[6090081500347]/ContainerEntity"
                 ]
             },
@@ -1906,23 +1907,48 @@
         "Instance_[633878347007]": {
             "Source": "MalfunctioningShieldGenerator/MalfunctioningShieldGen.prefab"
         },
+        "Instance_[6581648402017]": {
+            "Source": "BoxwoodPlanter/BoxwoodPlanter.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[1443348170064532185]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[1443348170064532185]/Transform Data/Translate/0",
+                    "value": 5.683286190032959
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[1443348170064532185]/Transform Data/Translate/1",
+                    "value": -22.0335636138916
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[1443348170064532185]/Transform Data/Translate/2",
+                    "value": -4.76837158203125e-7
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[1443348170064532185]/Transform Data/Rotate/2",
+                    "value": -90.0560073852539
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[670362468055875]/Components/Component_[13770459485288326894]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "opaque_MAT"
+                }
+            ]
+        },
         "Instance_[712571402152]": {
             "Source": "BoxwoodPlanter/BoxwoodPlanter.prefab",
             "Patches": [
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[16812468064845127834]/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[16812468064845127834]/Transform Data/Translate/0",
-                    "value": -5.440345287322998
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[16812468064845127834]/Transform Data/Translate/1",
-                    "value": -7.1180267333984375
+                    "path": "/Entities/Entity_[670362468055875]/Components/Component_[13770459485288326894]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "opaque_MAT"
                 }
             ]
         },
