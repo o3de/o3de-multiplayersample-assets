@@ -23,8 +23,8 @@
                     "Entity_[649198097988]",
                     "Entity_[381692106648]",
                     "Instance_[620830130169]/ContainerEntity",
-                    "Instance_[633878347007]/ContainerEntity",
-                    "Instance_[1806404418815]/ContainerEntity",
+                    "",
+                    "",
                     "Instance_[712571402152]/ContainerEntity",
                     "Instance_[745082579329]/ContainerEntity",
                     "Instance_[954959547162]/ContainerEntity",
@@ -39,7 +39,8 @@
                     "Instance_[2764641282787]/ContainerEntity",
                     "Instance_[3146893372131]/ContainerEntity",
                     "Instance_[24237596969497]/ContainerEntity",
-                    "Instance_[1314077867195]/ContainerEntity",
+                    "",
+                    "Instance_[1233258728145]/ContainerEntity",
                     "Instance_[6090081500347]/ContainerEntity"
                 ]
             },
@@ -60,10 +61,6 @@
                 "$type": "LocalViewBookmarkComponent",
                 "Id": 18225413929989878930,
                 "LocalBookmarkFileName": "MPS-Asset-Test_86433838269.setreg"
-            },
-            "Component_[2104179930910776144]": {
-                "$type": "SelectionComponent",
-                "Id": 2104179930910776144
             },
             "Component_[5688118765544765547]": {
                 "$type": "EditorEntityIconComponent",
@@ -116,10 +113,6 @@
                 "Component_[1937179284467217195]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 1937179284467217195
-                },
-                "Component_[6631016764856037392]": {
-                    "$type": "SelectionComponent",
-                    "Id": 6631016764856037392
                 },
                 "Component_[7079444475536339354]": {
                     "$type": "EditorEntitySortComponent",
@@ -176,10 +169,6 @@
                             "EditorEntityId": 10010268192711267642
                         }
                     }
-                },
-                "Component_[2210768150164269284]": {
-                    "$type": "SelectionComponent",
-                    "Id": 2210768150164269284
                 },
                 "Component_[4467032105531184868]": {
                     "$type": "EditorEntityIconComponent",
@@ -433,10 +422,6 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 433234905638593454
                 },
-                "Component_[4651932381816643425]": {
-                    "$type": "SelectionComponent",
-                    "Id": 4651932381816643425
-                },
                 "Component_[7950207112001449782]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 7950207112001449782
@@ -629,10 +614,6 @@
             "Id": "Entity_[1155164325235]",
             "Name": "Sun",
             "Components": {
-                "Component_[12092927567453324809]": {
-                    "$type": "SelectionComponent",
-                    "Id": 12092927567453324809
-                },
                 "Component_[13620450453324765907]": {
                     "$type": "EditorLockComponent",
                     "Id": 13620450453324765907
@@ -706,10 +687,6 @@
             "Id": "Entity_[1159459292531]",
             "Name": "Ground",
             "Components": {
-                "Component_[11574074994198131677]": {
-                    "$type": "SelectionComponent",
-                    "Id": 11574074994198131677
-                },
                 "Component_[12260880513256986252]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 12260880513256986252
@@ -745,6 +722,13 @@
                             0.0,
                             -0.5
                         ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
                         "MaterialSelection": {
                             "MaterialIds": [
                                 {}
@@ -795,8 +779,7 @@
                 },
                 "Component_[9410832619875640998]": {
                     "$type": "EditorVisibilityComponent",
-                    "Id": 9410832619875640998,
-                    "VisibilityFlag": false
+                    "Id": 9410832619875640998
                 }
             }
         },
@@ -804,10 +787,6 @@
             "Id": "Entity_[1163754259827]",
             "Name": "Camera",
             "Components": {
-                "Component_[10314101113733868623]": {
-                    "$type": "SelectionComponent",
-                    "Id": 10314101113733868623
-                },
                 "Component_[11895140916889160460]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 11895140916889160460
@@ -926,10 +905,6 @@
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 1843303322527297409
                 },
-                "Component_[2943240431561863794]": {
-                    "$type": "SelectionComponent",
-                    "Id": 2943240431561863794
-                },
                 "Component_[380249072065273654]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 380249072065273654,
@@ -981,10 +956,6 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 16247165675903986673,
                     "VisibilityFlag": false
-                },
-                "Component_[17616270642484698989]": {
-                    "$type": "SelectionComponent",
-                    "Id": 17616270642484698989
                 },
                 "Component_[18082433625958885247]": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -1056,10 +1027,6 @@
                 "Component_[3298767348226484884]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 3298767348226484884
-                },
-                "Component_[3353737145716772200]": {
-                    "$type": "SelectionComponent",
-                    "Id": 3353737145716772200
                 },
                 "Component_[4076975109609220594]": {
                     "$type": "EditorPendingCompositionComponent",
@@ -1186,10 +1153,6 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 3704934735944502280
                 },
-                "Component_[4350873267374511328]": {
-                    "$type": "SelectionComponent",
-                    "Id": 4350873267374511328
-                },
                 "Component_[5698542331457326479]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 5698542331457326479
@@ -1256,10 +1219,6 @@
                     "$type": "EditorInspectorComponent",
                     "Id": 5210316579669824141
                 },
-                "Component_[8363644688567675586]": {
-                    "$type": "SelectionComponent",
-                    "Id": 8363644688567675586
-                },
                 "Component_[8631128901720755014]": {
                     "$type": "EditorLockComponent",
                     "Id": 8631128901720755014
@@ -1319,10 +1278,6 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 784856829670123648
                 },
-                "Component_[7986583291204529636]": {
-                    "$type": "SelectionComponent",
-                    "Id": 7986583291204529636
-                },
                 "Component_[9224265496991606946]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 9224265496991606946,
@@ -1353,10 +1308,6 @@
                 "Component_[14659434778387959219]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 14659434778387959219
-                },
-                "Component_[16080252133288200427]": {
-                    "$type": "SelectionComponent",
-                    "Id": 16080252133288200427
                 },
                 "Component_[18274215730579794650]": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -1606,10 +1557,6 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 17115724360853562687
                 },
-                "Component_[17543718291678912391]": {
-                    "$type": "SelectionComponent",
-                    "Id": 17543718291678912391
-                },
                 "Component_[4541269734555853195]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 4541269734555853195
@@ -1642,6 +1589,16 @@
                     "op": "add",
                     "path": "/ContainerEntity/Components/Component_[8654397317068869011]/Child Entity Order/0",
                     "value": "Entity_[1288791086524]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1288791086524]/Components/Component_[15293998013776528959]/Controller/Configuration/ModelAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1288791086524]/Components/Component_[4251233264935125284]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "lambert1"
                 }
             ]
         },
@@ -1660,18 +1617,28 @@
                 }
             ]
         },
-        "Instance_[1314077867195]": {
-            "Source": "BubbleGun/BubbleGun.prefab",
+        "Instance_[1233258728145]": {
+            "Source": "AgPlatform/AgPlatform.prefab",
             "Patches": [
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[10924933773563407914]/Parent Entity",
+                    "path": "/ContainerEntity/Components/Component_[8292154386652853697]/Parent Entity",
                     "value": "../Entity_[1146574390643]"
                 },
                 {
-                    "op": "add",
-                    "path": "/ContainerEntity/Components/Component_[854850386709850074]/Child Entity Order/0",
-                    "value": "../Entity_[1949733027003]"
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[8292154386652853697]/Transform Data/Translate/0",
+                    "value": 2.056668281555176
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[8292154386652853697]/Transform Data/Translate/1",
+                    "value": -20.815988540649414
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[24176906811869]/Components/Component_[6553472109432190231]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "opaque_MAT"
                 }
             ]
         },
@@ -1694,6 +1661,9 @@
                     "value": -20.090431213378903
                 }
             ]
+        },
+        "Instance_[1314077867195]": {
+            "Source": "BubbleGun/BubbleGun.prefab"
         },
         "Instance_[1320322057132]": {
             "Source": "DeciduousPlanter/DeciduousPlanter.prefab",
@@ -1737,21 +1707,6 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[429465310568206761]/Parent Entity",
                     "value": "../Entity_[1146574390643]"
-                }
-            ]
-        },
-        "Instance_[24237596969497]": {
-            "Source": "Prefabs/Canyon-Barren-Terrain.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[16893389135966699929]/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[16893389135966699929]/Transform Data/Translate/2",
-                    "value": 28.52194023132324
                 }
             ]
         },
@@ -1876,24 +1831,7 @@
             ]
         },
         "Instance_[633878347007]": {
-            "Source": "MalfunctioningShieldGenerator/MalfunctioningShieldGen.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[284586112481907885]/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[284586112481907885]/Transform Data/Translate/0",
-                    "value": -5.093050003051758
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[284586112481907885]/Transform Data/Translate/1",
-                    "value": -8.08732795715332
-                }
-            ]
+            "Source": "MalfunctioningShieldGenerator/MalfunctioningShieldGen.prefab"
         },
         "Instance_[712571402152]": {
             "Source": "BoxwoodPlanter/BoxwoodPlanter.prefab",
@@ -1937,19 +1875,9 @@
             "Source": "AgPlatform/AgPlatform.prefab",
             "Patches": [
                 {
-                    "op": "add",
-                    "path": "/ContainerEntity/Components/Component_[3937239260346962768]/Child Entity Order/0",
-                    "value": "Entity_[1216952552218]"
-                },
-                {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[9397489429907996168]/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[9397489429907996168]/Transform Data/Translate/0",
-                    "value": -0.005344408098608255
+                    "path": "/Entities/Entity_[24176906811869]/Components/Component_[6553472109432190231]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "opaque_MAT"
                 }
             ]
         }
