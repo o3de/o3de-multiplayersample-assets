@@ -28,7 +28,7 @@
                     "Instance_[954959547162]/ContainerEntity",
                     "Instance_[3484695284506]/ContainerEntity",
                     "Instance_[945927219864]/ContainerEntity",
-                    "Instance_[1005323244988]/ContainerEntity",
+                    "",
                     "Instance_[1053855330039]/ContainerEntity",
                     "Instance_[4154821717751]/ContainerEntity",
                     "Instance_[4773297008375]/ContainerEntity",
@@ -48,6 +48,8 @@
                     "Instance_[1745210088074]/ContainerEntity",
                     "Instance_[7427451820682]/ContainerEntity",
                     "Instance_[13375981525642]/ContainerEntity",
+                    "Instance_[2464987195137]/ContainerEntity",
+                    "Instance_[9044877092609]/ContainerEntity",
                     "Instance_[19449065282186]/ContainerEntity"
                 ]
             },
@@ -1585,29 +1587,7 @@
     },
     "Instances": {
         "Instance_[1005323244988]": {
-            "Source": "Crate/JumpPad.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[7105506524806256638]/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "add",
-                    "path": "/ContainerEntity/Components/Component_[8654397317068869011]/Child Entity Order/0",
-                    "value": "Entity_[1288791086524]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1288791086524]/Components/Component_[15293998013776528959]/Controller/Configuration/ModelAsset/loadBehavior",
-                    "value": "QueueLoad"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1288791086524]/Components/Component_[4251233264935125284]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
-                    "value": "lambert1"
-                }
-            ]
+            "Source": "Crate/JumpPad.prefab"
         },
         "Instance_[1053855330039]": {
             "Source": "Barrel02/Barrel02.prefab",
@@ -1763,7 +1743,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[9258688643060159915]/Transform Data/Translate/1",
-                    "value": -21.844364166259766
+                    "value": -21.84436416625977
                 },
                 {
                     "op": "replace",
@@ -1773,7 +1753,7 @@
             ]
         },
         "Instance_[1745210088074]": {
-            "Source": "BubbleGun/bubblegun.prefab",
+            "Source": "BubbleGun/BubbleGun.prefab",
             "Patches": [
                 {
                     "op": "replace",
@@ -1798,7 +1778,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[1670163923037746708]/Transform Data/Rotate/2",
-                    "value": 108.37720489501953
+                    "value": 108.37720489501952
                 }
             ]
         },
@@ -1887,6 +1867,41 @@
                 }
             ]
         },
+        "Instance_[2464987195137]": {
+            "Source": "DefenceTurret/DefenseTurret.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11643599802128616532]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11643599802128616532]/Transform Data/Translate/0",
+                    "value": -20.754301071166992
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11643599802128616532]/Transform Data/Translate/1",
+                    "value": -12.029921531677246
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11643599802128616532]/Transform Data/Translate/2",
+                    "value": -2.384185791015625e-7
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11643599802128616532]/Transform Data/Rotate/2",
+                    "value": 180.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[886644136180547]/Components/Component_[8626343417940619775]/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
+                    "value": "defenceturret/defenceturret_opaque_mat.azmaterial"
+                }
+            ]
+        },
         "Instance_[2764641282787]": {
             "Source": "LEC45d/LEC45d.prefab",
             "Patches": [
@@ -1967,23 +1982,8 @@
             "Patches": [
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[10138696395384563322]/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[10138696395384563322]/Transform Data/Translate/0",
-                    "value": -5.019829750061035
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[10138696395384563322]/Transform Data/Translate/1",
-                    "value": -7.37993860244751
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[10138696395384563322]/Transform Data/Translate/2",
-                    "value": -4.76837158203125e-7
+                    "path": "/Entities/Entity_[1103131962735427]/Components/Component_[3680589033456825559]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "opaque_MAT"
                 }
             ]
         },
@@ -2062,6 +2062,31 @@
         },
         "Instance_[745082579329]": {
             "Source": "DeciduousPlanter/DeciduousPlanter.prefab"
+        },
+        "Instance_[9044877092609]": {
+            "Source": "EnergyCollector/EnergyCollector.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10046873803164473926]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10046873803164473926]/Transform Data/Translate/0",
+                    "value": -25.087553024291992
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10046873803164473926]/Transform Data/Translate/1",
+                    "value": -12.704841613769531
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1103131962735427]/Components/Component_[3680589033456825559]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "opaque_MAT"
+                }
+            ]
         },
         "Instance_[945927219864]": {
             "Source": "Crate/Crate.prefab",
