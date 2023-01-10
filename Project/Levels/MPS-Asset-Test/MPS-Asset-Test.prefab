@@ -23,8 +23,6 @@
                     "Entity_[649198097988]",
                     "Entity_[381692106648]",
                     "Instance_[620830130169]/ContainerEntity",
-                    "",
-                    "",
                     "Instance_[712571402152]/ContainerEntity",
                     "Instance_[745082579329]/ContainerEntity",
                     "Instance_[954959547162]/ContainerEntity",
@@ -39,13 +37,15 @@
                     "Instance_[2764641282787]/ContainerEntity",
                     "Instance_[3146893372131]/ContainerEntity",
                     "Instance_[24237596969497]/ContainerEntity",
-                    "",
                     "Instance_[1233258728145]/ContainerEntity",
                     "Instance_[13186152712913]/ContainerEntity",
                     "Instance_[18108185234129]/ContainerEntity",
                     "Instance_[1285077408282]/ContainerEntity",
                     "Instance_[6581648402017]/ContainerEntity",
-                    "Instance_[6090081500347]/ContainerEntity"
+                    "Instance_[6090081500347]/ContainerEntity",
+                    "Instance_[1320322057132]/ContainerEntity",
+                    "Instance_[1294296433725]/ContainerEntity",
+                    "Instance_[1745210088074]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -1741,6 +1741,36 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[15123881204268808031]/Transform Data/Translate/2",
                     "value": -0.008878707885742188
+                }
+            ]
+        },
+        "Instance_[1745210088074]": {
+            "Source": "BubbleGun/bubblegun.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[1670163923037746708]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[1670163923037746708]/Transform Data/Translate/0",
+                    "value": 8.150396347045898
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[1670163923037746708]/Transform Data/Translate/1",
+                    "value": -21.548404693603516
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[1670163923037746708]/Transform Data/Translate/2",
+                    "value": 4.76837158203125e-7
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[1670163923037746708]/Transform Data/Rotate/2",
+                    "value": 108.37760162353516
                 }
             ]
         },
