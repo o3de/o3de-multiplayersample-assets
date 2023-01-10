@@ -41,6 +41,7 @@
                     "Instance_[24237596969497]/ContainerEntity",
                     "",
                     "Instance_[1233258728145]/ContainerEntity",
+                    "Instance_[13186152712913]/ContainerEntity",
                     "Instance_[6090081500347]/ContainerEntity"
                 ]
             },
@@ -1665,6 +1666,36 @@
         "Instance_[1314077867195]": {
             "Source": "BubbleGun/BubbleGun.prefab"
         },
+        "Instance_[13186152712913]": {
+            "Source": "Barrel01/Barrel01.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14754423296667336314]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14754423296667336314]/Transform Data/Translate/0",
+                    "value": 6.2661895751953125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14754423296667336314]/Transform Data/Translate/1",
+                    "value": -21.411376953125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14754423296667336314]/Transform Data/Translate/2",
+                    "value": 4.76837158203125e-7
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[238966470421092]/Components/Component_[14277864073025928875]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "opaque_MAT"
+                }
+            ]
+        },
         "Instance_[1320322057132]": {
             "Source": "DeciduousPlanter/DeciduousPlanter.prefab",
             "Patches": [
@@ -1750,13 +1781,8 @@
             "Patches": [
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[3403842204429647736]/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "add",
-                    "path": "/ContainerEntity/Components/Component_[5500158071015437145]/Child Entity Order/0",
-                    "value": "Entity_[3772458093338]"
+                    "path": "/Entities/Entity_[238966470421092]/Components/Component_[14277864073025928875]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "opaque_MAT"
                 }
             ]
         },
