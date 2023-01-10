@@ -65,7 +65,7 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "lambert1"
+                                    "Name": "opaque_MAT"
                                 }
                             ]
                         }
@@ -121,6 +121,18 @@
                                             "assetHint": "barrel02/barrel02_barrel02_mat.azmaterial"
                                         }
                                     }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1927518764
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9DC207B1-7C2A-5111-9575-777D9E844800}"
+                                            }
+                                        }
+                                    }
                                 }
                             ]
                         }
@@ -129,14 +141,7 @@
                 "Component_[6310951765923472100]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 6310951765923472100,
-                    "Parent Entity": "ContainerEntity",
-                    "Transform Data": {
-                        "Translate": [
-                            -3.4590377807617188,
-                            1.6389615535736084,
-                            0.0
-                        ]
-                    }
+                    "Parent Entity": "ContainerEntity"
                 },
                 "Component_[6341226002255869003]": {
                     "$type": "AZ::Render::EditorMeshComponent",

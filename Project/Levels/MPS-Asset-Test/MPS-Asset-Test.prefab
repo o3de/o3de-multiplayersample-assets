@@ -42,6 +42,8 @@
                     "",
                     "Instance_[1233258728145]/ContainerEntity",
                     "Instance_[13186152712913]/ContainerEntity",
+                    "Instance_[18108185234129]/ContainerEntity",
+                    "Instance_[1285077408282]/ContainerEntity",
                     "Instance_[6090081500347]/ContainerEntity"
                 ]
             },
@@ -1608,13 +1610,8 @@
             "Patches": [
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[10748140798445095430]/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "add",
-                    "path": "/ContainerEntity/Components/Component_[17512991462788426603]/Child Entity Order/0",
-                    "value": "Entity_[1371682909943]"
+                    "path": "/Entities/Entity_[454244008688451]/Components/Component_[15131520516109470746]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "opaque_MAT"
                 }
             ]
         },
@@ -1634,12 +1631,42 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[8292154386652853697]/Transform Data/Translate/1",
-                    "value": -20.815988540649414
+                    "value": -20.815988540649418
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[24176906811869]/Components/Component_[236191446473523444]/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
                     "value": "agplatform/agplatform_opaque_mat.azmaterial"
+                }
+            ]
+        },
+        "Instance_[1285077408282]": {
+            "Source": "Barrel02/Barrel02.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9966736445084823710]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9966736445084823710]/Transform Data/Translate/0",
+                    "value": 8.09509563446045
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9966736445084823710]/Transform Data/Translate/1",
+                    "value": -15.73015022277832
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9966736445084823710]/Transform Data/Translate/2",
+                    "value": -2.384185791015625e-7
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[454244008688451]/Components/Component_[15131520516109470746]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "opaque_MAT"
                 }
             ]
         },
@@ -1677,22 +1704,17 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[14754423296667336314]/Transform Data/Translate/0",
-                    "value": 6.2661895751953125
+                    "value": 6.466391563415527
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[14754423296667336314]/Transform Data/Translate/1",
-                    "value": -21.411376953125
+                    "value": -12.40445041656494
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[14754423296667336314]/Transform Data/Translate/2",
                     "value": 4.76837158203125e-7
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[238966470421092]/Components/Component_[14277864073025928875]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
-                    "value": "opaque_MAT"
                 }
             ]
         },
@@ -1718,6 +1740,31 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[15123881204268808031]/Transform Data/Translate/2",
                     "value": -0.008878707885742188
+                }
+            ]
+        },
+        "Instance_[18108185234129]": {
+            "Source": "Barrel01/Barrel001.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15151136896214454413]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15151136896214454413]/Transform Data/Translate/0",
+                    "value": 4.3425493240356445
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15151136896214454413]/Transform Data/Translate/1",
+                    "value": -11.886812210083008
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15151136896214454413]/Transform Data/Translate/2",
+                    "value": -2.384185791015625e-7
                 }
             ]
         },

@@ -94,14 +94,7 @@
                 "Component_[15946245671939163064]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 15946245671939163064,
-                    "Parent Entity": "ContainerEntity",
-                    "Transform Data": {
-                        "Translate": [
-                            -5.321830749511719,
-                            -1.8291935920715332,
-                            0.0
-                        ]
-                    }
+                    "Parent Entity": "ContainerEntity"
                 },
                 "Component_[16403598602164850608]": {
                     "$type": "EditorMaterialComponent",
@@ -109,6 +102,19 @@
                     "Controller": {
                         "Configuration": {
                             "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1927518764
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E38E8351-886F-57F9-8D32-228FF458D23E}"
+                                            },
+                                            "assetHint": "barrel01/barrel01_opaque_mat.azmaterial"
+                                        }
+                                    }
+                                },
                                 {
                                     "Key": {
                                         "materialSlotStableId": 4080474991
@@ -156,7 +162,7 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "lambert1"
+                                    "Name": "opaque_MAT"
                                 }
                             ]
                         }
