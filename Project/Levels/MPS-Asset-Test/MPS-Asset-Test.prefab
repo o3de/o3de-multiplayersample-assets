@@ -50,6 +50,7 @@
                     "Instance_[13375981525642]/ContainerEntity",
                     "Instance_[2464987195137]/ContainerEntity",
                     "Instance_[9044877092609]/ContainerEntity",
+                    "Instance_[1723904507059]/ContainerEntity",
                     "Instance_[19449065282186]/ContainerEntity"
                 ]
             },
@@ -1748,6 +1749,36 @@
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[26938570783197]/Components/Component_[18133601253046655915]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "opaque_MAT"
+                }
+            ]
+        },
+        "Instance_[1723904507059]": {
+            "Source": "JumpPad/jumppad.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10406703446304744333]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10406703446304744333]/Transform Data/Translate/0",
+                    "value": -16.217750549316406
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10406703446304744333]/Transform Data/Translate/1",
+                    "value": -20.6064510345459
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10406703446304744333]/Transform Data/Translate/2",
+                    "value": -9.5367431640625e-7
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1104171344821059]/Components/Component_[14766259045021778464]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
                     "value": "opaque_MAT"
                 }
             ]
