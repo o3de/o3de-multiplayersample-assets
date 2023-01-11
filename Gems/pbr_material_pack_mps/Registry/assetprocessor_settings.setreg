@@ -2,17 +2,34 @@
     "Amazon": {
         "AssetProcessor": {
             "Settings": {
-                "ScanFolder pbr_material_pack_mps/Assets": {
-                    "watch": "@GEMROOT:pbr_material_pack_mps@/Assets",
+                "ScanFolder character_mps/Assets": {
+                    "watch": "@GEMROOT:character_mps@/Assets",
                     "recursive": 1,
                     "order": 101
                 },
-                "ScanFolder pbr_material_pack_mps/Registry": {
-                    "watch": "@GEMROOT:pbr_material_pack_mps@/Registry",
+                "ScanFolder character_mps/Registry": {
+                    "watch": "@GEMROOT:character_mps@/Registry",
                     "recursive": 1,
                     "order": 102
+                },
+			    "Exclude":{
+				    "Exclude .src source folders": {
+					    "glob": "*/.src/*"
+					}
+				},
+                "Exclude":{
+                    "Exclude Maya .mayaSwatches folders": {
+                        "glob": "*/.mayaSwatches/*"
+                    }
+                },
+                "Exclude":{
+                    "Exclude Maya .mb files": {
+                        "glob": "*.mb"
+                    }
                 }
             }
         }
     }
 }
+
+.mayaSwatches

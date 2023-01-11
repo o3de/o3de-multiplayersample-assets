@@ -16,8 +16,20 @@
 				    "Exclude .src source folders": {
 					    "glob": "*/.src/*"
 					}
-				}
+				},
+                "Exclude":{
+                    "Exclude Maya .mayaSwatches folders": {
+                        "glob": "*/.mayaSwatches/*"
+                    }
+                },
+                "Exclude":{
+                    "Exclude Maya .mb files": {
+                        "glob": "*.mb"
+                    }
+                }
             }
         }
     }
 }
+
+.mayaSwatches
