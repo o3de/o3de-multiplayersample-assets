@@ -126,7 +126,7 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "lambert1"
+                                    "Name": "Opaque_MAT"
                                 }
                             ]
                         }
@@ -190,6 +190,38 @@
                                 },
                                 {
                                     "Key": {
+                                        "materialSlotStableId": 738989466
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E5F6A490-C4ED-5491-B11D-EC346C4D029C}"
+                                            },
+                                            "assetHint": "lec30d/lec30d_opaque_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 3.0
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
                                         "materialSlotStableId": 1084721807
                                     },
                                     "Value": {
@@ -198,6 +230,57 @@
                                                 "guid": "{25E2AB28-DBCA-59C3-B204-F49237B1684C}"
                                             },
                                             "assetHint": "lec30d/lec30d_lec30d_trans_02_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1730094122
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B9B6A725-3391-5303-A8AE-E466032CBFF4}"
+                                            },
+                                            "assetHint": "lec30d/lec30d_alpha_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 3.0
+                                            },
+                                            "opacity.alphaAffectsSpecular": {
+                                                "$type": "float",
+                                                "Value": 0.0
+                                            },
+                                            "opacity.alphaSource": {
+                                                "$type": "unsigned int",
+                                                "Value": 1
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "opacity.textureMap": {
+                                                "$type": "AssetId",
+                                                "Value": {
+                                                    "guid": "{D725C421-3381-5D74-A505-07EA14B96476}",
+                                                    "subId": 1000
+                                                }
+                                            }
                                         }
                                     }
                                 },

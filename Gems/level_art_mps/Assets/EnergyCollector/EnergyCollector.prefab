@@ -150,6 +150,24 @@
                                                 "guid": "{F5A7F342-869D-5A64-B289-83F5F0CCD9C9}"
                                             },
                                             "assetHint": "energycollector/energycollector_alpha_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "clearCoat.enable": {
+                                                "$type": "bool",
+                                                "Value": false
+                                            },
+                                            "clearCoat.factor": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "opacity.alphaAffectsSpecular": {
+                                                "$type": "float",
+                                                "Value": 1.0
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            }
                                         }
                                     }
                                 },
@@ -163,6 +181,12 @@
                                                 "guid": "{C0781D87-0F0D-5091-B330-A9F5CF19E34D}"
                                             },
                                             "assetHint": "energycollector/energycollector_opaque_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 3.0
+                                            }
                                         }
                                     }
                                 },

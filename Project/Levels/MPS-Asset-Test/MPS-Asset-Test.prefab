@@ -52,6 +52,8 @@
                     "Instance_[9044877092609]/ContainerEntity",
                     "Instance_[1723904507059]/ContainerEntity",
                     "Instance_[2244835962696]/ContainerEntity",
+                    "Instance_[8780434280967]/ContainerEntity",
+                    "Instance_[8866333626887]/ContainerEntity",
                     "Instance_[19449065282186]/ContainerEntity"
                 ]
             },
@@ -1976,6 +1978,11 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[16235027017842961326]/Parent Entity",
                     "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "Opaque_MAT"
                 }
             ]
         },
@@ -2124,6 +2131,61 @@
         },
         "Instance_[745082579329]": {
             "Source": "DeciduousPlanter/DeciduousPlanter.prefab"
+        },
+        "Instance_[8780434280967]": {
+            "Source": "LargeBush/SmallBush.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11106670523878836401]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11106670523878836401]/Transform Data/Translate/0",
+                    "value": -23.895811080932617
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11106670523878836401]/Transform Data/Translate/1",
+                    "value": -20.573040008544922
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11106670523878836401]/Transform Data/Translate/2",
+                    "value": 4.76837158203125e-7
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[24404540078557]/Components/Component_[6756982386435152427]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "Opaque_MAT"
+                }
+            ]
+        },
+        "Instance_[8866333626887]": {
+            "Source": "LEC30d/LEC30d.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[12077432955330835962]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[12077432955330835962]/Transform Data/Translate/0",
+                    "value": -28.55030059814453
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[12077432955330835962]/Transform Data/Translate/1",
+                    "value": -20.092880249023438
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "Opaque_MAT"
+                }
+            ]
         },
         "Instance_[9044877092609]": {
             "Source": "EnergyCollector/EnergyCollector.prefab",
