@@ -70,7 +70,7 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "lambert1"
+                                    "Name": "Opaque_MAT"
                                 }
                             ]
                         }
@@ -135,27 +135,33 @@
                             "materials": [
                                 {
                                     "Key": {
-                                        "materialSlotStableId": 1413469672
+                                        "materialSlotStableId": 738989466
                                     },
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{0DE5BBF2-CFB9-506C-9305-C8775CB78158}"
+                                                "guid": "{7686DEF5-DD1F-5CD9-B715-EE3ACD993BD0}"
                                             },
-                                            "assetHint": "largebush/largebush_largrbush_trans_mat.azmaterial"
+                                            "assetHint": "largebush/largebush_opaque_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 0
+                                            }
                                         }
                                     }
                                 },
                                 {
                                     "Key": {
-                                        "materialSlotStableId": 3515851658
+                                        "materialSlotStableId": 1730094122
                                     },
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{C219CA89-5136-570F-A311-B195BFED1E29}"
+                                                "guid": "{E8674F8F-966C-543B-A776-23CA28A7E94A}"
                                             },
-                                            "assetHint": "largebush/largebush_largrbush_mat.azmaterial"
+                                            "assetHint": "largebush/largebush_alpha_mat.azmaterial"
                                         }
                                     }
                                 }
