@@ -74,7 +74,7 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "lambert1"
+                                    "Name": "Opaque_MAT"
                                 }
                             ]
                         }
@@ -177,6 +177,29 @@
                                 },
                                 {
                                     "Key": {
+                                        "materialSlotStableId": 738989466
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1CC1E9B1-1020-5778-9FE0-83FBAD8FF087}"
+                                            },
+                                            "assetHint": "lec45d/lec45d_opaque_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 3.0
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
                                         "materialSlotStableId": 1065557945
                                     },
                                     "Value": {
@@ -185,6 +208,48 @@
                                                 "guid": "{BBE8ED96-DAE4-59F0-9D70-CBCC2D8B3F85}"
                                             },
                                             "assetHint": "lec45d/lec45d_lec45d_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1730094122
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9741517B-FB23-56C4-95F0-2739E0D6CEC5}"
+                                            },
+                                            "assetHint": "lec45d/lec45d_alpha_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 3.0
+                                            },
+                                            "opacity.alphaAffectsSpecular": {
+                                                "$type": "float",
+                                                "Value": 0.0
+                                            },
+                                            "opacity.alphaSource": {
+                                                "$type": "unsigned int",
+                                                "Value": 1
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "opacity.textureMap": {
+                                                "$type": "AssetId",
+                                                "Value": {
+                                                    "guid": "{3BC03E6D-E27C-534B-A35A-9F5C8235AFA6}",
+                                                    "subId": 1000
+                                                }
+                                            }
                                         }
                                     }
                                 },

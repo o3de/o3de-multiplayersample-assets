@@ -54,6 +54,7 @@
                     "Instance_[2244835962696]/ContainerEntity",
                     "Instance_[8780434280967]/ContainerEntity",
                     "Instance_[8866333626887]/ContainerEntity",
+                    "Instance_[16992411750919]/ContainerEntity",
                     "Instance_[19449065282186]/ContainerEntity"
                 ]
             },
@@ -1756,6 +1757,36 @@
                 }
             ]
         },
+        "Instance_[16992411750919]": {
+            "Source": "LEC45d/LEC45d.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6123652671061463041]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6123652671061463041]/Transform Data/Translate/0",
+                    "value": -25.84320068359375
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6123652671061463041]/Transform Data/Translate/1",
+                    "value": -18.004379272460938
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6123652671061463041]/Transform Data/Translate/2",
+                    "value": -2.384185791015625e-7
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1105142007429955]/Components/Component_[11062343079787247229]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "Opaque_MAT"
+                }
+            ]
+        },
         "Instance_[1723904507059]": {
             "Source": "JumpPad/jumppad.prefab",
             "Patches": [
@@ -1968,6 +1999,11 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[4946249500352254131]/Parent Entity",
                     "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1105142007429955]/Components/Component_[11062343079787247229]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "Opaque_MAT"
                 }
             ]
         },

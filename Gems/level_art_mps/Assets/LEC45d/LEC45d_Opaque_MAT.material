@@ -2,12 +2,6 @@
     "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
     "materialTypeVersion": 5,
     "propertyValues": {
-        "baseColor.color": [
-            0.5,
-            0.5,
-            0.5,
-            1.0
-        ],
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "textures/LEC45d_BaseColor.jpg",
         "emissive.enable": true,
@@ -15,6 +9,7 @@
         "emissive.textureMap": "textures/LEC45d_Emissive.jpg",
         "metallic.textureMap": "textures/LEC45d_Metallic.jpg",
         "normal.textureMap": "textures/LEC45d_Normal.jpg",
+        "occlusion.diffuseTextureMap": "textures/LEC45d_AO.jpg",
         "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
         "roughness.textureMap": "textures/LEC45d_Roughness.jpg"
