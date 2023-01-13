@@ -78,7 +78,7 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "lambert1"
+                                    "Name": "Opaque_MAT"
                                 }
                             ]
                         }
@@ -177,6 +177,29 @@
                                 },
                                 {
                                     "Key": {
+                                        "materialSlotStableId": 738989466
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F0FDF8B7-12E5-575B-BBD1-705475FB4B89}"
+                                            },
+                                            "assetHint": "lect/lect_opaque_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 3.0
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
                                         "materialSlotStableId": 919273627
                                     },
                                     "Value": {
@@ -211,6 +234,44 @@
                                                 "guid": "{40C53DA1-6E29-5F51-8612-8FFA49514AC4}"
                                             },
                                             "assetHint": "lect/lect_lect_trans_05_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1730094122
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DA916472-F6B3-54DD-8E99-28A586F95340}"
+                                            },
+                                            "assetHint": "lect/lect_alpha_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 3.0
+                                            },
+                                            "opacity.alphaSource": {
+                                                "$type": "unsigned int",
+                                                "Value": 1
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 2
+                                            },
+                                            "opacity.textureMap": {
+                                                "$type": "AssetId",
+                                                "Value": {
+                                                    "guid": "{2B2C4D12-5630-5A24-A93C-972E3DC436CC}",
+                                                    "subId": 1000
+                                                }
+                                            }
                                         }
                                     }
                                 },
