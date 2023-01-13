@@ -121,7 +121,7 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "lambert1"
+                                    "Name": "Opaque_MAT"
                                 }
                             ]
                         }
@@ -157,6 +157,53 @@
                     "Controller": {
                         "Configuration": {
                             "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 738989466
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8A1DF4F3-A526-5ED1-B31D-3D9257C772C5}"
+                                            },
+                                            "assetHint": "o3detopiary/o3detopiary_opaque_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1730094122
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0BC720F9-2C41-5056-877A-F415BF454CA9}"
+                                            },
+                                            "assetHint": "o3detopiary/o3detopiary_alpha_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "opacity.alphaSource": {
+                                                "$type": "unsigned int",
+                                                "Value": 1
+                                            },
+                                            "opacity.factor": {
+                                                "$type": "float",
+                                                "Value": 0.5
+                                            },
+                                            "opacity.mode": {
+                                                "$type": "unsigned int",
+                                                "Value": 1
+                                            },
+                                            "opacity.textureMap": {
+                                                "$type": "AssetId",
+                                                "Value": {
+                                                    "guid": "{6D5C77CB-1EA9-592B-B6CE-8C2985F7C932}",
+                                                    "subId": 1000
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
                                 {
                                     "Key": {
                                         "materialSlotStableId": 1801706425

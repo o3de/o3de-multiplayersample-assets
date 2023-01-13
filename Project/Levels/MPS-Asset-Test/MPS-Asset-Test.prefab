@@ -58,6 +58,7 @@
                     "Instance_[24908036477447]/ContainerEntity",
                     "Instance_[32961100157447]/ContainerEntity",
                     "Instance_[41155897758215]/ContainerEntity",
+                    "Instance_[49488134312455]/ContainerEntity",
                     "Instance_[19449065282186]/ContainerEntity"
                 ]
             },
@@ -2167,6 +2168,36 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[17499293458962043542]/Parent Entity",
                     "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1105550029323075]/Components/Component_[5377021004690611554]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "Opaque_MAT"
+                }
+            ]
+        },
+        "Instance_[49488134312455]": {
+            "Source": "O3DETopiary/O3DETopiary.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6156020711088215144]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6156020711088215144]/Transform Data/Translate/0",
+                    "value": -4.440569877624512
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6156020711088215144]/Transform Data/Translate/1",
+                    "value": -27.876115798950195
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1105550029323075]/Components/Component_[5377021004690611554]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "Opaque_MAT"
                 }
             ]
         },
