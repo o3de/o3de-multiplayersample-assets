@@ -55,6 +55,7 @@
                     "Instance_[8780434280967]/ContainerEntity",
                     "Instance_[8866333626887]/ContainerEntity",
                     "Instance_[16992411750919]/ContainerEntity",
+                    "Instance_[24908036477447]/ContainerEntity",
                     "Instance_[19449065282186]/ContainerEntity"
                 ]
             },
@@ -1904,6 +1905,11 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[806209415438007648]/Parent Entity",
                     "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1105361050762051]/Components/Component_[3041854279692664654]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "Opaque_MAT"
                 }
             ]
         },
@@ -1989,6 +1995,36 @@
                     "op": "replace",
                     "path": "/Entities/Entity_[886644136180547]/Components/Component_[8626343417940619775]/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
                     "value": "defenceturret/defenceturret_opaque_mat.azmaterial"
+                }
+            ]
+        },
+        "Instance_[24908036477447]": {
+            "Source": "LECstraight/LECstraight.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2563122736071885678]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2563122736071885678]/Transform Data/Translate/0",
+                    "value": -26.895675659179688
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2563122736071885678]/Transform Data/Translate/1",
+                    "value": -23.029550552368164
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2563122736071885678]/Transform Data/Translate/2",
+                    "value": 2.384185791015625e-7
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1105361050762051]/Components/Component_[3041854279692664654]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "Opaque_MAT"
                 }
             ]
         },
