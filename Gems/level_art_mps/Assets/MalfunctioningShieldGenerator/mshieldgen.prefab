@@ -81,6 +81,47 @@
                                             "assetHint": "malfunctioningshieldgenerator/mshieldgen_mshieldgen_mat.azmaterial"
                                         }
                                     }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3266363717
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C725332A-04CC-5051-8C63-A347EA2C6D72}"
+                                            },
+                                            "assetHint": "malfunctioningshieldgenerator/mshieldgen_opaque_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 3.0
+                                            }
+                                        }
+                                    }
                                 }
                             ]
                         }
@@ -101,7 +142,7 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "lambert1"
+                                    "Name": "Opaque_mat"
                                 }
                             ]
                         }

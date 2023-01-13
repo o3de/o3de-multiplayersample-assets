@@ -57,6 +57,7 @@
                     "Instance_[16992411750919]/ContainerEntity",
                     "Instance_[24908036477447]/ContainerEntity",
                     "Instance_[32961100157447]/ContainerEntity",
+                    "Instance_[41155897758215]/ContainerEntity",
                     "Instance_[19449065282186]/ContainerEntity"
                 ]
             },
@@ -2096,6 +2097,36 @@
                     "op": "replace",
                     "path": "/Entities/Entity_[238966470421092]/Components/Component_[14277864073025928875]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
                     "value": "opaque_MAT"
+                }
+            ]
+        },
+        "Instance_[41155897758215]": {
+            "Source": "MalfunctioningShieldGenerator/mshieldgen.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2815070735218165771]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2815070735218165771]/Transform Data/Translate/0",
+                    "value": -20.28822898864746
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2815070735218165771]/Transform Data/Translate/1",
+                    "value": -24.675962448120117
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2815070735218165771]/Transform Data/Translate/2",
+                    "value": 4.76837158203125e-7
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1103265106721603]/Components/Component_[15617014590518523349]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "Opaque_mat"
                 }
             ]
         },
