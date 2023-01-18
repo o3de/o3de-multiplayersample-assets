@@ -19,6 +19,73 @@ These are production working files for the YBot model.  As production stages of 
 | Marmoset_TB_Alpha_Joints_Bake.tbscene | This bake scene includes the joints, so we can bake good AO, etc.                                                                             |
 | Alpha_mesh_final.fbx                  | This is an export of the final cleaned up low poly game model ready for import into the actual runtime model (in the root folder above /.src) |
 
+## [0.0.5] - 2023-01-18
+
+- ybot_yup_working.mb: Removed the 'Armature' locator from the root of each LOD skeleton hierarchy (related to root motion extraction)
+
+- re-exported the Ybot.fbx 
+
+## [0.0.4] - 2023-01-06
+
+Set up the YBot to have correct hierarchy to support both Mesh LODs, and skel LODs
+
+- Mesh and skel LOD rigs, folded together into single hierarchy beneath the mesh group
+
+- Only the top level groups are LOD0, LOD1, LOD2
+  
+  - Maya by default names nodes under "LOD Group", LOD0 must rename LOD0
+
+- The main rig "mixamorig:hips" is parent under LOD0
+
+- None of the mesh or joint nodes beneath LOD0, need a suffix like _lod0
+
+- Duplicating a rig does not propagate the name space, "mixamorig:hips", will become "hips" in the duplicate, this can be fixed with the "Namespace Editor"
+  
+  - 1. parent the original rig under LOD0
+    2. select "mixamorig:hips" (root) and duplicate, this will create another skeleton named "hips"
+    3. parent this new duplicate rig "hips" under LOD1
+    4. expand the entire hierarchy for the rig under LOD1
+    5. open the namespace editor maya > windows > general editors > namespace editor
+    6. note: the existing namespace mixamorig
+    7. select all of the joint nodes in the duplicate rig
+    8. in the namespace editor, select the namespace mixamorig
+    9. click 'Add Selected', which will apply all the joints into the existing namespace set
+    10. Repeat this for other LODs
+
+"character_mps\Assets\Mixamo\Ybot.src\wrk_img\correct_hierarchy_setup_LODs.png"
+
+I did ...
+
+- I repaired the logo plate on LOD1
+
+- create the duplicate rigs
+
+- skinned the mesh LODs to the LOD rigs
+
+- exported and validated this all worked:
+  
+  - dropped the ModelAsset in, used the Mesh Component to validaate mesh geo and proper number of LOD groups
+  
+  - dropped in the ActorAsset, and did all of the following:
+    
+    - Added the simple motion component and tested with anim
+    
+    - Added the simple LOD component
+    
+    - Added the material component, validated all the LODs/LOD materials slots were present
+    
+    - Assigned red color to Head material instance of LOD0, green to LOD1, blue to LOD2
+    
+    - Then validated that LOD switching was working correctly (head color changes color over distance)
+
+- DID NOT
+  
+  - Make clean ideal lod meshes (still quick and dirty)
+  
+  - Clean up skinning (just basic bind skin with default settings)
+  
+  - None of the bone joints in the duplicate skeleton LODs have been pruned, this needs to be done.  I was only building and validating the clean hierarchy.
+
 ## [0.0.3] - 2022-12-21
 
 Added section of this document above, to describe /.src files usage.
