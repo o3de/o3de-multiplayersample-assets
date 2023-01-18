@@ -19,6 +19,12 @@ These are production working files for the YBot model.  As production stages of 
 | Marmoset_TB_Alpha_Joints_Bake.tbscene | This bake scene includes the joints, so we can bake good AO, etc.                                                                             |
 | Alpha_mesh_final.fbx                  | This is an export of the final cleaned up low poly game model ready for import into the actual runtime model (in the root folder above /.src) |
 
+## [0.0.5] - 2023-01-18
+
+- ybot_yup_working.mb: Removed the 'Armature' locator from the root of each LOD skeleton hierarchy (related to root motion extraction)
+
+- re-exported the Ybot.fbx 
+
 ## [0.0.4] - 2023-01-06
 
 Set up the YBot to have correct hierarchy to support both Mesh LODs, and skel LODs
