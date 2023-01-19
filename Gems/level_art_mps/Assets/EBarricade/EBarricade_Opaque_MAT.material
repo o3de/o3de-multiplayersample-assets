@@ -1,29 +1,22 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "EBarricade/textures/EBarricade_basecolor.png",
-        "baseColor.textureMapUv": "Unwrapped",
+        "baseColor.textureMap": "textures/EBarricade_basecolor.png",
         "emissive.color": [
-            0.29019609093666077,
-            0.800000011920929,
-            1.0,
+            0.0,
+            0.0,
+            0.0,
             1.0
         ],
-        "emissive.enable": true,
-        "emissive.intensity": 3.0,
-        "emissive.textureMap": "EBarricade/textures/EBarricade_emissive.png",
-        "emissive.textureMapUv": "Unwrapped",
-        "metallic.textureMap": "EBarricade/textures/EBarricade_Metalic.png",
-        "metallic.textureMapUv": "Unwrapped",
-        "normal.textureMap": "EBarricade/textures/EBarricade_Normal.png",
-        "normal.textureMapUv": "Unwrapped",
-        "occlusion.diffuseTextureMap": "EBarricade/textures/EBarricade_AO.png",
-        "occlusion.diffuseTextureMapUv": "Unwrapped",
+        "emissive.intensity": 0.0,
+        "emissive.textureMap": "textures/EBarricade_emissive.png",
+        "metallic.textureMap": "textures/EBarricade_Metalic.png",
+        "normal.textureMap": "textures/EBarricade_Normal.png",
+        "occlusion.diffuseTextureMap": "textures/EBarricade_AO.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
-        "roughness.textureMap": "EBarricade/textures/EBarricade_Roughness.png",
-        "roughness.textureMapUv": "Unwrapped"
+        "roughness.textureMap": "textures/EBarricade_Roughness.png"
     }
 }

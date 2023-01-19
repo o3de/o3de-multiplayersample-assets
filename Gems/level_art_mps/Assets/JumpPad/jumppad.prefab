@@ -1,0 +1,201 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "jumppad",
+        "Components": {
+            "Component_[10406703446304744333]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 10406703446304744333,
+                "Parent Entity": ""
+            },
+            "Component_[10501542527926576230]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 10501542527926576230
+            },
+            "Component_[11764244596426444133]": {
+                "$type": "EditorLockComponent",
+                "Id": 11764244596426444133
+            },
+            "Component_[1409949969208639784]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1409949969208639784,
+                "Child Entity Order": [
+                    "Entity_[1104171344821059]"
+                ]
+            },
+            "Component_[1531236501138719421]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 1531236501138719421
+            },
+            "Component_[15924177500609814517]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 15924177500609814517
+            },
+            "Component_[4593727478341165459]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 4593727478341165459
+            },
+            "Component_[6876612726967172074]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 6876612726967172074
+            },
+            "Component_[7331156926498415618]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 7331156926498415618
+            },
+            "Component_[7481589150541888640]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 7481589150541888640
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1104171344821059]": {
+            "Id": "Entity_[1104171344821059]",
+            "Name": "jumppad",
+            "Components": {
+                "Component_[10078836605200387099]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10078836605200387099
+                },
+                "Component_[10423858960960691779]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 10423858960960691779,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{4287C202-C276-5040-8585-1F4E4E3A4259}",
+                                    "subId": 269538352
+                                },
+                                "assetHint": "jumppad/jumppad.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[12283440537049891922]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12283440537049891922
+                },
+                "Component_[1342242030955226421]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1342242030955226421
+                },
+                "Component_[14602108600851001959]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14602108600851001959
+                },
+                "Component_[14766259045021778464]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 14766259045021778464,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "opaque_MAT"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{4287C202-C276-5040-8585-1F4E4E3A4259}",
+                                    "subId": 1828113488
+                                },
+                                "assetHint": "jumppad/jumppad.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{4287C202-C276-5040-8585-1F4E4E3A4259}",
+                                        "subId": 1828113488
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "jumppad/jumppad.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
+                "Component_[16810661525102088339]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16810661525102088339
+                },
+                "Component_[4457373516699865523]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4457373516699865523,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4578986180761630609
+                        },
+                        {
+                            "ComponentId": 10423858960960691779,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4936771790803189673,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 14766259045021778464,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[4578986180761630609]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4578986180761630609,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[4936771790803189673]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 4936771790803189673,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1927518764
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7F71C531-CD32-59C3-9750-8FBD08F79824}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2848911470
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3B722781-DAEE-5E74-922A-522F4D4FA90A}"
+                                            },
+                                            "assetHint": "jumppad/jumppad_jumppad_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[6771588922858749692]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6771588922858749692
+                },
+                "Component_[9239518287260626782]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9239518287260626782
+                }
+            }
+        }
+    }
+}
