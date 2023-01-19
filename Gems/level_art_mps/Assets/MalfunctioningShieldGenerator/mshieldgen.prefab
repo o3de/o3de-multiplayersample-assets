@@ -1,0 +1,230 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "mshieldgen",
+        "Components": {
+            "Component_[11900626550011748175]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 11900626550011748175
+            },
+            "Component_[13396526122664053769]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13396526122664053769
+            },
+            "Component_[16462885917979489708]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 16462885917979489708
+            },
+            "Component_[17297282752919845494]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 17297282752919845494
+            },
+            "Component_[2815070735218165771]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 2815070735218165771,
+                "Parent Entity": ""
+            },
+            "Component_[3833532886303967289]": {
+                "$type": "EditorLockComponent",
+                "Id": 3833532886303967289
+            },
+            "Component_[5205434325956337464]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5205434325956337464
+            },
+            "Component_[6426430091723871003]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 6426430091723871003,
+                "Child Entity Order": [
+                    "Entity_[1103265106721603]"
+                ]
+            },
+            "Component_[7603012068257666490]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7603012068257666490
+            },
+            "Component_[894579071372351971]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 894579071372351971
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1103265106721603]": {
+            "Id": "Entity_[1103265106721603]",
+            "Name": "mshieldgen",
+            "Components": {
+                "Component_[10377095204379885453]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10377095204379885453,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[10425888115008889075]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10425888115008889075
+                },
+                "Component_[12036928132347972099]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 12036928132347972099,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1458347081
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F32E0050-C456-5B1B-96E2-F4B82486D924}"
+                                            },
+                                            "assetHint": "malfunctioningshieldgenerator/mshieldgen_mshieldgen_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3266363717
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C725332A-04CC-5051-8C63-A347EA2C6D72}"
+                                            },
+                                            "assetHint": "malfunctioningshieldgenerator/mshieldgen_opaque_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 3.0
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[12100052168573794820]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12100052168573794820
+                },
+                "Component_[13851468120070323071]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13851468120070323071
+                },
+                "Component_[15617014590518523349]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 15617014590518523349,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Opaque_mat"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{0643DB73-0A88-5D39-8C51-CDF93A7534E9}",
+                                    "subId": 3518047537
+                                },
+                                "assetHint": "malfunctioningshieldgenerator/mshieldgen.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{0643DB73-0A88-5D39-8C51-CDF93A7534E9}",
+                                        "subId": 3518047537
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "malfunctioningshieldgenerator/mshieldgen.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
+                "Component_[15811412744001989600]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15811412744001989600,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10377095204379885453
+                        },
+                        {
+                            "ComponentId": 6769368990024884033,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 12036928132347972099,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 15617014590518523349,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[16762170554052155681]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16762170554052155681
+                },
+                "Component_[1875397804869372106]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1875397804869372106
+                },
+                "Component_[244357437179738073]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 244357437179738073
+                },
+                "Component_[257525767800539830]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 257525767800539830
+                },
+                "Component_[6769368990024884033]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 6769368990024884033,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{0643DB73-0A88-5D39-8C51-CDF93A7534E9}",
+                                    "subId": 272285815
+                                },
+                                "assetHint": "malfunctioningshieldgenerator/mshieldgen.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,209 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "mediumcrate",
+        "Components": {
+            "Component_[10412865735398754685]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 10412865735398754685
+            },
+            "Component_[11432527944365588257]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 11432527944365588257,
+                "Child Entity Order": [
+                    "Entity_[26938570783197]"
+                ]
+            },
+            "Component_[13625444675013201062]": {
+                "$type": "EditorLockComponent",
+                "Id": 13625444675013201062
+            },
+            "Component_[14202561993092639326]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 14202561993092639326
+            },
+            "Component_[14829479714111707793]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 14829479714111707793
+            },
+            "Component_[2250120969770107677]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 2250120969770107677
+            },
+            "Component_[6351519547271534016]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 6351519547271534016
+            },
+            "Component_[673628320225784811]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 673628320225784811
+            },
+            "Component_[884520412059937694]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 884520412059937694
+            },
+            "Component_[9258688643060159915]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 9258688643060159915,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[26938570783197]": {
+            "Id": "Entity_[26938570783197]",
+            "Name": "mediumcrate",
+            "Components": {
+                "Component_[10198303601153066834]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 10198303601153066834,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{35AAE5C3-A6D0-5E59-89FA-B420FC8A5A79}",
+                                    "subId": 270015141
+                                },
+                                "assetHint": "crate/crate.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[1051697174901691759]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1051697174901691759
+                },
+                "Component_[17272149742081721763]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17272149742081721763
+                },
+                "Component_[17920592120493094163]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17920592120493094163,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 0.5733470916748047
+                    }
+                },
+                "Component_[18133601253046655915]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 18133601253046655915,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "opaque_MAT"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{35AAE5C3-A6D0-5E59-89FA-B420FC8A5A79}",
+                                    "subId": 1504139333
+                                },
+                                "assetHint": "crate/crate.pxmesh"
+                            },
+                            "Configuration": {
+                                "Scale": [
+                                    0.5733470916748047,
+                                    0.5733470916748047,
+                                    0.5733470916748047
+                                ],
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{35AAE5C3-A6D0-5E59-89FA-B420FC8A5A79}",
+                                        "subId": 1504139333
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "crate/crate.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
+                "Component_[1911030595846129972]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1911030595846129972
+                },
+                "Component_[2647997332785874780]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2647997332785874780
+                },
+                "Component_[271831478604276738]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 271831478604276738
+                },
+                "Component_[3155324830957742221]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3155324830957742221
+                },
+                "Component_[3314521772700142582]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3314521772700142582,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17920592120493094163
+                        },
+                        {
+                            "ComponentId": 10198303601153066834,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 5768305738533390150,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 18133601253046655915,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[5768305738533390150]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5768305738533390150,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 72869822
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C2634BFC-B6E1-585C-8973-7FF04AE036BB}"
+                                            },
+                                            "assetHint": "crate/crate_crate_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1927518764
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A9637DF4-45A8-5362-A708-7BEC5C58FFD5}"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[7933316247531469783]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7933316247531469783
+                }
+            }
+        }
+    }
+}
