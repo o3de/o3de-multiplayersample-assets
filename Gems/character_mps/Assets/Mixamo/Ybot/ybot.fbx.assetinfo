@@ -4,7 +4,15 @@
             "$type": "ActorGroup",
             "name": "YBot",
             "selectedRootBone": "RootNode",
-            "id": "{2B3CB90B-3337-5419-A80F-357D39CC4AC7}"
+            "id": "{2B3CB90B-3337-5419-A80F-357D39CC4AC7}",
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MetaDataRule",
+                        "metaData": "AdjustActor -actorID $(ACTORID) -name \"YBot\"\nActorSetCollisionMeshes -actorID $(ACTORID) -lod 0 -nodeList \"\"\nAdjustActor -actorID $(ACTORID) -nodesExcludedFromBounds \"\" -nodeAction \"select\"\nAdjustActor -actorID $(ACTORID) -nodeAction \"replace\" -attachmentNodes \"\"\nAdjustActor -actorID $(ACTORID) -motionExtractionNodeName \"RootNode\"\nAdjustActor -actorID $(ACTORID) -mirrorSetup \"\"\n"
+                    }
+                ]
+            }
         },
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
