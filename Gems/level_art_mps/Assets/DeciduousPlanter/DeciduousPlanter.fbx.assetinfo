@@ -6,44 +6,38 @@
             "name": "DeciduousPlanter",
             "NodeSelectionList": {
                 "selectedNodes": [
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_1.DeciduousPlanter_MESHCOL_1_1",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_2.DeciduousPlanter_MESHCOL_2_1",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_3.DeciduousPlanter_MESHCOL_3_1",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_4.DeciduousPlanter_MESHCOL_4_1",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_5.DeciduousPlanter_MESHCOL_5_1"
+                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_1_phys",
+                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_2_phys",
+                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_3_phys",
+                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_4_phys",
+                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_5_phys"
                 ],
                 "unselectedNodes": [
                     {},
                     "RootNode",
                     "RootNode.DeciduousPlanter",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_0",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_0.DeciduousPlanter_LOD_0_1",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_0.DeciduousPlanter_LOD_0_2",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_1",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_1.DeciduousPlanter_LOD_1_1",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_1.DeciduousPlanter_LOD_1_2",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_2",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_2.DeciduousPlanter_LOD_2_1",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_2.DeciduousPlanter_LOD_2_2",
+                    "RootNode.DeciduousPlanter.LOD_Group_1",
                     "RootNode.DeciduousPlanter.DeciduousPlanter_phys",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_1",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_1.DeciduousPlanter_MESHCOL_1_2",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_2",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_2.DeciduousPlanter_MESHCOL_2_2",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_3",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_3.DeciduousPlanter_MESHCOL_3_2",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_4",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_4.DeciduousPlanter_MESHCOL_4_2",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_5",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_5.DeciduousPlanter_MESHCOL_5_2"
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD0",
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD1",
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD2",
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD0.opaque",
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD0.alpha",
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD1.opaque",
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD2.opaque",
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD0.opaque.polySurface4",
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD0.opaque.polySurface1",
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD0.opaque.polySurface2",
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD0.opaque.polySurface3"
                 ]
             },
-            "MaterialSlots": [
-                "lambert1"
-            ],
-            "PhysicsMaterials": [
-                "<Default Physics Material>"
-            ]
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Collision_proxy_MAT"
+                    }
+                ]
+            }
         },
         {
             "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
@@ -53,143 +47,32 @@
                     {},
                     "RootNode",
                     "RootNode.DeciduousPlanter",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_0",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_0.DeciduousPlanter_LOD_0_1",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_0.DeciduousPlanter_LOD_0_2",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_1",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_1.DeciduousPlanter_LOD_1_1",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_1.DeciduousPlanter_LOD_1_2",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_2",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_2.DeciduousPlanter_LOD_2_1",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_2.DeciduousPlanter_LOD_2_2",
+                    "RootNode.DeciduousPlanter.LOD_Group_1",
                     "RootNode.DeciduousPlanter.DeciduousPlanter_phys",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_1",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_1.DeciduousPlanter_MESHCOL_1_2",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_2",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_2.DeciduousPlanter_MESHCOL_2_2",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_3",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_3.DeciduousPlanter_MESHCOL_3_2",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_4",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_4.DeciduousPlanter_MESHCOL_4_2",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_5",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_5.DeciduousPlanter_MESHCOL_5_2"
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD0",
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD1",
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD2",
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD0.opaque",
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD0.alpha",
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD1.opaque",
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD2.opaque",
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD0.opaque.polySurface4",
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD0.opaque.polySurface1",
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD0.opaque.polySurface2",
+                    "RootNode.DeciduousPlanter.LOD_Group_1.LOD0.opaque.polySurface3"
                 ],
                 "unselectedNodes": [
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_1.DeciduousPlanter_MESHCOL_1_1",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_2.DeciduousPlanter_MESHCOL_2_1",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_3.DeciduousPlanter_MESHCOL_3_1",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_4.DeciduousPlanter_MESHCOL_4_1",
-                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_5.DeciduousPlanter_MESHCOL_5_1"
+                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_1_phys",
+                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_2_phys",
+                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_3_phys",
+                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_4_phys",
+                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_5_phys"
                 ]
             },
             "rules": {
                 "rules": [
                     {
                         "$type": "MaterialRule"
-                    },
-                    {
-                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
-                        "nodeSelectionList": [
-                            {
-                                "selectedNodes": [
-                                    "RootNode",
-                                    "RootNode.DeciduousPlanter",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_0",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_0.DeciduousPlanter_LOD_0_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_0.DeciduousPlanter_LOD_0_2"
-                                ],
-                                "unselectedNodes": [
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_5",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_5.DeciduousPlanter_MESHCOL_5_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_5.DeciduousPlanter_MESHCOL_5_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_4",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_4.DeciduousPlanter_MESHCOL_4_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_4.DeciduousPlanter_MESHCOL_4_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_3",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_3.DeciduousPlanter_MESHCOL_3_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_3.DeciduousPlanter_MESHCOL_3_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_2.DeciduousPlanter_MESHCOL_2_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_2.DeciduousPlanter_MESHCOL_2_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_1.DeciduousPlanter_MESHCOL_1_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_1.DeciduousPlanter_MESHCOL_1_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_2.DeciduousPlanter_LOD_2_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_2.DeciduousPlanter_LOD_2_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_1.DeciduousPlanter_LOD_1_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_1.DeciduousPlanter_LOD_1_1"
-                                ]
-                            },
-                            {
-                                "selectedNodes": [
-                                    "RootNode",
-                                    "RootNode.DeciduousPlanter",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_1.DeciduousPlanter_LOD_1_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_1.DeciduousPlanter_LOD_1_2"
-                                ],
-                                "unselectedNodes": [
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_5",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_5.DeciduousPlanter_MESHCOL_5_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_5.DeciduousPlanter_MESHCOL_5_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_4",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_4.DeciduousPlanter_MESHCOL_4_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_4.DeciduousPlanter_MESHCOL_4_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_3",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_3.DeciduousPlanter_MESHCOL_3_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_3.DeciduousPlanter_MESHCOL_3_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_2.DeciduousPlanter_MESHCOL_2_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_2.DeciduousPlanter_MESHCOL_2_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_1.DeciduousPlanter_MESHCOL_1_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_1.DeciduousPlanter_MESHCOL_1_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_0",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_0.DeciduousPlanter_LOD_0_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_0.DeciduousPlanter_LOD_0_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_2.DeciduousPlanter_LOD_2_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_2.DeciduousPlanter_LOD_2_1"
-                                ]
-                            },
-                            {
-                                "selectedNodes": [
-                                    "RootNode",
-                                    "RootNode.DeciduousPlanter",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_2.DeciduousPlanter_LOD_2_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_2.DeciduousPlanter_LOD_2_2"
-                                ],
-                                "unselectedNodes": [
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_5",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_5.DeciduousPlanter_MESHCOL_5_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_5.DeciduousPlanter_MESHCOL_5_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_4",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_4.DeciduousPlanter_MESHCOL_4_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_4.DeciduousPlanter_MESHCOL_4_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_3",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_3.DeciduousPlanter_MESHCOL_3_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_3.DeciduousPlanter_MESHCOL_3_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_2.DeciduousPlanter_MESHCOL_2_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_2.DeciduousPlanter_MESHCOL_2_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_1.DeciduousPlanter_MESHCOL_1_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_phys.DeciduousPlanter_MESHCOL_1.DeciduousPlanter_MESHCOL_1_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_1.DeciduousPlanter_LOD_1_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_1.DeciduousPlanter_LOD_1_1",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_0",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_0.DeciduousPlanter_LOD_0_2",
-                                    "RootNode.DeciduousPlanter.DeciduousPlanter_LOD_0.DeciduousPlanter_LOD_0_1"
-                                ]
-                            }
-                        ]
                     }
                 ]
             },
