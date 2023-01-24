@@ -10,7 +10,7 @@ Or you could work with these assets in your own game project.
 
 Each Asset Gem is portable and can be enabled for use with any game project.  From the standpoint of creating content for a Gem, each Asset Gem is its own mini-project root.
 
-With DCC tools, it's often beneficial to teams to utilize relative paths for things like asset references, such as texture paths.  This makes something like an encapsulated Gem more portable; moved across projects, amongst teams and individuals, etc. This means that the Gem could be cloned anywhere locally (nested folder structure, even different drive letters) and not break reference paths when opened on someone else's machine.
+With DCC tools, it's often beneficial for teams to utilize relative paths for asset references such as texture paths.  This makes something like an encapsulated Gem more portable; it can be moved across projects, amongst teams and individuals, etc. This means that the Gem can be cloned anywhere locally (nested folder structure, even different drive letters) and not break reference paths when opened on someone else's machine.
 
 Blender works with relative paths, with the current scene file as the root. Maya by default, not so much, if a project root is not specified then it will store absolute paths, and this will break portability - leading to headaches for other users (each person, locally, has to repath/resolve file references. Ick. Lots of churn.) We can do better.
 
