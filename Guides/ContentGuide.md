@@ -34,7 +34,7 @@ In each Asset Gem, you'll find a Launch_Maya.bat, such as:
 
 `o3de-multiplayersample-assets\Gems\level_art_mps\Tools\Launch_Maya.bat`
 
-On windows, a double-click of that will launch Maya2023 with O3DE bootstrapping, during boot this will manage setting the project root.
+On Windows, a double-click of that will launch Maya2023 with O3DE bootstrapping, during boot this will manage setting the project root.
 
 Note: there are many ways O3DE can be configured, versioned engine install, nightly installer build, developer engine fork, etc,, you may need to specify which engine to use for bootstrapping to perform correctly.  You can use the following file:
 
