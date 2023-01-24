@@ -16,7 +16,7 @@ Blender works with relative paths, with the current scene file as the root. Maya
 
 ## Maya
 
-Maya does allow you to [Organize Files into Projects](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-ManagingScenes/files/GUID-9CE78B5A-7E9F-45E6-AB6D-66795E5656F4-htm.html), and utilize the project root to enable relative paths.  Essentially, the project root is marked by a `workspace.mel` file, a file that also contains project folder rules. This can be extremely useful, and it what makes portability work.  You'll notice, these gems contain this file at the root of each Gem.
+Maya does allow you to [Organize Files into Projects](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-ManagingScenes/files/GUID-9CE78B5A-7E9F-45E6-AB6D-66795E5656F4-htm.html), and utilize the project root to enable relative paths.  Essentially, the project root is marked by a `workspace.mel` file, a file that also contains project folder rules. This can be extremely useful, and it's what makes portability work.  These Gems contain this file at the root of each Gem.
 
 ![](img/2023-01-20-14-24-01-image.png)
 
