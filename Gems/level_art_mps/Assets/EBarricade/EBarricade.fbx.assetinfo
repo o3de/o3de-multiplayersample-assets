@@ -1,0 +1,80 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{7DE91110-F773-559F-824C-DCBDE8ABBD43}",
+            "name": "EBarricade",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.EBarricade.EBarricade_phys.EBarricade_MESHCOL01",
+                    "RootNode.EBarricade.EBarricade_phys.EBarricade_MESHCOL02",
+                    "RootNode.EBarricade.EBarricade_phys.EBarricade_MESHCOL03",
+                    "RootNode.EBarricade.EBarricade_phys.EBarricade_MESHCOL04",
+                    "RootNode.EBarricade.EBarricade_phys.EBarricade_MESHCOL05"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.EBarricade",
+                    "RootNode.EBarricade.EBarricade_phys",
+                    "RootNode.EBarricade.LOD_Group_2",
+                    "RootNode.EBarricade.LOD_Group_2.LOD0",
+                    "RootNode.EBarricade.LOD_Group_2.LOD1",
+                    "RootNode.EBarricade.LOD_Group_2.LOD2",
+                    "RootNode.EBarricade.LOD_Group_2.LOD0.HIGH_Opaque",
+                    "RootNode.EBarricade.LOD_Group_2.LOD0.HIGH_Alpha",
+                    "RootNode.EBarricade.LOD_Group_2.LOD1.Med_Opaque",
+                    "RootNode.EBarricade.LOD_Group_2.LOD1.Med_Alpha",
+                    "RootNode.EBarricade.LOD_Group_2.LOD2.Low_Opaque",
+                    "RootNode.EBarricade.LOD_Group_2.LOD2.Low_Alpha"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Opaque_MAT"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "EBarricade",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.EBarricade",
+                    "RootNode.EBarricade.EBarricade_phys",
+                    "RootNode.EBarricade.LOD_Group_2",
+                    "RootNode.EBarricade.LOD_Group_2.LOD0",
+                    "RootNode.EBarricade.LOD_Group_2.LOD1",
+                    "RootNode.EBarricade.LOD_Group_2.LOD2",
+                    "RootNode.EBarricade.LOD_Group_2.LOD0.HIGH_Opaque",
+                    "RootNode.EBarricade.LOD_Group_2.LOD0.HIGH_Alpha",
+                    "RootNode.EBarricade.LOD_Group_2.LOD1.Med_Opaque",
+                    "RootNode.EBarricade.LOD_Group_2.LOD1.Med_Alpha",
+                    "RootNode.EBarricade.LOD_Group_2.LOD2.Low_Opaque",
+                    "RootNode.EBarricade.LOD_Group_2.LOD2.Low_Alpha"
+                ],
+                "unselectedNodes": [
+                    "RootNode.EBarricade.EBarricade_phys.EBarricade_MESHCOL01",
+                    "RootNode.EBarricade.EBarricade_phys.EBarricade_MESHCOL02",
+                    "RootNode.EBarricade.EBarricade_phys.EBarricade_MESHCOL03",
+                    "RootNode.EBarricade.EBarricade_phys.EBarricade_MESHCOL04",
+                    "RootNode.EBarricade.EBarricade_phys.EBarricade_MESHCOL05"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule",
+                        "updateMaterials": true,
+                        "removeMaterials": true
+                    }
+                ]
+            },
+            "id": "{3E0FCC85-7B35-53C2-AB28-041893416AB3}"
+        }
+    ]
+}
