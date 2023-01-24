@@ -8,7 +8,7 @@ You can follow on of these guide to get up and running:
 
 Or you could work with these assets in your own game project.
 
-Each Asset Gem is portable, and can be enabled for use with any game project.  From the standpoint of creating content for a Gem, each Asset Gem is it's own mini-project root.
+Each Asset Gem is portable and can be enabled for use with any game project.  From the standpoint of creating content for a Gem, each Asset Gem is its own mini-project root.
 
 With DCC tools, it's often beneficial to teams to utilize relative paths for things like asset references, such as texture paths.  This makes something like an encapsulated Gem more portable; moved across projects, amongst teams and individuals, etc. This means that the Gem could be cloned anywhere locally (nested folder structure, even different drive letters) and not break reference paths when opened on someone else's machine.
 
