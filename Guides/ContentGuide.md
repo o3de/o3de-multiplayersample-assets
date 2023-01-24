@@ -87,7 +87,7 @@ With this envar set at launch, Maya will now search for the `workspace.mel` file
 
 ###### ENVARS
 
-You can use the `Env_Dev.bat` to override other aspects of the environment as well.  One example, would be mapping the O3DE binaries folder where executables live.  You might ask, "why would I need to do that?" and it comes down to how you are working and your configuration patterns, with an installer build, or as a engine developer.  The BIN folder has not only `*.exe`, but `*.dll` files, and compiled python `*.pyd` files that potentially some python script or tool might utilize. If you are [building from source](https://github.com/o3de/o3de.org/blob/main/content/docs/user-guide/build/configure-and-build.md), you specify the build folder and thus may want or need to map that with the DCCsi envars, something like:
+You can use the `Env_Dev.bat` to override other aspects of the environment as well.  One example would be mapping the O3DE binaries folder where executables live.  It comes down to how you are working and your configuration patterns, with an installer build, or as a engine developer.  The BIN folder has not only `*.exe`, but `*.dll` files, and compiled python `*.pyd` files that potentially some python script or tool might utilize. If you are [building from source](https://github.com/o3de/o3de.org/blob/main/content/docs/user-guide/build/configure-and-build.md), you specify the build folder and thus may want or need to map that with the DCCsi envars, something like:
 
 ```batch
 set "PATH_O3DE_BIN=%O3DE_DEV%\build\bin\profile"
