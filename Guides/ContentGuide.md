@@ -107,7 +107,7 @@ In Maya, you can validate that:
 
     ![](img/2023-01-23-15-45-07-image.png)
 
-Now when you use an open command, it will conveniently place you in the Assets folder of the current Gem.  Beyond making assets more portable (relative file path references), there is a lot of convenience to working **like the industry professionals** with Maya project workspaces.  This open dialog also gives you quick access to the root, asset folder (and other folder rules if they were added), and the ability to set the project without leaving the open dialog box.
+Now when you use an open command, it will conveniently place you in the Assets folder of the current Gem.  Beyond making assets more portable (relative file path references), working with Maya project workspaces brings a lot of conveniences.  This open dialog also gives you quick access to the root, asset folder (and other folder rules if they were added), and the ability to set the project without leaving the open dialog box.
 
 ![](img/2023-01-23-16-23-12-image.png)
 
