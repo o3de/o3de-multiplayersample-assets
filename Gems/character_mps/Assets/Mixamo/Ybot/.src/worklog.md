@@ -6,18 +6,31 @@ This is a worklog of changes made to the YBot for MPS
 
 These are production working files for the YBot model.  As production stages of art creation, often include file related to cleaning up work, creating baking workflows (to generate texture channels). We want to include these file for end-to-end examples of the work we did (for instance, a baking tutorial.)
 
-| File                                  | Description                                                                                                                                   |
-| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| native_mesh.fbx                       | The native Mixamo source file                                                                                                                 |
-| Native_mesh_working.mb                | Used to generate smooth HIGH for baking                                                                                                       |
-| Native_smooth_HIGH.fbx                | The HIGH poly exported out of Native_mesh_working.mb                                                                                          |
-| Alpha_mesh_working.mb                 | This is the working file for the in-game mesh, it has the game optimized LOW with clean UV's for baking                                       |
-| Alpha_mesh_LOW.fbx                    | The LOW poly exported from Alpha_mesh_working.mb                                                                                              |
-| Bake_set_working.mb                   | Imports the HIGH and LOW to put into a import friendly hierarchy for Marmoset Toolbag (baking tool)                                           |
-| Alpha_Bake_Set.fbx                    | Exported from Bake_set_working.mb, and is the file imported into Marmoset Toolbag directly                                                    |
-| Marmoset_TB_Alpha_Bake.tbscene        | High to Low baking scene, no joints. This is used to bake normals on the body meshes.                                                         |
-| Marmoset_TB_Alpha_Joints_Bake.tbscene | This bake scene includes the joints, so we can bake good AO, etc.                                                                             |
-| Alpha_mesh_final.fbx                  | This is an export of the final cleaned up low poly game model ready for import into the actual runtime model (in the root folder above /.src) |
+| File                              | Description                                                                                                                                                                                          |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| native_mesh.fbx                   | The native Mixamo source file                                                                                                                                                                        |
+| Native_mesh_working.mb            | Used to generate smooth HIGH for baking, also the working file for adjusted Alpha mesh (absorbed Alpha_mesh_working.mb)                                                                              |
+| Native_smooth_HIGH.fbx            | The HIGH poly exported out of Native_mesh_working.mb                                                                                                                                                 |
+| Alpha_mesh_LOW.fbx                | The LOW poly exported from Alpha_mesh_working.mb  </br>This is an export of the final cleaned up low poly game model ready for import into the actual runtime model (in the root folder above /.src) |
+| Bake_set_working.mb               | Imports the HIGH and LOW to put into a import friendly hierarchy for Marmoset Toolbag (baking tool)                                                                                                  |
+| Alpha_Bake_Set.fbx                | Exported from Bake_set_working.mb, and is the file imported into Marmoset Toolbag directly                                                                                                           |
+| Marmoset_TB_Alpha_Bake.tbscene    | High to Low baking scene, no joints. This is used to bake normals on the body meshes.                                                                                                                |
+| Marmoset_TB_Alpha_AO_Bake.tbscene | This bake scene includes the joints, so we can bake good AO, etc.                                                                                                                                    |
+
+## [0.0.6] - 2023-01-27
+
+1. Optimized the base low-poly Ybot model (so I could hit 15k target)
+2. This required also finding a better solution for dealing with the joints, those spheres took up a ton of polys.
+3. Updated the bake files:
+   1. Alpha_mesh_working.mb: has the updated optimized base model
+   2. Re-exported: Alpha_mesh_LOW.fbx
+   3. ^ imported in to update: bake_set_working.mb
+   4. Re-exported: Alpha_Bake_Set.fbx
+4. Adjusted the Marmoset Toolbag bake files (updated bake meshes and bake projects), they were baking too many channels, and had to be modified so that we could bake the normals for the joints.  So now one bake file only does the color and normal, the other bakes AO and such for the compound assembly (AO for joints + body at the same time) and rebaked all the texture channels
+5. Updated the primary Ybot asset file: Maya2023_ybot_yup_working.mb
+6. Exported just the model: ybot_mesh_test.fbx
+7. Updated all of the base materials (see characters guide)
+8. (next is to update the EmFX Asset, rig, LODs, etc.)
 
 ## [0.0.5] - 2023-01-18
 
