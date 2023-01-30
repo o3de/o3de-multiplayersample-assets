@@ -172,6 +172,10 @@ We used the Material Editor, to create 3 base materials: ybot_head_base.material
 
 <img src="../Gems/character_mps/Assets/Mixamo/Ybot/.src/wrk_img/Screenshot 2023-01-28 164302.png" width="512px" title="native_mesh.fbx" alt="Screenshot 2023-01-28 164302.png" data-align="inline">
 
-# YBot Actor, Adobe Mixamo
+# YBot Model, LODs
+
+Next we exported the Ybot Alpha_Mesh (the final optimized model), as an .OBJ and imported it into [Mesh Lab](https://www.meshlab.net/) to generate additions mesh LODs, I used this as well as mix-and-match of Maya reduction tools and some manual adjustments.
+
+# YBot Actor, Skeleton LODs
 
 < to do: nest steps, setting up the Actor with Mesh LODs, skeleton LODs, etc. >
