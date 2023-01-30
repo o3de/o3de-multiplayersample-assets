@@ -79,6 +79,42 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 14595933915692168009
                 },
+                "Component_[15617138946491750909]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15617138946491750909,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 738989466
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7686DEF5-DD1F-5CD9-B715-EE3ACD993BD0}"
+                                            },
+                                            "assetHint": "largebush/largebush_opaque_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1730094122
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E8674F8F-966C-543B-A776-23CA28A7E94A}"
+                                            },
+                                            "assetHint": "largebush/largebush_alpha_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
                 "Component_[15906526169876113555]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 15906526169876113555,
@@ -99,42 +135,6 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 3827226759309969581
                 },
-                "Component_[4820581861841949790]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 4820581861841949790,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1413469672
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{0DE5BBF2-CFB9-506C-9305-C8775CB78158}"
-                                            },
-                                            "assetHint": "largebush/largebush_largrbush_trans_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 3515851658
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{C219CA89-5136-570F-A311-B195BFED1E29}"
-                                            },
-                                            "assetHint": "largebush/largebush_largrbush_mat.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
                 "Component_[6756982386435152427]": {
                     "$type": "EditorColliderComponent",
                     "Id": 6756982386435152427,
@@ -142,7 +142,7 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "lambert1"
+                                    "Name": "Opaque_MAT"
                                 }
                             ]
                         }

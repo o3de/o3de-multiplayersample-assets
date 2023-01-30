@@ -54,6 +54,42 @@
             "Id": "Entity_[46317042870124]",
             "Name": "EBarricade_Small",
             "Components": {
+                "Component_[12079275495932164493]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 12079275495932164493,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 738989466
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{79B14D38-9816-5BA8-9242-1EFC8B01F6CF}"
+                                            },
+                                            "assetHint": "ebarricade/ebarricade_opaque_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1730094122
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EA4072DB-C3D2-5D9A-ACA7-F26659FC0ED9}"
+                                            },
+                                            "assetHint": "ebarricade/ebarricade_alpha_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
                 "Component_[13301909842789711564]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 13301909842789711564
@@ -124,55 +160,6 @@
                             "SortIndex": 3
                         }
                     ]
-                },
-                "Component_[190105939373404723]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 190105939373404723,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 738989466
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{79B14D38-9816-5BA8-9242-1EFC8B01F6CF}"
-                                            },
-                                            "assetHint": "ebarricade/ebarricade_opaque_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1730094122
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{EA4072DB-C3D2-5D9A-ACA7-F26659FC0ED9}"
-                                            },
-                                            "assetHint": "ebarricade/ebarricade_alpha_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 3014750170
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{F6244809-7256-55DF-A0A2-1CC37F9DF68E}"
-                                            },
-                                            "assetHint": "ebarricade/ebarricade_transparent_mat.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
                 },
                 "Component_[321387165225063293]": {
                     "$type": "EditorPendingCompositionComponent",

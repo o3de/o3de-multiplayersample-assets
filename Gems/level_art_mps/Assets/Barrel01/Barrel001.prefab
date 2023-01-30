@@ -96,42 +96,6 @@
                     "Id": 15946245671939163064,
                     "Parent Entity": "ContainerEntity"
                 },
-                "Component_[16403598602164850608]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 16403598602164850608,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1927518764
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{E38E8351-886F-57F9-8D32-228FF458D23E}"
-                                            },
-                                            "assetHint": "barrel01/barrel01_opaque_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 4080474991
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{CF3B7D60-CF37-517A-8D8A-F22A8EC74D55}"
-                                            },
-                                            "assetHint": "barrel01/barrel01_barrel01_mat.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
                 "Component_[17824652479736738769]": {
                     "$type": "EditorLockComponent",
                     "Id": 17824652479736738769
@@ -190,6 +154,29 @@
                     },
                     "DebugDrawSettings": {
                         "LocallyEnabled": false
+                    }
+                },
+                "Component_[7537682960267185192]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 7537682960267185192,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1927518764
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E38E8351-886F-57F9-8D32-228FF458D23E}"
+                                            },
+                                            "assetHint": "barrel01/barrel01_opaque_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
                     }
                 },
                 "Component_[7890103433140478346]": {

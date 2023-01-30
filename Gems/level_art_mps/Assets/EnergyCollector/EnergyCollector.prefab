@@ -54,6 +54,42 @@
             "Id": "Entity_[1103131962735427]",
             "Name": "EnergyCollector",
             "Components": {
+                "Component_[1266468343564094841]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1266468343564094841,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 954085393
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F5A7F342-869D-5A64-B289-83F5F0CCD9C9}"
+                                            },
+                                            "assetHint": "energycollector/energycollector_alpha_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1927518764
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C0781D87-0F0D-5091-B330-A9F5CF19E34D}"
+                                            },
+                                            "assetHint": "energycollector/energycollector_opaque_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
                 "Component_[15893132421336878983]": {
                     "$type": "AZ::Render::EditorMeshComponent",
                     "Id": 15893132421336878983,
@@ -133,55 +169,6 @@
                 "Component_[4935822056597843404]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 4935822056597843404
-                },
-                "Component_[5392664555095780239]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 5392664555095780239,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 954085393
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{F5A7F342-869D-5A64-B289-83F5F0CCD9C9}"
-                                            },
-                                            "assetHint": "energycollector/energycollector_alpha_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1927518764
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{C0781D87-0F0D-5091-B330-A9F5CF19E34D}"
-                                            },
-                                            "assetHint": "energycollector/energycollector_opaque_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 4226002333
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{8D410299-26B8-511C-A858-E33A7B5D4407}"
-                                            },
-                                            "assetHint": "energycollector/energycollector_energycollector_mat.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
                 },
                 "Component_[5603115993838143548]": {
                     "$type": "EditorInspectorComponent",

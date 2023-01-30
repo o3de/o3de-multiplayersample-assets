@@ -127,48 +127,6 @@
                         }
                     }
                 },
-                "Component_[16277924002364090417]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 16277924002364090417,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 738989466
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{7686DEF5-DD1F-5CD9-B715-EE3ACD993BD0}"
-                                            },
-                                            "assetHint": "largebush/largebush_opaque_mat.azmaterial"
-                                        },
-                                        "PropertyOverrides": {
-                                            "opacity.mode": {
-                                                "$type": "unsigned int",
-                                                "Value": 0
-                                            }
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1730094122
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{E8674F8F-966C-543B-A776-23CA28A7E94A}"
-                                            },
-                                            "assetHint": "largebush/largebush_alpha_mat.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
                 "Component_[17801160452831564444]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 17801160452831564444
@@ -197,6 +155,41 @@
                 "Component_[2748510894926127626]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 2748510894926127626
+                },
+                "Component_[6948041942324014400]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6948041942324014400,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 738989466
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7686DEF5-DD1F-5CD9-B715-EE3ACD993BD0}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1730094122
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E8674F8F-966C-543B-A776-23CA28A7E94A}"
+                                            },
+                                            "assetHint": "largebush/largebush_alpha_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
                 },
                 "Component_[9955988660366635874]": {
                     "$type": "EditorPendingCompositionComponent",

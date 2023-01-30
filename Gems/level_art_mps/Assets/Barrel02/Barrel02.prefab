@@ -54,6 +54,29 @@
             "Id": "Entity_[454244008688451]",
             "Name": "Barrel02",
             "Components": {
+                "Component_[11982368235958729223]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11982368235958729223,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1927518764
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9DC207B1-7C2A-5111-9575-777D9E844800}"
+                                            },
+                                            "assetHint": "barrel02/barrel02_opaque_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
                 "Component_[12970579640672433133]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 12970579640672433133
@@ -102,41 +125,6 @@
                 "Component_[4203999225150376362]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 4203999225150376362
-                },
-                "Component_[5054494768258837054]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 5054494768258837054,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 295343102
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{B4553D0B-48B9-50E0-BC23-3305996FA828}"
-                                            },
-                                            "assetHint": "barrel02/barrel02_barrel02_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1927518764
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{9DC207B1-7C2A-5111-9575-777D9E844800}"
-                                            }
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
                 },
                 "Component_[6310951765923472100]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
