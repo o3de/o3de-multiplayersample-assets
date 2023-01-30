@@ -135,6 +135,42 @@
                         }
                     }
                 },
+                "Component_[816302751566324929]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 816302751566324929,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 738989466
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F0FDF8B7-12E5-575B-BBD1-705475FB4B89}"
+                                            },
+                                            "assetHint": "lect/lect_opaque_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1730094122
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DA916472-F6B3-54DD-8E99-28A586F95340}"
+                                            },
+                                            "assetHint": "lect/lect_alpha_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
                 "Component_[8238238245614869636]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 8238238245614869636,
@@ -155,168 +191,6 @@
                             "SortIndex": 3
                         }
                     ]
-                },
-                "Component_[9244251758380077172]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 9244251758380077172,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 344326278
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{7CED9E23-654D-50F1-82DE-724BCDB2ABFD}"
-                                            },
-                                            "assetHint": "lect/lect_lect_trans_01_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 738989466
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{F0FDF8B7-12E5-575B-BBD1-705475FB4B89}"
-                                            },
-                                            "assetHint": "lect/lect_opaque_mat.azmaterial"
-                                        },
-                                        "PropertyOverrides": {
-                                            "emissive.enable": {
-                                                "$type": "bool",
-                                                "Value": true
-                                            },
-                                            "emissive.intensity": {
-                                                "$type": "float",
-                                                "Value": 3.0
-                                            }
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 919273627
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{3536AC33-EF60-52B9-BEE5-F3CCD16DD3EC}"
-                                            },
-                                            "assetHint": "lect/lect_lect_trans_02_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1482110389
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{C6271B12-0CB8-5A0C-880C-C711A762740B}"
-                                            },
-                                            "assetHint": "lect/lect_lect_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1550056597
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{40C53DA1-6E29-5F51-8612-8FFA49514AC4}"
-                                            },
-                                            "assetHint": "lect/lect_lect_trans_05_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1730094122
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{DA916472-F6B3-54DD-8E99-28A586F95340}"
-                                            },
-                                            "assetHint": "lect/lect_alpha_mat.azmaterial"
-                                        },
-                                        "PropertyOverrides": {
-                                            "emissive.enable": {
-                                                "$type": "bool",
-                                                "Value": true
-                                            },
-                                            "emissive.intensity": {
-                                                "$type": "float",
-                                                "Value": 3.0
-                                            },
-                                            "opacity.alphaSource": {
-                                                "$type": "unsigned int",
-                                                "Value": 1
-                                            },
-                                            "opacity.mode": {
-                                                "$type": "unsigned int",
-                                                "Value": 2
-                                            },
-                                            "opacity.textureMap": {
-                                                "$type": "AssetId",
-                                                "Value": {
-                                                    "guid": "{2B2C4D12-5630-5A24-A93C-972E3DC436CC}",
-                                                    "subId": 1000
-                                                }
-                                            }
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1840102167
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{4C527EEB-FA36-5856-9DB7-0CBDDB30CB21}"
-                                            },
-                                            "assetHint": "lect/lect_lect_trans_03_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 4031944121
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{56D53860-7434-53E9-A285-B1C354ED1591}"
-                                            },
-                                            "assetHint": "lect/lect_lect_trans_00_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 4225515436
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{859870A8-FAE6-5304-A9FC-18AAF53476E1}"
-                                            },
-                                            "assetHint": "lect/lect_lect_trans_04_mat.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
                 },
                 "Component_[9829104790182343370]": {
                     "$type": "EditorPendingCompositionComponent",
