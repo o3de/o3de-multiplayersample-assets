@@ -125,41 +125,6 @@
                         }
                     ]
                 },
-                "Component_[15053791590785891318]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 15053791590785891318,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1927518764
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{AE57E383-33B9-5934-A9AC-66B2FB04E05E}"
-                                            }
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 2184589006
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{F5644103-A332-56A6-B925-D5551390CA6D}"
-                                            },
-                                            "assetHint": "boxwoodplanter/boxwoodplanter_boxwoodplanter_mat.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
                 "Component_[15175233121410983438]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 15175233121410983438
@@ -184,6 +149,29 @@
                                 },
                                 "assetHint": "boxwoodplanter/boxwoodplanter.azmodel"
                             }
+                        }
+                    }
+                },
+                "Component_[1909092877827124495]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1909092877827124495,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1927518764
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{AE57E383-33B9-5934-A9AC-66B2FB04E05E}"
+                                            },
+                                            "assetHint": "boxwoodplanter/boxwoodplanter_opaque_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     }
                 },
