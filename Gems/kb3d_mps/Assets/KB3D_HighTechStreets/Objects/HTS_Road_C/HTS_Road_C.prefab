@@ -46,10 +46,6 @@
             "Component_[9107495697719838840]": {
                 "$type": "EditorOnlyEntityComponent",
                 "Id": 9107495697719838840
-            },
-            "Component_[9954834264521938885]": {
-                "$type": "SelectionComponent",
-                "Id": 9954834264521938885
             }
         }
     },
@@ -58,124 +54,6 @@
             "Id": "Entity_[1884057538463]",
             "Name": "HTS_Road_C",
             "Components": {
-                "Component_[12803882762364035972]": {
-                    "$type": "SelectionComponent",
-                    "Id": 12803882762364035972
-                },
-                "Component_[12842653883615731342]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 12842653883615731342,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 9265600
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{51DE21E9-F590-51A3-AFD1-3CCC344741C0}"
-                                            },
-                                            "assetHint": "kb3d_hightechstreets/objects/hts_road_c/hts_road_c_kb3d_hts_rubbergray.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 881380358
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{03AF0B63-99D9-55F7-9F93-860856E47A42}"
-                                            },
-                                            "assetHint": "kb3d_hightechstreets/objects/hts_road_c/hts_road_c_kb3d_hts_plasticwhite.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1116965034
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{07992105-5D06-5C2B-8C2C-0B700BEDEE75}"
-                                            },
-                                            "assetHint": "kb3d_hightechstreets/objects/hts_road_c/hts_road_c_kb3d_hts_lightblue.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1201697824
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{5E8F46BE-F55D-5A4F-97C5-1FA13FA94E47}"
-                                            },
-                                            "assetHint": "kb3d_hightechstreets/objects/hts_road_c/hts_road_c_kb3d_hts_metalgrey.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 2220685425
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{C603BD6F-3ADC-5F4B-B0C2-C3C98DC16E14}"
-                                            },
-                                            "assetHint": "kb3d_hightechstreets/objects/hts_road_c/hts_road_c_kb3d_hts_metallight.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 2849564097
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{4AAF878A-2F45-5665-9FA8-D22575E66D5C}"
-                                            },
-                                            "assetHint": "kb3d_hightechstreets/objects/hts_road_c/hts_road_c_kb3d_hts_metaldarkgrey.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 3619000048
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{873B047E-7590-59C9-85C6-05401BB545BF}"
-                                            },
-                                            "assetHint": "kb3d_hightechstreets/objects/hts_road_c/hts_road_c_kb3d_hts_metalwhite.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 4202942227
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{82D17CC2-B52B-5D43-BD48-A04C53A35FA1}"
-                                            },
-                                            "assetHint": "kb3d_hightechstreets/objects/hts_road_c/hts_road_c_kb3d_hts_metalyellow.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
                 "Component_[12919241414073202520]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 12919241414073202520
@@ -206,6 +84,112 @@
                 "Component_[18257484265325945063]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 18257484265325945063
+                },
+                "Component_[18357085575233135816]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 18357085575233135816,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 9265600
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{51DE21E9-F590-51A3-AFD1-3CCC344741C0}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 881380358
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{03AF0B63-99D9-55F7-9F93-860856E47A42}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1116965034
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{07992105-5D06-5C2B-8C2C-0B700BEDEE75}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1201697824
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{5E8F46BE-F55D-5A4F-97C5-1FA13FA94E47}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2220685425
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C603BD6F-3ADC-5F4B-B0C2-C3C98DC16E14}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2849564097
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4AAF878A-2F45-5665-9FA8-D22575E66D5C}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3619000048
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{873B047E-7590-59C9-85C6-05401BB545BF}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4202942227
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{82D17CC2-B52B-5D43-BD48-A04C53A35FA1}"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
                 },
                 "Component_[2275723906922644356]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",

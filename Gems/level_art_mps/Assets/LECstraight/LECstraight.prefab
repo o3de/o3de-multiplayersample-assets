@@ -94,6 +94,40 @@
                     "Id": 2335811706846146487,
                     "Parent Entity": "ContainerEntity"
                 },
+                "Component_[2851777131293200399]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 2851777131293200399,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 738989466
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F791FF86-080E-52DC-939F-9BA6986CD167}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1730094122
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{47E669A5-CDA1-5D6F-A77D-1692D984E402}"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
                 "Component_[3041854279692664654]": {
                     "$type": "EditorColliderComponent",
                     "Id": 3041854279692664654,
@@ -129,42 +163,6 @@
                     },
                     "DebugDrawSettings": {
                         "LocallyEnabled": false
-                    }
-                },
-                "Component_[7242686203955182811]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 7242686203955182811,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 738989466
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{F791FF86-080E-52DC-939F-9BA6986CD167}"
-                                            },
-                                            "assetHint": "lecstraight/lecstraight_opaque_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1730094122
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{47E669A5-CDA1-5D6F-A77D-1692D984E402}"
-                                            },
-                                            "assetHint": "lecstraight/lecstraight_alpha_mat.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
                     }
                 },
                 "Component_[7937943826828133648]": {

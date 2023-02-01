@@ -21,7 +21,7 @@
                 "Child Entity Order": [
                     "Entity_[1176639161715]",
                     "Entity_[511561908761]",
-                    "Entity_[614641123865]"
+                    "Entity_[555156682378]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -737,55 +737,17 @@
                 }
             }
         },
-        "Entity_[614641123865]": {
-            "Id": "Entity_[614641123865]",
+        "Entity_[555156682378]": {
+            "Id": "Entity_[555156682378]",
             "Name": "ybot_actor",
             "Components": {
-                "Component_[10696679845226562155]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 10696679845226562155
+                "Component_[13410055921692633109]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13410055921692633109
                 },
-                "Component_[11118460261921945179]": {
-                    "$type": "EditorActorComponent",
-                    "Id": 11118460261921945179,
-                    "ActorAsset": {
-                        "assetId": {
-                            "guid": "{49D8DCD0-7383-5AC7-8A87-CE6267605407}",
-                            "subId": 196688939
-                        },
-                        "assetHint": "mixamo/ybot/ybot.actor"
-                    },
-                    "MaterialPerLOD": [
-                        {},
-                        {},
-                        {}
-                    ],
-                    "AttachmentTarget": ""
-                },
-                "Component_[12289740926750680204]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 12289740926750680204
-                },
-                "Component_[12629703974237184617]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 12629703974237184617,
-                    "Parent Entity": "Entity_[1146574390643]",
-                    "Transform Data": {
-                        "Translate": [
-                            -5.30473518371582,
-                            -0.6878330707550049,
-                            0.0
-                        ],
-                        "Rotate": [
-                            0.0,
-                            0.0,
-                            180.0
-                        ]
-                    }
-                },
-                "Component_[15269298010174350896]": {
+                "Component_[14228531028270253262]": {
                     "$type": "EditorSimpleMotionComponent",
-                    "Id": 15269298010174350896,
+                    "Id": 14228531028270253262,
                     "PreviewInEditor": true,
                     "Configuration": {
                         "MotionAsset": {
@@ -795,528 +757,67 @@
                             },
                             "assetHint": "mixamo/animations/pistol idle.motion"
                         },
-                        "Loop": true
+                        "Loop": true,
+                        "InPlace": true
                     }
                 },
-                "Component_[15933873557650728516]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 15933873557650728516
-                },
-                "Component_[16157599898492635577]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 16157599898492635577
-                },
-                "Component_[18208519711269572839]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 18208519711269572839
-                },
-                "Component_[4113687018449541985]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 4113687018449541985
-                },
-                "Component_[5602064698475568415]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 5602064698475568415,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1599611083
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{779F4D5C-B87A-5114-9026-4359231466F2}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_right_arm_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 2106362150
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{A9E2DFFB-F80A-5C37-BE4E-DB10F328EF4A}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_left_arm_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 2810781130
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{6A113F7A-C7D2-5E33-B4B4-0AD5370E76B3}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_right_leg_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 2821398715
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{B99CDB8D-FDE7-5644-A2E6-21F813EE7FD2}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_left_leg_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 2825923043
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{7605FD92-02A7-5C3A-9035-DF4B74EFF160}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_head_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 3204802744
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{0F134B78-7CF5-545D-9F9D-93D79237EE78}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_body_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 3562450033
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{58E58F6D-E06D-575A-B703-51F35BAE6FB4}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_joints_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 3617808779
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{75C048F7-BA08-5A24-805D-789C18162163}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_logo_plate_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 0,
-                                        "materialSlotStableId": 1599611083
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{779F4D5C-B87A-5114-9026-4359231466F2}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_right_arm_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 0,
-                                        "materialSlotStableId": 2106362150
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{A9E2DFFB-F80A-5C37-BE4E-DB10F328EF4A}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_left_arm_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 0,
-                                        "materialSlotStableId": 2810781130
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{6A113F7A-C7D2-5E33-B4B4-0AD5370E76B3}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_right_leg_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 0,
-                                        "materialSlotStableId": 2821398715
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{B99CDB8D-FDE7-5644-A2E6-21F813EE7FD2}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_left_leg_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 0,
-                                        "materialSlotStableId": 2825923043
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{7605FD92-02A7-5C3A-9035-DF4B74EFF160}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_head_mat.azmaterial"
-                                        },
-                                        "PropertyOverrides": {
-                                            "baseColor.color": {
-                                                "$type": "Color",
-                                                "Value": [
-                                                    1.0,
-                                                    0.0,
-                                                    0.0,
-                                                    1.0
-                                                ]
-                                            },
-                                            "baseColor.textureBlendMode": {
-                                                "$type": "unsigned int",
-                                                "Value": 3
-                                            }
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 0,
-                                        "materialSlotStableId": 3204802744
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{0F134B78-7CF5-545D-9F9D-93D79237EE78}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_body_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 0,
-                                        "materialSlotStableId": 3562450033
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{58E58F6D-E06D-575A-B703-51F35BAE6FB4}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_joints_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 0,
-                                        "materialSlotStableId": 3617808779
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{75C048F7-BA08-5A24-805D-789C18162163}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_logo_plate_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 1,
-                                        "materialSlotStableId": 1599611083
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{779F4D5C-B87A-5114-9026-4359231466F2}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_right_arm_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 1,
-                                        "materialSlotStableId": 2106362150
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{A9E2DFFB-F80A-5C37-BE4E-DB10F328EF4A}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_left_arm_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 1,
-                                        "materialSlotStableId": 2810781130
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{6A113F7A-C7D2-5E33-B4B4-0AD5370E76B3}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_right_leg_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 1,
-                                        "materialSlotStableId": 2821398715
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{B99CDB8D-FDE7-5644-A2E6-21F813EE7FD2}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_left_leg_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 1,
-                                        "materialSlotStableId": 2825923043
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{7605FD92-02A7-5C3A-9035-DF4B74EFF160}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_head_mat.azmaterial"
-                                        },
-                                        "PropertyOverrides": {
-                                            "baseColor.color": {
-                                                "$type": "Color",
-                                                "Value": [
-                                                    0.0,
-                                                    1.0,
-                                                    0.0,
-                                                    1.0
-                                                ]
-                                            },
-                                            "baseColor.textureBlendMode": {
-                                                "$type": "unsigned int",
-                                                "Value": 3
-                                            }
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 1,
-                                        "materialSlotStableId": 3204802744
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{0F134B78-7CF5-545D-9F9D-93D79237EE78}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_body_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 1,
-                                        "materialSlotStableId": 3562450033
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{58E58F6D-E06D-575A-B703-51F35BAE6FB4}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_joints_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 1,
-                                        "materialSlotStableId": 3617808779
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{75C048F7-BA08-5A24-805D-789C18162163}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_logo_plate_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 2,
-                                        "materialSlotStableId": 1599611083
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{779F4D5C-B87A-5114-9026-4359231466F2}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_right_arm_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 2,
-                                        "materialSlotStableId": 2106362150
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{A9E2DFFB-F80A-5C37-BE4E-DB10F328EF4A}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_left_arm_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 2,
-                                        "materialSlotStableId": 2810781130
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{6A113F7A-C7D2-5E33-B4B4-0AD5370E76B3}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_right_leg_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 2,
-                                        "materialSlotStableId": 2821398715
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{B99CDB8D-FDE7-5644-A2E6-21F813EE7FD2}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_left_leg_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 2,
-                                        "materialSlotStableId": 2825923043
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{7605FD92-02A7-5C3A-9035-DF4B74EFF160}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_head_mat.azmaterial"
-                                        },
-                                        "PropertyOverrides": {
-                                            "baseColor.color": {
-                                                "$type": "Color",
-                                                "Value": [
-                                                    0.0,
-                                                    0.0,
-                                                    1.0,
-                                                    1.0
-                                                ]
-                                            },
-                                            "baseColor.textureBlendMode": {
-                                                "$type": "unsigned int",
-                                                "Value": 3
-                                            }
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 2,
-                                        "materialSlotStableId": 3204802744
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{0F134B78-7CF5-545D-9F9D-93D79237EE78}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_body_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 2,
-                                        "materialSlotStableId": 3562450033
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{58E58F6D-E06D-575A-B703-51F35BAE6FB4}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_joints_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "lodIndex": 2,
-                                        "materialSlotStableId": 3617808779
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{75C048F7-BA08-5A24-805D-789C18162163}"
-                                            },
-                                            "assetHint": "mixamo/ybot/ybot_logo_plate_mat.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    "materialSlotsByLodEnabled": true
-                },
-                "Component_[579650668621501324]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 579650668621501324
-                },
-                "Component_[80242345725336595]": {
+                "Component_[16513815191434836850]": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 80242345725336595
+                    "Id": 16513815191434836850
+                },
+                "Component_[1877835781868177906]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1877835781868177906
+                },
+                "Component_[2069958450418786559]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2069958450418786559
+                },
+                "Component_[2430893677849268077]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2430893677849268077,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -4.632615089416504,
+                            -0.5273134708404541,
+                            2.384185791015625e-7
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[26091323201866522]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 26091323201866522
+                },
+                "Component_[2838041263477876899]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2838041263477876899
+                },
+                "Component_[4876770249113184644]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4876770249113184644
+                },
+                "Component_[954304392466635614]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 954304392466635614,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{49D8DCD0-7383-5AC7-8A87-CE6267605407}",
+                            "subId": 196688939
+                        },
+                        "assetHint": "mixamo/ybot/ybot.actor"
+                    },
+                    "AttachmentTarget": "",
+                    "RenderSkeleton": true
+                },
+                "Component_[9723210179383880576]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9723210179383880576
                 }
             }
         }
