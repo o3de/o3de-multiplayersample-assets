@@ -1,8 +1,14 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
     "materialTypeVersion": 5,
     "propertyValues": {
-        "baseColor.textureMap": "Assets/Teleporter_Platform/textures/TeleScreen_Emissive.png",
+        "baseColor.color": [
+            0.0,
+            0.3828641176223755,
+            0.807339608669281,
+            1.0
+        ],
+        "baseColor.textureMap": "textures/TeleScreen_Emissive.png",
         "emissive.color": [
             0.0,
             0.2836652100086212,
@@ -11,13 +17,13 @@
         ],
         "emissive.enable": true,
         "emissive.intensity": 8.300000190734863,
-        "emissive.textureMap": "Assets/Teleporter_Platform/textures/TeleScreen_Emissive.png",
+        "emissive.textureMap": "textures/TeleScreen_Emissive.png",
         "general.doubleSided": true,
-        "irradiance.irradianceColorSource": "BaseColor",
-        "opacity.alphaAffectsSpecular": 0.4699999988079071,
+        "irradiance.irradianceColorSource": "BaseColorTint",
+        "opacity.alphaAffectsSpecular": 0.5,
         "opacity.alphaSource": "Split",
-        "opacity.factor": 0.03999999910593033,
+        "opacity.factor": 0.30000001192092896,
         "opacity.mode": "Blended",
-        "opacity.textureMap": "Assets/Teleporter_Platform/textures/TeleScreen_Opacity.png"
+        "opacity.textureMap": "textures/TeleScreen_Opacity.png"
     }
 }

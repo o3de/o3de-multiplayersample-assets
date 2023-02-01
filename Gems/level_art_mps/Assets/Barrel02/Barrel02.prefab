@@ -54,29 +54,6 @@
             "Id": "Entity_[454244008688451]",
             "Name": "Barrel02",
             "Components": {
-                "Component_[11982368235958729223]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 11982368235958729223,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1927518764
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{9DC207B1-7C2A-5111-9575-777D9E844800}"
-                                            },
-                                            "assetHint": "barrel02/barrel02_opaque_mat.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
                 "Component_[12970579640672433133]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 12970579640672433133
@@ -116,6 +93,28 @@
                     },
                     "DebugDrawSettings": {
                         "LocallyEnabled": false
+                    }
+                },
+                "Component_[17077833201882131311]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 17077833201882131311,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1927518764
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9DC207B1-7C2A-5111-9575-777D9E844800}"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
                     }
                 },
                 "Component_[17848953960732628146]": {

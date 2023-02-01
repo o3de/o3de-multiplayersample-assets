@@ -148,28 +148,6 @@
                         }
                     ]
                 },
-                "Component_[3770642433686714619]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 3770642433686714619,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1927518764
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{E38E8351-886F-57F9-8D32-228FF458D23E}"
-                                            }
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
                 "Component_[5928302818454902612]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 5928302818454902612
@@ -181,6 +159,35 @@
                 "Component_[9298397919483801730]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 9298397919483801730
+                },
+                "Component_[9463462184794496592]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 9463462184794496592,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1927518764
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E38E8351-886F-57F9-8D32-228FF458D23E}"
+                                            },
+                                            "assetHint": "barrel01/barrel01_opaque_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 4.0
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
                 }
             }
         }

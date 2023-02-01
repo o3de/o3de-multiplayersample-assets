@@ -151,9 +151,13 @@
                         "LocallyEnabled": false
                     }
                 },
-                "Component_[7209900951690294286]": {
+                "Component_[7369789119754085542]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7369789119754085542
+                },
+                "Component_[761832994150863869]": {
                     "$type": "EditorMaterialComponent",
-                    "Id": 7209900951690294286,
+                    "Id": 761832994150863869,
                     "Controller": {
                         "Configuration": {
                             "materials": [
@@ -165,8 +169,7 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{8A1DF4F3-A526-5ED1-B31D-3D9257C772C5}"
-                                            },
-                                            "assetHint": "o3detopiary/o3detopiary_opaque_mat.azmaterial"
+                                            }
                                         }
                                     }
                                 },
@@ -178,65 +181,13 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{0BC720F9-2C41-5056-877A-F415BF454CA9}"
-                                            },
-                                            "assetHint": "o3detopiary/o3detopiary_alpha_mat.azmaterial"
-                                        },
-                                        "PropertyOverrides": {
-                                            "opacity.alphaSource": {
-                                                "$type": "unsigned int",
-                                                "Value": 1
-                                            },
-                                            "opacity.factor": {
-                                                "$type": "float",
-                                                "Value": 0.5
-                                            },
-                                            "opacity.mode": {
-                                                "$type": "unsigned int",
-                                                "Value": 1
-                                            },
-                                            "opacity.textureMap": {
-                                                "$type": "AssetId",
-                                                "Value": {
-                                                    "guid": "{6D5C77CB-1EA9-592B-B6CE-8C2985F7C932}",
-                                                    "subId": 1000
-                                                }
                                             }
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1801706425
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{9199E953-92B8-5B5E-A5C6-5566FD0096AF}"
-                                            },
-                                            "assetHint": "o3detopiary/o3detopiary_o3detopiary_trans_01_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 2626403619
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{B7B6AD4A-6D26-58F0-A2D5-F334DB8789E9}"
-                                            },
-                                            "assetHint": "o3detopiary/o3detopiary_o3detopiary_mat.azmaterial"
                                         }
                                     }
                                 }
                             ]
                         }
                     }
-                },
-                "Component_[7369789119754085542]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 7369789119754085542
                 },
                 "Component_[9706178755086803484]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
