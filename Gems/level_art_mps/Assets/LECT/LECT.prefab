@@ -71,6 +71,40 @@
                     "Id": 1348011459037678301,
                     "Parent Entity": "ContainerEntity"
                 },
+                "Component_[3068782321560466819]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3068782321560466819,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 738989466
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F0FDF8B7-12E5-575B-BBD1-705475FB4B89}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1730094122
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DA916472-F6B3-54DD-8E99-28A586F95340}"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
                 "Component_[3398698983669265824]": {
                     "$type": "EditorColliderComponent",
                     "Id": 3398698983669265824,
@@ -132,42 +166,6 @@
                                 },
                                 "assetHint": "lect/lect.azmodel"
                             }
-                        }
-                    }
-                },
-                "Component_[816302751566324929]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 816302751566324929,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 738989466
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{F0FDF8B7-12E5-575B-BBD1-705475FB4B89}"
-                                            },
-                                            "assetHint": "lect/lect_opaque_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1730094122
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{DA916472-F6B3-54DD-8E99-28A586F95340}"
-                                            },
-                                            "assetHint": "lect/lect_alpha_mat.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
                         }
                     }
                 },
