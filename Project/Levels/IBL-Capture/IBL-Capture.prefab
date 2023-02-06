@@ -541,11 +541,12 @@
                         "Configuration": {
                             "CubemapAsset": {
                                 "assetId": {
-                                    "guid": "{3D2505EE-B764-59AA-9CDF-08AD52C4B563}",
+                                    "guid": "{47881FF8-CBEB-5664-9D56-303167F42550}",
                                     "subId": 1000
                                 },
-                                "assetHint": "skies/starmap_2020_leveled_lowcontrast_iblskyboxcm.exr.streamingimage"
-                            }
+                                "assetHint": "skies/starmap_2020_leveled_lowcontrast_minus3_iblskyboxcm.exr.streamingimage"
+                            },
+                            "Exposure": 3.0
                         }
                     }
                 },
@@ -638,7 +639,7 @@
                     "Controller": {
                         "Configuration": {
                             "CaptureType": 1,
-                            "RelativePath": "CubeMapCaptures/starmap_2020_capture_d__0356C1DE-84A8-4938-8D79-5A49001F389E__ibldiffusecm.dds"
+                            "RelativePath": "CubeMapCaptures/starmap_2020_capture_d__4E681114-E01E-4899-B2B3-E08B4916DB47__ibldiffusecm.dds"
                         }
                     }
                 },
@@ -710,13 +711,13 @@
                     "Id": 7542072856885388977,
                     "Parent Entity": "Entity_[1146574390643]"
                 },
-                "Component_[8718845618848292340]": {
+                "Component_[8612362320629657774]": {
                     "$type": "AZ::Render::EditorCubeMapCaptureComponent",
-                    "Id": 8718845618848292340,
+                    "Id": 8612362320629657774,
                     "Controller": {
                         "Configuration": {
                             "SpecularQualityLevel": 4,
-                            "RelativePath": "CubeMapCaptures/starmap_2020_capture_s__CA0437C5-36E8-4D35-8E6A-F594462AE97D__iblspecularcm1024.dds"
+                            "RelativePath": "CubeMapCaptures/starmap_2020_capture_s__505C792B-FBCA-4CE7-B26E-D4B50789DCDB__iblspecularcm1024.dds"
                         }
                     }
                 },
