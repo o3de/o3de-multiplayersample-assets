@@ -2,45 +2,37 @@
     "values": [
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{93F8D304-6737-5169-B68D-5E987B77DC80}",
-            "name": "HTS_Lift_A_Main",
+            "id": "{07BB06EE-ADBF-5BD5-A2EA-6A4321CD3B02}",
+            "name": "HTS_Lift_A",
             "NodeSelectionList": {
-                "selectedNodes": [
-                    "RootNode.KB3D_HTS_Lift_A_Main_phys"
-                ],
                 "unselectedNodes": [
                     {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_Lift_A_Main"
+                    "RootNode.KB3D_HTS_Lift_A_grp",
+                    "RootNode.KB3D_HTS_Lift_A_grp.KB3D_HTS_Lift_A_Main"
                 ]
             },
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "KB3D_HTS_MetalGrey"
+                        "Name": "Entire object"
                     }
                 ]
             }
         },
         {
             "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "HTS_Lift_A_Main",
+            "name": "HTS_Lift_A",
             "nodeSelectionList": {
                 "selectedNodes": [
                     {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_Lift_A_Main"
-                ],
-                "unselectedNodes": [
-                    "RootNode.KB3D_HTS_Lift_A_Main_phys"
+                    "RootNode.KB3D_HTS_Lift_A_grp",
+                    "RootNode.KB3D_HTS_Lift_A_grp.KB3D_HTS_Lift_A_Main"
                 ]
             },
             "rules": {
                 "rules": [
-                    {
-                        "$type": "StaticMeshAdvancedRule",
-                        "vertexColorStreamName": "Col0"
-                    },
                     {
                         "$type": "MaterialRule",
                         "updateMaterials": true,
@@ -48,7 +40,7 @@
                     }
                 ]
             },
-            "id": "{FAAE6229-7FFB-5791-834A-1F59394583EB}"
+            "id": "{2C6CC652-695F-53F0-BCE3-A1615DC4EA54}"
         }
     ]
 }
