@@ -15,10 +15,6 @@
                 "$type": "EditorPendingCompositionComponent",
                 "Id": 17775196828767779606
             },
-            "Component_[3889029311500747353]": {
-                "$type": "SelectionComponent",
-                "Id": 3889029311500747353
-            },
             "Component_[3938372448542796138]": {
                 "$type": "EditorLockComponent",
                 "Id": 3938372448542796138
@@ -78,12 +74,11 @@
                     "$type": "EditorColliderComponent",
                     "Id": 15876040400861331371,
                     "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {},
-                                {},
-                                {}
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
                             ]
                         }
                     },
@@ -108,6 +103,10 @@
                             }
                         }
                     }
+                },
+                "Component_[17162052852475043843]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 17162052852475043843
                 },
                 "Component_[17421638890183136388]": {
                     "$type": "EditorOnlyEntityComponent",
@@ -142,10 +141,6 @@
                             "SortIndex": 3
                         }
                     ]
-                },
-                "Component_[6999144461042814361]": {
-                    "$type": "SelectionComponent",
-                    "Id": 6999144461042814361
                 },
                 "Component_[7409665225222742952]": {
                     "$type": "AZ::Render::EditorMeshComponent",
