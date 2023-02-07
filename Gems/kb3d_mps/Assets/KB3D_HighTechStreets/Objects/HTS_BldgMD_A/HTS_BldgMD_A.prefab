@@ -27,10 +27,6 @@
                 "$type": "EditorLockComponent",
                 "Id": 16957120101485578569
             },
-            "Component_[18058759956310944489]": {
-                "$type": "SelectionComponent",
-                "Id": 18058759956310944489
-            },
             "Component_[18094081838892441539]": {
                 "$type": "EditorEntityIconComponent",
                 "Id": 18094081838892441539
@@ -62,6 +58,10 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 10704971235275418963
                 },
+                "Component_[11572119907640711307]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 11572119907640711307
+                },
                 "Component_[11986915121787410365]": {
                     "$type": "AZ::Render::EditorMeshComponent",
                     "Id": 11986915121787410365,
@@ -88,10 +88,6 @@
                 "Component_[17777830026718780963]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 17777830026718780963
-                },
-                "Component_[1781843942499223747]": {
-                    "$type": "SelectionComponent",
-                    "Id": 1781843942499223747
                 },
                 "Component_[18188876871992829554]": {
                     "$type": "EditorMaterialComponent",
@@ -263,18 +259,11 @@
                     "$type": "EditorColliderComponent",
                     "Id": 3868333600685057902,
                     "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
                             ]
                         }
                     },
