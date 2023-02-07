@@ -77,49 +77,6 @@
         }
     },
     "Entities": {
-        "Entity_[1001735090408]": {
-            "Id": "Entity_[1001735090408]",
-            "Name": "SkyAtmo",
-            "Components": {
-                "Component_[1045174215860537537]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 1045174215860537537
-                },
-                "Component_[11299505426576571236]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 11299505426576571236
-                },
-                "Component_[11660712023455985532]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 11660712023455985532
-                },
-                "Component_[14644278790833907879]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 14644278790833907879
-                },
-                "Component_[1518515754748564007]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 1518515754748564007
-                },
-                "Component_[18330092958027548986]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 18330092958027548986,
-                    "Parent Entity": "Entity_[1176639161715]"
-                },
-                "Component_[1937179284467217195]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 1937179284467217195
-                },
-                "Component_[7079444475536339354]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 7079444475536339354
-                },
-                "Component_[8827587055418150948]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 8827587055418150948
-                }
-            }
-        },
         "Entity_[1006118865433]": {
             "Id": "Entity_[1006118865433]",
             "Name": "OtherCamera",
@@ -218,9 +175,9 @@
                     "Controller": {
                         "Configuration": {
                             "LuminanceFactor": [
-                                0.20000000298023224,
-                                0.20000000298023224,
-                                0.20000000298023224
+                                0.10000000149011612,
+                                0.10000000149011612,
+                                0.10000000149011612
                             ],
                             "SunColor": [
                                 0.5254902243614197,
@@ -411,7 +368,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 55.0,
-                            "EditorEntityId": 7292518208213141519
+                            "EditorEntityId": 290685988462588586
                         }
                     }
                 },
@@ -446,7 +403,6 @@
                     "Controller": {
                         "Configuration": {
                             "Enabled": true,
-                            "Threshold": 2.0,
                             "Intensity": 0.15000000596046448,
                             "BicubicEnabled": true
                         }
@@ -663,7 +619,6 @@
                         "Entity_[1168049227123]",
                         "Entity_[1163754259827]",
                         "Entity_[1159459292531]",
-                        "Entity_[1001735090408]",
                         "Entity_[1006118865433]"
                     ]
                 },
@@ -1180,7 +1135,7 @@
                 {
                     "op": "add",
                     "path": "/Entities/Entity_[238966470421092]/Components/Component_[12430666453854184229]/Controller/Configuration/MinimumScreenCoverage",
-                    "value": 0.0009259259095415473
+                    "value": 0.0009259259095415472
                 },
                 {
                     "op": "add",
@@ -1598,7 +1553,7 @@
                 {
                     "op": "add",
                     "path": "/Entities/Entity_[1884057538463]/Components/Component_[15165396482870800394]/Controller/Configuration/MinimumScreenCoverage",
-                    "value": 0.0009259259095415473
+                    "value": 0.0009259259095415472
                 },
                 {
                     "op": "add",
@@ -2595,7 +2550,7 @@
                 {
                     "op": "add",
                     "path": "/Entities/Entity_[670362468055875]/Components/Component_[1882474025620274851]/Controller/Configuration/MinimumScreenCoverage",
-                    "value": 0.0009259259095415473
+                    "value": 0.0009259259095415472
                 },
                 {
                     "op": "add",
@@ -2655,7 +2610,7 @@
             ]
         },
         "Instance_[25992234536794]": {
-            "Source": "BubbleGun/BubbleGun.prefab",
+            "Source": "BubbleGun/bubblegun.prefab",
             "Patches": [
                 {
                     "op": "replace",
@@ -2675,7 +2630,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[1670163923037746708]/Transform Data/Translate/2",
-                    "value": -5.960464477539064e-8
+                    "value": -5.960464477539065e-8
                 },
                 {
                     "op": "add",
@@ -3020,7 +2975,7 @@
                 {
                     "op": "add",
                     "path": "/Entities/Entity_[1753800022666]/Components/Component_[7783217776172580757]/Controller/Configuration/MinimumScreenCoverage",
-                    "value": 0.0009259259095415473
+                    "value": 0.0009259259095415472
                 },
                 {
                     "op": "add",
@@ -3088,406 +3043,8 @@
                     "value": -2.384185791015625e-7
                 },
                 {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[10136251117651982247]/Transform Data",
-                    "value": {
-                        "Translate": [
-                            0.0,
-                            0.0,
-                            0.0
-                        ],
-                        "Rotate": [
-                            0.0,
-                            0.0,
-                            0.0
-                        ],
-                        "Scale": [
-                            1.0,
-                            1.0,
-                            1.0
-                        ],
-                        "Locked": false,
-                        "UniformScale": 1.0
-                    }
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[10136251117651982247]/Parent Activation Transform Mode",
-                    "value": 0
-                },
-                {
-                    "op": "add",
+                    "op": "replace",
                     "path": "/Entities/Entity_[1104922964097859]/Components/Component_[10136251117651982247]/IsStatic",
-                    "value": false
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[10136251117651982247]/InterpolatePosition",
-                    "value": 0
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[10136251117651982247]/InterpolateRotation",
-                    "value": 0
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[11243473152170555740]/PendingComponents",
-                    "value": []
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[12692473622310470871]/DisabledComponents",
-                    "value": []
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[13601183319343018257]/Child Entity Order",
-                    "value": []
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[13978445478121399155]/Controller/Configuration/ModelAsset/loadBehavior",
-                    "value": "QueueLoad"
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[13978445478121399155]/Controller/Configuration/SortKey",
-                    "value": 0
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[13978445478121399155]/Controller/Configuration/ExcludeFromReflectionCubeMaps",
-                    "value": false
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[13978445478121399155]/Controller/Configuration/UseForwardPassIBLSpecular",
-                    "value": false
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[13978445478121399155]/Controller/Configuration/IsRayTracingEnabled",
-                    "value": true
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[13978445478121399155]/Controller/Configuration/IsAlwaysDynamic",
-                    "value": false
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[13978445478121399155]/Controller/Configuration/LodType",
-                    "value": 0
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[13978445478121399155]/Controller/Configuration/LodOverride",
-                    "value": 0
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[13978445478121399155]/Controller/Configuration/MinimumScreenCoverage",
-                    "value": 0.0009259259095415473
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[13978445478121399155]/Controller/Configuration/QualityDecayRate",
-                    "value": 0.5
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[13978445478121399155]/meshStats",
-                    "value": {}
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[16848231294356089100]/ComponentOrderEntryArray/0/SortIndex",
-                    "value": 0
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[17707133605842290781]/EntityIconAssetId",
-                    "value": {
-                        "guid": "{00000000-0000-0000-0000-000000000000}",
-                        "subId": 0
-                    }
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[1879806892911380938]/Controller/Configuration/materials/0/Key/lodIndex",
-                    "value": 18446744073709551615
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[1879806892911380938]/Controller/Configuration/materials/0/Value/MaterialAsset/assetId/subId",
-                    "value": 0
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[1879806892911380938]/Controller/Configuration/materials/0/Value/MaterialAsset/loadBehavior",
-                    "value": "QueueLoad"
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[1879806892911380938]/Controller/Configuration/materials/0/Value/PropertyOverrides",
-                    "value": []
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[1879806892911380938]/Controller/Configuration/materials/0/Value/ModelUvOverrides",
-                    "value": []
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[1879806892911380938]/Controller/Configuration/materials/1/Key/lodIndex",
-                    "value": 18446744073709551615
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[1879806892911380938]/Controller/Configuration/materials/1/Value/MaterialAsset/assetId/subId",
-                    "value": 0
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[1879806892911380938]/Controller/Configuration/materials/1/Value/MaterialAsset/loadBehavior",
-                    "value": "QueueLoad"
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[1879806892911380938]/Controller/Configuration/materials/1/Value/PropertyOverrides",
-                    "value": []
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[1879806892911380938]/Controller/Configuration/materials/1/Value/ModelUvOverrides",
-                    "value": []
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[1879806892911380938]/materialSlotsByLodEnabled",
-                    "value": false
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[3350631749045724679]/VisibilityFlag",
-                    "value": true
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7321217677255059796]/Locked",
-                    "value": false
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ColliderConfiguration/CollisionLayer",
-                    "value": {
-                        "Index": 0
-                    }
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ColliderConfiguration/CollisionGroupId",
-                    "value": {
-                        "GroupId": "{00000000-0000-0000-0000-000000000000}"
-                    }
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ColliderConfiguration/Visible",
-                    "value": false
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ColliderConfiguration/Trigger",
-                    "value": false
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ColliderConfiguration/Simulated",
-                    "value": true
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ColliderConfiguration/InSceneQueries",
-                    "value": true
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ColliderConfiguration/Exclusive",
-                    "value": true
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ColliderConfiguration/Position",
-                    "value": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ]
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ColliderConfiguration/Rotation",
-                    "value": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                    ]
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ColliderConfiguration/MaterialSlots/Slots/0/MaterialAsset",
-                    "value": {
-                        "assetId": {
-                            "guid": "{00000000-0000-0000-0000-000000000000}",
-                            "subId": 0
-                        },
-                        "loadBehavior": "QueueLoad",
-                        "assetHint": ""
-                    }
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ColliderConfiguration/propertyVisibilityFlags",
-                    "value": 255
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ColliderConfiguration/ColliderTag",
-                    "value": ""
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ColliderConfiguration/RestOffset",
-                    "value": 0.0
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ColliderConfiguration/ContactOffset",
-                    "value": 0.019999999552965164
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ShapeConfiguration/ShapeType",
-                    "value": 7
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ShapeConfiguration/Sphere",
-                    "value": {
-                        "Scale": [
-                            1.0,
-                            1.0,
-                            1.0
-                        ],
-                        "Radius": 0.5
-                    }
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ShapeConfiguration/Box",
-                    "value": {
-                        "Scale": [
-                            1.0,
-                            1.0,
-                            1.0
-                        ],
-                        "Configuration": [
-                            1.0,
-                            1.0,
-                            1.0
-                        ]
-                    }
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ShapeConfiguration/Capsule",
-                    "value": {
-                        "Scale": [
-                            1.0,
-                            1.0,
-                            1.0
-                        ],
-                        "Height": 1.0,
-                        "Radius": 0.25
-                    }
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ShapeConfiguration/Cylinder",
-                    "value": {
-                        "Configuration": {
-                            "Scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "CookedData": "",
-                            "Type": 0
-                        },
-                        "Subdivision": 16,
-                        "Height": 1.0,
-                        "Radius": 1.0
-                    }
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ShapeConfiguration/PhysicsAsset/Asset/loadBehavior",
-                    "value": "QueueLoad"
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ShapeConfiguration/PhysicsAsset/Configuration/Scale",
-                    "value": [
-                        1.0,
-                        1.0,
-                        1.0
-                    ]
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ShapeConfiguration/PhysicsAsset/Configuration/AssetScale",
-                    "value": [
-                        1.0,
-                        1.0,
-                        1.0
-                    ]
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ShapeConfiguration/PhysicsAsset/Configuration/UseMaterialsFromAsset",
-                    "value": true
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ShapeConfiguration/PhysicsAsset/Configuration/SubdivisionLevel",
-                    "value": 4
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ShapeConfiguration/HasNonUniformScale",
-                    "value": false
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ShapeConfiguration/SubdivisionLevel",
-                    "value": 4
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/ComponentMode",
-                    "value": {}
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[7456320538593033876]/HasNonUniformScale",
-                    "value": false
-                },
-                {
-                    "op": "add",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[918298663683838079]/IsEditorOnly",
                     "value": false
                 }
             ]
@@ -3961,7 +3518,7 @@
                 {
                     "op": "add",
                     "path": "/Entities/Entity_[1104622316387139]/Components/Component_[5369887775683687800]/Controller/Configuration/MinimumScreenCoverage",
-                    "value": 0.0009259259095415473
+                    "value": 0.0009259259095415472
                 },
                 {
                     "op": "add",
@@ -4399,7 +3956,7 @@
                 {
                     "op": "add",
                     "path": "/Entities/Entity_[1103265106721603]/Components/Component_[6769368990024884033]/Controller/Configuration/MinimumScreenCoverage",
-                    "value": 0.0009259259095415473
+                    "value": 0.0009259259095415472
                 },
                 {
                     "op": "add",
@@ -4507,7 +4064,7 @@
                 {
                     "op": "add",
                     "path": "/Entities/Entity_[1105550029323075]/Components/Component_[2107355167209908630]/Controller/Configuration/MinimumScreenCoverage",
-                    "value": 0.0009259259095415473
+                    "value": 0.0009259259095415472
                 },
                 {
                     "op": "add",
@@ -5300,7 +4857,7 @@
                 {
                     "op": "add",
                     "path": "/Entities/Entity_[721662789418]/Components/Component_[4727088304284548133]/Controller/Configuration/MinimumScreenCoverage",
-                    "value": 0.0009259259095415473
+                    "value": 0.0009259259095415472
                 },
                 {
                     "op": "add",
