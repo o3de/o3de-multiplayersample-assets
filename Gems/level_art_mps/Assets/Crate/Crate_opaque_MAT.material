@@ -1,22 +1,24 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "Crate/textures/Crate_BaseColor.png",
+        "baseColor.textureMap": "textures/Crate_BaseColor.png",
         "baseColor.textureMapUv": "Unwrapped",
         "emissive.enable": true,
-        "emissive.intensity": 3.0,
-        "emissive.textureMap": "Crate/textures/Crate_Emissive.png",
+        "emissive.intensity": 5.5,
+        "emissive.textureMap": "textures/Crate_Emissive.png",
         "emissive.textureMapUv": "Unwrapped",
-        "metallic.textureMap": "Crate/textures/Crate_Metallic.png",
+        "irradiance.irradianceColorSource": "BaseColor",
+        "metallic.textureMap": "textures/Crate_Metallic.png",
         "metallic.textureMapUv": "Unwrapped",
-        "normal.textureMap": "Crate/textures/Crate_Normal.png",
+        "normal.textureMap": "textures/Crate_Normal.png",
         "normal.textureMapUv": "Unwrapped",
-        "occlusion.diffuseTextureMap": "Crate/textures/Crate_Ambient Occlusion.png",
+        "occlusion.diffuseTextureMap": "textures/Crate_Ambient Occlusion.png",
         "occlusion.diffuseTextureMapUv": "Unwrapped",
         "opacity.factor": 1.0,
-        "roughness.textureMap": "Crate/textures/Crate_Roughness.png",
-        "roughness.textureMapUv": "Unwrapped"
+        "roughness.textureMap": "textures/Crate_Roughness.png",
+        "roughness.textureMapUv": "Unwrapped",
+        "specularF0.enableMultiScatterCompensation": true
     }
 }
