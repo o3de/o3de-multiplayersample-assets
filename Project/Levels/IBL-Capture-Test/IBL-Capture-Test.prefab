@@ -149,6 +149,10 @@
                     "$type": "EditorInspectorComponent",
                     "Id": 16919232076966545697
                 },
+                "Component_[3839738908868610349]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 3839738908868610349
+                },
                 "Component_[5182430712893438093]": {
                     "$type": "EditorMaterialComponent",
                     "Id": 5182430712893438093
@@ -541,11 +545,12 @@
                         "Configuration": {
                             "CubemapAsset": {
                                 "assetId": {
-                                    "guid": "{7198341F-EDB2-585D-8569-590591710270}",
+                                    "guid": "{AFD66868-7A71-5175-9BDC-43C50EC3FB8D}",
                                     "subId": 1000
                                 },
-                                "assetHint": "skies/starmap_2020_leveled_lowcontrast_minus3ev_iblskyboxcm.exr.streamingimage"
-                            }
+                                "assetHint": "skies/starmap_2020_leveled_lowcontrast_minus6ev_iblskyboxcm.exr.streamingimage"
+                            },
+                            "Exposure": 6.0
                         }
                     }
                 },
@@ -571,7 +576,8 @@
                                     "subId": 2000
                                 },
                                 "assetHint": "cubemapcaptures/starmap_2020_capture_s__505c792b-fbca-4ce7-b26e-d4b50789dcdb__iblspecularcm1024.dds.streamingimage"
-                            }
+                            },
+                            "exposure": 6.0
                         }
                     },
                     "diffuseImageAsset": {
@@ -587,7 +593,8 @@
                             "subId": 2000
                         },
                         "assetHint": "cubemapcaptures/starmap_2020_capture_s__505c792b-fbca-4ce7-b26e-d4b50789dcdb__iblspecularcm1024.dds.streamingimage"
-                    }
+                    },
+                    "exposure": 6.0
                 },
                 "Component_[14994774102579326069]": {
                     "$type": "EditorDisabledCompositionComponent",

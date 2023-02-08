@@ -32,10 +32,6 @@
                 "$type": "EditorEntityIconComponent",
                 "Id": 3065491480258247690
             },
-            "Component_[3144762761961419995]": {
-                "$type": "SelectionComponent",
-                "Id": 3144762761961419995
-            },
             "Component_[6117047736965999875]": {
                 "$type": "EditorEntitySortComponent",
                 "Id": 6117047736965999875,
@@ -78,17 +74,11 @@
                     "$type": "EditorColliderComponent",
                     "Id": 13675290353367300417,
                     "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
                             ]
                         }
                     },
@@ -121,6 +111,10 @@
                 "Component_[17743080989232579652]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 17743080989232579652
+                },
+                "Component_[18086712190836435463]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 18086712190836435463
                 },
                 "Component_[3447150119402693277]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -162,10 +156,6 @@
                             "SortIndex": 3
                         }
                     ]
-                },
-                "Component_[9426005695918408550]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9426005695918408550
                 },
                 "Component_[9463301340775405903]": {
                     "$type": "EditorPendingCompositionComponent",
