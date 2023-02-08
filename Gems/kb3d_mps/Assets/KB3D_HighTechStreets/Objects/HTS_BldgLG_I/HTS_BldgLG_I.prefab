@@ -11,10 +11,6 @@
                 "$type": "EditorDisabledCompositionComponent",
                 "Id": 14824894214487973754
             },
-            "Component_[15517279896646019023]": {
-                "$type": "SelectionComponent",
-                "Id": 15517279896646019023
-            },
             "Component_[15669622800292223774]": {
                 "$type": "EditorPendingCompositionComponent",
                 "Id": 15669622800292223774
@@ -58,6 +54,10 @@
             "Id": "Entity_[1077069765713]",
             "Name": "HTS_BldgLG_I",
             "Components": {
+                "Component_[10687820040363443443]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 10687820040363443443
+                },
                 "Component_[11228574270719686779]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 11228574270719686779
@@ -69,10 +69,6 @@
                 "Component_[13069272444259438931]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 13069272444259438931
-                },
-                "Component_[13776909113319064469]": {
-                    "$type": "SelectionComponent",
-                    "Id": 13776909113319064469
                 },
                 "Component_[15783342569028515059]": {
                     "$type": "AZ::Render::EditorMeshComponent",
@@ -262,17 +258,11 @@
                     "$type": "EditorColliderComponent",
                     "Id": 7470667704415167322,
                     "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
                             ]
                         }
                     },

@@ -35,10 +35,6 @@
                 "$type": "EditorInspectorComponent",
                 "Id": 18194401452797042022
             },
-            "Component_[8797354377186484371]": {
-                "$type": "SelectionComponent",
-                "Id": 8797354377186484371
-            },
             "Component_[8968651639630285938]": {
                 "$type": "EditorOnlyEntityComponent",
                 "Id": 8968651639630285938
@@ -217,21 +213,19 @@
                     "Id": 1582416972191817266,
                     "Parent Entity": "ContainerEntity"
                 },
+                "Component_[17701603571175845752]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 17701603571175845752
+                },
                 "Component_[18320967705902738498]": {
                     "$type": "EditorColliderComponent",
                     "Id": 18320967705902738498,
                     "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
                             ]
                         }
                     },
@@ -260,10 +254,6 @@
                 "Component_[2309174937617261265]": {
                     "$type": "EditorLockComponent",
                     "Id": 2309174937617261265
-                },
-                "Component_[2604923413734956002]": {
-                    "$type": "SelectionComponent",
-                    "Id": 2604923413734956002
                 },
                 "Component_[4463777957828490050]": {
                     "$type": "EditorInspectorComponent",

@@ -57,7 +57,12 @@
                 "Component_[10136251117651982247]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 10136251117651982247,
-                    "Parent Entity": "ContainerEntity"
+                    "Parent Entity": "ContainerEntity",
+                    "IsStatic": true
+                },
+                "Component_[11098258126220096065]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 11098258126220096065
                 },
                 "Component_[11243473152170555740]": {
                     "$type": "EditorPendingCompositionComponent",
@@ -125,7 +130,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{E5F6A490-C4ED-5491-B11D-EC346C4D029C}"
-                                            }
+                                            },
+                                            "assetHint": "lec30d/lec30d_opaque_mat.azmaterial"
                                         }
                                     }
                                 },
@@ -137,7 +143,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{B9B6A725-3391-5303-A8AE-E466032CBFF4}"
-                                            }
+                                            },
+                                            "assetHint": "lec30d/lec30d_alpha_mat.azmaterial"
                                         }
                                     }
                                 }

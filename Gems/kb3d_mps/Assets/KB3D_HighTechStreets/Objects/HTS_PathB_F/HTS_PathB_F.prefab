@@ -24,10 +24,6 @@
                 "Id": 16695009287213506879,
                 "Parent Entity": ""
             },
-            "Component_[17219242870514647199]": {
-                "$type": "SelectionComponent",
-                "Id": 17219242870514647199
-            },
             "Component_[2573849376984499526]": {
                 "$type": "EditorEntitySortComponent",
                 "Id": 2573849376984499526,
@@ -58,6 +54,10 @@
             "Id": "Entity_[594407006541]",
             "Name": "HTS_PathB_F",
             "Components": {
+                "Component_[10085774297918852478]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 10085774297918852478
+                },
                 "Component_[10891195951935658914]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 10891195951935658914
@@ -263,10 +263,6 @@
                 "Component_[819620985051979569]": {
                     "$type": "EditorLockComponent",
                     "Id": 819620985051979569
-                },
-                "Component_[8825252912018168334]": {
-                    "$type": "SelectionComponent",
-                    "Id": 8825252912018168334
                 }
             }
         }

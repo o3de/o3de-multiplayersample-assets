@@ -2,21 +2,18 @@
     "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
     "materialTypeVersion": 5,
     "propertyValues": {
-        "baseColor.color": [
-            0.5,
-            0.5,
-            0.5,
-            1.0
-        ],
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "textures/AgPlatform_basecolor.png",
         "emissive.enable": true,
+        "emissive.intensity": 5.0,
         "emissive.textureMap": "textures/AgPlatform_Emissive.png",
+        "irradiance.irradianceColorSource": "BaseColor",
         "metallic.textureMap": "textures/AgPlatform_Metallic.png",
         "normal.textureMap": "textures/AgPlatform_Normal.png",
         "occlusion.diffuseTextureMap": "textures/AgPlatform_AO.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
-        "roughness.textureMap": "textures/AgPlatform_Roughness.png"
+        "roughness.textureMap": "textures/AgPlatform_Roughness.png",
+        "specularF0.enableMultiScatterCompensation": true
     }
 }

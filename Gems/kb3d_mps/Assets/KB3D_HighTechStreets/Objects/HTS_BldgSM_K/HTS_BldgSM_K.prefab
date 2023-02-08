@@ -31,10 +31,6 @@
                 "Id": 3058330831152622662,
                 "Parent Entity": ""
             },
-            "Component_[3183682641777261523]": {
-                "$type": "SelectionComponent",
-                "Id": 3183682641777261523
-            },
             "Component_[5472825950084868625]": {
                 "$type": "EditorVisibilityComponent",
                 "Id": 5472825950084868625
@@ -84,6 +80,10 @@
                             }
                         }
                     }
+                },
+                "Component_[13886267789980673874]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 13886267789980673874
                 },
                 "Component_[18117913450636100818]": {
                     "$type": "EditorMaterialComponent",
@@ -181,14 +181,11 @@
                     "$type": "EditorColliderComponent",
                     "Id": 3914188279721837584,
                     "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
                             ]
                         }
                     },
@@ -225,10 +222,6 @@
                 "Component_[647433125922228341]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 647433125922228341
-                },
-                "Component_[6838444727519497919]": {
-                    "$type": "SelectionComponent",
-                    "Id": 6838444727519497919
                 },
                 "Component_[9036586204109729023]": {
                     "$type": "EditorInspectorComponent",

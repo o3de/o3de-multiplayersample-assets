@@ -54,6 +54,10 @@
             "Id": "Entity_[1105550029323075]",
             "Name": "o3detopiary",
             "Components": {
+                "Component_[1200874101050353988]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 1200874101050353988
+                },
                 "Component_[12057243929884946392]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 12057243929884946392
@@ -169,7 +173,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{8A1DF4F3-A526-5ED1-B31D-3D9257C772C5}"
-                                            }
+                                            },
+                                            "assetHint": "o3detopiary/o3detopiary_opaque_mat.azmaterial"
                                         }
                                     }
                                 },
@@ -181,7 +186,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{0BC720F9-2C41-5056-877A-F415BF454CA9}"
-                                            }
+                                            },
+                                            "assetHint": "o3detopiary/o3detopiary_alpha_mat.azmaterial"
                                         }
                                     }
                                 }
