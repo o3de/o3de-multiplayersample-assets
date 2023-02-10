@@ -35,10 +35,6 @@
                 "$type": "EditorInspectorComponent",
                 "Id": 2313845469103659684
             },
-            "Component_[4093414068122687821]": {
-                "$type": "SelectionComponent",
-                "Id": 4093414068122687821
-            },
             "Component_[7319795436204713859]": {
                 "$type": "EditorPrefabComponent",
                 "Id": 7319795436204713859
@@ -61,6 +57,10 @@
                 "Component_[10114949022447498447]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 10114949022447498447
+                },
+                "Component_[10667853852163902661]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 10667853852163902661
                 },
                 "Component_[12106685524690732045]": {
                     "$type": "EditorPendingCompositionComponent",
@@ -85,13 +85,11 @@
                     "$type": "EditorColliderComponent",
                     "Id": 15003432803399110969,
                     "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
                             ]
                         }
                     },
@@ -162,10 +160,6 @@
                             "SortIndex": 3
                         }
                     ]
-                },
-                "Component_[7700884969226867958]": {
-                    "$type": "SelectionComponent",
-                    "Id": 7700884969226867958
                 },
                 "Component_[9852731214149029492]": {
                     "$type": "EditorMaterialComponent",

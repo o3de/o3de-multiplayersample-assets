@@ -53,7 +53,6 @@
         "Entity_[388197540343335]": {
             "Id": "Entity_[388197540343335]",
             "Name": "Teleporter0",
-
             "Components": {
                 "Component_[12519259044363643242]": {
                     "$type": "EditorEntitySortComponent",
@@ -159,31 +158,13 @@
                     "$type": "EditorInspectorComponent",
                     "Id": 437716105941152900
                 },
-                "Component_[5928067187199583859]": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 5928067187199583859,
-                    "m_template": {
-                        "$type": "Multiplayer::NetworkTransformComponent"
-                    }
+                "Component_[6255583546816956269]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 6255583546816956269
                 },
                 "Component_[6939359906527700079]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 6939359906527700079
-                },
-                "Component_[7416171667917812277]": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 7416171667917812277,
-                    "m_template": {
-                        "$type": "NetworkTeleportComponent",
-                        "Destination": "Entity_[388206130277927]"
-                    }
-                },
-                "Component_[7778244708653405702]": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 7778244708653405702,
-                    "m_template": {
-                        "$type": "NetBindComponent"
-                    }
                 },
                 "Component_[8516296428267501496]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -192,11 +173,8 @@
                     "Transform Data": {
                         "Translate": [
                             6.717243194580078,
-
-
                             -2.4237375259399414,
                             1.0824775695800781
-
                         ]
                     }
                 }

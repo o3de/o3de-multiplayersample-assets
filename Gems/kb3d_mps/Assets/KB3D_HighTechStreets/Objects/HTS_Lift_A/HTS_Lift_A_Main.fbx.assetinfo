@@ -17,7 +17,7 @@
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "DefaultMaterial"
+                        "Name": "KB3D_HTS_MetalGrey"
                     }
                 ]
             }
@@ -42,17 +42,13 @@
                         "vertexColorStreamName": "Col0"
                     },
                     {
-                        "$type": "MaterialRule"
+                        "$type": "MaterialRule",
+                        "updateMaterials": true,
+                        "removeMaterials": true
                     }
                 ]
             },
             "id": "{FAAE6229-7FFB-5791-834A-1F59394583EB}"
-        },
-        {
-            "$type": "PrefabGroup",
-            "name": "KB3D_HighTechStreets/Objects/HTS_Lift_A/HTS_Lift_A_Main_fbx.procprefab",
-            "id": "{F2D64742-0746-5C1B-A8C4-AB8D83074743}",
-            "createProceduralPrefab": false
         }
     ]
 }

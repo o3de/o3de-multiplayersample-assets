@@ -7,10 +7,6 @@
                 "$type": "EditorInspectorComponent",
                 "Id": 10486278287893345482
             },
-            "Component_[12816381938824533127]": {
-                "$type": "SelectionComponent",
-                "Id": 12816381938824533127
-            },
             "Component_[13199729240992693157]": {
                 "$type": "EditorPrefabComponent",
                 "Id": 13199729240992693157
@@ -245,23 +241,19 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 15881096156991784315
                 },
+                "Component_[2684961512748667321]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 2684961512748667321
+                },
                 "Component_[2899891614864753451]": {
                     "$type": "EditorColliderComponent",
                     "Id": 2899891614864753451,
                     "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
                             ]
                         }
                     },
@@ -321,10 +313,6 @@
                 "Component_[6299060488339008914]": {
                     "$type": "EditorLockComponent",
                     "Id": 6299060488339008914
-                },
-                "Component_[9068030734400606939]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9068030734400606939
                 }
             }
         }
