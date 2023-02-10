@@ -158,16 +158,16 @@
                     "Controller": {
                         "Configuration": {
                             "LuminanceFactor": [
-                                0.10000000149011612,
-                                0.10000000149011612,
-                                0.10000000149011612
+                                0.02500000037252903,
+                                0.02500000037252903,
+                                0.02500000037252903
                             ],
                             "SunColor": [
                                 0.5254902243614197,
                                 0.46666666865348816,
                                 0.40784314274787903
                             ],
-                            "SunLuminanceFactor": 1.25,
+                            "SunLuminanceFactor": 1.0,
                             "SunLimbColor": [
                                 0.5254902243614197,
                                 0.46666666865348816,
@@ -341,7 +341,7 @@
                             "ExposureControlType": 1,
                             "ManualCompensation": 0.5,
                             "EyeAdaptationExposureMin": -7.0,
-                            "EyeAdaptationExposureMax": -1.0
+                            "EyeAdaptationExposureMax": 0.0
                         }
                     }
                 },
@@ -351,7 +351,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 55.0,
-                            "EditorEntityId": 290685988462588586
+                            "EditorEntityId": 7000744221637436782
                         }
                     }
                 },
@@ -627,7 +627,7 @@
                                 },
                                 "assetHint": "skies/starmap_2020_iblskyboxcm.exr.streamingimage"
                             },
-                            "Exposure": 3.0
+                            "Exposure": 1.0
                         }
                     }
                 },
@@ -650,7 +650,7 @@
                                 },
                                 "assetHint": "cubemapcaptures/starmap_2020_capture_s__505c792b-fbca-4ce7-b26e-d4b50789dcdb__iblspecularcm1024.dds.streamingimage"
                             },
-                            "exposure": 4.0
+                            "exposure": 3.0
                         }
                     },
                     "diffuseImageAsset": {
@@ -667,7 +667,7 @@
                         },
                         "assetHint": "cubemapcaptures/starmap_2020_capture_s__505c792b-fbca-4ce7-b26e-d4b50789dcdb__iblspecularcm1024.dds.streamingimage"
                     },
-                    "exposure": 4.0
+                    "exposure": 3.0
                 },
                 "Component_[1428633914413949476]": {
                     "$type": "EditorLockComponent",
@@ -1106,7 +1106,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[8292154386652853697]/Transform Data/Translate/1",
-                    "value": -12.080409049987793
+                    "value": -12.080409049987791
                 },
                 {
                     "op": "replace",
@@ -1156,7 +1156,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[15151136896214454413]/Transform Data/Translate/1",
-                    "value": -11.155182838439941
+                    "value": -11.15518283843994
                 }
             ]
         },
@@ -1251,12 +1251,12 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[16893389135966699929]/Transform Data/Translate/1",
-                    "value": -3.7166099548339844
+                    "value": -3.716609954833984
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[16893389135966699929]/Transform Data/Translate/2",
-                    "value": 28.521940231323242
+                    "value": 28.52194023132324
                 }
             ]
         },
@@ -1281,7 +1281,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[1670163923037746708]/Transform Data/Translate/2",
-                    "value": -5.960464477539063e-8
+                    "value": -5.960464477539064e-8
                 }
             ]
         },
@@ -1306,7 +1306,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[12077432955330835962]/Transform Data/Translate/1",
-                    "value": -12.974536895751953
+                    "value": -12.974536895751951
                 },
                 {
                     "op": "replace",
@@ -1351,7 +1351,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[2815070735218165771]/Transform Data/Translate/1",
-                    "value": -11.557538986206055
+                    "value": -11.557538986206056
                 }
             ]
         },
@@ -1441,7 +1441,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[12135421661699558710]/Transform Data/Translate/1",
-                    "value": -13.112508773803711
+                    "value": -13.112508773803713
                 }
             ]
         },
@@ -1561,7 +1561,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[5383665612827889585]/Transform Data/Translate/1",
-                    "value": -3.7166099548339844
+                    "value": -3.716609954833984
                 }
             ]
         },
