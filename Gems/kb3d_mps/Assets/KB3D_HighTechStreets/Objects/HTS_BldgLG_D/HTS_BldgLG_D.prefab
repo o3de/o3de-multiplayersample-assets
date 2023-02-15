@@ -97,7 +97,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{954AC1D5-683A-59D9-A7B2-06C54994BECA}"
-                                            }
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_bldglg_d/hts_bldglg_d_kb3d_hts_glassblue.azmaterial"
                                         }
                                     }
                                 }
@@ -335,7 +336,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{5921C5EB-E7B5-58C5-A249-C38DB76BD21D}"
-                                            }
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_bldglg_d/hts_bldglg_d_kb3d_hts_holoelementsatlas.azmaterial"
                                         }
                                     }
                                 }
@@ -724,7 +726,14 @@
                 "Component_[7172747601184797475]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7172747601184797475,
-                    "Parent Entity": "ContainerEntity"
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
                 },
                 "Component_[9222658723773275309]": {
                     "$type": "EditorEntitySortComponent",

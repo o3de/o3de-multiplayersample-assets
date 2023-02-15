@@ -108,7 +108,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{D8451C96-823C-5973-829F-FA3D296B8F44}"
-                                            }
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_lamp/hts_lamp_kb3d_hts_metalyellow.azmaterial"
                                         }
                                     }
                                 },
@@ -120,7 +121,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{8D088D01-CD0D-5919-83EA-D62182792E1D}"
-                                            }
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_lamp/hts_lamp_kb3d_hts_plasticwhite.azmaterial"
                                         }
                                     }
                                 },
@@ -132,7 +134,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{B0F1B1B5-1EF2-5B94-8511-280E9CE590CF}"
-                                            }
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_lamp/hts_lamp_kb3d_hts_lightblue.azmaterial"
                                         }
                                     }
                                 },
@@ -144,7 +147,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{2BD67584-8FB3-5903-9F21-C5AE3F6E7011}"
-                                            }
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_lamp/hts_lamp_kb3d_hts_metalwhite.azmaterial"
                                         }
                                     }
                                 },
@@ -156,7 +160,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{04658DE4-DF54-5D41-8A84-1137503ED47D}"
-                                            }
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_lamp/hts_lamp_kb3d_hts_metallight.azmaterial"
                                         }
                                     }
                                 },
@@ -168,7 +173,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{1586295D-C5AE-5E8A-B952-4B5C94A6B235}"
-                                            }
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_lamp/hts_lamp_kb3d_hts_metalgrey.azmaterial"
                                         }
                                     }
                                 }
@@ -742,7 +748,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{D8451C96-823C-5973-829F-FA3D296B8F44}"
-                                            }
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_lamp/hts_lamp_kb3d_hts_metalyellow.azmaterial"
                                         }
                                     }
                                 },
@@ -754,7 +761,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{8D088D01-CD0D-5919-83EA-D62182792E1D}"
-                                            }
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_lamp/hts_lamp_kb3d_hts_plasticwhite.azmaterial"
                                         }
                                     }
                                 },
@@ -766,7 +774,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{B0F1B1B5-1EF2-5B94-8511-280E9CE590CF}"
-                                            }
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_lamp/hts_lamp_kb3d_hts_lightblue.azmaterial"
                                         }
                                     }
                                 },
@@ -778,7 +787,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{2BD67584-8FB3-5903-9F21-C5AE3F6E7011}"
-                                            }
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_lamp/hts_lamp_kb3d_hts_metalwhite.azmaterial"
                                         }
                                     }
                                 },
@@ -790,7 +800,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{04658DE4-DF54-5D41-8A84-1137503ED47D}"
-                                            }
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_lamp/hts_lamp_kb3d_hts_metallight.azmaterial"
                                         }
                                     }
                                 },
@@ -802,7 +813,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{1586295D-C5AE-5E8A-B952-4B5C94A6B235}"
-                                            }
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_lamp/hts_lamp_kb3d_hts_metalgrey.azmaterial"
                                         }
                                     }
                                 }
@@ -1083,7 +1095,14 @@
                 "Component_[11775020393873745010]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 11775020393873745010,
-                    "Parent Entity": "ContainerEntity"
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
                 },
                 "Component_[12505811622732098888]": {
                     "$type": "EditorVisibilityComponent",

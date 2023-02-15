@@ -26,7 +26,8 @@
                     "Instance_[19121166809552]/ContainerEntity",
                     "Instance_[24658772965578]/ContainerEntity",
                     "Instance_[43668298217674]/ContainerEntity",
-                    "Instance_[51768606537930]/ContainerEntity"
+                    "Instance_[51768606537930]/ContainerEntity",
+                    "Instance_[8367801569919]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -1139,11 +1140,6 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[4713533524691108144]/Transform Data/Translate/2",
                     "value": -4.76837158203125e-7
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[4713533524691108144]/Transform Data/Rotate/2",
-                    "value": 180.0
                 }
             ]
         },
@@ -1259,11 +1255,6 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[3367104611633296304]/Transform Data/Translate/1",
                     "value": -1.9140892028808592
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[3367104611633296304]/Transform Data/Rotate/2",
-                    "value": 180.0
                 }
             ]
         },
@@ -1368,12 +1359,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[4599685179750604053]/Transform Data/Translate/1",
-                    "value": -11.933984756469727
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[4599685179750604053]/Transform Data/Rotate/2",
-                    "value": -140.04400634765625
+                    "value": -11.933984756469728
                 }
             ]
         },
@@ -1554,6 +1540,11 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[3851123399669267816]/Transform Data/Translate/1",
                     "value": -17.861785888671875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3851123399669267816]/Transform Data/Rotate/2",
+                    "value": 180.0
                 }
             ]
         },
@@ -1618,7 +1609,12 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[6227313275285426676]/Transform Data/Translate/1",
-                    "value": -30.699260711669922
+                    "value": -30.69926071166992
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6227313275285426676]/Transform Data/Rotate/2",
+                    "value": 180.0
                 }
             ]
         },
@@ -1714,6 +1710,26 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[8694555342797032688]/Transform Data/Rotate/2",
                     "value": 180.0
+                }
+            ]
+        },
+        "Instance_[8367801569919]": {
+            "Source": "KB3D_HighTechStreets/Objects/HTS_BldgMD_C/HTS_BldgMD_C.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2633645467742780250]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2633645467742780250]/Transform Data/Translate/0",
+                    "value": -58.80760955810547
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2633645467742780250]/Transform Data/Translate/1",
+                    "value": -29.72639274597168
                 }
             ]
         }
