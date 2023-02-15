@@ -6,19 +6,41 @@
             "name": "HTS_BldgLG_I_Main",
             "NodeSelectionList": {
                 "selectedNodes": [
-                    "RootNode.Main.Main_phys"
+                    "RootNode.Main.Main_phys",
+                    "RootNode.Main.Main_phys.transform",
+                    "RootNode.Main.Main_phys.custom_properties",
+                    "RootNode.Main.Main_phys.UVMap",
+                    "RootNode.Main.Main_phys.Phys_MAT"
                 ],
                 "unselectedNodes": [
-                    {},
                     "RootNode",
                     "RootNode.Main",
-                    "RootNode.Main.Main_geo"
+                    "RootNode.Main.custom_properties",
+                    "RootNode.Main.Main_geo",
+                    "RootNode.Main.Main_geo.Col0",
+                    "RootNode.Main.Main_geo.Col1",
+                    "RootNode.Main.Main_geo.transform",
+                    "RootNode.Main.Main_geo.custom_properties",
+                    "RootNode.Main.Main_geo.UV0",
+                    "RootNode.Main.Main_geo.UV1",
+                    "RootNode.Main.Main_geo.KB3D_HTS_MetalYellow",
+                    "RootNode.Main.Main_geo.KB3D_HTS_MetalWhite",
+                    "RootNode.Main.Main_geo.KB3D_HTS_MetalGrey",
+                    "RootNode.Main.Main_geo.KB3D_HTS_HoloFillA",
+                    "RootNode.Main.Main_geo.KB3D_HTS_PlasticWhite"
                 ]
             },
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "Phys_MAT"
+                        "Name": "Phys_MAT",
+                        "MaterialAsset": {
+                            "assetId": {
+                                "guid": "{92A5EC27-1AC1-523E-88BB-9A6278DBD853}",
+                                "subId": 1
+                            },
+                            "assetHint": "physx/metal.physicsmaterial"
+                        }
                     }
                 ]
             }
@@ -28,13 +50,28 @@
             "name": "HTS_BldgLG_I_Main",
             "nodeSelectionList": {
                 "selectedNodes": [
-                    {},
                     "RootNode",
                     "RootNode.Main",
-                    "RootNode.Main.Main_geo"
+                    "RootNode.Main.custom_properties",
+                    "RootNode.Main.Main_geo",
+                    "RootNode.Main.Main_geo.Col0",
+                    "RootNode.Main.Main_geo.Col1",
+                    "RootNode.Main.Main_geo.transform",
+                    "RootNode.Main.Main_geo.custom_properties",
+                    "RootNode.Main.Main_geo.UV0",
+                    "RootNode.Main.Main_geo.UV1",
+                    "RootNode.Main.Main_geo.KB3D_HTS_MetalYellow",
+                    "RootNode.Main.Main_geo.KB3D_HTS_MetalWhite",
+                    "RootNode.Main.Main_geo.KB3D_HTS_MetalGrey",
+                    "RootNode.Main.Main_geo.KB3D_HTS_HoloFillA",
+                    "RootNode.Main.Main_geo.KB3D_HTS_PlasticWhite"
                 ],
                 "unselectedNodes": [
-                    "RootNode.Main.Main_phys"
+                    "RootNode.Main.Main_phys",
+                    "RootNode.Main.Main_phys.transform",
+                    "RootNode.Main.Main_phys.custom_properties",
+                    "RootNode.Main.Main_phys.UVMap",
+                    "RootNode.Main.Main_phys.Phys_MAT"
                 ]
             },
             "rules": {
