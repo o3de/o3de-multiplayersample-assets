@@ -2,39 +2,33 @@
     "values": [
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{6D1ECC59-2F89-5B4D-B654-50F76A819BF6}",
-            "name": "HTS_BldgMD_A_Main",
+            "id": "{546767B0-10DD-5781-B0CD-8939E6715D74}",
+            "name": "HTS_BldgMD_A_HoloA",
             "NodeSelectionList": {
-                "selectedNodes": [
-                    "RootNode.Main.Main_phys"
-                ],
                 "unselectedNodes": [
                     {},
                     "RootNode",
-                    "RootNode.Main",
-                    "RootNode.Main.Main_geo"
+                    "RootNode.HoloA",
+                    "RootNode.HoloA.HoloA_geo"
                 ]
             },
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "lambert1"
+                        "Name": "Entire object"
                     }
                 ]
             }
         },
         {
             "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "HTS_BldgMD_A_Main",
+            "name": "HTS_BldgMD_A_HoloA",
             "nodeSelectionList": {
                 "selectedNodes": [
                     {},
                     "RootNode",
-                    "RootNode.Main",
-                    "RootNode.Main.Main_geo"
-                ],
-                "unselectedNodes": [
-                    "RootNode.Main.Main_phys"
+                    "RootNode.HoloA",
+                    "RootNode.HoloA.HoloA_geo"
                 ]
             },
             "rules": {
@@ -44,7 +38,7 @@
                     }
                 ]
             },
-            "id": "{7384E553-1BEB-5C47-A8CB-614F9C007F85}"
+            "id": "{040E8410-302D-52D3-9ACD-413E7DB19B75}"
         }
     ]
 }

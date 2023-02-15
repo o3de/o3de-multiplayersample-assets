@@ -25,7 +25,8 @@
                     "Instance_[11360941329371]/ContainerEntity",
                     "Instance_[19121166809552]/ContainerEntity",
                     "Instance_[24658772965578]/ContainerEntity",
-                    "Instance_[43668298217674]/ContainerEntity"
+                    "Instance_[43668298217674]/ContainerEntity",
+                    "Instance_[51768606537930]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -1598,6 +1599,26 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[2815070735218165771]/Transform Data/Translate/1",
                     "value": -18.578737258911133
+                }
+            ]
+        },
+        "Instance_[51768606537930]": {
+            "Source": "KB3D_HighTechStreets/Objects/HTS_BldgMD_A/HTS_Bldgmd_A.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6227313275285426676]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6227313275285426676]/Transform Data/Translate/0",
+                    "value": -32.56828689575195
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6227313275285426676]/Transform Data/Translate/1",
+                    "value": -30.699260711669922
                 }
             ]
         },
