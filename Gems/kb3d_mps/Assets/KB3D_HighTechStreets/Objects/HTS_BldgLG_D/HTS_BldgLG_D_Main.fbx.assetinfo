@@ -6,19 +6,45 @@
             "name": "HTS_BldgLG_D_Main",
             "NodeSelectionList": {
                 "selectedNodes": [
-                    "RootNode.KB3D_HTS_BldgLG_D_Main_phys"
+                    "RootNode.Main.Main_phys",
+                    "RootNode.Main.Main_phys.transform",
+                    "RootNode.Main.Main_phys.custom_properties",
+                    "RootNode.Main.Main_phys.UVMap",
+                    "RootNode.Main.Main_phys.phys_MAT"
                 ],
                 "unselectedNodes": [
-                    {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_BldgLG_D_Door",
-                    "RootNode.KB3D_HTS_BldgLG_D_Main"
+                    "RootNode.Main",
+                    "RootNode.Main.custom_properties",
+                    "RootNode.Main.Main_geo",
+                    "RootNode.Main.Main_geo.Col0",
+                    "RootNode.Main.Main_geo.Col1",
+                    "RootNode.Main.Main_geo.transform",
+                    "RootNode.Main.Main_geo.custom_properties",
+                    "RootNode.Main.Main_geo.UV0",
+                    "RootNode.Main.Main_geo.UV1",
+                    "RootNode.Main.Main_geo.KB3D_HTS_MetalWhite",
+                    "RootNode.Main.Main_geo.KB3D_HTS_PlasticWhite",
+                    "RootNode.Main.Main_geo.KB3D_HTS_MetalYellow",
+                    "RootNode.Main.Main_geo.KB3D_HTS_MetalGrey",
+                    "RootNode.Main.Main_geo.KB3D_HTS_MetalLight",
+                    "RootNode.Main.Main_geo.Door",
+                    "RootNode.Main.Main_geo.Door.Col0",
+                    "RootNode.Main.Main_geo.Door.Col1",
+                    "RootNode.Main.Main_geo.Door.transform",
+                    "RootNode.Main.Main_geo.Door.custom_properties",
+                    "RootNode.Main.Main_geo.Door.UV0",
+                    "RootNode.Main.Main_geo.Door.UV1",
+                    "RootNode.Main.Main_geo.Door.KB3D_HTS_MetalWhite",
+                    "RootNode.Main.Main_geo.Door.KB3D_HTS_MetalGrey",
+                    "RootNode.Main.Main_geo.Door.KB3D_HTS_PlasticWhite",
+                    "RootNode.Main.Main_geo.Door.KB3D_HTS_MetalYellow"
                 ]
             },
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "DefaultMaterial"
+                        "Name": "phys_MAT"
                     }
                 ]
             }
@@ -28,20 +54,46 @@
             "name": "HTS_BldgLG_D_Main",
             "nodeSelectionList": {
                 "selectedNodes": [
-                    {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_BldgLG_D_Door",
-                    "RootNode.KB3D_HTS_BldgLG_D_Main"
+                    "RootNode.Main",
+                    "RootNode.Main.custom_properties",
+                    "RootNode.Main.Main_geo",
+                    "RootNode.Main.Main_geo.Col0",
+                    "RootNode.Main.Main_geo.Col1",
+                    "RootNode.Main.Main_geo.transform",
+                    "RootNode.Main.Main_geo.custom_properties",
+                    "RootNode.Main.Main_geo.UV0",
+                    "RootNode.Main.Main_geo.UV1",
+                    "RootNode.Main.Main_geo.KB3D_HTS_MetalWhite",
+                    "RootNode.Main.Main_geo.KB3D_HTS_PlasticWhite",
+                    "RootNode.Main.Main_geo.KB3D_HTS_MetalYellow",
+                    "RootNode.Main.Main_geo.KB3D_HTS_MetalGrey",
+                    "RootNode.Main.Main_geo.KB3D_HTS_MetalLight",
+                    "RootNode.Main.Main_geo.Door",
+                    "RootNode.Main.Main_geo.Door.Col0",
+                    "RootNode.Main.Main_geo.Door.Col1",
+                    "RootNode.Main.Main_geo.Door.transform",
+                    "RootNode.Main.Main_geo.Door.custom_properties",
+                    "RootNode.Main.Main_geo.Door.UV0",
+                    "RootNode.Main.Main_geo.Door.UV1",
+                    "RootNode.Main.Main_geo.Door.KB3D_HTS_MetalWhite",
+                    "RootNode.Main.Main_geo.Door.KB3D_HTS_MetalGrey",
+                    "RootNode.Main.Main_geo.Door.KB3D_HTS_PlasticWhite",
+                    "RootNode.Main.Main_geo.Door.KB3D_HTS_MetalYellow"
                 ],
                 "unselectedNodes": [
-                    "RootNode.KB3D_HTS_BldgLG_D_Main_phys"
+                    "RootNode.Main.Main_phys",
+                    "RootNode.Main.Main_phys.transform",
+                    "RootNode.Main.Main_phys.custom_properties",
+                    "RootNode.Main.Main_phys.UVMap",
+                    "RootNode.Main.Main_phys.phys_MAT"
                 ]
             },
             "rules": {
                 "rules": [
                     {
                         "$type": "StaticMeshAdvancedRule",
-                        "vertexColorStreamName": "Col0"
+                        "vertexColorStreamName": "Disabled"
                     },
                     {
                         "$type": "MaterialRule"
@@ -49,12 +101,6 @@
                 ]
             },
             "id": "{9581A928-5EE4-5761-821F-4186AD277575}"
-        },
-        {
-            "$type": "PrefabGroup",
-            "name": "KB3D_HighTechStreets/Objects/HTS_BldgLG_D/HTS_BldgLG_D_Main_fbx.procprefab",
-            "id": "{5F16CCEC-6FCF-5151-A765-51B3C06FEFAF}",
-            "createProceduralPrefab": false
         }
     ]
 }

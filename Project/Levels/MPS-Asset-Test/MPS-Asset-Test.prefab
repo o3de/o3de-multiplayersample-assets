@@ -20,7 +20,9 @@
                 "Id": 14126657869720434043,
                 "Child Entity Order": [
                     "Entity_[1176639161715]",
-                    "Entity_[1209340670514]"
+                    "Entity_[1209340670514]",
+                    "Instance_[1661872974169]/ContainerEntity",
+                    "Instance_[11360941329371]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -102,7 +104,7 @@
                     "Id": 205049155173721275,
                     "Controller": {
                         "Configuration": {
-                            "EditorEntityId": 10010268192711267642
+                            "EditorEntityId": 16528268999478529594
                         }
                     }
                 },
@@ -351,7 +353,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 55.0,
-                            "EditorEntityId": 7000744221637436782
+                            "EditorEntityId": 1107924253925204310
                         }
                     }
                 },
@@ -509,8 +511,7 @@
                 },
                 "Component_[16247165675903986673]": {
                     "$type": "EditorVisibilityComponent",
-                    "Id": 16247165675903986673,
-                    "VisibilityFlag": false
+                    "Id": 16247165675903986673
                 },
                 "Component_[18082433625958885247]": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -1090,11 +1091,6 @@
             "Patches": [
                 {
                     "op": "replace",
-                    "path": "/Entities/Entity_[24176906811869]/Components/Component_[13018863927041915261]/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
-                    "value": "agplatform/agplatform_opaque_mat.azmaterial"
-                },
-                {
-                    "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[8292154386652853697]/Parent Entity",
                     "value": "../Entity_[1209340670514]"
                 },
@@ -1112,6 +1108,36 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[8292154386652853697]/Transform Data/Translate/2",
                     "value": -2.384185791015625e-7
+                }
+            ]
+        },
+        "Instance_[11360941329371]": {
+            "Source": "KB3D_HighTechStreets/Objects/HTS_BldgLG_D/HTS_BldgLG_D.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4713533524691108144]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4713533524691108144]/Transform Data/Translate/0",
+                    "value": -32.8721809387207
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4713533524691108144]/Transform Data/Translate/1",
+                    "value": -3.8497133255004883
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4713533524691108144]/Transform Data/Translate/2",
+                    "value": -4.76837158203125e-7
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4713533524691108144]/Transform Data/Rotate/2",
+                    "value": 180.0
                 }
             ]
         },
@@ -1140,11 +1166,6 @@
             "Patches": [
                 {
                     "op": "replace",
-                    "path": "/Entities/Entity_[238361772522307]/Components/Component_[2642185691256487465]/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
-                    "value": "barrel01/barrel01_opaque_mat.azmaterial"
-                },
-                {
-                    "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[15151136896214454413]/Parent Entity",
                     "value": "../Entity_[1209340670514]"
                 },
@@ -1170,14 +1191,54 @@
                 }
             ]
         },
-        "Instance_[20481791496026]": {
-            "Source": "Barrel02/Barrel02.prefab",
+        "Instance_[1661872974169]": {
+            "Source": "Pick_Ups/Gem.prefab",
             "Patches": [
                 {
                     "op": "replace",
-                    "path": "/Entities/Entity_[454244008688451]/Components/Component_[17077833201882131311]/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
-                    "value": "barrel02/barrel02_opaque_mat.azmaterial"
+                    "path": "/ContainerEntity/Components/Component_[1277311024405767786]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
                 },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[1277311024405767786]/Transform Data/Translate/0",
+                    "value": -16.86324119567871
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[1277311024405767786]/Transform Data/Translate/1",
+                    "value": -17.392026901245117
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5472716568463115714]/VisibilityFlag",
+                    "value": false
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[61275253273885]/Components/Component_[4197484385270794550]/VisibilityFlag",
+                    "value": false
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[21474557110617]/Components/Component_[10778065244464949795]/VisibilityFlag",
+                    "value": false
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[21474557110617]/Components/Component_[2411676600869301131]/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
+                    "value": "pick_ups/gem_inner_interior_mat.azmaterial"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[63212283524381]/Components/Component_[17195111802591794697]/VisibilityFlag",
+                    "value": false
+                }
+            ]
+        },
+        "Instance_[20481791496026]": {
+            "Source": "Barrel02/Barrel02.prefab",
+            "Patches": [
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[9966736445084823710]/Parent Entity",
@@ -1290,11 +1351,6 @@
             "Patches": [
                 {
                     "op": "replace",
-                    "path": "/Entities/Entity_[1104922964097859]/Components/Component_[10136251117651982247]/IsStatic",
-                    "value": false
-                },
-                {
-                    "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[12077432955330835962]/Parent Entity",
                     "value": "../Entity_[1209340670514]"
                 },
@@ -1360,16 +1416,6 @@
             "Patches": [
                 {
                     "op": "replace",
-                    "path": "/Entities/Entity_[1105142007429955]/Components/Component_[13167236848490048581]/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
-                    "value": "lec45d/lec45d_opaque_mat.azmaterial"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1105142007429955]/Components/Component_[13167236848490048581]/Controller/Configuration/materials/1/Value/MaterialAsset/assetHint",
-                    "value": "lec45d/lec45d_alpha_mat.azmaterial"
-                },
-                {
-                    "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[6123652671061463041]/Parent Entity",
                     "value": "../Entity_[1209340670514]"
                 },
@@ -1393,16 +1439,6 @@
         "Instance_[35462637424474]": {
             "Source": "LECstraight/LECstraight.prefab",
             "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1105361050762051]/Components/Component_[2851777131293200399]/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
-                    "value": "lecstraight/lecstraight_opaque_mat.azmaterial"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[1105361050762051]/Components/Component_[2851777131293200399]/Controller/Configuration/materials/1/Value/MaterialAsset/assetHint",
-                    "value": "lecstraight/lecstraight_alpha_mat.azmaterial"
-                },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[2563122736071885678]/Parent Entity",
@@ -1448,11 +1484,6 @@
         "Instance_[4534577925978]": {
             "Source": "Prefabs/ybot_actor_test.prefab",
             "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[4543167860570]/Components/Component_[7619010292464800057]/Controller/Configuration/materials/35/Value/MaterialAsset/assetHint",
-                    "value": "mixamo/ybot/skins/mixamo_logo.azmaterial"
-                },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[9947002074216887818]/Parent Entity",
