@@ -3,43 +3,45 @@
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
             "id": "{7F1710BA-EBA7-5A68-B141-0D7A32005FE6}",
-            "name": "HTS_BldgLG_F_Main",
+            "name": "HTS_Bldglg_F_Main",
             "NodeSelectionList": {
                 "selectedNodes": [
-                    "RootNode.KB3D_HTS_BldgLG_F_Main_phys"
+                    "RootNode.Main.Main_phys"
                 ],
                 "unselectedNodes": [
                     {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_BldgLG_F_Main"
+                    "RootNode.Main",
+                    "RootNode.Main.Main_geo"
                 ]
             },
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "DefaultMaterial"
+                        "Name": "phys_MAT"
                     }
                 ]
             }
         },
         {
             "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "HTS_BldgLG_F_Main",
+            "name": "HTS_Bldglg_F_Main",
             "nodeSelectionList": {
                 "selectedNodes": [
                     {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_BldgLG_F_Main"
+                    "RootNode.Main",
+                    "RootNode.Main.Main_geo"
                 ],
                 "unselectedNodes": [
-                    "RootNode.KB3D_HTS_BldgLG_F_Main_phys"
+                    "RootNode.Main.Main_phys"
                 ]
             },
             "rules": {
                 "rules": [
                     {
                         "$type": "StaticMeshAdvancedRule",
-                        "vertexColorStreamName": "Col0"
+                        "vertexColorStreamName": "Disabled"
                     },
                     {
                         "$type": "MaterialRule"
@@ -47,12 +49,6 @@
                 ]
             },
             "id": "{C43FAA99-5A11-5750-A49D-9EADBE7F182F}"
-        },
-        {
-            "$type": "PrefabGroup",
-            "name": "KB3D_HighTechStreets/Objects/HTS_BldgLG_F/HTS_BldgLG_F_Main_fbx.procprefab",
-            "id": "{CE8B3A3B-3DF9-5B0B-A73E-3E23082F7CF8}",
-            "createProceduralPrefab": false
         }
     ]
 }

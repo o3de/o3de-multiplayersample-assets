@@ -6,18 +6,19 @@
             "name": "HTS_BldgLG_I_Main",
             "NodeSelectionList": {
                 "selectedNodes": [
-                    "RootNode.KB3D_HTS_BldgLG_I_Main_phys"
+                    "RootNode.Main.Main_phys"
                 ],
                 "unselectedNodes": [
                     {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_BldgLG_I_Main"
+                    "RootNode.Main",
+                    "RootNode.Main.Main_geo"
                 ]
             },
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "DefaultMaterial"
+                        "Name": "Phys_MAT"
                     }
                 ]
             }
@@ -29,17 +30,18 @@
                 "selectedNodes": [
                     {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_BldgLG_I_Main"
+                    "RootNode.Main",
+                    "RootNode.Main.Main_geo"
                 ],
                 "unselectedNodes": [
-                    "RootNode.KB3D_HTS_BldgLG_I_Main_phys"
+                    "RootNode.Main.Main_phys"
                 ]
             },
             "rules": {
                 "rules": [
                     {
                         "$type": "StaticMeshAdvancedRule",
-                        "vertexColorStreamName": "Col0"
+                        "vertexColorStreamName": "Disabled"
                     },
                     {
                         "$type": "MaterialRule"
@@ -47,12 +49,6 @@
                 ]
             },
             "id": "{A4DD47FE-6B07-57F8-930D-1E292AB8958B}"
-        },
-        {
-            "$type": "PrefabGroup",
-            "name": "KB3D_HighTechStreets/Objects/HTS_BldgLG_I/HTS_BldgLG_I_Main_fbx.procprefab",
-            "id": "{3094A7BE-63C8-5656-B238-6AAC16C59427}",
-            "createProceduralPrefab": false
         }
     ]
 }

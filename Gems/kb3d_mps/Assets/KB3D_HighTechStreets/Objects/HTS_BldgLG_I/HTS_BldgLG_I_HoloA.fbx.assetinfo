@@ -2,39 +2,33 @@
     "values": [
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{41427A7B-32C3-53B1-AC31-165D48FC5E8B}",
-            "name": "HTS_Lamp",
+            "id": "{746E2959-6179-5D2D-9938-BEB14B8939F6}",
+            "name": "HTS_BldgLG_I_HoloA",
             "NodeSelectionList": {
-                "selectedNodes": [
-                    "RootNode.HTS_Lamp.Lamp_phys"
-                ],
                 "unselectedNodes": [
                     {},
                     "RootNode",
-                    "RootNode.HTS_Lamp",
-                    "RootNode.HTS_Lamp.Lamp_geo"
+                    "RootNode.HoloA",
+                    "RootNode.HoloA.HoloA"
                 ]
             },
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "Phys_MAT"
+                        "Name": "Entire object"
                     }
                 ]
             }
         },
         {
             "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "HTS_Lamp",
+            "name": "HTS_BldgLG_I_HoloA",
             "nodeSelectionList": {
                 "selectedNodes": [
                     {},
                     "RootNode",
-                    "RootNode.HTS_Lamp",
-                    "RootNode.HTS_Lamp.Lamp_geo"
-                ],
-                "unselectedNodes": [
-                    "RootNode.HTS_Lamp.Lamp_phys"
+                    "RootNode.HoloA",
+                    "RootNode.HoloA.HoloA"
                 ]
             },
             "rules": {
@@ -48,7 +42,7 @@
                     }
                 ]
             },
-            "id": "{0EDD0017-A564-554A-839E-93D7AF00E0DA}"
+            "id": "{AC2264A1-7671-5A3C-B51C-DFAF5FF57F9E}"
         }
     ]
 }
