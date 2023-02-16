@@ -491,6 +491,44 @@
                 "Component_[18371492178779266587]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 18371492178779266587
+                },
+                "Component_[3679404040708065897]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 3679404040708065897
+                },
+                "Component_[516395389871906758]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 516395389871906758,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "lambert1"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{598359B5-B647-5B66-B2AA-E0CB1EDE2267}",
+                                    "subId": 203979643
+                                },
+                                "assetHint": "kb3d_hightechstreets/objects/hts_bldgmd_a/hts_bldgmd_a_chairs.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{598359B5-B647-5B66-B2AA-E0CB1EDE2267}",
+                                        "subId": 203979643
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "kb3d_hightechstreets/objects/hts_bldgmd_a/hts_bldgmd_a_chairs.pxmesh"
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }

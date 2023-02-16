@@ -468,7 +468,14 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "Phys_MAT"
+                                    "Name": "Phys_MAT",
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{92A5EC27-1AC1-523E-88BB-9A6278DBD853}",
+                                            "subId": 1
+                                        },
+                                        "assetHint": "physx/metal.physicsmaterial"
+                                    }
                                 }
                             ]
                         }
@@ -576,6 +583,88 @@
                 "Component_[10211571319652220076]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 10211571319652220076
+                },
+                "Component_[14380588853414701002]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 14380588853414701002,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1083860861
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D8451C96-823C-5973-829F-FA3D296B8F44}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1385770421
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8D088D01-CD0D-5919-83EA-D62182792E1D}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1609012290
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B0F1B1B5-1EF2-5B94-8511-280E9CE590CF}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2070720509
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2BD67584-8FB3-5903-9F21-C5AE3F6E7011}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3169470859
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{04658DE4-DF54-5D41-8A84-1137503ED47D}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3667636101
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1586295D-C5AE-5E8A-B952-4B5C94A6B235}"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
                 },
                 "Component_[14567286445414913469]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -687,6 +776,88 @@
                 "Component_[10211571319652220076]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 10211571319652220076
+                },
+                "Component_[12813923151645170943]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 12813923151645170943,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1083860861
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D8451C96-823C-5973-829F-FA3D296B8F44}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1385770421
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8D088D01-CD0D-5919-83EA-D62182792E1D}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1609012290
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B0F1B1B5-1EF2-5B94-8511-280E9CE590CF}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2070720509
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2BD67584-8FB3-5903-9F21-C5AE3F6E7011}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3169470859
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{04658DE4-DF54-5D41-8A84-1137503ED47D}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3667636101
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1586295D-C5AE-5E8A-B952-4B5C94A6B235}"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
                 },
                 "Component_[14567286445414913469]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
