@@ -54,23 +54,6 @@
             "Id": "Entity_[1654074020911407]",
             "Name": "Light",
             "Components": {
-                "Component_[10623171356742479450]": {
-                    "$type": "AZ::Render::EditorAreaLightComponent",
-                    "Id": 10623171356742479450,
-                    "Controller": {
-                        "Configuration": {
-                            "LightType": 3,
-                            "Color": [
-                                0.800000011920929,
-                                0.6980392336845398,
-                                0.20392157137393951
-                            ],
-                            "IntensityMode": 4,
-                            "Intensity": 8.0,
-                            "AttenuationRadius": 1.6278789043426514
-                        }
-                    }
-                },
                 "Component_[11099407118040148424]": {
                     "$type": "EditorCapsuleShapeComponent",
                     "Id": 11099407118040148424,
@@ -89,7 +72,26 @@
                 },
                 "Component_[11697609479636871757]": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 11697609479636871757
+                    "Id": 11697609479636871757,
+                    "DisabledComponents": [
+                        {
+                            "$type": "AZ::Render::EditorAreaLightComponent",
+                            "Id": 10623171356742479450,
+                            "Controller": {
+                                "Configuration": {
+                                    "LightType": 3,
+                                    "Color": [
+                                        0.800000011920929,
+                                        0.6980392336845398,
+                                        0.20392157137393951
+                                    ],
+                                    "IntensityMode": 4,
+                                    "Intensity": 8.0,
+                                    "AttenuationRadius": 1.6278789043426514
+                                }
+                            }
+                        }
+                    ]
                 },
                 "Component_[1236611103440467086]": {
                     "$type": "EditorEntityIconComponent",
@@ -142,23 +144,6 @@
             "Id": "Entity_[1654082610845999]",
             "Name": "Light",
             "Components": {
-                "Component_[10623171356742479450]": {
-                    "$type": "AZ::Render::EditorAreaLightComponent",
-                    "Id": 10623171356742479450,
-                    "Controller": {
-                        "Configuration": {
-                            "LightType": 3,
-                            "Color": [
-                                0.800000011920929,
-                                0.6980392336845398,
-                                0.20392157137393951
-                            ],
-                            "IntensityMode": 4,
-                            "Intensity": 8.0,
-                            "AttenuationRadius": 1.6278789043426514
-                        }
-                    }
-                },
                 "Component_[11099407118040148424]": {
                     "$type": "EditorCapsuleShapeComponent",
                     "Id": 11099407118040148424,
@@ -177,7 +162,26 @@
                 },
                 "Component_[11697609479636871757]": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 11697609479636871757
+                    "Id": 11697609479636871757,
+                    "DisabledComponents": [
+                        {
+                            "$type": "AZ::Render::EditorAreaLightComponent",
+                            "Id": 10623171356742479450,
+                            "Controller": {
+                                "Configuration": {
+                                    "LightType": 3,
+                                    "Color": [
+                                        0.800000011920929,
+                                        0.6980392336845398,
+                                        0.20392157137393951
+                                    ],
+                                    "IntensityMode": 4,
+                                    "Intensity": 8.0,
+                                    "AttenuationRadius": 1.6278789043426514
+                                }
+                            }
+                        }
+                    ]
                 },
                 "Component_[1236611103440467086]": {
                     "$type": "EditorEntityIconComponent",
