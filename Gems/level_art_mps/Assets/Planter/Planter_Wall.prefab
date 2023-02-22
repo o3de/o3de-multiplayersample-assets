@@ -50,6 +50,182 @@
         }
     },
     "Entities": {
+        "Entity_[1654074020911407]": {
+            "Id": "Entity_[1654074020911407]",
+            "Name": "Light",
+            "Components": {
+                "Component_[10623171356742479450]": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 10623171356742479450,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 3,
+                            "Color": [
+                                0.800000011920929,
+                                0.6980392336845398,
+                                0.20392157137393951
+                            ],
+                            "IntensityMode": 4,
+                            "Intensity": 8.0,
+                            "AttenuationRadius": 1.6278789043426514
+                        }
+                    }
+                },
+                "Component_[11099407118040148424]": {
+                    "$type": "EditorCapsuleShapeComponent",
+                    "Id": 11099407118040148424,
+                    "ShapeColor": [
+                        0.800000011920929,
+                        0.6980392336845398,
+                        0.20392157137393951,
+                        1.0
+                    ],
+                    "CapsuleShape": {
+                        "Configuration": {
+                            "Height": 0.6000000238418579,
+                            "Radius": 0.02500000037252903
+                        }
+                    }
+                },
+                "Component_[11697609479636871757]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11697609479636871757
+                },
+                "Component_[1236611103440467086]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1236611103440467086
+                },
+                "Component_[16871967675285595920]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16871967675285595920
+                },
+                "Component_[17036741821293585406]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17036741821293585406
+                },
+                "Component_[2380660646636113524]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2380660646636113524
+                },
+                "Component_[2712611982532130423]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2712611982532130423
+                },
+                "Component_[5334627099215673063]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5334627099215673063,
+                    "Parent Entity": "Entity_[908212981371]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.5204353332519531,
+                            0.13637685775756836
+                        ],
+                        "Rotate": [
+                            0.0,
+                            89.99994659423828,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[8409350480985964772]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8409350480985964772
+                },
+                "Component_[9384079302378861790]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9384079302378861790
+                }
+            }
+        },
+        "Entity_[1654082610845999]": {
+            "Id": "Entity_[1654082610845999]",
+            "Name": "Light",
+            "Components": {
+                "Component_[10623171356742479450]": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 10623171356742479450,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 3,
+                            "Color": [
+                                0.800000011920929,
+                                0.6980392336845398,
+                                0.20392157137393951
+                            ],
+                            "IntensityMode": 4,
+                            "Intensity": 8.0,
+                            "AttenuationRadius": 1.6278789043426514
+                        }
+                    }
+                },
+                "Component_[11099407118040148424]": {
+                    "$type": "EditorCapsuleShapeComponent",
+                    "Id": 11099407118040148424,
+                    "ShapeColor": [
+                        0.800000011920929,
+                        0.6980392336845398,
+                        0.20392157137393951,
+                        1.0
+                    ],
+                    "CapsuleShape": {
+                        "Configuration": {
+                            "Height": 0.6000000238418579,
+                            "Radius": 0.02500000037252903
+                        }
+                    }
+                },
+                "Component_[11697609479636871757]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11697609479636871757
+                },
+                "Component_[1236611103440467086]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1236611103440467086
+                },
+                "Component_[16871967675285595920]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16871967675285595920
+                },
+                "Component_[17036741821293585406]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17036741821293585406
+                },
+                "Component_[2380660646636113524]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2380660646636113524
+                },
+                "Component_[2712611982532130423]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2712611982532130423
+                },
+                "Component_[5334627099215673063]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5334627099215673063,
+                    "Parent Entity": "Entity_[908212981371]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            -0.5212669372558594,
+                            0.13637685775756836
+                        ],
+                        "Rotate": [
+                            0.0,
+                            89.99994659423828,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[8409350480985964772]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8409350480985964772
+                },
+                "Component_[9384079302378861790]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9384079302378861790
+                }
+            }
+        },
         "Entity_[908212981371]": {
             "Id": "Entity_[908212981371]",
             "Name": "Planter_Wall",
@@ -137,7 +313,11 @@
                 },
                 "Component_[3372959898963503167]": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 3372959898963503167
+                    "Id": 3372959898963503167,
+                    "Child Entity Order": [
+                        "Entity_[1654074020911407]",
+                        "Entity_[1654082610845999]"
+                    ]
                 },
                 "Component_[3424457705046876571]": {
                     "$type": "EditorPendingCompositionComponent",
