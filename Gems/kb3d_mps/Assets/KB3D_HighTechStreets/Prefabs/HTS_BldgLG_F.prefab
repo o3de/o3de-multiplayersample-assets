@@ -778,7 +778,6 @@
                                     "guid": "{264B968E-BF8B-5F23-B22C-2DA807181990}",
                                     "subId": 278466562
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "kb3d_hightechstreets/objects/hts_bldglg_f/hts_bldglg_f_door.azmodel"
                             }
                         }
@@ -882,6 +881,10 @@
                     "Id": 12997252271421072766,
                     "Parent Entity": "Entity_[2152671245886]"
                 },
+                "Component_[15399731894115445557]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 15399731894115445557
+                },
                 "Component_[16889630884610685496]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 16889630884610685496
@@ -894,6 +897,40 @@
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 2629594388888631224
                 },
+                "Component_[4024189617924325654]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 4024189617924325654,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "phys_MAT"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{29C988F8-397B-5056-8685-85A968DDDE07}",
+                                    "subId": 496808725
+                                },
+                                "assetHint": "kb3d_hightechstreets/objects/hts_bldglg_f/hts_bldglg_f_railing.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{29C988F8-397B-5056-8685-85A968DDDE07}",
+                                        "subId": 496808725
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "kb3d_hightechstreets/objects/hts_bldglg_f/hts_bldglg_f_railing.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[5196289392068756939]": {
                     "$type": "AZ::Render::EditorMeshComponent",
                     "Id": 5196289392068756939,
@@ -904,7 +941,6 @@
                                     "guid": "{29C988F8-397B-5056-8685-85A968DDDE07}",
                                     "subId": 284716003
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "kb3d_hightechstreets/objects/hts_bldglg_f/hts_bldglg_f_railing.azmodel"
                             }
                         }
