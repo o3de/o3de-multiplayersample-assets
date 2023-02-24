@@ -31,4 +31,6 @@ set(ENABLED_GEMS
     Terrain
     DccScriptingInterface
     QtForPython
+    PhysXDebug
+    Stars
 )

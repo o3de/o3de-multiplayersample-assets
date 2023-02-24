@@ -3,16 +3,17 @@
     "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
-            1.0,
-            0.0,
-            0.0,
+            0.7450980544090271,
+            0.003921568859368563,
+            0.11372549086809158,
             1.0
         ],
         "general.castShadows": false,
         "general.enableShadows": false,
-        "metallic.factor": 0.6499999761581421,
+        "irradiance.irradianceColorSource": "BaseColor",
+        "metallic.factor": 1.0,
         "normal.textureMap": "textures/GemMAT_Normal.png",
-        "opacity.mode": "Blended",
-        "roughness.factor": 0.10000000149011612
+        "roughness.factor": 0.10000000149011612,
+        "specularF0.enableMultiScatterCompensation": true
     }
 }
