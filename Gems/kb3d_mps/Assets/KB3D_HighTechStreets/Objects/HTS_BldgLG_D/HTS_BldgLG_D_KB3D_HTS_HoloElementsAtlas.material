@@ -8,12 +8,14 @@
         "emissive.enable": true,
         "emissive.intensity": 6.0,
         "emissive.textureMap": "../../KB3DTextures/KB3D_HTS_HoloElementsAtlas_emissive.png",
+        "general.doubleSided": true,
         "general.enableShadows": false,
+        "irradiance.irradianceColorSource": "BaseColor",
         "metallic.textureMap": "../../KB3DTextures/KB3D_HTS_HoloElementsAtlas_metallic.png",
         "normal.textureMap": "../../KB3DTextures/KB3D_HTS_HoloElementsAtlas_normal.png",
         "opacity.alphaSource": "Split",
         "opacity.factor": 1.0,
-        "opacity.mode": "TintedTransparent",
+        "opacity.mode": "Blended",
         "opacity.textureMap": "../../KB3DTextures/KB3D_HTS_HoloElementsAtlas_opacity.png",
         "roughness.textureMap": "../../KB3DTextures/KB3D_HTS_HoloElementsAtlas_roughness.png"
     }

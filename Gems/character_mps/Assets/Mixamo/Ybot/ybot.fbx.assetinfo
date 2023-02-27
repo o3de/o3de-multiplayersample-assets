@@ -3,13 +3,224 @@
         {
             "$type": "ActorGroup",
             "name": "YBot",
-            "selectedRootBone": "RootNode",
+            "selectedRootBone": "RootNode.YBot_LOD_Group.LOD0",
             "id": "{2B3CB90B-3337-5419-A80F-357D39CC4AC7}",
             "rules": {
                 "rules": [
                     {
                         "$type": "MetaDataRule",
                         "metaData": "AdjustActor -actorID $(ACTORID) -name \"YBot\"\nActorSetCollisionMeshes -actorID $(ACTORID) -lod 0 -nodeList \"\"\nAdjustActor -actorID $(ACTORID) -nodesExcludedFromBounds \"\" -nodeAction \"select\"\nAdjustActor -actorID $(ACTORID) -nodeAction \"replace\" -attachmentNodes \"\"\nAdjustActor -actorID $(ACTORID) -motionExtractionNodeName \"RootNode\"\nAdjustActor -actorID $(ACTORID) -mirrorSetup \"\"\n"
+                    },
+                    {
+                        "$type": "{3CB103B3-CEAF-49D7-A9DC-5A31E2DF15E4} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    "RootNode.YBot_LOD_Group.LOD1",
+                                    "RootNode.YBot_LOD_Group.LOD1.GEO_MED",
+                                    "RootNode.YBot_LOD_Group.LOD1.GEO_MED.Alpha_Logo",
+                                    "RootNode.YBot_LOD_Group.LOD1.GEO_MED.Alpha_mesh_BODY",
+                                    "RootNode.YBot_LOD_Group.LOD1.GEO_MED.Alpha_Mesh_JOINTS",
+                                    "RootNode.YBot_LOD_Group.LOD1.GEO_MED.Alpha_mesh_OTHER",
+                                    "RootNode.YBot_LOD_Group.LOD1.GEO_MED.Alpha_Mesh_flip_JOINTS",
+                                    "RootNode.YBot_LOD_Group.LOD1.GEO_MED.Alpha_Mesh_HEAD",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:RightUpLeg",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot.mixamorig:RightToeBase",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:LeftUpLeg",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot.mixamorig:LeftToeBase",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2.mixamorig:RightHandPinky3",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2.mixamorig:RightHandRing3",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2.mixamorig:RightHandMiddle3",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2.mixamorig:RightHandIndex3",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2.mixamorig:RightHandThumb3",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2.mixamorig:LeftHandPinky3",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2.mixamorig:LeftHandRing3",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2.mixamorig:LeftHandMiddle3",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2.mixamorig:LeftHandIndex3",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2.mixamorig:LeftHandThumb3",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck",
+                                    "RootNode.YBot_LOD_Group.LOD1.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head"
+                                ]
+                            },
+                            {
+                                "selectedNodes": [
+                                    "RootNode.YBot_LOD_Group.LOD2",
+                                    "RootNode.YBot_LOD_Group.LOD2.GEO_LOW",
+                                    "RootNode.YBot_LOD_Group.LOD2.GEO_LOW.Alpha_Logo",
+                                    "RootNode.YBot_LOD_Group.LOD2.GEO_LOW.Alpha_mesh_OTHER",
+                                    "RootNode.YBot_LOD_Group.LOD2.GEO_LOW.Alpha_mesh_BODY",
+                                    "RootNode.YBot_LOD_Group.LOD2.GEO_LOW.Alpha_Mesh_HEAD",
+                                    "RootNode.YBot_LOD_Group.LOD2.GEO_LOW.Alpha_Mesh_JOINTS",
+                                    "RootNode.YBot_LOD_Group.LOD2.GEO_LOW.Alpha_Mesh_flip_JOINTS",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:RightUpLeg",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:RightUpLeg.mixamorig:RightLeg.mixamorig:RightFoot.mixamorig:RightToeBase",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:LeftUpLeg",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:LeftUpLeg.mixamorig:LeftLeg.mixamorig:LeftFoot.mixamorig:LeftToeBase",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandPinky1.mixamorig:RightHandPinky2.mixamorig:RightHandPinky3",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandRing1.mixamorig:RightHandRing2.mixamorig:RightHandRing3",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandMiddle1.mixamorig:RightHandMiddle2.mixamorig:RightHandMiddle3",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandIndex1.mixamorig:RightHandIndex2.mixamorig:RightHandIndex3",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:RightShoulder.mixamorig:RightArm.mixamorig:RightForeArm.mixamorig:RightHand.mixamorig:RightHandThumb1.mixamorig:RightHandThumb2.mixamorig:RightHandThumb3",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandPinky1.mixamorig:LeftHandPinky2.mixamorig:LeftHandPinky3",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandRing1.mixamorig:LeftHandRing2.mixamorig:LeftHandRing3",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandMiddle1.mixamorig:LeftHandMiddle2.mixamorig:LeftHandMiddle3",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandIndex1.mixamorig:LeftHandIndex2.mixamorig:LeftHandIndex3",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:LeftShoulder.mixamorig:LeftArm.mixamorig:LeftForeArm.mixamorig:LeftHand.mixamorig:LeftHandThumb1.mixamorig:LeftHandThumb2.mixamorig:LeftHandThumb3",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck",
+                                    "RootNode.YBot_LOD_Group.LOD2.mixamorig:Hips.mixamorig:Spine.mixamorig:Spine1.mixamorig:Spine2.mixamorig:Neck.mixamorig:Head"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "ActorPhysicsSetupRule",
+                        "data": {
+                            "config": {
+                                "hitDetectionConfig": {
+                                    "nodes": [
+                                        {
+                                            "name": "mixamorig:Spine1",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "CollisionLayer": {
+                                                            "Index": 1
+                                                        },
+                                                        "Visible": true,
+                                                        "Simulated": false,
+                                                        "Position": [
+                                                            -1.0459189070388675e-11,
+                                                            2.7939677238464355e-9,
+                                                            -0.14270569384098053
+                                                        ],
+                                                        "Rotation": [
+                                                            -2.075933025480481e-8,
+                                                            -7.771233656583831e-11,
+                                                            0.0,
+                                                            1.0
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 1.0245884656906128,
+                                                        "Radius": 0.20715969800949097
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:Head",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "CollisionLayer": {
+                                                            "Index": 1
+                                                        },
+                                                        "Visible": true,
+                                                        "Simulated": false,
+                                                        "Position": [
+                                                            -1.2816144590033218e-8,
+                                                            0.01571214385330677,
+                                                            0.07160919904708862
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "SphereShapeConfiguration",
+                                                        "Radius": 0.19394800066947937
+                                                    }
+                                                ]
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
                     }
                 ]
             }
