@@ -9,7 +9,7 @@
                 "rules": [
                     {
                         "$type": "MetaDataRule",
-                        "metaData": "AdjustActor -actorID $(ACTORID) -name \"YBot\"\nActorSetCollisionMeshes -actorID $(ACTORID) -lod 0 -nodeList \"\"\nAdjustActor -actorID $(ACTORID) -nodesExcludedFromBounds \"\" -nodeAction \"select\"\nAdjustActor -actorID $(ACTORID) -nodeAction \"replace\" -attachmentNodes \"\"\nAdjustActor -actorID $(ACTORID) -mirrorSetup \"\"\n"
+                        "metaData": "AdjustActor -actorID $(ACTORID) -name \"YBot\"\nActorSetCollisionMeshes -actorID $(ACTORID) -lod 0 -nodeList \"\"\nAdjustActor -actorID $(ACTORID) -nodesExcludedFromBounds \"\" -nodeAction \"select\"\nAdjustActor -actorID $(ACTORID) -nodeAction \"replace\" -attachmentNodes \"\"\nAdjustActor -actorID $(ACTORID) -motionExtractionNodeName \"RootNode\"\nAdjustActor -actorID $(ACTORID) -mirrorSetup \"\"\n"
                     },
                     {
                         "$type": "{3CB103B3-CEAF-49D7-A9DC-5A31E2DF15E4} LodRule",
