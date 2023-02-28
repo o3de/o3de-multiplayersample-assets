@@ -1,20 +1,22 @@
 {
-    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialType": "@projectroot@/Cache/Intermediate Assets/materials/types/standardpbr_generated.materialtype",
     "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.textureBlendMode": "Overlay",
         "baseColor.textureMap": "../../KB3DTextures/KB3D_HTS_HoloPlanet_basecolor.png",
+        "emissive.affectedByAlpha": 1.0,
         "emissive.enable": true,
-        "emissive.intensity": 5.0,
+        "emissive.intensity": 6.5,
         "emissive.textureMap": "../../KB3DTextures/KB3D_HTS_HoloPlanet_emissive.png",
+        "general.castShadows": false,
         "general.doubleSided": true,
         "general.enableShadows": false,
         "irradiance.irradianceColorSource": "BaseColor",
-        "metallic.textureMap": "../../KB3DTextures/KB3D_HTS_HoloPlanet_metallic.png",
+        "metallic.useTexture": false,
         "normal.textureMap": "../../KB3DTextures/KB3D_HTS_HoloPlanet_normal.png",
         "opacity.alphaSource": "Split",
-        "opacity.factor": 0.8600000143051147,
-        "opacity.mode": "TintedTransparent",
+        "opacity.factor": 1.0,
+        "opacity.mode": "Blended",
         "opacity.textureMap": "../../KB3DTextures/KB3D_HTS_HoloPlanet_opacity.png",
         "roughness.textureMap": "../../KB3DTextures/KB3D_HTS_HoloPlanet_roughness.png"
     }
