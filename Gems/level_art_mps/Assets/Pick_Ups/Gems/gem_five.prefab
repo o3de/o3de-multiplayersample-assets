@@ -79,9 +79,20 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{8417CA43-A600-5C7B-8743-3C721B325154}"
+                                                "guid": "{B539B85B-5B81-52E3-95D5-33A0E3C36E29}"
                                             },
-                                            "assetHint": "pick_ups/gems/gem_one_exterior_mat.azmaterial"
+                                            "assetHint": "pick_ups/gems/skins/gem_exterior_green.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.10196080058813095,
+                                                    0.43529409170150757,
+                                                    0.1607843041419983,
+                                                    1.0
+                                                ]
+                                            }
                                         }
                                     }
                                 },
@@ -92,9 +103,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{D781026B-F12A-5920-8BE7-FC312DFB6BA8}"
+                                                "guid": "{F55EDFEA-D784-546E-9489-9FE7265B8283}"
                                             },
-                                            "assetHint": "pick_ups/gems/gem_one_interior_mat.azmaterial"
+                                            "assetHint": "pick_ups/gems/skins/gem_interior_green.azmaterial"
                                         }
                                     }
                                 }
@@ -121,12 +132,12 @@
                         "Configuration": {
                             "LightType": 6,
                             "Color": [
-                                0.6239566802978516,
-                                0.038208600133657455,
-                                0.1119249016046524
+                                0.10196078568696976,
+                                0.43529412150382996,
+                                0.16078431904315948
                             ],
                             "Intensity": 3.0,
-                            "AttenuationRadius": 2.245401620864868
+                            "AttenuationRadius": 3.2153124809265137
                         }
                     }
                 },
