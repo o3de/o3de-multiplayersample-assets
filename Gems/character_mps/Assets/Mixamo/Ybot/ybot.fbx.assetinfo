@@ -143,6 +143,84 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "$type": "ActorPhysicsSetupRule",
+                        "data": {
+                            "config": {
+                                "hitDetectionConfig": {
+                                    "nodes": [
+                                        {
+                                            "name": "mixamorig:Spine1",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "CollisionLayer": {
+                                                            "Index": 1
+                                                        },
+                                                        "Visible": true,
+                                                        "Simulated": false,
+                                                        "Position": [
+                                                            -1.0459189070388675e-11,
+                                                            2.7939677238464355e-9,
+                                                            -0.14270569384098053
+                                                        ],
+                                                        "Rotation": [
+                                                            -2.075933025480481e-8,
+                                                            -7.771233656583831e-11,
+                                                            0.0,
+                                                            1.0
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "CapsuleShapeConfiguration",
+                                                        "Height": 1.0245884656906128,
+                                                        "Radius": 0.20715969800949097
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "name": "mixamorig:Head",
+                                            "shapes": [
+                                                [
+                                                    {
+                                                        "CollisionLayer": {
+                                                            "Index": 1
+                                                        },
+                                                        "Visible": true,
+                                                        "Simulated": false,
+                                                        "Position": [
+                                                            -1.2816144590033218e-8,
+                                                            0.01571214385330677,
+                                                            0.07160919904708862
+                                                        ],
+                                                        "MaterialSlots": {
+                                                            "Slots": [
+                                                                {
+                                                                    "Name": "Entire object"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "$type": "SphereShapeConfiguration",
+                                                        "Radius": 0.19394800066947937
+                                                    }
+                                                ]
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
                     }
                 ]
             }
