@@ -1,0 +1,201 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Barrel01",
+        "Components": {
+            "Component_[10334265687053848768]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 10334265687053848768
+            },
+            "Component_[11153780880727200892]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 11153780880727200892
+            },
+            "Component_[11540549117271463644]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 11540549117271463644
+            },
+            "Component_[11568110621159602767]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 11568110621159602767
+            },
+            "Component_[12830828118212192399]": {
+                "$type": "EditorLockComponent",
+                "Id": 12830828118212192399
+            },
+            "Component_[14754423296667336314]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 14754423296667336314,
+                "Parent Entity": ""
+            },
+            "Component_[16139038701092979171]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 16139038701092979171,
+                "Child Entity Order": [
+                    "Entity_[238966470421092]"
+                ]
+            },
+            "Component_[3132991130748861861]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 3132991130748861861
+            },
+            "Component_[7129081617545192712]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7129081617545192712
+            },
+            "Component_[8725443438996616047]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 8725443438996616047
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[238966470421092]": {
+            "Id": "Entity_[238966470421092]",
+            "Name": "Barrel01",
+            "Components": {
+                "Component_[11585268878849581534]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11585268878849581534
+                },
+                "Component_[12430666453854184229]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 12430666453854184229,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{F60882AF-DBAF-5571-8CB1-89B9F4F836C2}",
+                                    "subId": 276308775
+                                },
+                                "assetHint": "barrel01/barrel01.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[13007285663519720504]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13007285663519720504
+                },
+                "Component_[13037140737516961819]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13037140737516961819
+                },
+                "Component_[14277864073025928875]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 14277864073025928875,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "opaque_MAT"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{F60882AF-DBAF-5571-8CB1-89B9F4F836C2}",
+                                    "subId": 3998197079
+                                },
+                                "assetHint": "barrel01/barrel01.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{F60882AF-DBAF-5571-8CB1-89B9F4F836C2}",
+                                        "subId": 3998197079
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "barrel01/barrel01.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
+                "Component_[15663892922555626431]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15663892922555626431
+                },
+                "Component_[17471210430505982502]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17471210430505982502,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[1918167727294717450]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1918167727294717450,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1927518764
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E38E8351-886F-57F9-8D32-228FF458D23E}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4080474991
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{CF3B7D60-CF37-517A-8D8A-F22A8EC74D55}"
+                                            },
+                                            "assetHint": "barrel01/barrel01_barrel01_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[3479951303667140794]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3479951303667140794,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17471210430505982502
+                        },
+                        {
+                            "ComponentId": 12430666453854184229,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1918167727294717450,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 14277864073025928875,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[5928302818454902612]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5928302818454902612
+                },
+                "Component_[8497327952201460783]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8497327952201460783
+                },
+                "Component_[9298397919483801730]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9298397919483801730
+                }
+            }
+        }
+    }
+}

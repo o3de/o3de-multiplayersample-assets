@@ -1,0 +1,219 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "HTS_Bench_A",
+        "Components": {
+            "Component_[13479950991503042358]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 13479950991503042358
+            },
+            "Component_[14543238684489120026]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14543238684489120026,
+                "Child Entity Order": [
+                    "Entity_[781217686168]"
+                ]
+            },
+            "Component_[16194801140440632256]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 16194801140440632256
+            },
+            "Component_[16894088035829641685]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 16894088035829641685
+            },
+            "Component_[1710602593113317048]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 1710602593113317048
+            },
+            "Component_[2049293320899467436]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 2049293320899467436
+            },
+            "Component_[3401814294555113553]": {
+                "$type": "EditorLockComponent",
+                "Id": 3401814294555113553
+            },
+            "Component_[3612189153003924184]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 3612189153003924184
+            },
+            "Component_[5374049935126005361]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 5374049935126005361,
+                "Parent Entity": ""
+            },
+            "Component_[5618628832119760659]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 5618628832119760659
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[781217686168]": {
+            "Id": "Entity_[781217686168]",
+            "Name": "HTS_Bench_A",
+            "Components": {
+                "Component_[13106308910505833081]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13106308910505833081,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[14082079382791793149]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14082079382791793149
+                },
+                "Component_[15573823284338936979]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15573823284338936979
+                },
+                "Component_[16169812338229402181]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16169812338229402181
+                },
+                "Component_[1820864736712061341]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 1820864736712061341,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial"
+                                }
+                            ]
+                        },
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {},
+                                {},
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{298E5F87-B65A-5886-B6DD-191DD9D84DE5}",
+                                    "subId": 1756050597
+                                },
+                                "assetHint": "kb3d_hightechstreets/objects/hts_bench_a/hts_bench_a.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{298E5F87-B65A-5886-B6DD-191DD9D84DE5}",
+                                        "subId": 1756050597
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "kb3d_hightechstreets/objects/hts_bench_a/hts_bench_a.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[239921800914485486]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 239921800914485486
+                },
+                "Component_[2838996810660715380]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2838996810660715380
+                },
+                "Component_[3170980486239785791]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3170980486239785791
+                },
+                "Component_[4234998160227273751]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 4234998160227273751,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 881380358
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E5F52A8E-88CC-5A89-A9D7-FFEB78D6FE7B}"
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_bench_a/hts_bench_a_kb3d_hts_plasticwhite.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1201697824
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F2EF64B7-3428-5556-BB83-773A97D42B29}"
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_bench_a/hts_bench_a_kb3d_hts_metalgrey.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3619000048
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{09C7C74C-ED70-520C-8CEE-43B57E05B366}"
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_bench_a/hts_bench_a_kb3d_hts_metalwhite.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[4365612733347430901]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4365612733347430901,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13106308910505833081
+                        },
+                        {
+                            "ComponentId": 7882069943925684405,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4234998160227273751,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 1820864736712061341,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[6211222398626242486]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6211222398626242486
+                },
+                "Component_[7882069943925684405]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 7882069943925684405,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{298E5F87-B65A-5886-B6DD-191DD9D84DE5}",
+                                    "subId": 281617696
+                                },
+                                "assetHint": "kb3d_hightechstreets/objects/hts_bench_a/hts_bench_a.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
