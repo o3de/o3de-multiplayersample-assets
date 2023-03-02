@@ -31,6 +31,7 @@ set(ENABLED_GEMS
     Terrain
     DccScriptingInterface
     QtForPython
-    PopcornFX    PhysXDebug
+    PopcornFX
+	PhysXDebug
     Stars
 )
