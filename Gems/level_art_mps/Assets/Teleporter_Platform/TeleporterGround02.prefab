@@ -1,0 +1,252 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "TeleporterGround02",
+        "Components": {
+            "Component_[11474299630108676363]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 11474299630108676363,
+                "Child Entity Order": [
+                    "Entity_[363382782020795]"
+                ]
+            },
+            "Component_[12777879842329128294]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12777879842329128294
+            },
+            "Component_[14493329933478305198]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 14493329933478305198
+            },
+            "Component_[14785937527903985170]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 14785937527903985170
+            },
+            "Component_[16163946631697064888]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 16163946631697064888
+            },
+            "Component_[4789123684229387608]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4789123684229387608,
+                "Parent Entity": ""
+            },
+            "Component_[5644881955136267365]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5644881955136267365
+            },
+            "Component_[6249812913611413855]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 6249812913611413855
+            },
+            "Component_[8647002885419830672]": {
+                "$type": "EditorLockComponent",
+                "Id": 8647002885419830672
+            },
+            "Component_[9240993492716826111]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 9240993492716826111
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[363382782020795]": {
+            "Id": "Entity_[363382782020795]",
+            "Name": "TeleporterGround02",
+            "Components": {
+                "Component_[12481164336898852542]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12481164336898852542
+                },
+                "Component_[13400025247542302622]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13400025247542302622,
+                    "Child Entity Order": [
+                        "Entity_[363391371955387]",
+                        "Entity_[363387076988091]"
+                    ]
+                },
+                "Component_[1411923903965887478]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1411923903965887478
+                },
+                "Component_[16310441580422888225]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16310441580422888225
+                },
+                "Component_[17493002300067681830]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17493002300067681830
+                },
+                "Component_[2604004730977945722]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2604004730977945722
+                },
+                "Component_[4854660653707954057]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4854660653707954057
+                },
+                "Component_[7430365798078459959]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7430365798078459959,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[8569140211082955359]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8569140211082955359,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 7430365798078459959
+                        }
+                    ]
+                }
+            }
+        },
+        "Entity_[363387076988091]": {
+            "Id": "Entity_[363387076988091]",
+            "Name": "TeleporterGroundExit02",
+            "Components": {
+                "Component_[13047906639152887554]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13047906639152887554
+                },
+                "Component_[17154601273266881611]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17154601273266881611
+                },
+                "Component_[17500513255986082187]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17500513255986082187
+                },
+                "Component_[2825761585108754542]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2825761585108754542
+                },
+                "Component_[3201766569301386781]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3201766569301386781
+                },
+                "Component_[6235345284788457831]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6235345284788457831
+                },
+                "Component_[7342801569620264968]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7342801569620264968
+                },
+                "Component_[8736641914109789]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8736641914109789
+                },
+                "Component_[98631194479816635]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 98631194479816635,
+                    "Parent Entity": "Entity_[363382782020795]",
+                    "Transform Data": {
+                        "Translate": [
+                            -15.625946044921875,
+                            7.306362152099609,
+                            19.739606857299805
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[363391371955387]": {
+            "Id": "Entity_[363391371955387]",
+            "Name": "TeleporterGround02Enter",
+            "Components": {
+                "Component_[11007733080872195433]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11007733080872195433
+                },
+                "Component_[12427244996577540486]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12427244996577540486
+                },
+                "Component_[16182021149715538630]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 16182021149715538630,
+                    "m_template": {
+                        "$type": "NetworkTeleportComponent",
+                        "Destination": "Entity_[363387076988091]"
+                    }
+                },
+                "Component_[17163630185885010368]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17163630185885010368
+                },
+                "Component_[3012135789818235481]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 3012135789818235481,
+                    "m_template": {
+                        "$type": "NetBindComponent"
+                    }
+                },
+                "Component_[4010377964195142509]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4010377964195142509
+                },
+                "Component_[4493777120324879384]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 4493777120324879384,
+                    "m_template": {
+                        "$type": "Multiplayer::NetworkTransformComponent"
+                    }
+                },
+                "Component_[4617733338173391909]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4617733338173391909
+                },
+                "Component_[5536974240790899090]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5536974240790899090
+                },
+                "Component_[7347558097825798324]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 7347558097825798324
+                },
+                "Component_[8137341888573976318]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 8137341888573976318,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                110.0,
+                                50.0,
+                                1.0
+                            ]
+                        }
+                    }
+                },
+                "Component_[8842216696269772654]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8842216696269772654
+                },
+                "Component_[8926886614530205718]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8926886614530205718,
+                    "Parent Entity": "Entity_[363382782020795]",
+                    "Transform Data": {
+                        "Translate": [
+                            -34.3001708984375,
+                            2.2820491790771484,
+                            4.603095054626465
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

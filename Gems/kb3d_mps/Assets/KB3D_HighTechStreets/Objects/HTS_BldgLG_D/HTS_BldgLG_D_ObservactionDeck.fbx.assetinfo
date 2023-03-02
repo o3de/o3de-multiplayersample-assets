@@ -1,0 +1,58 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{7AA0A70A-45EB-5E11-94D0-EF717D009670}",
+            "name": "HTS_BldgLG_D_ObservactionDeck",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.KB3D_HTS_BldgLG_D_ObservationDeck_phys"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.KB3D_HTS_BldgLG_D_ObservationDeck"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "HTS_BldgLG_D_ObservactionDeck",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.KB3D_HTS_BldgLG_D_ObservationDeck"
+                ],
+                "unselectedNodes": [
+                    "RootNode.KB3D_HTS_BldgLG_D_ObservationDeck_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{D2921D8D-2DA6-507F-8580-9CA255AC70C1}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "KB3D_HighTechStreets/Objects/HTS_BldgLG_D/HTS_BldgLG_D_ObservactionDeck_fbx.procprefab",
+            "id": "{A5FE5059-356D-5114-9E1A-335BDAA26D09}",
+            "createProceduralPrefab": false
+        }
+    ]
+}

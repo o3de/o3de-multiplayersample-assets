@@ -1,0 +1,267 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Canyon-Barren-Terrain",
+        "Components": {
+            "Component_[15287507508859681955]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 15287507508859681955
+            },
+            "Component_[16376436635540844390]": {
+                "$type": "EditorLockComponent",
+                "Id": 16376436635540844390
+            },
+            "Component_[16893389135966699929]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 16893389135966699929,
+                "Parent Entity": ""
+            },
+            "Component_[17276269134475682423]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 17276269134475682423
+            },
+            "Component_[18345766282189041259]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 18345766282189041259,
+                "Child Entity Order": [
+                    "Entity_[24246186904089]"
+                ]
+            },
+            "Component_[2469025845356760138]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 2469025845356760138
+            },
+            "Component_[2848068306531062873]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 2848068306531062873
+            },
+            "Component_[3787060616186096885]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 3787060616186096885
+            },
+            "Component_[7032984709876482782]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7032984709876482782
+            },
+            "Component_[9468010482504569591]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9468010482504569591
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[24246186904089]": {
+            "Id": "Entity_[24246186904089]",
+            "Name": "Terrain",
+            "Components": {
+                "Component_[12470665727715875269]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12470665727715875269
+                },
+                "Component_[13691665988739770091]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13691665988739770091
+                },
+                "Component_[16908397492055431547]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16908397492055431547
+                },
+                "Component_[17222232247455953380]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17222232247455953380
+                },
+                "Component_[17659357294700974186]": {
+                    "$type": "EditorAxisAlignedBoxShapeComponent",
+                    "Id": 17659357294700974186,
+                    "AxisAlignedBoxShape": {
+                        "Configuration": {
+                            "Dimensions": [
+                                1024.0,
+                                1024.0,
+                                64.0
+                            ]
+                        }
+                    }
+                },
+                "Component_[17954095844624423031]": {
+                    "$type": "EditorTerrainMacroMaterialComponent",
+                    "Id": 17954095844624423031,
+                    "Configuration": {
+                        "MacroColor": {
+                            "assetId": {
+                                "guid": "{0E6092F0-4CEE-5B7A-AE92-CA7904ED6807}",
+                                "subId": 1000
+                            },
+                            "assetHint": "canyon-barren/cb_macro_color.png.streamingimage"
+                        },
+                        "MacroNormal": {
+                            "assetId": {
+                                "guid": "{E56A58CF-85EE-5262-9627-5C0B566D5F89}",
+                                "subId": 1000
+                            },
+                            "assetHint": "canyon-barren/cb_normalmap.png.streamingimage"
+                        }
+                    }
+                },
+                "Component_[4914006367015003604]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4914006367015003604,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 7186247374812053450
+                        },
+                        {
+                            "ComponentId": 9388349147874105140,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 17659357294700974186,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 17954095844624423031,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 5695910287028415257,
+                            "SortIndex": 4
+                        }
+                    ]
+                },
+                "Component_[5695910287028415257]": {
+                    "$type": "EditorTerrainHeightGradientListComponent",
+                    "Id": 5695910287028415257,
+                    "Configuration": {
+                        "GradientEntities": [
+                            "Entity_[24250481871385]"
+                        ]
+                    }
+                },
+                "Component_[6443032894395858262]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6443032894395858262
+                },
+                "Component_[7186247374812053450]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7186247374812053450,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[9388349147874105140]": {
+                    "$type": "EditorTerrainLayerSpawnerComponent",
+                    "Id": 9388349147874105140
+                },
+                "Component_[946665620167268311]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 946665620167268311,
+                    "Child Entity Order": [
+                        "Entity_[24250481871385]"
+                    ]
+                },
+                "Component_[9484290770268009649]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9484290770268009649
+                }
+            }
+        },
+        "Entity_[24250481871385]": {
+            "Id": "Entity_[24250481871385]",
+            "Name": "Height",
+            "Components": {
+                "Component_[11353324606860386763]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11353324606860386763,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 711356657154570907
+                        },
+                        {
+                            "ComponentId": 12178218586544688227,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 18385456839477541139,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 6827534707108479348,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[12178218586544688227]": {
+                    "$type": "EditorImageGradientComponent",
+                    "Id": 12178218586544688227,
+                    "Previewer": {
+                        "BoundsEntity": "Entity_[24250481871385]"
+                    },
+                    "Configuration": {
+                        "StreamingImageAsset": {
+                            "assetId": {
+                                "guid": "{DC2BA756-531B-59C5-B82C-51D0DC0C37F9}",
+                                "subId": 1000
+                            },
+                            "assetHint": "canyon-barren/cb_height_gsi32.exr.streamingimage"
+                        }
+                    }
+                },
+                "Component_[15562687561878570883]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15562687561878570883
+                },
+                "Component_[18206104094828342886]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 18206104094828342886
+                },
+                "Component_[18385456839477541139]": {
+                    "$type": "EditorGradientTransformComponent",
+                    "Id": 18385456839477541139,
+                    "Configuration": {
+                        "ShapeReference": "",
+                        "Bounds": [
+                            1024.0,
+                            1024.0,
+                            64.0
+                        ],
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            28.521940231323242
+                        ]
+                    }
+                },
+                "Component_[46111268970549813]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 46111268970549813
+                },
+                "Component_[4747871749621576174]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4747871749621576174
+                },
+                "Component_[6827534707108479348]": {
+                    "$type": "EditorReferenceShapeComponent",
+                    "Id": 6827534707108479348,
+                    "Configuration": {
+                        "ShapeEntityId": "Entity_[24246186904089]"
+                    }
+                },
+                "Component_[711356657154570907]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 711356657154570907,
+                    "Parent Entity": "Entity_[24246186904089]"
+                },
+                "Component_[8537927939565702083]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8537927939565702083
+                },
+                "Component_[8778011987101787385]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8778011987101787385
+                },
+                "Component_[881789252981861833]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 881789252981861833
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,161 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "PlanterEnd",
+        "Components": {
+            "Component_[11042121684456055598]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 11042121684456055598
+            },
+            "Component_[13443404191573749306]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 13443404191573749306
+            },
+            "Component_[15720394309655054105]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 15720394309655054105
+            },
+            "Component_[17897865587653922346]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 17897865587653922346
+            },
+            "Component_[2254049285596428767]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 2254049285596428767
+            },
+            "Component_[309357119800967551]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 309357119800967551
+            },
+            "Component_[3707446138903164595]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 3707446138903164595,
+                "Child Entity Order": [
+                    "Entity_[1051169829263]"
+                ]
+            },
+            "Component_[8478848366323773590]": {
+                "$type": "EditorLockComponent",
+                "Id": 8478848366323773590
+            },
+            "Component_[9106774376585452462]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 9106774376585452462,
+                "Parent Entity": ""
+            },
+            "Component_[9779071425076009561]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 9779071425076009561
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1051169829263]": {
+            "Id": "Entity_[1051169829263]",
+            "Name": "PlanterEnd",
+            "Components": {
+                "Component_[13135553499728157216]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13135553499728157216,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14561000884609184436
+                        },
+                        {
+                            "ComponentId": 7454083761304750917,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 14719229155911771364,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[13584481302771607762]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13584481302771607762
+                },
+                "Component_[14561000884609184436]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14561000884609184436,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[14719229155911771364]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 14719229155911771364,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 238110730
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{380A1316-AFC4-5561-B63E-EBEAF8860F21}"
+                                            },
+                                            "assetHint": "materials/rocky dirt/rocky_dirt.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3220853173
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{311F3A39-17E2-58F8-8C4D-160E1AD3B787}"
+                                            },
+                                            "assetHint": "planter/planter_full_planter_wall_largemat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[15704117998521033837]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15704117998521033837
+                },
+                "Component_[16015454585473624783]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16015454585473624783
+                },
+                "Component_[17493948119051321610]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17493948119051321610
+                },
+                "Component_[2759602312141933124]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2759602312141933124
+                },
+                "Component_[4287807509278011221]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4287807509278011221
+                },
+                "Component_[4734129106065343479]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4734129106065343479
+                },
+                "Component_[7454083761304750917]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 7454083761304750917,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{A81FCC5D-C9BD-5DC5-8073-8C5E76E7716B}",
+                                    "subId": 282594470
+                                },
+                                "assetHint": "planter/planter_end.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
