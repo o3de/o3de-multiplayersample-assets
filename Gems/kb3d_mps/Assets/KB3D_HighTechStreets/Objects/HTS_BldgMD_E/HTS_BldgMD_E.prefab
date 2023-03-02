@@ -19,10 +19,6 @@
                 "$type": "EditorPrefabComponent",
                 "Id": 13709778452613931614
             },
-            "Component_[17461156936345648379]": {
-                "$type": "SelectionComponent",
-                "Id": 17461156936345648379
-            },
             "Component_[1865096613002940990]": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                 "Id": 1865096613002940990,
@@ -238,22 +234,14 @@
                     ]
                 },
                 "Component_[13567400293671649133]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 13567400293671649133,
                     "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
                             ]
                         }
                     },
@@ -306,6 +294,10 @@
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 15286603366295955980
                 },
+                "Component_[16767361510080919871]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 16767361510080919871
+                },
                 "Component_[18208771296265097726]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 18208771296265097726
@@ -321,10 +313,6 @@
                 "Component_[7439252062723317517]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 7439252062723317517
-                },
-                "Component_[7583679131081656264]": {
-                    "$type": "SelectionComponent",
-                    "Id": 7583679131081656264
                 }
             }
         }

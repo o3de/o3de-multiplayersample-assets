@@ -6,8 +6,9 @@
         "baseColor.textureMap": "textures/Barrel01_basecolor.png",
         "baseColor.textureMapUv": "Unwrapped",
         "emissive.enable": true,
-        "emissive.intensity": 3.0,
+        "emissive.intensity": 5.659999847412109,
         "emissive.textureMap": "textures/Barrel01_Emissive.png",
+        "irradiance.irradianceColorSource": "BaseColor",
         "metallic.textureMap": "textures/Barrel01_Metallic.png",
         "metallic.textureMapUv": "Unwrapped",
         "normal.textureMap": "textures/Barrel01_Normal.png",
@@ -17,6 +18,7 @@
         "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
         "roughness.textureMap": "textures/Barrel01_Roughness.png",
-        "roughness.textureMapUv": "Unwrapped"
+        "roughness.textureMapUv": "Unwrapped",
+        "specularF0.enableMultiScatterCompensation": true
     }
 }

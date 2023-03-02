@@ -59,6 +59,10 @@
                     "Id": 10136251117651982247,
                     "Parent Entity": "ContainerEntity"
                 },
+                "Component_[11098258126220096065]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 11098258126220096065
+                },
                 "Component_[11243473152170555740]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 11243473152170555740
@@ -111,6 +115,42 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 17707133605842290781
                 },
+                "Component_[1879806892911380938]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1879806892911380938,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 738989466
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E5F6A490-C4ED-5491-B11D-EC346C4D029C}"
+                                            },
+                                            "assetHint": "lec30d/lec30d_opaque_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1730094122
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B9B6A725-3391-5303-A8AE-E466032CBFF4}"
+                                            },
+                                            "assetHint": "lec30d/lec30d_alpha_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
                 "Component_[3350631749045724679]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 3350631749045724679
@@ -120,7 +160,7 @@
                     "Id": 7321217677255059796
                 },
                 "Component_[7456320538593033876]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 7456320538593033876,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -154,107 +194,6 @@
                     },
                     "DebugDrawSettings": {
                         "LocallyEnabled": false
-                    }
-                },
-                "Component_[7547372204309924925]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 7547372204309924925,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 160123053
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{E0BB5FAB-D85C-528C-9101-0A2887DFF9C0}"
-                                            },
-                                            "assetHint": "lec30d/lec30d_lec30d_trans_01_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 254569207
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{9DE0BED7-260E-58EC-A1F1-91D8F3936A33}"
-                                            },
-                                            "assetHint": "lec30d/lec30d_lec30d_trans_03_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 738989466
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{E5F6A490-C4ED-5491-B11D-EC346C4D029C}"
-                                            },
-                                            "assetHint": "lec30d/lec30d_opaque_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1084721807
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{25E2AB28-DBCA-59C3-B204-F49237B1684C}"
-                                            },
-                                            "assetHint": "lec30d/lec30d_lec30d_trans_02_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1730094122
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{B9B6A725-3391-5303-A8AE-E466032CBFF4}"
-                                            },
-                                            "assetHint": "lec30d/lec30d_alpha_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 3275344042
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{581D20F2-9911-508D-AAAF-7D241A7DA86A}"
-                                            },
-                                            "assetHint": "lec30d/lec30d_lec30d_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 3800443559
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{237C5124-8DA2-5C86-AF7F-D6EB7389EAC9}"
-                                            },
-                                            "assetHint": "lec30d/lec30d_lec30d_trans_00_mat.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
                     }
                 },
                 "Component_[918298663683838079]": {

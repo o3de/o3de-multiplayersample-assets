@@ -73,9 +73,36 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 1051697174901691759
                 },
+                "Component_[15828550710024451460]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 15828550710024451460
+                },
                 "Component_[17272149742081721763]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 17272149742081721763
+                },
+                "Component_[17766709752498215059]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 17766709752498215059,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1927518764
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A9637DF4-45A8-5362-A708-7BEC5C58FFD5}"
+                                            },
+                                            "assetHint": "crate/crate_opaque_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
                 },
                 "Component_[17920592120493094163]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -86,7 +113,7 @@
                     }
                 },
                 "Component_[18133601253046655915]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 18133601253046655915,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -163,41 +190,6 @@
                             "SortIndex": 3
                         }
                     ]
-                },
-                "Component_[5768305738533390150]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 5768305738533390150,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 72869822
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{C2634BFC-B6E1-585C-8973-7FF04AE036BB}"
-                                            },
-                                            "assetHint": "crate/crate_crate_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1927518764
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{A9637DF4-45A8-5362-A708-7BEC5C58FFD5}"
-                                            }
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
                 },
                 "Component_[7933316247531469783]": {
                     "$type": "EditorDisabledCompositionComponent",

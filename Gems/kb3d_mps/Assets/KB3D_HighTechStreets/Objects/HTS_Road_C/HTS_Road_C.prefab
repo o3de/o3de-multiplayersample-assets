@@ -46,10 +46,6 @@
             "Component_[9107495697719838840]": {
                 "$type": "EditorOnlyEntityComponent",
                 "Id": 9107495697719838840
-            },
-            "Component_[9954834264521938885]": {
-                "$type": "SelectionComponent",
-                "Id": 9954834264521938885
             }
         }
     },
@@ -58,13 +54,40 @@
             "Id": "Entity_[1884057538463]",
             "Name": "HTS_Road_C",
             "Components": {
-                "Component_[12803882762364035972]": {
-                    "$type": "SelectionComponent",
-                    "Id": 12803882762364035972
+                "Component_[12919241414073202520]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12919241414073202520
                 },
-                "Component_[12842653883615731342]": {
+                "Component_[13815756384539286692]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13815756384539286692
+                },
+                "Component_[13960209934118255794]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13960209934118255794
+                },
+                "Component_[15165396482870800394]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 15165396482870800394,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{13E539F9-9535-512F-B9FA-8DACFC2BA772}",
+                                    "subId": 283344819
+                                },
+                                "assetHint": "kb3d_hightechstreets/objects/hts_road_c/hts_road_c.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[18257484265325945063]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 18257484265325945063
+                },
+                "Component_[18357085575233135816]": {
                     "$type": "EditorMaterialComponent",
-                    "Id": 12842653883615731342,
+                    "Id": 18357085575233135816,
                     "Controller": {
                         "Configuration": {
                             "materials": [
@@ -176,44 +199,13 @@
                         }
                     }
                 },
-                "Component_[12919241414073202520]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 12919241414073202520
-                },
-                "Component_[13815756384539286692]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 13815756384539286692
-                },
-                "Component_[13960209934118255794]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 13960209934118255794
-                },
-                "Component_[15165396482870800394]": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 15165396482870800394,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{13E539F9-9535-512F-B9FA-8DACFC2BA772}",
-                                    "subId": 283344819
-                                },
-                                "assetHint": "kb3d_hightechstreets/objects/hts_road_c/hts_road_c.azmodel"
-                            }
-                        }
-                    }
-                },
-                "Component_[18257484265325945063]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 18257484265325945063
-                },
                 "Component_[2275723906922644356]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 2275723906922644356,
                     "Parent Entity": "ContainerEntity"
                 },
                 "Component_[2855286351398012508]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 2855286351398012508,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -287,6 +279,10 @@
                             "SortIndex": 3
                         }
                     ]
+                },
+                "Component_[5934379282337311666]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 5934379282337311666
                 },
                 "Component_[6443974148419949852]": {
                     "$type": "EditorDisabledCompositionComponent",

@@ -74,7 +74,7 @@
                     "Id": 1051697174901691759
                 },
                 "Component_[16306428596482981108]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 16306428596482981108,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -164,25 +164,20 @@
                         }
                     ]
                 },
-                "Component_[6737136492483115226]": {
+                "Component_[6114654675617740587]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 6114654675617740587
+                },
+                "Component_[7933316247531469783]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7933316247531469783
+                },
+                "Component_[927050951543772369]": {
                     "$type": "EditorMaterialComponent",
-                    "Id": 6737136492483115226,
+                    "Id": 927050951543772369,
                     "Controller": {
                         "Configuration": {
                             "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 72869822
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{C2634BFC-B6E1-585C-8973-7FF04AE036BB}"
-                                            },
-                                            "assetHint": "crate/crate_crate_mat.azmaterial"
-                                        }
-                                    }
-                                },
                                 {
                                     "Key": {
                                         "materialSlotStableId": 1927518764
@@ -191,17 +186,14 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{A9637DF4-45A8-5362-A708-7BEC5C58FFD5}"
-                                            }
+                                            },
+                                            "assetHint": "crate/crate_opaque_mat.azmaterial"
                                         }
                                     }
                                 }
                             ]
                         }
                     }
-                },
-                "Component_[7933316247531469783]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 7933316247531469783
                 }
             }
         }

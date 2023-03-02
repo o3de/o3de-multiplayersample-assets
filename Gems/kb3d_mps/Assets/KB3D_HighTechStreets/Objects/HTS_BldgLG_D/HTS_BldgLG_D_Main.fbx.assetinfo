@@ -6,19 +6,28 @@
             "name": "HTS_BldgLG_D_Main",
             "NodeSelectionList": {
                 "selectedNodes": [
-                    "RootNode.KB3D_HTS_BldgLG_D_Main_phys"
+                    "RootNode.Main.Main_phys"
                 ],
                 "unselectedNodes": [
                     {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_BldgLG_D_Door",
-                    "RootNode.KB3D_HTS_BldgLG_D_Main"
+                    "RootNode.Main",
+                    "RootNode.Main.LOD_Group_1",
+                    "RootNode.Main.LOD_Group_1.LOD0",
+                    "RootNode.Main.LOD_Group_1.LOD1",
+                    "RootNode.Main.LOD_Group_1.LOD2",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo",
+                    "RootNode.Main.LOD_Group_1.LOD2.Main_geo",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.Door",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.Door",
+                    "RootNode.Main.LOD_Group_1.LOD2.Main_geo.Door"
                 ]
             },
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "DefaultMaterial"
+                        "Name": "phys_MAT"
                     }
                 ]
             }
@@ -30,18 +39,27 @@
                 "selectedNodes": [
                     {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_BldgLG_D_Door",
-                    "RootNode.KB3D_HTS_BldgLG_D_Main"
+                    "RootNode.Main",
+                    "RootNode.Main.LOD_Group_1",
+                    "RootNode.Main.LOD_Group_1.LOD0",
+                    "RootNode.Main.LOD_Group_1.LOD1",
+                    "RootNode.Main.LOD_Group_1.LOD2",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo",
+                    "RootNode.Main.LOD_Group_1.LOD2.Main_geo",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.Door",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.Door",
+                    "RootNode.Main.LOD_Group_1.LOD2.Main_geo.Door"
                 ],
                 "unselectedNodes": [
-                    "RootNode.KB3D_HTS_BldgLG_D_Main_phys"
+                    "RootNode.Main.Main_phys"
                 ]
             },
             "rules": {
                 "rules": [
                     {
                         "$type": "StaticMeshAdvancedRule",
-                        "vertexColorStreamName": "Col0"
+                        "vertexColorStreamName": "Disabled"
                     },
                     {
                         "$type": "MaterialRule"
@@ -49,12 +67,6 @@
                 ]
             },
             "id": "{9581A928-5EE4-5761-821F-4186AD277575}"
-        },
-        {
-            "$type": "PrefabGroup",
-            "name": "KB3D_HighTechStreets/Objects/HTS_BldgLG_D/HTS_BldgLG_D_Main_fbx.procprefab",
-            "id": "{5F16CCEC-6FCF-5151-A765-51B3C06FEFAF}",
-            "createProceduralPrefab": false
         }
     ]
 }

@@ -55,7 +55,7 @@
             "Name": "Teleporter",
             "Components": {
                 "Component_[10112924460877714862]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 10112924460877714862,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -97,9 +97,9 @@
                         "LocallyEnabled": false
                     }
                 },
-                "Component_[13801805935512504733]": {
+                "Component_[11307696145514994862]": {
                     "$type": "EditorMaterialComponent",
-                    "Id": 13801805935512504733,
+                    "Id": 11307696145514994862,
                     "Controller": {
                         "Configuration": {
                             "materials": [
@@ -139,6 +139,12 @@
                                                 "guid": "{378CEC84-738E-5AB0-B154-7D34D7835016}"
                                             },
                                             "assetHint": "teleporter_platform/teleporter_platform_teleportermat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 7.0
+                                            }
                                         }
                                     }
                                 }
@@ -248,17 +254,14 @@
                         }
                     }
                 },
+                "Component_[6938845176169300599]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 6938845176169300599
+                },
                 "Component_[7332157232204005176]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7332157232204005176,
-                    "Parent Entity": "ContainerEntity",
-                    "Transform Data": {
-                        "Translate": [
-                            4.9259033203125,
-                            -2.1638526916503906,
-                            -1.3344173431396484
-                        ]
-                    }
+                    "Parent Entity": "ContainerEntity"
                 },
                 "Component_[7353658281855334280]": {
                     "$type": "EditorEntityIconComponent",

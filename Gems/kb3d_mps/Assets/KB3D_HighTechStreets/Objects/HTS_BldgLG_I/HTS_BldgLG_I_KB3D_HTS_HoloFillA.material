@@ -11,26 +11,19 @@
         ],
         "baseColor.textureBlendMode": "Overlay",
         "baseColor.textureMap": "../../KB3DTextures/KB3D_HTS_HoloFillA_basecolor.png",
-        "emissive.color": [
-            0.21493858098983765,
-            0.4094911217689514,
-            0.6802624464035034,
-            1.0
-        ],
+        "emissive.affectedByAlpha": 1.0,
         "emissive.enable": true,
-        "emissive.intensity": 3.200000047683716,
         "emissive.textureMap": "../../KB3DTextures/KB3D_HTS_HoloFillA_emissive.png",
-        "emissive.useTexture": false,
+        "general.castShadows": false,
         "general.doubleSided": true,
         "general.enableShadows": false,
-        "metallic.textureMap": "../../KB3DTextures/KB3D_HTS_HoloFillA_metallic.png",
+        "irradiance.irradianceColorSource": "BaseColor",
+        "metallic.useTexture": false,
         "normal.textureMap": "../../KB3DTextures/KB3D_HTS_HoloFillA_normal.png",
         "opacity.alphaSource": "Split",
-        "opacity.factor": 0.41999998688697815,
-        "opacity.mode": "TintedTransparent",
+        "opacity.factor": 1.0,
+        "opacity.mode": "Blended",
         "opacity.textureMap": "../../KB3DTextures/KB3D_HTS_HoloFillA_opacity.png",
-        "parallax.textureMap": "../../KB3DTextures/KB3D_HTS_HoloFillA_height.png",
-        "parallax.useTexture": false,
         "roughness.textureMap": "../../KB3DTextures/KB3D_HTS_HoloFillA_roughness.png"
     }
 }

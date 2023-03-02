@@ -54,6 +54,10 @@
             "Id": "Entity_[1103265106721603]",
             "Name": "mshieldgen",
             "Components": {
+                "Component_[10109660033998990026]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 10109660033998990026
+                },
                 "Component_[10377095204379885453]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 10377095204379885453,
@@ -62,42 +66,6 @@
                 "Component_[10425888115008889075]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 10425888115008889075
-                },
-                "Component_[12036928132347972099]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 12036928132347972099,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1458347081
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{F32E0050-C456-5B1B-96E2-F4B82486D924}"
-                                            },
-                                            "assetHint": "malfunctioningshieldgenerator/mshieldgen_mshieldgen_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 3266363717
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{C725332A-04CC-5051-8C63-A347EA2C6D72}"
-                                            },
-                                            "assetHint": "malfunctioningshieldgenerator/mshieldgen_opaque_mat.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
                 },
                 "Component_[12100052168573794820]": {
                     "$type": "EditorEntitySortComponent",
@@ -108,7 +76,7 @@
                     "Id": 13851468120070323071
                 },
                 "Component_[15617014590518523349]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 15617014590518523349,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -180,6 +148,29 @@
                 "Component_[257525767800539830]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 257525767800539830
+                },
+                "Component_[2919161451675120318]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 2919161451675120318,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3266363717
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C725332A-04CC-5051-8C63-A347EA2C6D72}"
+                                            },
+                                            "assetHint": "malfunctioningshieldgenerator/mshieldgen_opaque_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
                 },
                 "Component_[6769368990024884033]": {
                     "$type": "AZ::Render::EditorMeshComponent",

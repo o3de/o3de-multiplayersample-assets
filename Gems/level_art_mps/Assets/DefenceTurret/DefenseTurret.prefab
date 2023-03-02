@@ -63,7 +63,7 @@
                     "Id": 13823397236224620794
                 },
                 "Component_[15098578983899491307]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 15098578983899491307,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -120,6 +120,10 @@
                     "$type": "EditorLockComponent",
                     "Id": 3178359612842764654
                 },
+                "Component_[4315581377446364950]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 4315581377446364950
+                },
                 "Component_[6685531474249640067]": {
                     "$type": "AZ::Render::EditorMeshComponent",
                     "Id": 6685531474249640067,
@@ -149,7 +153,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{6750615E-D0A9-5759-B55A-A68B64343574}"
-                                            }
+                                            },
+                                            "assetHint": "defenceturret/defenceturret_opaque_mat.azmaterial"
                                         }
                                     }
                                 }

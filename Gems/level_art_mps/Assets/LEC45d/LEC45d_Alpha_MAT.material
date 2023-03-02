@@ -5,16 +5,18 @@
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "textures/LEC45d_BaseColor.jpg",
         "emissive.enable": true,
-        "emissive.intensity": 3.0,
+        "emissive.intensity": 5.0,
         "emissive.textureMap": "textures/LEC45d_Emissive.jpg",
+        "irradiance.irradianceColorSource": "BaseColor",
         "metallic.textureMap": "textures/LEC45d_Metallic.jpg",
         "normal.textureMap": "textures/LEC45d_Normal.jpg",
         "occlusion.diffuseTextureMap": "textures/LEC45d_AO.jpg",
         "opacity.alphaSource": "Split",
-        "opacity.factor": 1.0,
-        "opacity.mode": "Blended",
+        "opacity.factor": 0.4000000059604645,
+        "opacity.mode": "TintedTransparent",
         "opacity.textureMap": "textures/LEC45d_opacity.jpg",
         "roughness.factor": 0.33000001311302185,
-        "roughness.textureMap": "textures/LEC45d_Roughness.jpg"
+        "roughness.textureMap": "textures/LEC45d_Roughness.jpg",
+        "specularF0.enableMultiScatterCompensation": true
     }
 }

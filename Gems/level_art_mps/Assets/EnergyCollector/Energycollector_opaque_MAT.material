@@ -6,8 +6,9 @@
         "baseColor.textureMap": "textures/Energycollector_basecolor.png",
         "baseColor.textureMapUv": "Unwrapped",
         "emissive.enable": true,
-        "emissive.intensity": 3.0,
+        "emissive.intensity": 5.0,
         "emissive.textureMap": "textures/Energycollector_Emissive.png",
+        "irradiance.irradianceColorSource": "BaseColor",
         "metallic.textureMap": "textures/Energycollector_Metallic.png",
         "metallic.textureMapUv": "Unwrapped",
         "normal.textureMap": "textures/Energycollector_Normal.png",
@@ -18,6 +19,7 @@
         "opacity.textureMap": "textures/Energycollector_opacity.png",
         "roughness.factor": 0.33000001311302185,
         "roughness.textureMap": "textures/Energycollector_Roughness.png",
-        "roughness.textureMapUv": "Unwrapped"
+        "roughness.textureMapUv": "Unwrapped",
+        "specularF0.enableMultiScatterCompensation": true
     }
 }

@@ -96,9 +96,13 @@
                     "Id": 15946245671939163064,
                     "Parent Entity": "ContainerEntity"
                 },
-                "Component_[16403598602164850608]": {
+                "Component_[17824652479736738769]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17824652479736738769
+                },
+                "Component_[2642185691256487465]": {
                     "$type": "EditorMaterialComponent",
-                    "Id": 16403598602164850608,
+                    "Id": 2642185691256487465,
                     "Controller": {
                         "Configuration": {
                             "materials": [
@@ -114,27 +118,10 @@
                                             "assetHint": "barrel01/barrel01_opaque_mat.azmaterial"
                                         }
                                     }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 4080474991
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{CF3B7D60-CF37-517A-8D8A-F22A8EC74D55}"
-                                            },
-                                            "assetHint": "barrel01/barrel01_barrel01_mat.azmaterial"
-                                        }
-                                    }
                                 }
                             ]
                         }
                     }
-                },
-                "Component_[17824652479736738769]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 17824652479736738769
                 },
                 "Component_[4948415900078242608]": {
                     "$type": "EditorEntitySortComponent",
@@ -156,7 +143,7 @@
                     }
                 },
                 "Component_[7400724477359485941]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 7400724477359485941,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -191,6 +178,10 @@
                     "DebugDrawSettings": {
                         "LocallyEnabled": false
                     }
+                },
+                "Component_[7837798807590721068]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 7837798807590721068
                 },
                 "Component_[7890103433140478346]": {
                     "$type": "EditorPendingCompositionComponent",

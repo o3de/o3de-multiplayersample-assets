@@ -55,7 +55,7 @@
             "Name": "EBarricade",
             "Components": {
                 "Component_[11567975610932433476]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 11567975610932433476,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -104,6 +104,10 @@
                     "$type": "EditorLockComponent",
                     "Id": 13515598111338415556
                 },
+                "Component_[14050987524619080496]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 14050987524619080496
+                },
                 "Component_[14785774383511480372]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 14785774383511480372
@@ -112,34 +116,9 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 14966844720076242289
                 },
-                "Component_[18425486717107963378]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 18425486717107963378
-                },
-                "Component_[3629004860271229354]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 3629004860271229354,
-                    "ComponentOrderEntryArray": [
-                        {
-                            "ComponentId": 12636252744331417698
-                        },
-                        {
-                            "ComponentId": 6829171285909735844,
-                            "SortIndex": 1
-                        },
-                        {
-                            "ComponentId": 366725966501301151,
-                            "SortIndex": 2
-                        },
-                        {
-                            "ComponentId": 11567975610932433476,
-                            "SortIndex": 3
-                        }
-                    ]
-                },
-                "Component_[366725966501301151]": {
+                "Component_[16273873070471274391]": {
                     "$type": "EditorMaterialComponent",
-                    "Id": 366725966501301151,
+                    "Id": 16273873070471274391,
                     "Controller": {
                         "Configuration": {
                             "materials": [
@@ -168,23 +147,35 @@
                                             "assetHint": "ebarricade/ebarricade_alpha_mat.azmaterial"
                                         }
                                     }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 3014750170
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{F6244809-7256-55DF-A0A2-1CC37F9DF68E}"
-                                            },
-                                            "assetHint": "ebarricade/ebarricade_transparent_mat.azmaterial"
-                                        }
-                                    }
                                 }
                             ]
                         }
                     }
+                },
+                "Component_[18425486717107963378]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18425486717107963378
+                },
+                "Component_[3629004860271229354]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3629004860271229354,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 12636252744331417698
+                        },
+                        {
+                            "ComponentId": 6829171285909735844,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 366725966501301151,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 11567975610932433476,
+                            "SortIndex": 3
+                        }
+                    ]
                 },
                 "Component_[6494507528937896408]": {
                     "$type": "EditorOnlyEntityComponent",

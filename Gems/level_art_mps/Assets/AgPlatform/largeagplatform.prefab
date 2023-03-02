@@ -54,28 +54,9 @@
             "Id": "Entity_[27097484573149]",
             "Name": "largeagplatform",
             "Components": {
-                "Component_[10874250648460188231]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 10874250648460188231,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 3937903186
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{7E892F80-938C-5F52-B1F4-4C71B1C0E614}"
-                                            },
-                                            "assetHint": "agplatform/agplatform_agplatform_mat.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
+                "Component_[12008167320555306549]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 12008167320555306549
                 },
                 "Component_[12545584148022460756]": {
                     "$type": "EditorVisibilityComponent",
@@ -88,6 +69,29 @@
                 "Component_[17427530084412171702]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 17427530084412171702
+                },
+                "Component_[18031002209090999540]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 18031002209090999540,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1927518764
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B78D9855-4A2B-5F89-B2CF-9037D944D245}"
+                                            },
+                                            "assetHint": "agplatform/agplatform_opaque_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
                 },
                 "Component_[2553518195469688529]": {
                     "$type": "EditorPendingCompositionComponent",
@@ -106,13 +110,13 @@
                     "Id": 5881508764027456744
                 },
                 "Component_[6210812951853337619]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 6210812951853337619,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "lambert1"
+                                    "Name": "opaque_MAT"
                                 }
                             ]
                         }

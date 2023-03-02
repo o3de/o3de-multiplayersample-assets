@@ -1,0 +1,74 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{6D91BEBE-BFF9-53CC-9420-CA03931A2F2B}",
+            "name": "HTS_Bldglg_F_Door",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Door.Door_phys"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Door",
+                    "RootNode.Door.Door_geo",
+                    "RootNode.Door.Door_geo.polySurface409",
+                    "RootNode.Door.Door_geo.polySurface410",
+                    "RootNode.Door.Door_geo.polySurface411",
+                    "RootNode.Door.Door_geo.polySurface412",
+                    "RootNode.Door.Door_geo.polySurface413",
+                    "RootNode.Door.Door_geo.polySurface414",
+                    "RootNode.Door.Door_geo.polySurface415",
+                    "RootNode.Door.Door_geo.polySurface416",
+                    "RootNode.Door.Door_geo.polySurface417",
+                    "RootNode.Door.Door_geo.polySurface418"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "phys_MAT"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "HTS_Bldglg_F_Door",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Door",
+                    "RootNode.Door.Door_geo",
+                    "RootNode.Door.Door_geo.polySurface409",
+                    "RootNode.Door.Door_geo.polySurface410",
+                    "RootNode.Door.Door_geo.polySurface411",
+                    "RootNode.Door.Door_geo.polySurface412",
+                    "RootNode.Door.Door_geo.polySurface413",
+                    "RootNode.Door.Door_geo.polySurface414",
+                    "RootNode.Door.Door_geo.polySurface415",
+                    "RootNode.Door.Door_geo.polySurface416",
+                    "RootNode.Door.Door_geo.polySurface417",
+                    "RootNode.Door.Door_geo.polySurface418"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Door.Door_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Disabled"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{2BCAE132-CDBB-5D80-8D15-23E28D90CCD6}"
+        }
+    ]
+}

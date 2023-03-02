@@ -6,25 +6,19 @@
             "name": "HTS_BldgMD_A_Main",
             "NodeSelectionList": {
                 "selectedNodes": [
-                    "RootNode.KB3D_HTS_BldgMD_A_Main_phys"
+                    "RootNode.Main.Main_phys"
                 ],
                 "unselectedNodes": [
                     {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_BldgMD_A_Main",
-                    "RootNode.KB3D_HTS_BldgMD_A_ChairC",
-                    "RootNode.KB3D_HTS_BldgMD_A_ChairF",
-                    "RootNode.KB3D_HTS_BldgMD_A_ChairE",
-                    "RootNode.KB3D_HTS_BldgMD_A_ChairD",
-                    "RootNode.KB3D_HTS_BldgMD_A_ChairA",
-                    "RootNode.KB3D_HTS_BldgMD_A_HoloA",
-                    "RootNode.KB3D_HTS_BldgMD_A_ChairB"
+                    "RootNode.Main",
+                    "RootNode.Main.Main_geo"
                 ]
             },
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "DefaultMaterial"
+                        "Name": "lambert1"
                     }
                 ]
             }
@@ -36,37 +30,21 @@
                 "selectedNodes": [
                     {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_BldgMD_A_Main",
-                    "RootNode.KB3D_HTS_BldgMD_A_ChairC",
-                    "RootNode.KB3D_HTS_BldgMD_A_ChairF",
-                    "RootNode.KB3D_HTS_BldgMD_A_ChairE",
-                    "RootNode.KB3D_HTS_BldgMD_A_ChairD",
-                    "RootNode.KB3D_HTS_BldgMD_A_ChairA",
-                    "RootNode.KB3D_HTS_BldgMD_A_HoloA",
-                    "RootNode.KB3D_HTS_BldgMD_A_ChairB"
+                    "RootNode.Main",
+                    "RootNode.Main.Main_geo"
                 ],
                 "unselectedNodes": [
-                    "RootNode.KB3D_HTS_BldgMD_A_Main_phys"
+                    "RootNode.Main.Main_phys"
                 ]
             },
             "rules": {
                 "rules": [
-                    {
-                        "$type": "StaticMeshAdvancedRule",
-                        "vertexColorStreamName": "Col0"
-                    },
                     {
                         "$type": "MaterialRule"
                     }
                 ]
             },
             "id": "{7384E553-1BEB-5C47-A8CB-614F9C007F85}"
-        },
-        {
-            "$type": "PrefabGroup",
-            "name": "KB3D_HighTechStreets/Objects/HTS_BldgMD_A/HTS_BldgMD_A_Main_fbx.procprefab",
-            "id": "{062DEFEC-74DD-565F-8532-E7A0F258A24F}",
-            "createProceduralPrefab": false
         }
     ]
 }

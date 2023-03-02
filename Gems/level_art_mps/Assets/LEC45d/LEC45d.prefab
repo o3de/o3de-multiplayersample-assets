@@ -68,7 +68,7 @@
                     "Parent Entity": "ContainerEntity"
                 },
                 "Component_[11062343079787247229]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 11062343079787247229,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -102,6 +102,46 @@
                     },
                     "DebugDrawSettings": {
                         "LocallyEnabled": false
+                    }
+                },
+                "Component_[12407881375474222086]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 12407881375474222086
+                },
+                "Component_[13167236848490048581]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13167236848490048581,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 738989466
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1CC1E9B1-1020-5778-9FE0-83FBAD8FF087}"
+                                            },
+                                            "assetHint": "lec45d/lec45d_opaque_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1730094122
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9741517B-FB23-56C4-95F0-2739E0D6CEC5}"
+                                            },
+                                            "assetHint": "lec45d/lec45d_alpha_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
                     }
                 },
                 "Component_[13824165907351970343]": {
@@ -155,146 +195,6 @@
                 "Component_[5546218426936270932]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 5546218426936270932
-                },
-                "Component_[5610562014603843575]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 5610562014603843575,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 516757599
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{B4390930-63C7-59DD-8D39-299B3403B027}"
-                                            },
-                                            "assetHint": "lec45d/lec45d_lec45d_trans_02_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 738989466
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{1CC1E9B1-1020-5778-9FE0-83FBAD8FF087}"
-                                            },
-                                            "assetHint": "lec45d/lec45d_opaque_mat.azmaterial"
-                                        },
-                                        "PropertyOverrides": {
-                                            "emissive.enable": {
-                                                "$type": "bool",
-                                                "Value": true
-                                            },
-                                            "emissive.intensity": {
-                                                "$type": "float",
-                                                "Value": 3.0
-                                            }
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1065557945
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{BBE8ED96-DAE4-59F0-9D70-CBCC2D8B3F85}"
-                                            },
-                                            "assetHint": "lec45d/lec45d_lec45d_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1730094122
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{9741517B-FB23-56C4-95F0-2739E0D6CEC5}"
-                                            },
-                                            "assetHint": "lec45d/lec45d_alpha_mat.azmaterial"
-                                        },
-                                        "PropertyOverrides": {
-                                            "emissive.enable": {
-                                                "$type": "bool",
-                                                "Value": true
-                                            },
-                                            "emissive.intensity": {
-                                                "$type": "float",
-                                                "Value": 3.0
-                                            },
-                                            "opacity.alphaAffectsSpecular": {
-                                                "$type": "float",
-                                                "Value": 0.0
-                                            },
-                                            "opacity.alphaSource": {
-                                                "$type": "unsigned int",
-                                                "Value": 1
-                                            },
-                                            "opacity.mode": {
-                                                "$type": "unsigned int",
-                                                "Value": 2
-                                            },
-                                            "opacity.textureMap": {
-                                                "$type": "AssetId",
-                                                "Value": {
-                                                    "guid": "{3BC03E6D-E27C-534B-A35A-9F5C8235AFA6}",
-                                                    "subId": 1000
-                                                }
-                                            }
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 3626704539
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{974C510A-B73A-5793-A8AF-6822A5392E50}"
-                                            },
-                                            "assetHint": "lec45d/lec45d_lec45d_trans_01_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 3997576977
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{FCCED241-8D69-5131-9F62-6C5D1352ABA8}"
-                                            },
-                                            "assetHint": "lec45d/lec45d_lec45d_trans_03_mat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 4058554880
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{086CACF7-DDFD-5702-A9D5-1CD1E310C929}"
-                                            },
-                                            "assetHint": "lec45d/lec45d_lec45d_trans_00_mat.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
                 },
                 "Component_[9317751628839443500]": {
                     "$type": "EditorOnlyEntityComponent",

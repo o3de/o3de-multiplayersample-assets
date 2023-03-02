@@ -1,4 +1,4 @@
-# Getting Started with Content Tools
+# MPS Getting Started with Content Tools
 
 You can follow on of these guide to get up and running:
 
@@ -8,10 +8,7 @@ You can follow on of these guide to get up and running:
 
 Or you could work with these assets in your own game project.
 
-Be aware of asset licensing restrictions present in this repo. Some Assets have been developed by third parties and are subject  to separate license terms (such as the Kitbash3D assets or Mixamo files).  It is your responsibility to comply with the applicable licenses. 
-Information on third party materials, and the applicable license terms, are 
-referenced in or included with the materials, such as in separate LICENSE*.txt 
-files accompanying the materials in each Gem or subfolder. For terms please see the LICENSE*.TXT files at the root of this distribution.
+Be aware of asset licensing restrictions present in this repo. Some Assets have been developed by third parties and are subject  to separate license terms (such as the Kitbash3D assets or Adobe Mixamo files).  It is your responsibility to comply with the applicable licenses. Information on third party materials, and the applicable license terms, are referenced in or included with the materials, such as in separate LICENSE*.txt files accompanying the materials in each Gem or subfolder. For terms please see the LICENSE*.TXT files at the root of this distribution.
 
 ## Asset Gems
 

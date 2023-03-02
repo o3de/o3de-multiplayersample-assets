@@ -79,28 +79,9 @@
                     "$type": "EditorLockComponent",
                     "Id": 189481699902639802
                 },
-                "Component_[2190501344472965293]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 2190501344472965293,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 738989466
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{239C767E-7851-5BD1-BC8C-85C5081FD2DF}"
-                                            },
-                                            "assetHint": "bubblegun/bubblegun_opaque_mat.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
+                "Component_[2604822434083554734]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 2604822434083554734
                 },
                 "Component_[4794030962889827458]": {
                     "$type": "EditorInspectorComponent",
@@ -132,7 +113,7 @@
                     "Id": 6972141049432216624
                 },
                 "Component_[7067552367664259293]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 7067552367664259293,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -177,6 +158,29 @@
                                 },
                                 "assetHint": "bubblegun/bubblegun.azmodel"
                             }
+                        }
+                    }
+                },
+                "Component_[8491285860372540067]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8491285860372540067,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 738989466
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{239C767E-7851-5BD1-BC8C-85C5081FD2DF}"
+                                            },
+                                            "assetHint": "bubblegun/bubblegun_opaque_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     }
                 }

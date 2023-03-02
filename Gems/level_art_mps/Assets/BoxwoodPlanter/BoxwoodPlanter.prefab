@@ -63,8 +63,31 @@
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 11931441055292862407
                 },
+                "Component_[13613795670735756798]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13613795670735756798,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1927518764
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{AE57E383-33B9-5934-A9AC-66B2FB04E05E}"
+                                            },
+                                            "assetHint": "boxwoodplanter/boxwoodplanter_opaque_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
                 "Component_[13770459485288326894]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 13770459485288326894,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -125,41 +148,6 @@
                         }
                     ]
                 },
-                "Component_[15053791590785891318]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 15053791590785891318,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 1927518764
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{AE57E383-33B9-5934-A9AC-66B2FB04E05E}"
-                                            }
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 2184589006
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{F5644103-A332-56A6-B925-D5551390CA6D}"
-                                            },
-                                            "assetHint": "boxwoodplanter/boxwoodplanter_boxwoodplanter_mat.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
                 "Component_[15175233121410983438]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 15175233121410983438
@@ -190,6 +178,10 @@
                 "Component_[6523323581065581461]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 6523323581065581461
+                },
+                "Component_[7590343052945320821]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 7590343052945320821
                 },
                 "Component_[8611006183424298816]": {
                     "$type": "EditorLockComponent",
