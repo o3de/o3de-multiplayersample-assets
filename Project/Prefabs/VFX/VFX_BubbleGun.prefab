@@ -1,0 +1,329 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "VFX_BubbleGun",
+        "Components": {
+            "Component_[10509321100807300221]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10509321100807300221
+            },
+            "Component_[12816671965152855740]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 12816671965152855740,
+                "Child Entity Order": [
+                    "Entity_[23606359881418]",
+                    "Entity_[23610654848714]",
+                    "Entity_[23602064914122]"
+                ]
+            },
+            "Component_[12915297801105570377]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 12915297801105570377
+            },
+            "Component_[17495562223163615939]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 17495562223163615939
+            },
+            "Component_[2266949398608322952]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 2266949398608322952
+            },
+            "Component_[3674819123776570535]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 3674819123776570535,
+                "Parent Entity": ""
+            },
+            "Component_[3752852351023708257]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3752852351023708257
+            },
+            "Component_[4625840008177853489]": {
+                "$type": "EditorLockComponent",
+                "Id": 4625840008177853489
+            },
+            "Component_[663174485942456255]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 663174485942456255
+            },
+            "Component_[8940800266866685163]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 8940800266866685163
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[23602064914122]": {
+            "Id": "Entity_[23602064914122]",
+            "Name": "BBG_Blast",
+            "Components": {
+                "Component_[12018756599942260400]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12018756599942260400
+                },
+                "Component_[13295929982889750041]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 13295929982889750041,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{4EE1CBFF-F551-5EC3-A966-FF8067D2423D}"
+                        },
+                        "assetHint": "pkfx/particles/bubblegun/fx_bubblegun_explosion.pkfx"
+                    },
+                    "PrewarmTime": 0.0,
+                    "AttributeList": {
+                        "Attributes": [
+                            {
+                                "Name": "Global Size",
+                                "Type": 31
+                            }
+                        ],
+                        "AttributesRawData": "AACAPwAAAAAAAAAAAAAAAA=="
+                    },
+                    "EditorAttributeList": {
+                        "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 1.0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Component_[14141057062408196656]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14141057062408196656,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            180.0,
+                            0.0,
+                            0.0
+                        ],
+                        "UniformScale": 4.0
+                    }
+                },
+                "Component_[16286040837355772150]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16286040837355772150
+                },
+                "Component_[16585475803907912955]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16585475803907912955
+                },
+                "Component_[173177097798518347]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 173177097798518347
+                },
+                "Component_[17386268685253462615]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17386268685253462615
+                },
+                "Component_[17481236408759665719]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17481236408759665719,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14141057062408196656
+                        },
+                        {
+                            "ComponentId": 13295929982889750041,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[17945047598856667843]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17945047598856667843
+                },
+                "Component_[5549552797760048030]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5549552797760048030
+                }
+            }
+        },
+        "Entity_[23606359881418]": {
+            "Id": "Entity_[23606359881418]",
+            "Name": "BBG_Explosion",
+            "Components": {
+                "Component_[12018756599942260400]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12018756599942260400
+                },
+                "Component_[13295929982889750041]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 13295929982889750041,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{4EE1CBFF-F551-5EC3-A966-FF8067D2423D}"
+                        },
+                        "assetHint": "pkfx/particles/bubblegun/fx_bubblegun_explosion.pkfx"
+                    },
+                    "PrewarmTime": 0.0,
+                    "AttributeList": {
+                        "Attributes": [
+                            {
+                                "Name": "Global Size",
+                                "Type": 31
+                            }
+                        ],
+                        "AttributesRawData": "AACAPwAAAAAAAAAAAAAAAA=="
+                    },
+                    "EditorAttributeList": {
+                        "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 1.0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Component_[14141057062408196656]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14141057062408196656,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            180.0,
+                            0.0,
+                            0.0
+                        ],
+                        "UniformScale": 4.0
+                    }
+                },
+                "Component_[16286040837355772150]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16286040837355772150
+                },
+                "Component_[16585475803907912955]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16585475803907912955
+                },
+                "Component_[173177097798518347]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 173177097798518347
+                },
+                "Component_[17386268685253462615]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17386268685253462615
+                },
+                "Component_[17481236408759665719]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17481236408759665719,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14141057062408196656
+                        },
+                        {
+                            "ComponentId": 13295929982889750041,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[17945047598856667843]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17945047598856667843
+                },
+                "Component_[5549552797760048030]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5549552797760048030
+                }
+            }
+        },
+        "Entity_[23610654848714]": {
+            "Id": "Entity_[23610654848714]",
+            "Name": "BBG_Projectile",
+            "Components": {
+                "Component_[12018756599942260400]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12018756599942260400
+                },
+                "Component_[13295929982889750041]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 13295929982889750041,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{4EE1CBFF-F551-5EC3-A966-FF8067D2423D}"
+                        },
+                        "assetHint": "pkfx/particles/bubblegun/fx_bubblegun_explosion.pkfx"
+                    },
+                    "PrewarmTime": 0.0,
+                    "AttributeList": {
+                        "Attributes": [
+                            {
+                                "Name": "Global Size",
+                                "Type": 31
+                            }
+                        ],
+                        "AttributesRawData": "AACAPwAAAAAAAAAAAAAAAA=="
+                    },
+                    "EditorAttributeList": {
+                        "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 1.0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Component_[14141057062408196656]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14141057062408196656,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            180.0,
+                            0.0,
+                            0.0
+                        ],
+                        "UniformScale": 4.0
+                    }
+                },
+                "Component_[16286040837355772150]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16286040837355772150
+                },
+                "Component_[16585475803907912955]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16585475803907912955
+                },
+                "Component_[173177097798518347]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 173177097798518347
+                },
+                "Component_[17386268685253462615]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17386268685253462615
+                },
+                "Component_[17481236408759665719]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17481236408759665719,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14141057062408196656
+                        },
+                        {
+                            "ComponentId": 13295929982889750041,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[17945047598856667843]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17945047598856667843
+                },
+                "Component_[5549552797760048030]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5549552797760048030
+                }
+            }
+        }
+    }
+}
