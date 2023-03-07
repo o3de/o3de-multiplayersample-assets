@@ -69,7 +69,10 @@
                 },
                 "Component_[12100052168573794820]": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 12100052168573794820
+                    "Id": 12100052168573794820,
+                    "Child Entity Order": [
+                        "Entity_[38393244868340]"
+                    ]
                 },
                 "Component_[13851468120070323071]": {
                     "$type": "EditorOnlyEntityComponent",
@@ -186,6 +189,98 @@
                             }
                         }
                     }
+                }
+            }
+        },
+        "Entity_[38393244868340]": {
+            "Id": "Entity_[38393244868340]",
+            "Name": "pkemitter",
+            "Components": {
+                "Component_[1224808521090880768]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1224808521090880768
+                },
+                "Component_[12938317207385865158]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12938317207385865158
+                },
+                "Component_[13919181590623789416]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13919181590623789416
+                },
+                "Component_[14105534289023414330]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14105534289023414330
+                },
+                "Component_[14490958793073194265]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14490958793073194265
+                },
+                "Component_[17189487875759770322]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17189487875759770322
+                },
+                "Component_[2849133690452512923]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2849133690452512923
+                },
+                "Component_[345549282548339592]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 345549282548339592
+                },
+                "Component_[3682539583183824943]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3682539583183824943,
+                    "Parent Entity": "Entity_[1103265106721603]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            2.542083740234375
+                        ]
+                    }
+                },
+                "Component_[778604581285499997]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 778604581285499997,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{CF441123-DD6C-5965-836B-746E8A9A990A}"
+                        },
+                        "assetHint": "popcornfx/particles/malfunctionningshieldgenerator/fx_malfunctionningshieldgenerator_idle.pkfx"
+                    },
+                    "PrewarmTime": 0.0,
+                    "AttributeList": {
+                        "Attributes": [
+                            {
+                                "Name": "Global Scale",
+                                "Type": 31
+                            },
+                            {
+                                "Name": "Frequency",
+                                "Type": 31
+                            }
+                        ],
+                        "AttributesRawData": "AACAQAAAAAAAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAAA="
+                    },
+                    "EditorAttributeList": {
+                        "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 4.0
+                                    },
+                                    {
+                                        "ValueFX": 4.0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Component_[7907764792166045922]": {
+                    "$type": "PopcornFXHelperLoopEmitterEditorComponent",
+                    "Id": 7907764792166045922
                 }
             }
         }
