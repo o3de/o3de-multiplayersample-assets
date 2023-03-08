@@ -61,10 +61,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{3ED5F7D0-84A2-5778-8C7B-922A74864E72}",
-                                    "subId": 277335592
+                                    "guid": "{EE77E4A5-6FCC-556A-B501-5731FD32B458}",
+                                    "subId": 283431145
                                 },
-                                "assetHint": "kb3d_hightechstreets/objects/platform_tile/platform_tile.azmodel"
+                                "assetHint": "kb3d_hightechstreets/objects/hts_road_chunk_c/hts_road_chunk_c.azmodel"
                             }
                         }
                     }
@@ -72,29 +72,6 @@
                 "Component_[11146854975640890196]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 11146854975640890196
-                },
-                "Component_[1460373866462112785]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 1460373866462112785,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 3619000048
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{B17D779A-3AAD-5054-8BAD-603A1F0488CC}"
-                                            },
-                                            "assetHint": "kb3d_hightechstreets/objects/platform_tile/platform_tile_kb3d_hts_metalwhite.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
                 },
                 "Component_[2017402219984528293]": {
                     "$type": "EditorEntitySortComponent",
@@ -104,6 +81,41 @@
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 4248329193392623815,
                     "Parent Entity": "ContainerEntity"
+                },
+                "Component_[516088441397450821]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 516088441397450821,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2070720509
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{024A558F-B4C1-5904-ACC2-946DE6ADE346}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3715530891
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2C4841C7-D2E0-5941-929E-2EEEB8C204C9}"
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_road_a/hts_road_a_kb3d_hts_metallight.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
                 },
                 "Component_[518476501404441221]": {
                     "$type": "EditorDisabledCompositionComponent",

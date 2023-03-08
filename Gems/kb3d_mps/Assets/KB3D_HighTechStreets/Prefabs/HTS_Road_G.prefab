@@ -1639,7 +1639,14 @@
                 "Component_[12378776465331614248]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 12378776465331614248,
-                    "Parent Entity": "ContainerEntity"
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
                 },
                 "Component_[12975926535833630343]": {
                     "$type": "EditorEntitySortComponent",
@@ -1690,14 +1697,7 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "KB3D_HTS_MetalLight",
-                                    "MaterialAsset": {
-                                        "assetId": {
-                                            "guid": "{92A5EC27-1AC1-523E-88BB-9A6278DBD853}",
-                                            "subId": 1
-                                        },
-                                        "assetHint": "physx/metal.physicsmaterial"
-                                    }
+                                    "Name": "KB3D_HTS_MetalLight"
                                 }
                             ]
                         }
@@ -1722,9 +1722,6 @@
                                 }
                             }
                         }
-                    },
-                    "DebugDrawSettings": {
-                        "LocallyEnabled": false
                     }
                 },
                 "Component_[17340959477533051509]": {
