@@ -3,21 +3,75 @@
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
             "id": "{877944B1-277D-5F52-B544-B137A195DD40}",
-            "name": "HTS_Road_G_Main_phys",
+            "name": "HTS_Road_G_Main",
             "NodeSelectionList": {
                 "selectedNodes": [
-                    "RootNode.KB3D_HTS_Road_G_Main_phys"
+                    "RootNode.Main.Main_phys.polySurface24",
+                    "RootNode.Main.Main_phys.polySurface25",
+                    "RootNode.Main.Main_phys.polySurface26"
                 ],
                 "unselectedNodes": [
                     {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_Road_G_Main"
+                    "RootNode.Main",
+                    "RootNode.Main.LOD_Group_1",
+                    "RootNode.Main.Main_phys",
+                    "RootNode.Main.LOD_Group_1.LOD0",
+                    "RootNode.Main.LOD_Group_1.LOD1",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface1",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface2",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface3",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface4",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface5",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface6",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface7",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface8",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface9",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface10",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface11",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface12",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface13",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface14",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface15",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface16",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface17",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface18",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface19",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface20",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface21",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface22",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface23",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface1",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface2",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface3",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface4",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface5",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface6",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface7",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface8",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface9",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface10",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface11",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface12",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface13",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface14",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface15",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface16",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface17",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface18",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface19",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface20",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface21",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface22",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface23"
                 ]
             },
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "DefaultMaterial"
+                        "Name": "KB3D_HTS_MetalLight"
                     }
                 ]
             }
@@ -29,30 +83,74 @@
                 "selectedNodes": [
                     {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_Road_G_Main"
+                    "RootNode.Main",
+                    "RootNode.Main.LOD_Group_1",
+                    "RootNode.Main.Main_phys",
+                    "RootNode.Main.LOD_Group_1.LOD0",
+                    "RootNode.Main.LOD_Group_1.LOD1",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface1",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface2",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface3",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface4",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface5",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface6",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface7",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface8",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface9",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface10",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface11",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface12",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface13",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface14",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface15",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface16",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface17",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface18",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface19",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface20",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface21",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface22",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.polySurface23",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface1",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface2",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface3",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface4",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface5",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface6",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface7",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface8",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface9",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface10",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface11",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface12",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface13",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface14",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface15",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface16",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface17",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface18",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface19",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface20",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface21",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface22",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.polySurface23"
                 ],
                 "unselectedNodes": [
-                    "RootNode.KB3D_HTS_Road_G_Main_phys"
+                    "RootNode.Main.Main_phys.polySurface24",
+                    "RootNode.Main.Main_phys.polySurface25",
+                    "RootNode.Main.Main_phys.polySurface26"
                 ]
             },
             "rules": {
                 "rules": [
-                    {
-                        "$type": "StaticMeshAdvancedRule",
-                        "vertexColorStreamName": "Col0"
-                    },
                     {
                         "$type": "MaterialRule"
                     }
                 ]
             },
             "id": "{807B99BF-BA00-50D0-A8C1-3AB8B7E13F77}"
-        },
-        {
-            "$type": "PrefabGroup",
-            "name": "KB3D_HighTechStreets/Objects/HTS_Road_G/HTS_Road_G_Main_fbx.procprefab",
-            "id": "{19747462-06C0-5620-9421-4B9D63010573}",
-            "createProceduralPrefab": false
         }
     ]
 }
