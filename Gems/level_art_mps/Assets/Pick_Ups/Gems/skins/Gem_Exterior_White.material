@@ -1,5 +1,5 @@
 {
-    "materialType": "@projectroot@/Cache/Intermediate Assets/materials/types/enhancedpbr_generated.materialtype",
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/standardpbr.materialtype",
     "materialTypeVersion": 6,
     "propertyValues": {
         "anisotropy.anisotropyAngle": 0.3199999928474426,
@@ -25,8 +25,9 @@
             1.0
         ],
         "emissive.enable": true,
-        "emissive.intensity": 5.5,
+        "emissive.intensity": 5.0,
         "emissive.textureMap": "../textures/gem_emissive.png",
+        "general.castShadows": false,
         "irradiance.irradianceColorSource": "BaseColor",
         "metallic.factor": 1.0,
         "metallic.textureMap": "../textures/Gem_metalness.png",
