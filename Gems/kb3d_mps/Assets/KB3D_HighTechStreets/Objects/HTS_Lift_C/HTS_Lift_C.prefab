@@ -19,10 +19,6 @@
                 "$type": "EditorPendingCompositionComponent",
                 "Id": 16106475542939958301
             },
-            "Component_[16330608304865751154]": {
-                "$type": "SelectionComponent",
-                "Id": 16330608304865751154
-            },
             "Component_[4324991430775618542]": {
                 "$type": "EditorInspectorComponent",
                 "Id": 4324991430775618542
@@ -58,6 +54,10 @@
             "Id": "Entity_[1530763921073]",
             "Name": "HTS_Lift_C",
             "Components": {
+                "Component_[10825091634383140369]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 10825091634383140369
+                },
                 "Component_[13304925172515436692]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 13304925172515436692
@@ -67,18 +67,14 @@
                     "Id": 14242612754917218143
                 },
                 "Component_[14304491735664610295]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 14304491735664610295,
                     "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
                             ]
                         }
                     },
@@ -223,10 +219,6 @@
                             ]
                         }
                     }
-                },
-                "Component_[2547461892822953118]": {
-                    "$type": "SelectionComponent",
-                    "Id": 2547461892822953118
                 },
                 "Component_[2895804965157411469]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",

@@ -3,10 +3,6 @@
         "Id": "ContainerEntity",
         "Name": "HTS_PathA_E",
         "Components": {
-            "Component_[13787066666199540207]": {
-                "$type": "SelectionComponent",
-                "Id": 13787066666199540207
-            },
             "Component_[13820719366457077841]": {
                 "$type": "EditorPendingCompositionComponent",
                 "Id": 13820719366457077841
@@ -64,16 +60,14 @@
                     "Parent Entity": "ContainerEntity"
                 },
                 "Component_[11775635604286131361]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 11775635604286131361,
                     "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
                             ]
                         }
                     },
@@ -98,6 +92,10 @@
                             }
                         }
                     }
+                },
+                "Component_[13493420829142530715]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 13493420829142530715
                 },
                 "Component_[15000268277759610654]": {
                     "$type": "EditorInspectorComponent",
@@ -237,10 +235,6 @@
                 "Component_[6707836699126995471]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 6707836699126995471
-                },
-                "Component_[8179578695249384899]": {
-                    "$type": "SelectionComponent",
-                    "Id": 8179578695249384899
                 }
             }
         }

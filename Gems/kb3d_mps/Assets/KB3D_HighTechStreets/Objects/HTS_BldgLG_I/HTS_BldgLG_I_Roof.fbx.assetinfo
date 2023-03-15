@@ -6,18 +6,42 @@
             "name": "HTS_BldgLG_I_Roof",
             "NodeSelectionList": {
                 "selectedNodes": [
-                    "RootNode.KB3D_HTS_BldgLG_I_Roof_phys"
+                    "RootNode.Roof.Roof_phys",
+                    "RootNode.Roof.Roof_phys.transform",
+                    "RootNode.Roof.Roof_phys.custom_properties",
+                    "RootNode.Roof.Roof_phys.UVMap",
+                    "RootNode.Roof.Roof_phys.Phys_MAT"
                 ],
                 "unselectedNodes": [
-                    {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_BldgLG_I_Roof"
+                    "RootNode.Roof",
+                    "RootNode.Roof.custom_properties",
+                    "RootNode.Roof.Roof_geo",
+                    "RootNode.Roof.Roof_geo.Col0",
+                    "RootNode.Roof.Roof_geo.Col1",
+                    "RootNode.Roof.Roof_geo.transform",
+                    "RootNode.Roof.Roof_geo.custom_properties",
+                    "RootNode.Roof.Roof_geo.UV0",
+                    "RootNode.Roof.Roof_geo.UV1",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_MetalWhite",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_PlasticWhite",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_MetalLight",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_MetalGrey",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_MetalYellow",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_GlassBlue"
                 ]
             },
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "DefaultMaterial"
+                        "Name": "Phys_MAT",
+                        "MaterialAsset": {
+                            "assetId": {
+                                "guid": "{92A5EC27-1AC1-523E-88BB-9A6278DBD853}",
+                                "subId": 1
+                            },
+                            "assetHint": "physx/metal.physicsmaterial"
+                        }
                     }
                 ]
             }
@@ -27,19 +51,36 @@
             "name": "HTS_BldgLG_I_Roof",
             "nodeSelectionList": {
                 "selectedNodes": [
-                    {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_BldgLG_I_Roof"
+                    "RootNode.Roof",
+                    "RootNode.Roof.custom_properties",
+                    "RootNode.Roof.Roof_geo",
+                    "RootNode.Roof.Roof_geo.Col0",
+                    "RootNode.Roof.Roof_geo.Col1",
+                    "RootNode.Roof.Roof_geo.transform",
+                    "RootNode.Roof.Roof_geo.custom_properties",
+                    "RootNode.Roof.Roof_geo.UV0",
+                    "RootNode.Roof.Roof_geo.UV1",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_MetalWhite",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_PlasticWhite",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_MetalLight",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_MetalGrey",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_MetalYellow",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_GlassBlue"
                 ],
                 "unselectedNodes": [
-                    "RootNode.KB3D_HTS_BldgLG_I_Roof_phys"
+                    "RootNode.Roof.Roof_phys",
+                    "RootNode.Roof.Roof_phys.transform",
+                    "RootNode.Roof.Roof_phys.custom_properties",
+                    "RootNode.Roof.Roof_phys.UVMap",
+                    "RootNode.Roof.Roof_phys.Phys_MAT"
                 ]
             },
             "rules": {
                 "rules": [
                     {
                         "$type": "StaticMeshAdvancedRule",
-                        "vertexColorStreamName": "Col0"
+                        "vertexColorStreamName": "Disabled"
                     },
                     {
                         "$type": "MaterialRule"
@@ -47,12 +88,6 @@
                 ]
             },
             "id": "{94F9385A-0DCF-5151-B678-8C514D499BBA}"
-        },
-        {
-            "$type": "PrefabGroup",
-            "name": "KB3D_HighTechStreets/Objects/HTS_BldgLG_I/HTS_BldgLG_I_Roof_fbx.procprefab",
-            "id": "{57B15D4A-488F-5963-946E-D3F123ADE2D6}",
-            "createProceduralPrefab": false
         }
     ]
 }

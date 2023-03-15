@@ -1,0 +1,288 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "mshieldgen",
+        "Components": {
+            "Component_[11900626550011748175]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 11900626550011748175
+            },
+            "Component_[13396526122664053769]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13396526122664053769
+            },
+            "Component_[16462885917979489708]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 16462885917979489708
+            },
+            "Component_[17297282752919845494]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 17297282752919845494
+            },
+            "Component_[2815070735218165771]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 2815070735218165771,
+                "Parent Entity": ""
+            },
+            "Component_[3833532886303967289]": {
+                "$type": "EditorLockComponent",
+                "Id": 3833532886303967289
+            },
+            "Component_[5205434325956337464]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5205434325956337464
+            },
+            "Component_[6426430091723871003]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 6426430091723871003,
+                "Child Entity Order": [
+                    "Entity_[1103265106721603]"
+                ]
+            },
+            "Component_[7603012068257666490]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7603012068257666490
+            },
+            "Component_[894579071372351971]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 894579071372351971
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1103265106721603]": {
+            "Id": "Entity_[1103265106721603]",
+            "Name": "mshieldgen",
+            "Components": {
+                "Component_[10109660033998990026]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 10109660033998990026
+                },
+                "Component_[10377095204379885453]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10377095204379885453,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[10425888115008889075]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10425888115008889075
+                },
+                "Component_[12100052168573794820]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12100052168573794820,
+                    "Child Entity Order": [
+                        "Entity_[38393244868340]"
+                    ]
+                },
+                "Component_[13851468120070323071]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13851468120070323071
+                },
+                "Component_[15617014590518523349]": {
+                    "$type": "EditorMeshColliderComponent",
+                    "Id": 15617014590518523349,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Opaque_mat"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{0643DB73-0A88-5D39-8C51-CDF93A7534E9}",
+                                    "subId": 3518047537
+                                },
+                                "assetHint": "malfunctioningshieldgenerator/mshieldgen.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{0643DB73-0A88-5D39-8C51-CDF93A7534E9}",
+                                        "subId": 3518047537
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "malfunctioningshieldgenerator/mshieldgen.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
+                "Component_[15811412744001989600]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15811412744001989600,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10377095204379885453
+                        },
+                        {
+                            "ComponentId": 6769368990024884033,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 12036928132347972099,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 15617014590518523349,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[16762170554052155681]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16762170554052155681
+                },
+                "Component_[1875397804869372106]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1875397804869372106
+                },
+                "Component_[244357437179738073]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 244357437179738073
+                },
+                "Component_[257525767800539830]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 257525767800539830
+                },
+                "Component_[2919161451675120318]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 2919161451675120318,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3266363717
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C725332A-04CC-5051-8C63-A347EA2C6D72}"
+                                            },
+                                            "assetHint": "malfunctioningshieldgenerator/mshieldgen_opaque_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[6769368990024884033]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 6769368990024884033,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{0643DB73-0A88-5D39-8C51-CDF93A7534E9}",
+                                    "subId": 272285815
+                                },
+                                "assetHint": "malfunctioningshieldgenerator/mshieldgen.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Entity_[38393244868340]": {
+            "Id": "Entity_[38393244868340]",
+            "Name": "pkemitter",
+            "Components": {
+                "Component_[1224808521090880768]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1224808521090880768
+                },
+                "Component_[12938317207385865158]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12938317207385865158
+                },
+                "Component_[13919181590623789416]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13919181590623789416
+                },
+                "Component_[14105534289023414330]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14105534289023414330
+                },
+                "Component_[14490958793073194265]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14490958793073194265
+                },
+                "Component_[17189487875759770322]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17189487875759770322
+                },
+                "Component_[2849133690452512923]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2849133690452512923
+                },
+                "Component_[345549282548339592]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 345549282548339592
+                },
+                "Component_[3682539583183824943]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3682539583183824943,
+                    "Parent Entity": "Entity_[1103265106721603]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            2.542083740234375
+                        ]
+                    }
+                },
+                "Component_[778604581285499997]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 778604581285499997,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{CF441123-DD6C-5965-836B-746E8A9A990A}"
+                        },
+                        "assetHint": "popcornfx/particles/malfunctionningshieldgenerator/fx_malfunctionningshieldgenerator_idle.pkfx"
+                    },
+                    "PrewarmTime": 0.0,
+                    "AttributeList": {
+                        "Attributes": [
+                            {
+                                "Name": "Global Scale",
+                                "Type": 31
+                            },
+                            {
+                                "Name": "Frequency",
+                                "Type": 31
+                            }
+                        ],
+                        "AttributesRawData": "AACAQAAAAAAAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAAA="
+                    },
+                    "EditorAttributeList": {
+                        "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 4.0
+                                    },
+                                    {
+                                        "ValueFX": 4.0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Component_[7907764792166045922]": {
+                    "$type": "PopcornFXHelperLoopEmitterEditorComponent",
+                    "Id": 7907764792166045922
+                }
+            }
+        }
+    }
+}

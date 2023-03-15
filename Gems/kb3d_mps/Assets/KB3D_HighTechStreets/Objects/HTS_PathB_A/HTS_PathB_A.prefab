@@ -35,10 +35,6 @@
                 "$type": "EditorInspectorComponent",
                 "Id": 3276772345094481870
             },
-            "Component_[3528123639634589936]": {
-                "$type": "SelectionComponent",
-                "Id": 3528123639634589936
-            },
             "Component_[4342932226356799467]": {
                 "$type": "EditorEntityIconComponent",
                 "Id": 4342932226356799467
@@ -82,10 +78,6 @@
                         }
                     }
                 },
-                "Component_[11433177519410679845]": {
-                    "$type": "SelectionComponent",
-                    "Id": 11433177519410679845
-                },
                 "Component_[12181796617613804450]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 12181796617613804450
@@ -93,6 +85,10 @@
                 "Component_[12857013500268833997]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 12857013500268833997
+                },
+                "Component_[14500412810687555708]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 14500412810687555708
                 },
                 "Component_[15348802869378509596]": {
                     "$type": "EditorPendingCompositionComponent",
@@ -120,16 +116,14 @@
                     ]
                 },
                 "Component_[16843386752419967471]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 16843386752419967471,
                     "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
                             ]
                         }
                     },

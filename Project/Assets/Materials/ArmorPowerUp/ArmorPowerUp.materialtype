@@ -1,0 +1,121 @@
+{
+    "description": "Renders a model unlit with a single suface color value.",
+        "shaders": [
+        {
+            "file": "./ArmorPowerUp.shader"
+        }
+    ],
+    "version": 3,
+    "propertyLayout": {
+        "groups": [
+            {
+                "id": "settings",
+                "displayName": "Settings"
+            }
+        ],
+        "properties": {
+            "settings": [
+                {
+                    "id": "color",
+                    "displayName": "Color",
+					"description": "Color is displayed as sRGB but the values are stored as linear color.",
+                    "type": "Color",
+                    "defaultValue": [ 0.5, 0.0, 0.5 ],
+                    "connection": {
+                        "type": "ShaderInput",
+                        "id": "m_Color"
+                    }
+                },
+				{
+                    "id": "intensity",
+                    "displayName": "Intensity",
+					"description": "The amount of energy emitted, in EV100 unit",
+                    "type": "Float",
+                    "defaultValue": 1.0,
+                    "connection": {
+                        "type": "ShaderInput",
+                        "id": "m_Intensity"
+                    }
+                },
+				{
+                    "id": "power",
+                    "displayName": "Power",
+					"description": "The amount of fresnel emitted",
+                    "type": "Float",
+                    "defaultValue": 3.0,
+                    "connection": {
+                        "type": "ShaderInput",
+                        "id": "m_power"
+                    }
+                },
+				{
+                    "name": "patternMap",
+                    "displayName": "Pattern Map",
+                    "description": "Texture map for defining the sphere's pattern",
+                    "type": "Image",
+                    "defaultValue": "Textures/Default/default_basecolor.tif",
+                    "connection": {
+                        "type": "ShaderInput",
+                        "name": "m_patternMap"
+                    }
+                },
+				{
+                    "name": "noise",
+                    "displayName": "Noise1 Map",
+                    "description": "Texture map for defining how the sphere dissolve with noise",
+                    "type": "Image",
+                    "defaultValue": "Textures/Default/default_basecolor.tif",
+                    "connection": {
+                        "type": "ShaderInput",
+                        "name": "m_noisePerline1"
+                    }
+                },
+				{
+                    "name": "hexagonalgradiant",
+                    "displayName": "Hexagonal Gradiant Map",
+                    "description": "Texture map for defining how the sphere dissolve with hexagonal gradient pattern",
+                    "type": "Image",
+                    "defaultValue": "Textures/Default/default_basecolor.tif",
+                    "connection": {
+                        "type": "ShaderInput",
+                        "name": "m_HexagonalGradiantMap"
+                    }
+                },
+				{
+                    "id": "slider",
+                    "displayName": "Slider",
+					"description": "Slider from 0 to 1, used to dissolve the sphere",
+                    "type": "Float",
+                    "defaultValue": 0.5,
+					"min": 0.0,
+                    "max": 1.0,
+                    "connection": {
+                        "type": "ShaderInput",
+                        "id": "m_Slider"
+                    }
+                },
+				{
+                    "id": "maskMask",
+                    "displayName": "Mask Map",
+					"description": "Texture map for defining the shrink pattern",
+                    "type": "Image",
+                    "defaultValue": "Textures/Default/default_basecolor.tif",
+                    "connection": {
+                        "type": "ShaderInput",
+                        "id": "m_maskMap"
+                    }
+                },
+				{
+                    "id": "offset",
+                    "displayName": "Intersect Offset",
+					"description": "ammount of the intersection offset",
+                    "type": "Float",
+                    "connection": {
+                        "type": "ShaderInput",
+                        "id": "m_offset"
+                    }
+                }
+            ]
+        }
+    }
+}

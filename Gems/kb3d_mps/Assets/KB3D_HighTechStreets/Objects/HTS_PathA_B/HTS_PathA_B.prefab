@@ -19,10 +19,6 @@
                 "$type": "EditorOnlyEntityComponent",
                 "Id": 14109200197052917616
             },
-            "Component_[14771892579456816554]": {
-                "$type": "SelectionComponent",
-                "Id": 14771892579456816554
-            },
             "Component_[4357938500333122009]": {
                 "$type": "EditorPendingCompositionComponent",
                 "Id": 4357938500333122009
@@ -58,10 +54,6 @@
             "Id": "Entity_[2467066791601]",
             "Name": "HTS_PathA_B",
             "Components": {
-                "Component_[13837838838516245100]": {
-                    "$type": "SelectionComponent",
-                    "Id": 13837838838516245100
-                },
                 "Component_[13993758579951947696]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 13993758579951947696
@@ -69,6 +61,10 @@
                 "Component_[15226239270293106339]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 15226239270293106339
+                },
+                "Component_[15934980630356486994]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 15934980630356486994
                 },
                 "Component_[16362327575665479412]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -80,16 +76,14 @@
                     "Id": 18305393905744934322
                 },
                 "Component_[2322535107225288476]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 2322535107225288476,
                     "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
                             ]
                         }
                     },

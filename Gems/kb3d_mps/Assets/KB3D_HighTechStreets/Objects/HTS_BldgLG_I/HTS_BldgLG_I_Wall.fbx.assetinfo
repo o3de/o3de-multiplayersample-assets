@@ -6,18 +6,39 @@
             "name": "HTS_BldgLG_I_Wall",
             "NodeSelectionList": {
                 "selectedNodes": [
-                    "RootNode.KB3D_HTS_BldgLG_I_Wall_phys"
+                    "RootNode.Wall.Wall_phys",
+                    "RootNode.Wall.Wall_phys.transform",
+                    "RootNode.Wall.Wall_phys.custom_properties",
+                    "RootNode.Wall.Wall_phys.UVMap",
+                    "RootNode.Wall.Wall_phys.Phys_MAT"
                 ],
                 "unselectedNodes": [
-                    {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_BldgLG_I_Wall"
+                    "RootNode.Wall",
+                    "RootNode.Wall.custom_properties",
+                    "RootNode.Wall.Wall_geo",
+                    "RootNode.Wall.Wall_geo.Col0",
+                    "RootNode.Wall.Wall_geo.Col1",
+                    "RootNode.Wall.Wall_geo.transform",
+                    "RootNode.Wall.Wall_geo.custom_properties",
+                    "RootNode.Wall.Wall_geo.UV0",
+                    "RootNode.Wall.Wall_geo.UV1",
+                    "RootNode.Wall.Wall_geo.KB3D_HTS_PlasticWhite",
+                    "RootNode.Wall.Wall_geo.KB3D_HTS_MetalWhite",
+                    "RootNode.Wall.Wall_geo.KB3D_HTS_MetalGrey"
                 ]
             },
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "DefaultMaterial"
+                        "Name": "Phys_MAT",
+                        "MaterialAsset": {
+                            "assetId": {
+                                "guid": "{92A5EC27-1AC1-523E-88BB-9A6278DBD853}",
+                                "subId": 1
+                            },
+                            "assetHint": "physx/metal.physicsmaterial"
+                        }
                     }
                 ]
             }
@@ -27,19 +48,33 @@
             "name": "HTS_BldgLG_I_Wall",
             "nodeSelectionList": {
                 "selectedNodes": [
-                    {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_BldgLG_I_Wall"
+                    "RootNode.Wall",
+                    "RootNode.Wall.custom_properties",
+                    "RootNode.Wall.Wall_geo",
+                    "RootNode.Wall.Wall_geo.Col0",
+                    "RootNode.Wall.Wall_geo.Col1",
+                    "RootNode.Wall.Wall_geo.transform",
+                    "RootNode.Wall.Wall_geo.custom_properties",
+                    "RootNode.Wall.Wall_geo.UV0",
+                    "RootNode.Wall.Wall_geo.UV1",
+                    "RootNode.Wall.Wall_geo.KB3D_HTS_PlasticWhite",
+                    "RootNode.Wall.Wall_geo.KB3D_HTS_MetalWhite",
+                    "RootNode.Wall.Wall_geo.KB3D_HTS_MetalGrey"
                 ],
                 "unselectedNodes": [
-                    "RootNode.KB3D_HTS_BldgLG_I_Wall_phys"
+                    "RootNode.Wall.Wall_phys",
+                    "RootNode.Wall.Wall_phys.transform",
+                    "RootNode.Wall.Wall_phys.custom_properties",
+                    "RootNode.Wall.Wall_phys.UVMap",
+                    "RootNode.Wall.Wall_phys.Phys_MAT"
                 ]
             },
             "rules": {
                 "rules": [
                     {
                         "$type": "StaticMeshAdvancedRule",
-                        "vertexColorStreamName": "Col0"
+                        "vertexColorStreamName": "Disabled"
                     },
                     {
                         "$type": "MaterialRule"
@@ -47,12 +82,6 @@
                 ]
             },
             "id": "{905CC75E-2C6F-5E1E-99AB-B7507290CC0D}"
-        },
-        {
-            "$type": "PrefabGroup",
-            "name": "KB3D_HighTechStreets/Objects/HTS_BldgLG_I/HTS_BldgLG_I_Wall_fbx.procprefab",
-            "id": "{A97B6F98-4B9B-5F6C-9766-7DA329287E9D}",
-            "createProceduralPrefab": false
         }
     ]
 }

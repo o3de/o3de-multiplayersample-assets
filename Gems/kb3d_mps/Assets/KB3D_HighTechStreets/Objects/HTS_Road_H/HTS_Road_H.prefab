@@ -3,10 +3,6 @@
         "Id": "ContainerEntity",
         "Name": "HTS_Road_H",
         "Components": {
-            "Component_[10033318707118549592]": {
-                "$type": "SelectionComponent",
-                "Id": 10033318707118549592
-            },
             "Component_[10850134219447554671]": {
                 "$type": "EditorPendingCompositionComponent",
                 "Id": 10850134219447554671
@@ -88,7 +84,7 @@
                     "Id": 12150918584341485729
                 },
                 "Component_[14637688770840576110]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 14637688770840576110,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -149,6 +145,10 @@
                 "Component_[16626914542157755129]": {
                     "$type": "EditorLockComponent",
                     "Id": 16626914542157755129
+                },
+                "Component_[17810944492079962672]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 17810944492079962672
                 },
                 "Component_[4732522248290558820]": {
                     "$type": "EditorMaterialComponent",
@@ -267,10 +267,6 @@
                 "Component_[5775165598437764864]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 5775165598437764864
-                },
-                "Component_[6547901268926965429]": {
-                    "$type": "SelectionComponent",
-                    "Id": 6547901268926965429
                 },
                 "Component_[7047097630875413062]": {
                     "$type": "EditorEntitySortComponent",

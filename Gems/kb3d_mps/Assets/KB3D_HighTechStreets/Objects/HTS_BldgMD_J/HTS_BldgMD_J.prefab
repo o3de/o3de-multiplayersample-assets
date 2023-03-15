@@ -8,10 +8,6 @@
                 "Id": 10212338228266384818,
                 "Parent Entity": ""
             },
-            "Component_[10464828076706172953]": {
-                "$type": "SelectionComponent",
-                "Id": 10464828076706172953
-            },
             "Component_[12745037316098648544]": {
                 "$type": "EditorEntityIconComponent",
                 "Id": 12745037316098648544
@@ -74,21 +70,14 @@
                     }
                 },
                 "Component_[106296510070123748]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 106296510070123748,
                     "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
                             ]
                         }
                     },
@@ -296,13 +285,13 @@
                         }
                     }
                 },
-                "Component_[14698779042056566168]": {
-                    "$type": "SelectionComponent",
-                    "Id": 14698779042056566168
-                },
                 "Component_[28259569316607358]": {
                     "$type": "EditorLockComponent",
                     "Id": 28259569316607358
+                },
+                "Component_[3383565177966171466]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 3383565177966171466
                 },
                 "Component_[9261055200805153405]": {
                     "$type": "EditorDisabledCompositionComponent",

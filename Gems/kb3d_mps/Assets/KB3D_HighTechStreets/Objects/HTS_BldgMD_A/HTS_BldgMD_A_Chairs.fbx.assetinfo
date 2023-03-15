@@ -1,0 +1,74 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{2DBA761A-1B0A-5AB2-999D-33CC01CDCBEC}",
+            "name": "HTS_BldgMD_A_Chairs",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Chairs.Chairs_phys.polySurface2",
+                    "RootNode.Chairs.Chairs_phys.polySurface3",
+                    "RootNode.Chairs.Chairs_phys.polySurface4",
+                    "RootNode.Chairs.Chairs_phys.polySurface5",
+                    "RootNode.Chairs.Chairs_phys.polySurface6",
+                    "RootNode.Chairs.Chairs_phys.polySurface7"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Chairs",
+                    "RootNode.Chairs.Chairs_phys",
+                    "RootNode.Chairs.Chairs_geo",
+                    "RootNode.Chairs.Chairs_geo.ChairC",
+                    "RootNode.Chairs.Chairs_geo.ChairF",
+                    "RootNode.Chairs.Chairs_geo.ChairE",
+                    "RootNode.Chairs.Chairs_geo.ChairD",
+                    "RootNode.Chairs.Chairs_geo.ChairA",
+                    "RootNode.Chairs.Chairs_geo.ChairB"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "lambert1"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "HTS_BldgMD_A_Chairs",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Chairs",
+                    "RootNode.Chairs.Chairs_phys",
+                    "RootNode.Chairs.Chairs_geo",
+                    "RootNode.Chairs.Chairs_geo.ChairC",
+                    "RootNode.Chairs.Chairs_geo.ChairF",
+                    "RootNode.Chairs.Chairs_geo.ChairE",
+                    "RootNode.Chairs.Chairs_geo.ChairD",
+                    "RootNode.Chairs.Chairs_geo.ChairA",
+                    "RootNode.Chairs.Chairs_geo.ChairB"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Chairs.Chairs_phys.polySurface2",
+                    "RootNode.Chairs.Chairs_phys.polySurface3",
+                    "RootNode.Chairs.Chairs_phys.polySurface4",
+                    "RootNode.Chairs.Chairs_phys.polySurface5",
+                    "RootNode.Chairs.Chairs_phys.polySurface6",
+                    "RootNode.Chairs.Chairs_phys.polySurface7"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{E006A0AD-619F-54B7-8528-5C7FA1AC1EA6}"
+        }
+    ]
+}

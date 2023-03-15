@@ -3,10 +3,6 @@
         "Id": "ContainerEntity",
         "Name": "HTS_Bench_A",
         "Components": {
-            "Component_[12045762681586940809]": {
-                "$type": "SelectionComponent",
-                "Id": 12045762681586940809
-            },
             "Component_[13479950991503042358]": {
                 "$type": "EditorInspectorComponent",
                 "Id": 13479950991503042358
@@ -58,6 +54,10 @@
             "Id": "Entity_[781217686168]",
             "Name": "HTS_Bench_A",
             "Components": {
+                "Component_[11925224758694653533]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 11925224758694653533
+                },
                 "Component_[13106308910505833081]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 13106308910505833081,
@@ -76,14 +76,14 @@
                     "Id": 16169812338229402181
                 },
                 "Component_[1820864736712061341]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 1820864736712061341,
                     "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {},
-                                {}
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial"
+                                }
                             ]
                         }
                     },
@@ -209,10 +209,6 @@
                             }
                         }
                     }
-                },
-                "Component_[9863474473349343216]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9863474473349343216
                 }
             }
         }
