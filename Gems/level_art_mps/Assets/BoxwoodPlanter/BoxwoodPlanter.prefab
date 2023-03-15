@@ -3,93 +3,82 @@
         "Id": "ContainerEntity",
         "Name": "BoxwoodPlanter",
         "Components": {
-            "Component_[12463601575149203444]": {
-                "$type": "EditorPendingCompositionComponent",
-                "Id": 12463601575149203444
+            "Component_[10793391871194804616]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10793391871194804616
             },
-            "Component_[13100717042973340446]": {
-                "$type": "EditorVisibilityComponent",
-                "Id": 13100717042973340446
-            },
-            "Component_[1394749363920492121]": {
+            "Component_[12935857503063630095]": {
                 "$type": "EditorLockComponent",
-                "Id": 1394749363920492121
+                "Id": 12935857503063630095
             },
-            "Component_[14260008703426212505]": {
+            "Component_[13406226144754873253]": {
                 "$type": "EditorEntitySortComponent",
-                "Id": 14260008703426212505,
+                "Id": 13406226144754873253,
                 "Child Entity Order": [
-                    "Entity_[897254995880]"
+                    "Entity_[670362468055875]"
                 ]
             },
-            "Component_[16293409528850424228]": {
+            "Component_[14056785351726891397]": {
                 "$type": "EditorEntityIconComponent",
-                "Id": 16293409528850424228
+                "Id": 14056785351726891397
             },
-            "Component_[16812468064845127834]": {
+            "Component_[1443348170064532185]": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                "Id": 16812468064845127834,
+                "Id": 1443348170064532185,
                 "Parent Entity": ""
             },
-            "Component_[17098345349253204553]": {
+            "Component_[1455681861804685604]": {
                 "$type": "EditorOnlyEntityComponent",
-                "Id": 17098345349253204553
+                "Id": 1455681861804685604
             },
-            "Component_[17315047576823363095]": {
-                "$type": "EditorInspectorComponent",
-                "Id": 17315047576823363095
+            "Component_[15814925601895957689]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 15814925601895957689
             },
-            "Component_[4342751147125486488]": {
+            "Component_[5271257456507121774]": {
                 "$type": "EditorDisabledCompositionComponent",
-                "Id": 4342751147125486488
+                "Id": 5271257456507121774
             },
-            "Component_[7305795970137938218]": {
-                "$type": "EditorPrefabComponent",
-                "Id": 7305795970137938218
+            "Component_[5401285503411762889]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5401285503411762889
             },
-            "Component_[744725708597262220]": {
-                "$type": "SelectionComponent",
-                "Id": 744725708597262220
+            "Component_[744473028059857246]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 744473028059857246
             }
         }
     },
     "Entities": {
-        "Entity_[897254995880]": {
-            "Id": "Entity_[897254995880]",
-            "Name": "boxwoodplanter",
+        "Entity_[670362468055875]": {
+            "Id": "Entity_[670362468055875]",
+            "Name": "BoxwoodPlanter",
             "Components": {
-                "Component_[11314856010418012175]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 11314856010418012175
+                "Component_[10850986303996458929]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10850986303996458929,
+                    "Parent Entity": "ContainerEntity"
                 },
-                "Component_[13964096283828887630]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 13964096283828887630
+                "Component_[11931441055292862407]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11931441055292862407
                 },
-                "Component_[1657476757171577820]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 1657476757171577820
-                },
-                "Component_[1689443416488573495]": {
-                    "$type": "SelectionComponent",
-                    "Id": 1689443416488573495
-                },
-                "Component_[17335918239313506364]": {
+                "Component_[13613795670735756798]": {
                     "$type": "EditorMaterialComponent",
-                    "Id": 17335918239313506364,
+                    "Id": 13613795670735756798,
                     "Controller": {
                         "Configuration": {
                             "materials": [
                                 {
                                     "Key": {
-                                        "materialSlotStableId": 2184589006
+                                        "materialSlotStableId": 1927518764
                                     },
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{1AE3D120-7635-52F3-A24A-09C9A37D3FA7}"
+                                                "guid": "{AE57E383-33B9-5934-A9AC-66B2FB04E05E}"
                                             },
-                                            "assetHint": "boxwoodplanter/boxwoodplanter_mat.azmaterial"
+                                            "assetHint": "boxwoodplanter/boxwoodplanter_opaque_mat.azmaterial"
                                         }
                                     }
                                 }
@@ -97,44 +86,15 @@
                         }
                     }
                 },
-                "Component_[18049212741316429730]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 18049212741316429730,
-                    "Parent Entity": "ContainerEntity",
-                    "Transform Data": {
-                        "Translate": [
-                            0.0,
-                            -5.577371597290039,
-                            0.0
-                        ]
-                    }
-                },
-                "Component_[1833331663392911564]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 1833331663392911564
-                },
-                "Component_[2310940073032391205]": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 2310940073032391205,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{4721352C-CD7C-5952-9043-5D6E1AAD6665}",
-                                    "subId": 282049570
-                                },
-                                "assetHint": "boxwoodplanter/boxwoodplanter.azmodel"
-                            }
-                        }
-                    }
-                },
-                "Component_[4154035130121265529]": {
-                    "$type": "EditorColliderComponent",
-                    "Id": 4154035130121265529,
+                "Component_[13770459485288326894]": {
+                    "$type": "EditorMeshColliderComponent",
+                    "Id": 13770459485288326894,
                     "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "opaque_MAT"
+                                }
                             ]
                         }
                     },
@@ -163,21 +123,69 @@
                         "LocallyEnabled": false
                     }
                 },
-                "Component_[6147224160980605265]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 6147224160980605265
+                "Component_[14068303822895482196]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14068303822895482196
                 },
-                "Component_[7669060885473900389]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 7669060885473900389
-                },
-                "Component_[8926429099500890166]": {
+                "Component_[14307320655851512356]": {
                     "$type": "EditorInspectorComponent",
-                    "Id": 8926429099500890166
+                    "Id": 14307320655851512356,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10850986303996458929
+                        },
+                        {
+                            "ComponentId": 1882474025620274851,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 15053791590785891318,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 13770459485288326894,
+                            "SortIndex": 3
+                        }
+                    ]
                 },
-                "Component_[9713064569317835290]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 9713064569317835290
+                "Component_[15175233121410983438]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15175233121410983438
+                },
+                "Component_[15827911220578138542]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15827911220578138542
+                },
+                "Component_[16738303654480355351]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16738303654480355351
+                },
+                "Component_[1882474025620274851]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 1882474025620274851,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{4721352C-CD7C-5952-9043-5D6E1AAD6665}",
+                                    "subId": 282049570
+                                },
+                                "assetHint": "boxwoodplanter/boxwoodplanter.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[6523323581065581461]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6523323581065581461
+                },
+                "Component_[7590343052945320821]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 7590343052945320821
+                },
+                "Component_[8611006183424298816]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8611006183424298816
                 }
             }
         }

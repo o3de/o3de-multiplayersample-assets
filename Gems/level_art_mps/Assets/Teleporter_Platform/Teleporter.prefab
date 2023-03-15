@@ -50,12 +50,105 @@
         }
     },
     "Entities": {
+        "Entity_[38650942906100]": {
+            "Id": "Entity_[38650942906100]",
+            "Name": "fxemitter",
+            "Components": {
+                "Component_[10063802525583394769]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10063802525583394769
+                },
+                "Component_[11717438905617968789]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11717438905617968789
+                },
+                "Component_[11880073186429300422]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11880073186429300422
+                },
+                "Component_[13209808444217061752]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13209808444217061752
+                },
+                "Component_[16257054485117505378]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16257054485117505378
+                },
+                "Component_[17378392183732976486]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17378392183732976486
+                },
+                "Component_[18060162751226989950]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 18060162751226989950
+                },
+                "Component_[6429102386552132419]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6429102386552132419,
+                    "Parent Entity": "Entity_[721662789418]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            1.6311988830566406
+                        ]
+                    }
+                },
+                "Component_[6460585993620260507]": {
+                    "$type": "PopcornFXHelperLoopEmitterEditorComponent",
+                    "Id": 6460585993620260507,
+                    "LoopInEditor": true
+                },
+                "Component_[7892090471544718256]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 7892090471544718256,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{F16C718B-7B3D-5F6B-877C-0CA15AAE7544}"
+                        },
+                        "assetHint": "popcornfx/particles/energyballtrap/fx_energyballtrap_buildup.pkfx"
+                    },
+                    "PrewarmTime": 0.0,
+                    "AttributeList": {
+                        "Attributes": [
+                            {
+                                "Name": "Color Intensity",
+                                "Type": 31
+                            },
+                            {
+                                "Name": "Global Scale",
+                                "Type": 31
+                            }
+                        ],
+                        "AttributesRawData": "AAAAQAAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAA="
+                    },
+                    "EditorAttributeList": {
+                        "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 2.0
+                                    },
+                                    {
+                                        "ValueFX": 1.0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Component_[867313258523532320]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 867313258523532320
+                }
+            }
+        },
         "Entity_[721662789418]": {
             "Id": "Entity_[721662789418]",
             "Name": "Teleporter",
             "Components": {
                 "Component_[10112924460877714862]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 10112924460877714862,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -76,19 +169,19 @@
                         "PhysicsAsset": {
                             "Asset": {
                                 "assetId": {
-                                    "guid": "{F00EEE67-F976-51F4-87D9-D0FE48E04321}",
-                                    "subId": 539595421
+                                    "guid": "{EA17489F-60AD-5610-84BB-DA4E1FB675E0}",
+                                    "subId": 2308505123
                                 },
-                                "assetHint": "assets/teleporter_platform/teleporter_platform.pxmesh"
+                                "assetHint": "teleporter_platform/teleporter_platform.pxmesh"
                             },
                             "Configuration": {
                                 "PhysicsAsset": {
                                     "assetId": {
-                                        "guid": "{F00EEE67-F976-51F4-87D9-D0FE48E04321}",
-                                        "subId": 539595421
+                                        "guid": "{EA17489F-60AD-5610-84BB-DA4E1FB675E0}",
+                                        "subId": 2308505123
                                     },
                                     "loadBehavior": "QueueLoad",
-                                    "assetHint": "assets/teleporter_platform/teleporter_platform.pxmesh"
+                                    "assetHint": "teleporter_platform/teleporter_platform.pxmesh"
                                 }
                             }
                         }
@@ -97,9 +190,9 @@
                         "LocallyEnabled": false
                     }
                 },
-                "Component_[13801805935512504733]": {
+                "Component_[11307696145514994862]": {
                     "$type": "EditorMaterialComponent",
-                    "Id": 13801805935512504733,
+                    "Id": 11307696145514994862,
                     "Controller": {
                         "Configuration": {
                             "materials": [
@@ -110,9 +203,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{EE858547-6989-5DAD-9ADD-4C2683450642}"
+                                                "guid": "{B51A2CD2-B085-5C5D-9AC8-9F6B42662D68}"
                                             },
-                                            "assetHint": "assets/teleporter_platform/teleporter_platform_teleporterglassmat.azmaterial"
+                                            "assetHint": "teleporter_platform/teleporter_platform_teleporterglassmat.azmaterial"
                                         }
                                     }
                                 },
@@ -123,9 +216,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{9BFD9BB6-7105-5800-BF1F-84C30981A445}"
+                                                "guid": "{47DDC56C-14CF-5E07-B5DA-CA528A2AE200}"
                                             },
-                                            "assetHint": "assets/teleporter_platform/teleporter_platform_telescreenmat.azmaterial"
+                                            "assetHint": "teleporter_platform/teleporter_platform_telescreenmat.azmaterial"
                                         }
                                     }
                                 },
@@ -136,7 +229,14 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{EC4069D9-2E70-574C-B050-D593F1E0E70F}"
+                                                "guid": "{378CEC84-738E-5AB0-B154-7D34D7835016}"
+                                            },
+                                            "assetHint": "teleporter_platform/teleporter_platform_teleportermat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 7.0
                                             }
                                         }
                                     }
@@ -155,7 +255,10 @@
                 },
                 "Component_[192811015384260712]": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 192811015384260712
+                    "Id": 192811015384260712,
+                    "Child Entity Order": [
+                        "Entity_[38650942906100]"
+                    ]
                 },
                 "Component_[2496384515008999953]": {
                     "$type": "EditorOnlyEntityComponent",
@@ -239,13 +342,17 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{F00EEE67-F976-51F4-87D9-D0FE48E04321}",
+                                    "guid": "{EA17489F-60AD-5610-84BB-DA4E1FB675E0}",
                                     "subId": 271572783
                                 },
-                                "assetHint": "assets/teleporter_platform/teleporter_platform.azmodel"
+                                "assetHint": "teleporter_platform/teleporter_platform.azmodel"
                             }
                         }
                     }
+                },
+                "Component_[6938845176169300599]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 6938845176169300599
                 },
                 "Component_[7332157232204005176]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",

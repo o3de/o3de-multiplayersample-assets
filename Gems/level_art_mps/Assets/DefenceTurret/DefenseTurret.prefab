@@ -1,0 +1,189 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "DefenseTurret",
+        "Components": {
+            "Component_[10411688776691045629]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 10411688776691045629,
+                "Child Entity Order": [
+                    "Entity_[886644136180547]"
+                ]
+            },
+            "Component_[11302143682639257054]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 11302143682639257054
+            },
+            "Component_[11643599802128616532]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 11643599802128616532,
+                "Parent Entity": ""
+            },
+            "Component_[15629836873669810977]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 15629836873669810977
+            },
+            "Component_[17727599772551593178]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 17727599772551593178
+            },
+            "Component_[5014720080324492888]": {
+                "$type": "EditorLockComponent",
+                "Id": 5014720080324492888
+            },
+            "Component_[540953938625865112]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 540953938625865112
+            },
+            "Component_[6522657563190022052]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 6522657563190022052
+            },
+            "Component_[9600742431824090572]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 9600742431824090572
+            },
+            "Component_[9840814709470013883]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 9840814709470013883
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[886644136180547]": {
+            "Id": "Entity_[886644136180547]",
+            "Name": "DefenseTurret",
+            "Components": {
+                "Component_[11429433047719506086]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11429433047719506086
+                },
+                "Component_[13823397236224620794]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13823397236224620794
+                },
+                "Component_[15098578983899491307]": {
+                    "$type": "EditorMeshColliderComponent",
+                    "Id": 15098578983899491307,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "opaque_MAT"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{98F0A4B8-3708-5D15-BFB4-FA4AA377F084}",
+                                    "subId": 421091912
+                                },
+                                "assetHint": "defenceturret/defenceturret.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{98F0A4B8-3708-5D15-BFB4-FA4AA377F084}",
+                                        "subId": 421091912
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "defenceturret/defenceturret.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
+                "Component_[16004570990175525732]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16004570990175525732
+                },
+                "Component_[16863665730925878342]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16863665730925878342
+                },
+                "Component_[17710801955718210333]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17710801955718210333
+                },
+                "Component_[2019139976661704856]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2019139976661704856,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[3178359612842764654]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3178359612842764654
+                },
+                "Component_[4315581377446364950]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 4315581377446364950
+                },
+                "Component_[6685531474249640067]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 6685531474249640067,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{98F0A4B8-3708-5D15-BFB4-FA4AA377F084}",
+                                    "subId": 269172407
+                                },
+                                "assetHint": "defenceturret/defenceturret.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[8626343417940619775]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8626343417940619775,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1927518764
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{6750615E-D0A9-5759-B55A-A68B64343574}"
+                                            },
+                                            "assetHint": "defenceturret/defenceturret_opaque_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8842544466169995893]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8842544466169995893,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2019139976661704856
+                        },
+                        {
+                            "ComponentId": 6685531474249640067,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8626343417940619775,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[9026324102355902413]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9026324102355902413
+                }
+            }
+        }
+    }
+}

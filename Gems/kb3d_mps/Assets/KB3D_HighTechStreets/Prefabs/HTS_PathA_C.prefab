@@ -54,6 +54,10 @@
             "Id": "Entity_[36597648249631]",
             "Name": "hts_patha_c_main",
             "Components": {
+                "Component_[11772039867213030041]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 11772039867213030041
+                },
                 "Component_[12472807334970694855]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 12472807334970694855,
@@ -120,7 +124,7 @@
                     }
                 },
                 "Component_[719105957098091502]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 719105957098091502,
                     "ColliderConfiguration": {
                         "MaterialSlots": {

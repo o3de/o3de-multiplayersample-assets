@@ -61,10 +61,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{3ED5F7D0-84A2-5778-8C7B-922A74864E72}",
-                                    "subId": 277335592
+                                    "guid": "{EE77E4A5-6FCC-556A-B501-5731FD32B458}",
+                                    "subId": 283431145
                                 },
-                                "assetHint": "kb3d_hightechstreets/objects/platform_tile/platform_tile.azmodel"
+                                "assetHint": "kb3d_hightechstreets/objects/hts_road_chunk_c/hts_road_chunk_c.azmodel"
                             }
                         }
                     }
@@ -73,37 +73,53 @@
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 11146854975640890196
                 },
-                "Component_[1460373866462112785]": {
+                "Component_[2017402219984528293]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2017402219984528293,
+                    "Child Entity Order": [
+                        "Entity_[36981366815117]"
+                    ]
+                },
+                "Component_[4248329193392623815]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4248329193392623815,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[516088441397450821]": {
                     "$type": "EditorMaterialComponent",
-                    "Id": 1460373866462112785,
+                    "Id": 516088441397450821,
                     "Controller": {
                         "Configuration": {
                             "materials": [
                                 {
                                     "Key": {
-                                        "materialSlotStableId": 3619000048
+                                        "materialSlotStableId": 2070720509
                                     },
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{B17D779A-3AAD-5054-8BAD-603A1F0488CC}"
+                                                "guid": "{024A558F-B4C1-5904-ACC2-946DE6ADE346}"
                                             },
-                                            "assetHint": "kb3d_hightechstreets/objects/platform_tile/platform_tile_kb3d_hts_metalwhite.azmaterial"
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_road_a/hts_road_a_kb3d_hts_metalwhite.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3715530891
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2C4841C7-D2E0-5941-929E-2EEEB8C204C9}"
+                                            },
+                                            "assetHint": "kb3d_hightechstreets/objects/hts_road_a/hts_road_a_kb3d_hts_metallight.azmaterial"
                                         }
                                     }
                                 }
                             ]
                         }
                     }
-                },
-                "Component_[2017402219984528293]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 2017402219984528293
-                },
-                "Component_[4248329193392623815]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 4248329193392623815,
-                    "Parent Entity": "ContainerEntity"
                 },
                 "Component_[518476501404441221]": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -130,6 +146,10 @@
                         }
                     ]
                 },
+                "Component_[5953623246880075322]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 5953623246880075322
+                },
                 "Component_[6519063355459742598]": {
                     "$type": "EditorLockComponent",
                     "Id": 6519063355459742598
@@ -143,7 +163,7 @@
                     "Id": 699587959005635516
                 },
                 "Component_[9490414790499811910]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 9490414790499811910,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -174,11 +194,79 @@
                                 }
                             }
                         }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
                     }
                 },
                 "Component_[9532313547496720817]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 9532313547496720817
+                }
+            }
+        },
+        "Entity_[36981366815117]": {
+            "Id": "Entity_[36981366815117]",
+            "Name": "OcclusionPlane",
+            "Components": {
+                "Component_[14259834795583010149]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14259834795583010149
+                },
+                "Component_[14739803303359834989]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14739803303359834989
+                },
+                "Component_[16234642232251125729]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16234642232251125729
+                },
+                "Component_[16572288159498515719]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16572288159498515719
+                },
+                "Component_[3416898406929605230]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3416898406929605230
+                },
+                "Component_[540417628948751133]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 540417628948751133
+                },
+                "Component_[5792029704709512924]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5792029704709512924,
+                    "Parent Entity": "Entity_[1302886368317]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            0.31673431396484375
+                        ],
+                        "Rotate": [
+                            90.00000762939453,
+                            0.0,
+                            0.0
+                        ],
+                        "UniformScale": 5.199999809265137
+                    }
+                },
+                "Component_[6575946662984365459]": {
+                    "$type": "AZ::Render::EditorOcclusionCullingPlaneComponent",
+                    "Id": 6575946662984365459,
+                    "Controller": {
+                        "Configuration": {
+                            "TransparentVisualization": true
+                        }
+                    }
+                },
+                "Component_[724517463655441551]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 724517463655441551
+                },
+                "Component_[8634899402909504201]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8634899402909504201
                 }
             }
         }

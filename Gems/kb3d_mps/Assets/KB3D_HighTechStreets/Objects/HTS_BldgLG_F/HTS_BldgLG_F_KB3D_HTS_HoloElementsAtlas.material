@@ -5,18 +5,19 @@
     "propertyValues": {
         "baseColor.textureBlendMode": "Overlay",
         "baseColor.textureMap": "../../KB3DTextures/KB3D_HTS_HoloElementsAtlas_basecolor.png",
+        "emissive.affectedByAlpha": 1.0,
         "emissive.enable": true,
-        "emissive.intensity": 6.0,
         "emissive.textureMap": "../../KB3DTextures/KB3D_HTS_HoloElementsAtlas_emissive.png",
+        "general.castShadows": false,
+        "general.doubleSided": true,
         "general.enableShadows": false,
-        "metallic.textureMap": "../../KB3DTextures/KB3D_HTS_HoloElementsAtlas_metallic.png",
+        "irradiance.irradianceColorSource": "BaseColor",
+        "metallic.useTexture": false,
         "normal.textureMap": "../../KB3DTextures/KB3D_HTS_HoloElementsAtlas_normal.png",
         "opacity.alphaSource": "Split",
         "opacity.factor": 1.0,
-        "opacity.mode": "TintedTransparent",
+        "opacity.mode": "Blended",
         "opacity.textureMap": "../../KB3DTextures/KB3D_HTS_HoloElementsAtlas_opacity.png",
-        "parallax.factor": 0.0,
-        "parallax.textureMap": "../../KB3DTextures/KB3D_HTS_HoloElementsAtlas_height.png",
         "roughness.textureMap": "../../KB3DTextures/KB3D_HTS_HoloElementsAtlas_roughness.png"
     }
 }

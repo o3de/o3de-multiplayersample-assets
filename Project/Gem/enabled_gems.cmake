@@ -29,4 +29,9 @@ set(ENABLED_GEMS
     pbr_material_pack_mps
     particlefx_mps
     Terrain
+    DccScriptingInterface
+    QtForPython
+    PopcornFX
+	PhysXDebug
+    Stars
 )

@@ -1,0 +1,206 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "VFX_JumpPad",
+        "Components": {
+            "Component_[1086264529075206316]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 1086264529075206316
+            },
+            "Component_[1133655153846065992]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1133655153846065992
+            },
+            "Component_[12575969452687485000]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12575969452687485000
+            },
+            "Component_[13244253267700077040]": {
+                "$type": "EditorLockComponent",
+                "Id": 13244253267700077040
+            },
+            "Component_[17180237464363637022]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17180237464363637022,
+                "Parent Entity": ""
+            },
+            "Component_[17319291285549688786]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 17319291285549688786
+            },
+            "Component_[18171101115647266976]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 18171101115647266976
+            },
+            "Component_[4908941033270801962]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 4908941033270801962
+            },
+            "Component_[54430573862461532]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 54430573862461532
+            },
+            "Component_[6495145292362828895]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 6495145292362828895,
+                "Child Entity Order": [
+                    "Entity_[77216141670090]"
+                ]
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[77216141670090]": {
+            "Id": "Entity_[77216141670090]",
+            "Name": "VFX_JumpPad",
+            "Components": {
+                "Component_[12018756599942260400]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12018756599942260400
+                },
+                "Component_[13295929982889750041]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 13295929982889750041,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{264D494D-5868-5B5E-B711-897A6EFD9099}"
+                        },
+                        "assetHint": "pkfx/particles/fx_jumppad.pkfx"
+                    },
+                    "PrewarmTime": 10.0,
+                    "AttributeList": {
+                        "Attributes": [
+                            {
+                                "Name": "GlobalScale",
+                                "Type": 31
+                            },
+                            {
+                                "Name": "Color",
+                                "Type": 34
+                            },
+                            {
+                                "Name": "Launch",
+                                "Type": 1
+                            },
+                            {
+                                "Name": "Range",
+                                "Type": 31
+                            },
+                            {
+                                "Name": "Brightness",
+                                "Type": 31
+                            },
+                            {
+                                "Name": "Bursts",
+                                "Type": 31
+                            },
+                            {
+                                "Name": "DistortionPower",
+                                "Type": 31
+                            }
+                        ],
+                        "AttributesRawData": "mpmZPwAAAAAAAAAAAAAAAAAAAAAAAIA/GFRAPgAAgD//AAAA/wAAAP8AAAD/AAAAAACAPwAAAAAAAAAAAAAAAAAAoEAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=="
+                    },
+                    "EditorAttributeList": {
+                        "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 1.0
+                                    },
+                                    {
+                                        "ValueFX": 1.0
+                                    },
+                                    {
+                                        "ValueFX": 2.0
+                                    }
+                                ]
+                            },
+                            {
+                                "Attributes": [
+                                    {
+                                        "Color": [
+                                            0.0,
+                                            1.0,
+                                            0.18782079219818115
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 1.0
+                                    }
+                                ]
+                            },
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueBX": true
+                                    }
+                                ]
+                            },
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 1.2000000476837158
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Component_[14141057062408196656]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14141057062408196656,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 4.0
+                    }
+                },
+                "Component_[16286040837355772150]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16286040837355772150
+                },
+                "Component_[16585475803907912955]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16585475803907912955
+                },
+                "Component_[173177097798518347]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 173177097798518347
+                },
+                "Component_[17386268685253462615]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17386268685253462615
+                },
+                "Component_[17481236408759665719]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17481236408759665719,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14141057062408196656
+                        },
+                        {
+                            "ComponentId": 13295929982889750041,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 13810961993487198975,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17945047598856667843]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17945047598856667843
+                },
+                "Component_[5549552797760048030]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5549552797760048030
+                }
+            }
+        }
+    }
+}

@@ -20,10 +20,6 @@
                 "$type": "EditorPrefabComponent",
                 "Id": 4371439333503112224
             },
-            "Component_[4418215227358203485]": {
-                "$type": "SelectionComponent",
-                "Id": 4418215227358203485
-            },
             "Component_[5050263579258107054]": {
                 "$type": "EditorEntitySortComponent",
                 "Id": 5050263579258107054,
@@ -79,6 +75,10 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 14954858544225775367
                 },
+                "Component_[15359498194911214364]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 15359498194911214364
+                },
                 "Component_[16904567392775595613]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 16904567392775595613
@@ -91,22 +91,15 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 3441541364326297883
                 },
-                "Component_[4569623153485044845]": {
-                    "$type": "SelectionComponent",
-                    "Id": 4569623153485044845
-                },
                 "Component_[5451269768190522012]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 5451269768190522012,
                     "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
                             ]
                         }
                     },
