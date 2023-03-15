@@ -1,0 +1,91 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{C832F126-BD37-59DD-A9A3-F99B1B0BECAA}",
+            "name": "HTS_BldgLG_I_Main",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Main.Main_phys",
+                    "RootNode.Main.Main_phys.transform",
+                    "RootNode.Main.Main_phys.custom_properties",
+                    "RootNode.Main.Main_phys.UVMap",
+                    "RootNode.Main.Main_phys.Phys_MAT"
+                ],
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.Main",
+                    "RootNode.Main.custom_properties",
+                    "RootNode.Main.Main_geo",
+                    "RootNode.Main.Main_geo.Col0",
+                    "RootNode.Main.Main_geo.Col1",
+                    "RootNode.Main.Main_geo.transform",
+                    "RootNode.Main.Main_geo.custom_properties",
+                    "RootNode.Main.Main_geo.UV0",
+                    "RootNode.Main.Main_geo.UV1",
+                    "RootNode.Main.Main_geo.KB3D_HTS_MetalYellow",
+                    "RootNode.Main.Main_geo.KB3D_HTS_MetalWhite",
+                    "RootNode.Main.Main_geo.KB3D_HTS_MetalGrey",
+                    "RootNode.Main.Main_geo.KB3D_HTS_HoloFillA",
+                    "RootNode.Main.Main_geo.KB3D_HTS_PlasticWhite"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Phys_MAT",
+                        "MaterialAsset": {
+                            "assetId": {
+                                "guid": "{92A5EC27-1AC1-523E-88BB-9A6278DBD853}",
+                                "subId": 1
+                            },
+                            "assetHint": "physx/metal.physicsmaterial"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "HTS_BldgLG_I_Main",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Main",
+                    "RootNode.Main.custom_properties",
+                    "RootNode.Main.Main_geo",
+                    "RootNode.Main.Main_geo.Col0",
+                    "RootNode.Main.Main_geo.Col1",
+                    "RootNode.Main.Main_geo.transform",
+                    "RootNode.Main.Main_geo.custom_properties",
+                    "RootNode.Main.Main_geo.UV0",
+                    "RootNode.Main.Main_geo.UV1",
+                    "RootNode.Main.Main_geo.KB3D_HTS_MetalYellow",
+                    "RootNode.Main.Main_geo.KB3D_HTS_MetalWhite",
+                    "RootNode.Main.Main_geo.KB3D_HTS_MetalGrey",
+                    "RootNode.Main.Main_geo.KB3D_HTS_HoloFillA",
+                    "RootNode.Main.Main_geo.KB3D_HTS_PlasticWhite"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Main.Main_phys",
+                    "RootNode.Main.Main_phys.transform",
+                    "RootNode.Main.Main_phys.custom_properties",
+                    "RootNode.Main.Main_phys.UVMap",
+                    "RootNode.Main.Main_phys.Phys_MAT"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Disabled"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{A4DD47FE-6B07-57F8-930D-1E292AB8958B}"
+        }
+    ]
+}

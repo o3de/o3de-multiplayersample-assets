@@ -1,0 +1,82 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{89C2627F-EBE1-5F80-ABAE-1F8C9D738AD8}",
+            "name": "HTS_Bench_A",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.KB3D_HTS_Bench_A_phys",
+                    "RootNode.KB3D_HTS_Bench_A_phys.transform",
+                    "RootNode.KB3D_HTS_Bench_A_phys.custom_properties",
+                    "RootNode.KB3D_HTS_Bench_A_phys.UVMap",
+                    "RootNode.KB3D_HTS_Bench_A_phys.DefaultMaterial"
+                ],
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.KB3D_HTS_Bench_A_lod0",
+                    "RootNode.KB3D_HTS_Bench_A_lod0.Col0",
+                    "RootNode.KB3D_HTS_Bench_A_lod0.Col1",
+                    "RootNode.KB3D_HTS_Bench_A_lod0.transform",
+                    "RootNode.KB3D_HTS_Bench_A_lod0.custom_properties",
+                    "RootNode.KB3D_HTS_Bench_A_lod0.UV0",
+                    "RootNode.KB3D_HTS_Bench_A_lod0.UV1",
+                    "RootNode.KB3D_HTS_Bench_A_lod0.KB3D_HTS_PlasticWhite",
+                    "RootNode.KB3D_HTS_Bench_A_lod0.KB3D_HTS_MetalWhite",
+                    "RootNode.KB3D_HTS_Bench_A_lod0.KB3D_HTS_MetalGrey"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "HTS_Bench_A",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.KB3D_HTS_Bench_A_lod0",
+                    "RootNode.KB3D_HTS_Bench_A_lod0.Col0",
+                    "RootNode.KB3D_HTS_Bench_A_lod0.Col1",
+                    "RootNode.KB3D_HTS_Bench_A_lod0.transform",
+                    "RootNode.KB3D_HTS_Bench_A_lod0.custom_properties",
+                    "RootNode.KB3D_HTS_Bench_A_lod0.UV0",
+                    "RootNode.KB3D_HTS_Bench_A_lod0.UV1",
+                    "RootNode.KB3D_HTS_Bench_A_lod0.KB3D_HTS_PlasticWhite",
+                    "RootNode.KB3D_HTS_Bench_A_lod0.KB3D_HTS_MetalWhite",
+                    "RootNode.KB3D_HTS_Bench_A_lod0.KB3D_HTS_MetalGrey"
+                ],
+                "unselectedNodes": [
+                    "RootNode.KB3D_HTS_Bench_A_phys",
+                    "RootNode.KB3D_HTS_Bench_A_phys.transform",
+                    "RootNode.KB3D_HTS_Bench_A_phys.custom_properties",
+                    "RootNode.KB3D_HTS_Bench_A_phys.UVMap",
+                    "RootNode.KB3D_HTS_Bench_A_phys.DefaultMaterial"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{735F63AF-36FB-52D9-AC1D-ED7B592C441F}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "KB3D_HighTechStreets/Objects/HTS_Bench_A/HTS_Bench_A_fbx.procprefab",
+            "id": "{520959D6-7A09-5D4E-BF1A-1BAB82C80883}",
+            "createProceduralPrefab": false
+        }
+    ]
+}

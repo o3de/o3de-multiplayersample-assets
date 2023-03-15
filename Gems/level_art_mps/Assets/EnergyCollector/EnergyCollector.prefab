@@ -1,0 +1,206 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "EnergyCollector",
+        "Components": {
+            "Component_[10046873803164473926]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 10046873803164473926,
+                "Parent Entity": ""
+            },
+            "Component_[11273462440010948658]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 11273462440010948658
+            },
+            "Component_[13540063312181265151]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 13540063312181265151
+            },
+            "Component_[15573695955437848639]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 15573695955437848639
+            },
+            "Component_[17482430855620072239]": {
+                "$type": "EditorLockComponent",
+                "Id": 17482430855620072239
+            },
+            "Component_[17704497117837557672]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 17704497117837557672
+            },
+            "Component_[2841619605291937565]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2841619605291937565
+            },
+            "Component_[7715965284053838728]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 7715965284053838728
+            },
+            "Component_[8271554526246159128]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 8271554526246159128
+            },
+            "Component_[9868009098885578005]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 9868009098885578005,
+                "Child Entity Order": [
+                    "Entity_[1103131962735427]"
+                ]
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1103131962735427]": {
+            "Id": "Entity_[1103131962735427]",
+            "Name": "EnergyCollector",
+            "Components": {
+                "Component_[1266468343564094841]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1266468343564094841,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 954085393
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F5A7F342-869D-5A64-B289-83F5F0CCD9C9}"
+                                            },
+                                            "assetHint": "energycollector/energycollector_alpha_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1927518764
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C0781D87-0F0D-5091-B330-A9F5CF19E34D}"
+                                            },
+                                            "assetHint": "energycollector/energycollector_opaque_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[15893132421336878983]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 15893132421336878983,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{89B5321A-AFEF-5848-AF41-064B3ECF62DF}",
+                                    "subId": 283154443
+                                },
+                                "assetHint": "energycollector/energycollector.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[16942300981108034688]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16942300981108034688
+                },
+                "Component_[17075081916846279767]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17075081916846279767
+                },
+                "Component_[1917643733313624510]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1917643733313624510
+                },
+                "Component_[2008737776799249857]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2008737776799249857
+                },
+                "Component_[2626281659352601709]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2626281659352601709
+                },
+                "Component_[3205004283760294147]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3205004283760294147
+                },
+                "Component_[3680589033456825559]": {
+                    "$type": "EditorMeshColliderComponent",
+                    "Id": 3680589033456825559,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "opaque_MAT"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{89B5321A-AFEF-5848-AF41-064B3ECF62DF}",
+                                    "subId": 1056693580
+                                },
+                                "assetHint": "energycollector/energycollector.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{89B5321A-AFEF-5848-AF41-064B3ECF62DF}",
+                                        "subId": 1056693580
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "energycollector/energycollector.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
+                "Component_[4935822056597843404]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4935822056597843404
+                },
+                "Component_[5603115993838143548]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5603115993838143548,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 8817580024962977177
+                        },
+                        {
+                            "ComponentId": 15893132421336878983,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 5392664555095780239,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 3680589033456825559,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[7828978321003616797]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 7828978321003616797
+                },
+                "Component_[8817580024962977177]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8817580024962977177,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    }
+}

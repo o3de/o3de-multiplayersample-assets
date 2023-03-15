@@ -1,0 +1,72 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{C8AF3D8D-6826-5B7F-A0ED-1A181767F00D}",
+            "name": "HTS_BldgLG_D_Main",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Main.Main_phys"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Main",
+                    "RootNode.Main.LOD_Group_1",
+                    "RootNode.Main.LOD_Group_1.LOD0",
+                    "RootNode.Main.LOD_Group_1.LOD1",
+                    "RootNode.Main.LOD_Group_1.LOD2",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo",
+                    "RootNode.Main.LOD_Group_1.LOD2.Main_geo",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.Door",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.Door",
+                    "RootNode.Main.LOD_Group_1.LOD2.Main_geo.Door"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "phys_MAT"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "HTS_BldgLG_D_Main",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Main",
+                    "RootNode.Main.LOD_Group_1",
+                    "RootNode.Main.LOD_Group_1.LOD0",
+                    "RootNode.Main.LOD_Group_1.LOD1",
+                    "RootNode.Main.LOD_Group_1.LOD2",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo",
+                    "RootNode.Main.LOD_Group_1.LOD2.Main_geo",
+                    "RootNode.Main.LOD_Group_1.LOD0.Main_geo.Door",
+                    "RootNode.Main.LOD_Group_1.LOD1.Main_geo.Door",
+                    "RootNode.Main.LOD_Group_1.LOD2.Main_geo.Door"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Main.Main_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Disabled"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{9581A928-5EE4-5761-821F-4186AD277575}"
+        }
+    ]
+}

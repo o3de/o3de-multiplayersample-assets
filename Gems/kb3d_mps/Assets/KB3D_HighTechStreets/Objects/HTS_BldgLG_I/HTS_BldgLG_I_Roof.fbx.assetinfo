@@ -1,0 +1,93 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{D96DB455-FF58-5A50-ADAE-CF33DC34E228}",
+            "name": "HTS_BldgLG_I_Roof",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Roof.Roof_phys",
+                    "RootNode.Roof.Roof_phys.transform",
+                    "RootNode.Roof.Roof_phys.custom_properties",
+                    "RootNode.Roof.Roof_phys.UVMap",
+                    "RootNode.Roof.Roof_phys.Phys_MAT"
+                ],
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.Roof",
+                    "RootNode.Roof.custom_properties",
+                    "RootNode.Roof.Roof_geo",
+                    "RootNode.Roof.Roof_geo.Col0",
+                    "RootNode.Roof.Roof_geo.Col1",
+                    "RootNode.Roof.Roof_geo.transform",
+                    "RootNode.Roof.Roof_geo.custom_properties",
+                    "RootNode.Roof.Roof_geo.UV0",
+                    "RootNode.Roof.Roof_geo.UV1",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_MetalWhite",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_PlasticWhite",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_MetalLight",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_MetalGrey",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_MetalYellow",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_GlassBlue"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Phys_MAT",
+                        "MaterialAsset": {
+                            "assetId": {
+                                "guid": "{92A5EC27-1AC1-523E-88BB-9A6278DBD853}",
+                                "subId": 1
+                            },
+                            "assetHint": "physx/metal.physicsmaterial"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "HTS_BldgLG_I_Roof",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Roof",
+                    "RootNode.Roof.custom_properties",
+                    "RootNode.Roof.Roof_geo",
+                    "RootNode.Roof.Roof_geo.Col0",
+                    "RootNode.Roof.Roof_geo.Col1",
+                    "RootNode.Roof.Roof_geo.transform",
+                    "RootNode.Roof.Roof_geo.custom_properties",
+                    "RootNode.Roof.Roof_geo.UV0",
+                    "RootNode.Roof.Roof_geo.UV1",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_MetalWhite",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_PlasticWhite",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_MetalLight",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_MetalGrey",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_MetalYellow",
+                    "RootNode.Roof.Roof_geo.KB3D_HTS_GlassBlue"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Roof.Roof_phys",
+                    "RootNode.Roof.Roof_phys.transform",
+                    "RootNode.Roof.Roof_phys.custom_properties",
+                    "RootNode.Roof.Roof_phys.UVMap",
+                    "RootNode.Roof.Roof_phys.Phys_MAT"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Disabled"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{94F9385A-0DCF-5151-B678-8C514D499BBA}"
+        }
+    ]
+}

@@ -1,0 +1,167 @@
+#pragma once
+#include <viewsrg.srgi>
+#include <Atom/Features/PBR/DefaultObjectSrg.azsli>
+#define UNIFIED_FORWARD_OUTPUT
+#include <Atom/Features/PBR/ForwardPassOutput.azsli>
+#include <Atom/Features/SrgSemantics.azsli>
+#include <Atom/RPI/ShaderResourceGroups/DefaultDrawSrg.azsli>
+#include <Atom/Features/PBR/ForwardPassSrg.azsli>
+
+ShaderResourceGroup MatSRG : SRG_PerMaterial
+{
+    float3 m_Color;
+	float m_Intensity;
+	Texture2D m_patternMap;
+	Texture2D m_noisePerline1;
+	Texture2D m_HexagonalGradiantMap;
+	Texture2D m_maskMap;
+	float m_Slider;
+	float m_power;
+	float m_offset;
+    Sampler m_sampler
+    {
+        AddressU = Wrap;
+        AddressV = Wrap;
+        MinFilter = Linear;
+        MagFilter = Linear;
+        MipFilter = Linear;
+        MaxAnisotropy = 16;
+    };
+}
+
+struct v2f
+{
+    float4 vertex : SV_POSITION;
+    float2 uv : TEXCOORD0;
+    float4 vertexObjPos : TEXCOORD1;
+    float2 screenPos : TEXCOORD2;
+};
+
+struct VertexInput
+{
+    float3 m_position : POSITION;
+    float3 m_normal : NORMAL;
+	float2 m_uv : UV0;
+};
+
+struct VertexShaderOutput
+{
+    float4 m_position : SV_Position;
+	float3 m_normal : NORMAL;
+	float2 m_uv : UV0;
+	float3 m_worldPosition : UV1;
+	float3 m_localSpacePosition : UV2;
+	float4 m_clipPosition : UV4;
+	//float3 m_positionVS : UV4;
+};
+
+VertexShaderOutput MainVS(VertexInput IN)
+{
+    VertexShaderOutput OUT;
+	
+
+	OUT.m_worldPosition = mul(ObjectSrg::GetWorldMatrix(), float4(IN.m_position, 1)).xyz;
+	OUT.m_position = mul(ViewSrg::m_viewProjectionMatrix, float4(OUT.m_worldPosition, 1.0));
+
+    //OUT.m_positionWS = mul(ObjectSrg::GetWorldMatrix(), float4(OUT.m_worldPosition, 1)).xyz;
+	//OUT.m_positionVS = mul(ViewSrg::m_viewProjectionMatrix, float4(OUT.m_worldPosition, 1.0)).xyz;
+
+
+	OUT.m_normal = normalize(mul(ObjectSrg::GetWorldMatrixInverseTranspose(), IN.m_normal));
+
+	OUT.m_uv = IN.m_uv;
+	OUT.m_localSpacePosition = IN.m_position;
+	OUT.m_clipPosition = OUT.m_position;
+    return OUT;
+}
+
+struct PixelOutput
+{
+    float4 m_color : SV_Target0;
+};
+
+float   GetLinearDepth(float depth)
+{
+	const float zFar = ViewSrg::GetFarZ();
+	const float zRange = ViewSrg::GetFarZMinusNearZ();
+	const float zFarTimesNear = ViewSrg::GetFarZTimesNearZ();
+	return (-zFarTimesNear) / (depth * zRange - zFar);
+}
+
+ForwardPassOutput MainPS(VertexShaderOutput IN)
+{
+    ForwardPassOutput OUT;
+	
+	//float fragmentEyeDepth = -IN.m_positionVS.z;
+	float3 Color =  MatSRG::m_Color.rgb;
+	float Intensity = MatSRG::m_Intensity;
+	float2 uv = IN.m_uv;
+	float3 viewPos = ViewSrg::m_worldPosition;
+	float3 worldPos = IN.m_worldPosition;
+	float3 locPos = IN.m_localSpacePosition;
+	float3 viewDir = normalize(worldPos - viewPos);
+	float3 normal = IN.m_normal;
+	float fresnel = pow(1 - saturate(abs(dot(normal, viewDir))), MatSRG::m_power)* 0.75;
+	float4 perlinnoise1 = MatSRG::m_noisePerline1.Sample(MatSRG::m_sampler, uv * float2(3, 2) + (SceneSrg::m_time * float2(-0.025, -0.05)));
+	float4 hexagonGradiant = MatSRG::m_HexagonalGradiantMap.Sample(MatSRG::m_sampler, uv * float2(3, 2) + (SceneSrg::m_time * float2(-0.025, -0.05)));
+	float4 maskTexture = step(0.69, MatSRG::m_maskMap.Sample(MatSRG::m_sampler, uv * float2(1, 2)+ (SceneSrg::m_time * float2(0.1, 0.25))));
+	float4 patternTexture = MatSRG::m_patternMap.Sample(MatSRG::m_sampler, uv * float2(3, 2) + (SceneSrg::m_time * float2(-0.025, -0.05)));
+	
+	/*
+	float projectionSign  = 1f;
+	float4 o = m_position * 0.5f;
+	o.xy = float2(o.x, o.y * projectionSign) + o.w;
+	o.zw = pos.zw;
+	float4 ComputeScreenPos = o;
+	*/
+	
+	float InRemap = MatSRG::m_Slider;
+	float2 InMinMax = float2(0, 1);
+	float2 OutMinMax = float2(0.8, -0.7);
+	float sliderRemap = OutMinMax.x + (InRemap - InMinMax.x) * (OutMinMax.y - OutMinMax.x) / (InMinMax.y - InMinMax.x);
+	
+	
+	float2 gradiantandNoise = hexagonGradiant * clamp(perlinnoise1, 0.15, 1);
+	float2 uvNoise = lerp(1-uv, gradiantandNoise, 0.25) + float2(0, sliderRemap);
+	float2 offset2 = float2(uvNoise * float2(1, 0.5) + float2(0, sliderRemap) + MatSRG::m_Slider+ 0.01);
+	float2 offset3 = float2(uvNoise * float2(1, 2) + float2(0, sliderRemap)) + MatSRG::m_Slider - float2(0, 1.76);
+	
+	float comparaisonGreater = clamp(offset2.y > 0.99 ? 0 : offset2.y, 0, 1);
+	float comparaisonGreater2 = clamp(comparaisonGreater > 0.01 ? offset3.y : comparaisonGreater, 0, 1);	
+	
+	float gradient = 0.73 * (saturate(comparaisonGreater2));
+		
+	float2 OutMinMax2 = float2(0.41, 1.4);
+	float sliderRemap2 = OutMinMax2.x + (InRemap - InMinMax.x) * (OutMinMax2.y - OutMinMax2.x) / (InMinMax.y - InMinMax.x);	
+		
+	float2 d = abs(uvNoise * float2(1, 1.05) - sliderRemap2) - float2(3, 0.02);
+    d = 1 - d / fwidth(d);
+	
+    float rect = saturate(min(d.x, d.y));
+	
+	float alpha = comparaisonGreater;
+	float alpha2 = alpha > 0 ? 1 : alpha;
+	
+	// Get scene and fragment depths:
+	
+	float3 clipPos = IN.m_clipPosition / IN.m_clipPosition.w;
+	float2 screenUV = clipPos * 0.5f + 0.5f;
+	screenUV.y = 1.0f - screenUV.y;
+	const float fragDepth = GetLinearDepth(clipPos.z);
+	const float sceneDepth = PassSrg::m_linearDepthTexture.Sample(PassSrg::LinearSampler, screenUV).r;
+	//float DepthOffset = sceneDepth - fragDepth;
+	//float DepthOffset = 1-(sceneDepth-(fragDepth - MatSRG::m_offset));
+	float DepthOffset =clamp(1- smoothstep((sceneDepth - fragDepth), 1, 0), 0., 0.4);
+	DepthOffset = smoothstep(0.1,0.0,abs(sceneDepth-fragDepth));
+
+	float3 lineBorder = rect + ((maskTexture.xyz * patternTexture.xyz + patternTexture.xyz * 0.4) + (clamp(gradient + alpha2 * (fresnel + DepthOffset), 0., 0.4) * Color * Intensity));
+	
+	
+	//OUT.m_color.rgb = float3(1., 1., 1.) * (DepthOffset);
+	//OUT.m_color.a = 1.0f;
+	OUT.m_color.rgb = lineBorder;
+	OUT.m_color.a = clamp(gradient + alpha2 * (fresnel + DepthOffset), 0., 0.4);
+	
+
+    return OUT;
+}

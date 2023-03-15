@@ -1,0 +1,89 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{41427A7B-32C3-53B1-AC31-165D48FC5E8B}",
+            "name": "HTS_Lamp",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.HTS_Lamp.Lamp_phys",
+                    "RootNode.HTS_Lamp.Lamp_phys.transform",
+                    "RootNode.HTS_Lamp.Lamp_phys.custom_properties",
+                    "RootNode.HTS_Lamp.Lamp_phys.UVMap",
+                    "RootNode.HTS_Lamp.Lamp_phys.Phys_MAT"
+                ],
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.HTS_Lamp",
+                    "RootNode.HTS_Lamp.custom_properties",
+                    "RootNode.HTS_Lamp.Lamp_geo",
+                    "RootNode.HTS_Lamp.Lamp_geo.Col0",
+                    "RootNode.HTS_Lamp.Lamp_geo.Col1",
+                    "RootNode.HTS_Lamp.Lamp_geo.transform",
+                    "RootNode.HTS_Lamp.Lamp_geo.custom_properties",
+                    "RootNode.HTS_Lamp.Lamp_geo.UV0",
+                    "RootNode.HTS_Lamp.Lamp_geo.UV1",
+                    "RootNode.HTS_Lamp.Lamp_geo.KB3D_HTS_MetalYellow",
+                    "RootNode.HTS_Lamp.Lamp_geo.KB3D_HTS_MetalGrey",
+                    "RootNode.HTS_Lamp.Lamp_geo.KB3D_HTS_PlasticWhite",
+                    "RootNode.HTS_Lamp.Lamp_geo.KB3D_HTS_MetalLight",
+                    "RootNode.HTS_Lamp.Lamp_geo.KB3D_HTS_MetalWhite",
+                    "RootNode.HTS_Lamp.Lamp_geo.KB3D_HTS_LightBlue"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Phys_MAT"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "HTS_Lamp",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.HTS_Lamp",
+                    "RootNode.HTS_Lamp.custom_properties",
+                    "RootNode.HTS_Lamp.Lamp_geo",
+                    "RootNode.HTS_Lamp.Lamp_geo.Col0",
+                    "RootNode.HTS_Lamp.Lamp_geo.Col1",
+                    "RootNode.HTS_Lamp.Lamp_geo.transform",
+                    "RootNode.HTS_Lamp.Lamp_geo.custom_properties",
+                    "RootNode.HTS_Lamp.Lamp_geo.UV0",
+                    "RootNode.HTS_Lamp.Lamp_geo.UV1",
+                    "RootNode.HTS_Lamp.Lamp_geo.KB3D_HTS_MetalYellow",
+                    "RootNode.HTS_Lamp.Lamp_geo.KB3D_HTS_MetalGrey",
+                    "RootNode.HTS_Lamp.Lamp_geo.KB3D_HTS_PlasticWhite",
+                    "RootNode.HTS_Lamp.Lamp_geo.KB3D_HTS_MetalLight",
+                    "RootNode.HTS_Lamp.Lamp_geo.KB3D_HTS_MetalWhite",
+                    "RootNode.HTS_Lamp.Lamp_geo.KB3D_HTS_LightBlue"
+                ],
+                "unselectedNodes": [
+                    "RootNode.HTS_Lamp.Lamp_phys",
+                    "RootNode.HTS_Lamp.Lamp_phys.transform",
+                    "RootNode.HTS_Lamp.Lamp_phys.custom_properties",
+                    "RootNode.HTS_Lamp.Lamp_phys.UVMap",
+                    "RootNode.HTS_Lamp.Lamp_phys.Phys_MAT"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Disabled"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule"
+                    }
+                ]
+            },
+            "id": "{0EDD0017-A564-554A-839E-93D7AF00E0DA}"
+        }
+    ]
+}

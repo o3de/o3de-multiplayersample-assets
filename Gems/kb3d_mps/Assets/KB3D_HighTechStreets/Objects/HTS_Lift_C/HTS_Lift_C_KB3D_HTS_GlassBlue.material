@@ -1,12 +1,16 @@
 {
     "description": "For reference, lists the default values for every available property in 'Materials/Types/StandardPBR.materialtype'",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
     "materialTypeVersion": 5,
     "propertyValues": {
-        "baseColor.textureMap": "KB3D_HighTechStreets/KB3DTextures/KB3D_HTS_GlassBlue_basecolor.png",
-        "parallax.textureMap": "KB3D_HighTechStreets/KB3DTextures/KB3D_HTS_GlassBlue_height.png",
-        "metallic.textureMap": "KB3D_HighTechStreets/KB3DTextures/KB3D_HTS_GlassBlue_metallic.png",
-        "normal.textureMap": "KB3D_HighTechStreets/KB3DTextures/KB3D_HTS_GlassBlue_normal.png",
-        "roughness.textureMap": "KB3D_HighTechStreets/KB3DTextures/KB3D_HTS_GlassBlue_roughness.png"
+        "baseColor.textureMap": "../../KB3DTextures/KB3D_HTS_GlassBlue_basecolor.png",
+        "metallic.useTexture": false,
+        "normal.textureMap": "../../KB3DTextures/KB3D_HTS_GlassBlue_normal.png",
+        "opacity.alphaSource": "None",
+        "opacity.factor": 0.25,
+        "opacity.mode": "Blended",
+        "roughness.textureMap": "../../KB3DTextures/KB3D_HTS_GlassBlue_roughness.png",
+        "specularF0.factor": 1.0,
+        "specularF0.textureMap": "../../KB3DTextures/KB3D_HTS_GlassBlue_refraction.png"
     }
 }
