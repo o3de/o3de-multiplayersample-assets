@@ -20,10 +20,6 @@
                 "$type": "EditorPrefabComponent",
                 "Id": 14601060729522529838
             },
-            "Component_[15951084457040173968]": {
-                "$type": "SelectionComponent",
-                "Id": 15951084457040173968
-            },
             "Component_[17347237622351857172]": {
                 "$type": "EditorPendingCompositionComponent",
                 "Id": 17347237622351857172
@@ -58,10 +54,6 @@
             "Id": "Entity_[1574819893151]",
             "Name": "HTS_Road_D",
             "Components": {
-                "Component_[10899835991695226771]": {
-                    "$type": "SelectionComponent",
-                    "Id": 10899835991695226771
-                },
                 "Component_[11253689644504950289]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 11253689644504950289
@@ -119,7 +111,7 @@
                     "Id": 3369379742709399289
                 },
                 "Component_[4994980349732420367]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 4994980349732420367,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -172,6 +164,10 @@
                             }
                         }
                     }
+                },
+                "Component_[5815051842682214524]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 5815051842682214524
                 },
                 "Component_[7929221420318785394]": {
                     "$type": "EditorEntityIconComponent",

@@ -3,43 +3,159 @@
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
             "id": "{B346754C-F17B-521F-A4D6-166D78B6005D}",
-            "name": "HTS_BldgLG_F_Stairs",
+            "name": "HTS_Bldglg_F_Stairs",
             "NodeSelectionList": {
                 "selectedNodes": [
-                    "RootNode.KB3D_HTS_BldgLG_F_Stairs_phys"
+                    "RootNode.Stairs.Stairs_phys"
                 ],
                 "unselectedNodes": [
                     {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_BldgLG_F_Stairs"
+                    "RootNode.Stairs",
+                    "RootNode.Stairs.LOD_Group_2",
+                    "RootNode.Stairs.LOD_Group_2.LOD0",
+                    "RootNode.Stairs.LOD_Group_2.LOD1",
+                    "RootNode.Stairs.LOD_Group_2.LOD2",
+                    "RootNode.Stairs.LOD_Group_2.LOD0.Stairs_geo",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface12",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface31",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface41",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface44",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface54",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface86",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface95",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface120",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface121",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface123",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface125",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface97",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface182",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface280",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface219",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface249",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface188",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface315",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface135",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface282",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface217",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface216",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface136",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface250",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface218",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface281",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface187",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface12",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface31",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface41",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface44",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface54",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface86",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface95",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface120",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface121",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface123",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface125",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface97",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface317",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface318",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface319",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface320",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface321",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface322",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface323",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface324",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface325",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface326",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface327",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface328",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface329",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface330"
                 ]
             },
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "DefaultMaterial"
+                        "Name": "phys_MAT"
                     }
                 ]
             }
         },
         {
             "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "HTS_BldgLG_F_Stairs",
+            "name": "HTS_Bldglg_F_Stairs",
             "nodeSelectionList": {
                 "selectedNodes": [
                     {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_BldgLG_F_Stairs"
+                    "RootNode.Stairs",
+                    "RootNode.Stairs.LOD_Group_2",
+                    "RootNode.Stairs.LOD_Group_2.LOD0",
+                    "RootNode.Stairs.LOD_Group_2.LOD1",
+                    "RootNode.Stairs.LOD_Group_2.LOD2",
+                    "RootNode.Stairs.LOD_Group_2.LOD0.Stairs_geo",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface12",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface31",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface41",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface44",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface54",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface86",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface95",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface120",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface121",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface123",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface125",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface97",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface182",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface280",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface219",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface249",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface188",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface315",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface135",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface282",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface217",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface216",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface136",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface250",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface218",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface281",
+                    "RootNode.Stairs.LOD_Group_2.LOD1.polySurface187",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface12",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface31",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface41",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface44",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface54",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface86",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface95",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface120",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface121",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface123",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface125",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface97",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface317",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface318",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface319",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface320",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface321",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface322",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface323",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface324",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface325",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface326",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface327",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface328",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface329",
+                    "RootNode.Stairs.LOD_Group_2.LOD2.polySurface330"
                 ],
                 "unselectedNodes": [
-                    "RootNode.KB3D_HTS_BldgLG_F_Stairs_phys"
+                    "RootNode.Stairs.Stairs_phys"
                 ]
             },
             "rules": {
                 "rules": [
                     {
                         "$type": "StaticMeshAdvancedRule",
-                        "vertexColorStreamName": "Col0"
+                        "vertexColorStreamName": "Disabled"
                     },
                     {
                         "$type": "MaterialRule"
@@ -47,12 +163,6 @@
                 ]
             },
             "id": "{9A0CB95E-4E80-503E-81B8-C2667124DCF7}"
-        },
-        {
-            "$type": "PrefabGroup",
-            "name": "KB3D_HighTechStreets/Objects/HTS_BldgLG_F/HTS_BldgLG_F_Stairs_fbx.procprefab",
-            "id": "{9663C22A-8F66-5C9C-BB4E-C34A6E7BCEA8}",
-            "createProceduralPrefab": false
         }
     ]
 }

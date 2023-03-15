@@ -1,20 +1,41 @@
 {
     "values": [
         {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{BB7F44E0-B91D-5E48-B5E5-525ECEA8EC88}",
+            "name": "HTS_BldgLG_D_HoloA",
+            "NodeSelectionList": {
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.HoloA",
+                    "RootNode.HoloA.HoloA_geo"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Entire object"
+                    }
+                ]
+            }
+        },
+        {
             "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
             "name": "HTS_BldgLG_D_HoloA",
             "nodeSelectionList": {
                 "selectedNodes": [
                     {},
                     "RootNode",
-                    "RootNode.KB3D_HTS_BldgLG_D_HoloA"
+                    "RootNode.HoloA",
+                    "RootNode.HoloA.HoloA_geo"
                 ]
             },
             "rules": {
                 "rules": [
                     {
                         "$type": "StaticMeshAdvancedRule",
-                        "vertexColorStreamName": "Col0"
+                        "vertexColorStreamName": "Disabled"
                     },
                     {
                         "$type": "MaterialRule"
@@ -22,12 +43,6 @@
                 ]
             },
             "id": "{1059C203-AA8A-54CA-BF4B-889CA63811A0}"
-        },
-        {
-            "$type": "PrefabGroup",
-            "name": "KB3D_HighTechStreets/Objects/HTS_BldgLG_D/HTS_BldgLG_D_HoloA_fbx.procprefab",
-            "id": "{BCFCDC18-7322-501A-9EA9-5A3DF20B13A8}",
-            "createProceduralPrefab": false
         }
     ]
 }

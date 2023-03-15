@@ -3,10 +3,6 @@
         "Id": "ContainerEntity",
         "Name": "HTS_Planter_A",
         "Components": {
-            "Component_[11222838713452857712]": {
-                "$type": "SelectionComponent",
-                "Id": 11222838713452857712
-            },
             "Component_[12340722505196417405]": {
                 "$type": "EditorDisabledCompositionComponent",
                 "Id": 12340722505196417405
@@ -146,6 +142,10 @@
                         }
                     }
                 },
+                "Component_[11765637173283526739]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 11765637173283526739
+                },
                 "Component_[11848056603695657886]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 11848056603695657886,
@@ -172,10 +172,6 @@
                     "Id": 13616016462338136200,
                     "Parent Entity": "ContainerEntity"
                 },
-                "Component_[15365410223079969238]": {
-                    "$type": "SelectionComponent",
-                    "Id": 15365410223079969238
-                },
                 "Component_[16835937655375388016]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 16835937655375388016
@@ -193,7 +189,7 @@
                     "Id": 3911683174015586338
                 },
                 "Component_[7315126566151735774]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 7315126566151735774,
                     "ColliderConfiguration": {
                         "MaterialSlots": {

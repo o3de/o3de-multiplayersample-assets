@@ -4,14 +4,14 @@
     "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.textureMap": "../../KB3DTextures/KB3D_HTS_GlassBlue_basecolor.png",
-        "metallic.textureMap": "../../KB3DTextures/KB3D_HTS_GlassBlue_metallic.png",
+        "irradiance.irradianceColorSource": "BaseColor",
+        "metallic.useTexture": false,
         "normal.textureMap": "../../KB3DTextures/KB3D_HTS_GlassBlue_normal.png",
-        "opacity.alphaAffectsSpecular": 0.009999999776482582,
         "opacity.alphaSource": "None",
-        "opacity.factor": 0.4000000059604645,
-        "opacity.mode": "TintedTransparent",
-        "parallax.factor": 0.004999999888241291,
-        "parallax.textureMap": "../../KB3DTextures/KB3D_HTS_GlassBlue_height.png",
-        "roughness.textureMap": "../../KB3DTextures/KB3D_HTS_GlassBlue_roughness.png"
+        "opacity.factor": 0.25,
+        "opacity.mode": "Blended",
+        "roughness.textureMap": "../../KB3DTextures/KB3D_HTS_GlassBlue_roughness.png",
+        "specularF0.factor": 1.0,
+        "specularF0.textureMap": "../../KB3DTextures/KB3D_HTS_GlassBlue_refraction.png"
     }
 }

@@ -1,0 +1,167 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "VFX_ArmorPowerUp",
+        "Components": {
+            "Component_[13565976525798410457]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13565976525798410457
+            },
+            "Component_[14871661921840929887]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 14871661921840929887,
+                "Parent Entity": ""
+            },
+            "Component_[1688468953936436177]": {
+                "$type": "EditorLockComponent",
+                "Id": 1688468953936436177
+            },
+            "Component_[17991226100419411381]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 17991226100419411381
+            },
+            "Component_[4703714045374163166]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4703714045374163166
+            },
+            "Component_[4897506968162993320]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4897506968162993320,
+                "Child Entity Order": [
+                    "Entity_[755023031442]"
+                ]
+            },
+            "Component_[5208320764711929826]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5208320764711929826
+            },
+            "Component_[5499506523789081674]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5499506523789081674
+            },
+            "Component_[7046456381692957169]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 7046456381692957169,
+                "VisibilityFlag": false
+            },
+            "Component_[8711617607880246107]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 8711617607880246107
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[755023031442]": {
+            "Id": "Entity_[755023031442]",
+            "Name": "ArmorPowerUp",
+            "Components": {
+                "Component_[14520515549971758043]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14520515549971758043
+                },
+                "Component_[147813019651072758]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 147813019651072758
+                },
+                "Component_[14824938202215686664]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14824938202215686664,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 16201962332994798658
+                        },
+                        {
+                            "ComponentId": 3077979769184771587,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 17265309356257159474,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 1837286717718438312,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[16201962332994798658]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16201962332994798658,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 2.5
+                    }
+                },
+                "Component_[16207546360593731872]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16207546360593731872
+                },
+                "Component_[17265309356257159474]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 17265309356257159474,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6373F5F5-C403-5126-A9A9-8682C321579B}",
+                                    "subId": 278095953
+                                },
+                                "assetHint": "materialeditor/viewportmodels/polarsphere.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[1837286717718438312]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1837286717718438312,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{73881AAA-931F-5B36-A53D-0124A7059D69}"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[2204577704701418040]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2204577704701418040
+                },
+                "Component_[3077979769184771587]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 3077979769184771587,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{F6AC97DB-6813-5940-B095-CB56D190DD17}",
+                            "path": "Assets/Materials/ArmorPowerUp/Scripts/Script_ArmorPowerUp.scriptcanvas"
+                        },
+                        "sourceName": "Script_ArmorPowerUp.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{F6AC97DB-6813-5940-B095-CB56D190DD17}",
+                                "path": "Assets/Materials/ArmorPowerUp/Scripts/Script_ArmorPowerUp.scriptcanvas"
+                            }
+                        }
+                    }
+                },
+                "Component_[7452690845587483811]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7452690845587483811
+                },
+                "Component_[7581940926525940740]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7581940926525940740
+                },
+                "Component_[8582145663172099639]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8582145663172099639
+                }
+            }
+        }
+    }
+}

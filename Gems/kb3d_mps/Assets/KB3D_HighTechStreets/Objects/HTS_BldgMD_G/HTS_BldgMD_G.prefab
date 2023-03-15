@@ -11,10 +11,6 @@
                 "$type": "EditorPrefabComponent",
                 "Id": 14241558843509828286
             },
-            "Component_[14848653406976662872]": {
-                "$type": "SelectionComponent",
-                "Id": 14848653406976662872
-            },
             "Component_[16709914712070768241]": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                 "Id": 16709914712070768241,
@@ -58,6 +54,10 @@
             "Id": "Entity_[1354808219440]",
             "Name": "HTS_BldgMD_G",
             "Components": {
+                "Component_[10017386983972531291]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 10017386983972531291
+                },
                 "Component_[10940486631488398295]": {
                     "$type": "EditorLockComponent",
                     "Id": 10940486631488398295
@@ -71,19 +71,14 @@
                     "Id": 13129914582251903800
                 },
                 "Component_[15266108425615801201]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 15266108425615801201,
                     "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
                             ]
                         }
                     },
@@ -279,10 +274,6 @@
                 "Component_[6536533640472214206]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 6536533640472214206
-                },
-                "Component_[7883543690704455316]": {
-                    "$type": "SelectionComponent",
-                    "Id": 7883543690704455316
                 }
             }
         }
