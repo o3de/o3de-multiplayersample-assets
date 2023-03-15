@@ -21,13 +21,13 @@
                 "Child Entity Order": [
                     "Entity_[1176639161715]",
                     "Entity_[1209340670514]",
-                    "Instance_[1661872974169]/ContainerEntity",
-                    "Instance_[11360941329371]/ContainerEntity",
-                    "Instance_[19121166809552]/ContainerEntity",
-                    "Instance_[24658772965578]/ContainerEntity",
-                    "Instance_[43668298217674]/ContainerEntity",
                     "Instance_[51768606537930]/ContainerEntity",
-                    "Instance_[8367801569919]/ContainerEntity"
+                    "Instance_[1572333270860]/ContainerEntity",
+                    "Instance_[1735542028108]/ContainerEntity",
+                    "Instance_[1838621243212]/ContainerEntity",
+                    "Instance_[1872980981580]/ContainerEntity",
+                    "Instance_[1924520589132]/ContainerEntity",
+                    "Instance_[2186513594188]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -734,7 +734,6 @@
                     "Child Entity Order": [
                         "Instance_[4534577925978]/ContainerEntity",
                         "Instance_[7231817387866]/ContainerEntity",
-                        "Instance_[1596820295514]/ContainerEntity",
                         "Instance_[61606103355226]/ContainerEntity",
                         "Instance_[61649053028186]/ContainerEntity",
                         "Instance_[53445665492826]/ContainerEntity",
@@ -1118,31 +1117,6 @@
                 }
             ]
         },
-        "Instance_[11360941329371]": {
-            "Source": "KB3D_HighTechStreets/Objects/HTS_BldgLG_D/HTS_BldgLG_D.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[4713533524691108144]/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[4713533524691108144]/Transform Data/Translate/0",
-                    "value": -32.8721809387207
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[4713533524691108144]/Transform Data/Translate/1",
-                    "value": -3.849713325500488
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[4713533524691108144]/Transform Data/Translate/2",
-                    "value": -4.76837158203125e-7
-                }
-            ]
-        },
         "Instance_[13072972910426]": {
             "Source": "Barrel01/Barrel01.prefab",
             "Patches": [
@@ -1183,78 +1157,131 @@
                 }
             ]
         },
-        "Instance_[1596820295514]": {
-            "Source": "KB3D_HighTechStreets/Objects/HTS_Road_C/HTS_Road_C.prefab",
+        "Instance_[1572333270860]": {
+            "Source": "KB3D_HighTechStreets/Prefabs/HTS_BldgMD_C.prefab",
             "Patches": [
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[15029335419433904165]/Parent Entity",
-                    "value": "../Entity_[1209340670514]"
+                    "path": "/ContainerEntity/Components/Component_[11388605022631206776]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11388605022631206776]/Transform Data/Translate/0",
+                    "value": -63.73676300048828
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11388605022631206776]/Transform Data/Translate/1",
+                    "value": -37.6313362121582
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11388605022631206776]/Transform Data/Translate/2",
+                    "value": 4.76837158203125e-7
                 }
             ]
         },
         "Instance_[1661872974169]": {
-            "Source": "Pick_Ups/Gem.prefab",
+            "Source": "Pick_Ups/Gem.prefab"
+        },
+        "Instance_[1735542028108]": {
+            "Source": "KB3D_HighTechStreets/Prefabs/HTS_BldgLG_I.prefab",
             "Patches": [
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[1277311024405767786]/Parent Entity",
+                    "path": "/ContainerEntity/Components/Component_[11775020393873745010]/Parent Entity",
                     "value": "../Entity_[1146574390643]"
                 },
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[1277311024405767786]/Transform Data/Translate/0",
-                    "value": -16.86324119567871
+                    "path": "/ContainerEntity/Components/Component_[11775020393873745010]/Transform Data/Translate/0",
+                    "value": -62.499122619628906
                 },
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[1277311024405767786]/Transform Data/Translate/1",
-                    "value": -17.392026901245117
+                    "path": "/ContainerEntity/Components/Component_[11775020393873745010]/Transform Data/Translate/1",
+                    "value": -8.392545700073242
                 },
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[5472716568463115714]/VisibilityFlag",
-                    "value": false
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[61275253273885]/Components/Component_[4197484385270794550]/VisibilityFlag",
-                    "value": false
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[21474557110617]/Components/Component_[10778065244464949795]/VisibilityFlag",
-                    "value": false
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[21474557110617]/Components/Component_[2411676600869301131]/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
-                    "value": "pick_ups/gem_inner_interior_mat.azmaterial"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[63212283524381]/Components/Component_[17195111802591794697]/VisibilityFlag",
-                    "value": false
+                    "path": "/ContainerEntity/Components/Component_[11775020393873745010]/Transform Data/Translate/2",
+                    "value": 9.5367431640625e-7
                 }
             ]
         },
-        "Instance_[19121166809552]": {
-            "Source": "KB3D_HighTechStreets/Objects/HTS_BldgLG_F/HTS_Bldglg_F.prefab",
+        "Instance_[1838621243212]": {
+            "Source": "KB3D_HighTechStreets/Prefabs/HTS_BldgLG_F.prefab",
             "Patches": [
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[3367104611633296304]/Parent Entity",
+                    "path": "/ContainerEntity/Components/Component_[11772461055269678372]/Parent Entity",
                     "value": "../Entity_[1146574390643]"
                 },
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[3367104611633296304]/Transform Data/Translate/0",
-                    "value": -47.99812698364258
+                    "path": "/ContainerEntity/Components/Component_[11772461055269678372]/Transform Data/Translate/0",
+                    "value": -49.10443878173828
                 },
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[3367104611633296304]/Transform Data/Translate/1",
-                    "value": -1.9140892028808592
+                    "path": "/ContainerEntity/Components/Component_[11772461055269678372]/Transform Data/Translate/1",
+                    "value": -2.93597412109375
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11772461055269678372]/Transform Data/Translate/2",
+                    "value": -4.76837158203125e-7
+                }
+            ]
+        },
+        "Instance_[1872980981580]": {
+            "Source": "KB3D_HighTechStreets/Prefabs/HTS_Lamp.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11882972241381921570]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11882972241381921570]/Transform Data/Translate/0",
+                    "value": -39.732261657714844
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11882972241381921570]/Transform Data/Translate/1",
+                    "value": -9.868103981018066
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11882972241381921570]/Transform Data/Rotate/2",
+                    "value": 127.41658782958984
+                }
+            ]
+        },
+        "Instance_[1924520589132]": {
+            "Source": "KB3D_HighTechStreets/Prefabs/HTS_BldgLG_D.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10020934249267694962]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10020934249267694962]/Transform Data/Translate/0",
+                    "value": -29.583843231201172
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10020934249267694962]/Transform Data/Translate/1",
+                    "value": -1.1793861389160156
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10020934249267694962]/Transform Data/Translate/2",
+                    "value": 9.5367431640625e-7
                 }
             ]
         },
@@ -1280,6 +1307,26 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[9966736445084823710]/Transform Data/Translate/2",
                     "value": 2.384185791015625e-7
+                }
+            ]
+        },
+        "Instance_[2186513594188]": {
+            "Source": "KB3D_HighTechStreets/Prefabs/HTS_Road_C.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[1448288839028925519]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[1448288839028925519]/Transform Data/Translate/0",
+                    "value": -10.242387771606445
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[1448288839028925519]/Transform Data/Translate/1",
+                    "value": 2.5538158416748047
                 }
             ]
         },
@@ -1340,26 +1387,6 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[16893389135966699929]/Transform Data/Translate/2",
                     "value": 28.52194023132324
-                }
-            ]
-        },
-        "Instance_[24658772965578]": {
-            "Source": "KB3D_HighTechStreets/Objects/HTS_BldgLG_I/HTS_BldgLG_I.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[4599685179750604053]/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[4599685179750604053]/Transform Data/Translate/0",
-                    "value": -57.076297760009766
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[4599685179750604053]/Transform Data/Translate/1",
-                    "value": -11.933984756469728
                 }
             ]
         },
@@ -1520,31 +1547,6 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[12135421661699558710]/Transform Data/Translate/1",
                     "value": -13.112508773803713
-                }
-            ]
-        },
-        "Instance_[43668298217674]": {
-            "Source": "KB3D_HighTechStreets/Objects/HTS_Lamp/HTS_Lamp.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[3851123399669267816]/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[3851123399669267816]/Transform Data/Translate/0",
-                    "value": -38.98617935180664
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[3851123399669267816]/Transform Data/Translate/1",
-                    "value": -17.861785888671875
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[3851123399669267816]/Transform Data/Rotate/2",
-                    "value": 180.0
                 }
             ]
         },
@@ -1710,26 +1712,6 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[8694555342797032688]/Transform Data/Rotate/2",
                     "value": 180.0
-                }
-            ]
-        },
-        "Instance_[8367801569919]": {
-            "Source": "KB3D_HighTechStreets/Objects/HTS_BldgMD_C/HTS_BldgMD_C.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[2633645467742780250]/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[2633645467742780250]/Transform Data/Translate/0",
-                    "value": -58.80760955810547
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[2633645467742780250]/Transform Data/Translate/1",
-                    "value": -29.72639274597168
                 }
             ]
         }

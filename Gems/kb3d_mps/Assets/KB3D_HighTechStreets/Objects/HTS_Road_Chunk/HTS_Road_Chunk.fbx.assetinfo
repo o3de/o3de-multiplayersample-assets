@@ -1,0 +1,70 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{66B92DEC-C4D0-5D0A-B7D5-E46791B7C4AE}",
+            "name": "HTS_Road_Chunk",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.HTS_Road_Chunk.HTS_Road_Chunk_phys"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.HTS_Road_Chunk",
+                    "RootNode.HTS_Road_Chunk.HTS_Road_Chunk_geo",
+                    "RootNode.HTS_Road_Chunk.HTS_Road_Chunk_geo.polySurface1",
+                    "RootNode.HTS_Road_Chunk.HTS_Road_Chunk_geo.polySurface2",
+                    "RootNode.HTS_Road_Chunk.HTS_Road_Chunk_geo.polySurface13",
+                    "RootNode.HTS_Road_Chunk.HTS_Road_Chunk_geo.polySurface14",
+                    "RootNode.HTS_Road_Chunk.HTS_Road_Chunk_geo.polySurface15",
+                    "RootNode.HTS_Road_Chunk.HTS_Road_Chunk_geo.polySurface16",
+                    "RootNode.HTS_Road_Chunk.HTS_Road_Chunk_geo.polySurface17",
+                    "RootNode.HTS_Road_Chunk.HTS_Road_Chunk_geo.polySurface7"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "lambert1"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "HTS_Road_Chunk",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.HTS_Road_Chunk",
+                    "RootNode.HTS_Road_Chunk.HTS_Road_Chunk_geo",
+                    "RootNode.HTS_Road_Chunk.HTS_Road_Chunk_geo.polySurface1",
+                    "RootNode.HTS_Road_Chunk.HTS_Road_Chunk_geo.polySurface2",
+                    "RootNode.HTS_Road_Chunk.HTS_Road_Chunk_geo.polySurface13",
+                    "RootNode.HTS_Road_Chunk.HTS_Road_Chunk_geo.polySurface14",
+                    "RootNode.HTS_Road_Chunk.HTS_Road_Chunk_geo.polySurface15",
+                    "RootNode.HTS_Road_Chunk.HTS_Road_Chunk_geo.polySurface16",
+                    "RootNode.HTS_Road_Chunk.HTS_Road_Chunk_geo.polySurface17",
+                    "RootNode.HTS_Road_Chunk.HTS_Road_Chunk_geo.polySurface7"
+                ],
+                "unselectedNodes": [
+                    "RootNode.HTS_Road_Chunk.HTS_Road_Chunk_phys"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{F7746FBF-EBFF-59D9-B6BB-2216742AE17A}"
+        }
+    ]
+}

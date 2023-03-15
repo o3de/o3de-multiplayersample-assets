@@ -1,12 +1,18 @@
 {
-    "description": "For reference, lists the default values for every available property in 'Materials/Types/StandardPBR.materialtype'",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialType": "@projectroot@/Cache/Intermediate Assets/materials/types/standardpbr_generated.materialtype",
     "materialTypeVersion": 5,
     "propertyValues": {
-        "baseColor.textureMap": "KB3D_HighTechStreets/KB3DTextures/KB3D_HTS_LightBlue_basecolor.png",
-        "emissive.textureMap": "KB3D_HighTechStreets/KB3DTextures/KB3D_HTS_LightBlue_emissive.png",
-        "metallic.textureMap": "KB3D_HighTechStreets/KB3DTextures/KB3D_HTS_LightBlue_metallic.png",
-        "normal.textureMap": "KB3D_HighTechStreets/KB3DTextures/KB3D_HTS_LightBlue_normal.png",
-        "roughness.textureMap": "KB3D_HighTechStreets/KB3DTextures/KB3D_HTS_LightBlue_roughness.png"
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "../../KB3DTextures/KB3D_HTS_LightBlue_basecolor.png",
+        "emissive.enable": true,
+        "emissive.intensity": 5.0,
+        "emissive.textureMap": "../../KB3DTextures/KB3D_HTS_LightBlue_emissive.png",
+        "irradiance.irradianceColorSource": "BaseColor",
+        "metallic.factor": 1.0,
+        "metallic.textureMap": "../../KB3DTextures/KB3D_HTS_LightBlue_metallic.png",
+        "normal.textureMap": "../../KB3DTextures/KB3D_HTS_LightBlue_normal.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.0,
+        "roughness.textureMap": "../../KB3DTextures/KB3D_HTS_LightBlue_roughness.png"
     }
 }
