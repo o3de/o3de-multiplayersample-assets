@@ -1,6 +1,6 @@
 # MPS Character Guide
 
-This is a contributors guide for those doing character work, such as rigging, and animation
+This is a contributors guide for those doing character work, such as rigging, and animation.
 
 You can follow on of these guide to O3DE get up and running:
 
