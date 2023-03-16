@@ -36,7 +36,9 @@ This guide outlines in depth best practices about our standards for asset contri
 
 ## Licensing and Legal Guidance
 
-< to do >
+You must be aware of asset licensing restrictions present in this repo.
+
+Some Assets have been developed by third parties and are subject to separate license terms (such as the Kitbash3D assets or Adobe Mixamo files). It is your responsibility to comply with the applicable licenses for such content should you choose to use this assets in another project. Information on third party materials, and the applicable license terms, are referenced in or included with the asset artifacts (3d models, texture images, etc.), such as in separate LICENSE*.txt files accompanying the materials in each Gem or Asset subfolders. 
 
 ### License
 
