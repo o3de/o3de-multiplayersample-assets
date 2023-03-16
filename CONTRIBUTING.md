@@ -24,7 +24,7 @@ Contributions are more than just welcome. Fork this repo and create a new branch
 
 If you are authoring and submitting content to this o3de-multiplayer-assets repository, you should abide by the best practices outlined in the guides located in the following location [o3de-multiplayersample-assets/Guides](https://github.com/o3de/o3de-multiplayersample-assets/tree/main/Guides) 
 
-These guide are a work in progress, may not be complete and are maintained by the community.  If there are important workflows or information that is critical but missing, please [file a GHI for this repo (link)](https://github.com/o3de/o3de-multiplayersample-assets/issues/new) We encourage contributors and the community to also write additional content for these guides, so feel free to make changes and push a PR with updates.
+These guides are a work in progress, may not be complete and are maintained by the community.  If there are important workflows or information that is critical but missing, please [file a GHI for this repo (link)](https://github.com/o3de/o3de-multiplayersample-assets/issues/new). We encourage contributors and the community to also write additional content for these guides, so feel free to make changes and push a PR with updates.
 
 #### [Getting Started (link)](https://github.com/o3de/o3de-multiplayersample-assets/blob/main/Guides/GettingStarted.md)
 
@@ -37,8 +37,6 @@ This guide outlines in depth best practices about our standards for asset contri
 #### [Kitbash3D Guide (link)](https://github.com/o3de/o3de-multiplayersample-assets/blob/main/Guides/Kb3dGuide.md)
 
 This guide has additional information related to converting assets from the [Kitbash3D High Tech Street (kit)](https://kitbash3d.com/products/high-tech-streets) and ported them for use in the MultiPlayerSample NewStarbase level.
-
-
 
 #### Content Authoring Guidelines (link)
 

@@ -101,7 +101,7 @@ Here is a descriptions of how we rearranged the model:
    
    1. Just the tower
    
-   2.  An optimized collision mesh was generated: Main_phys
+   2. An optimized collision mesh was generated: Main_phys
 
 6. HoloA
    
@@ -156,7 +156,3 @@ I basically do all of this for each prefab piece we exported in the last step.
 ### Prefab Hierarchy
 
 Now you'll assemble a nested set of entities that assemble the FBX pieces into a single assembly we will save to replace the original prefab.  These generally will be a mix of the following components: mesh (load the fbx piece), physics components (make rigid body, load custom phys meshes), and the Material component (assign the shared materials to the surface assignment slots.)  For the sake of brevity, I am not going to log each individual entity and step, you can go dissect the prefab we provide.
-
-
-
-
