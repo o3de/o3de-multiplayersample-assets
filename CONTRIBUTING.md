@@ -22,24 +22,34 @@ Contributions are more than just welcome. Fork this repo and create a new branch
 
 ## Asset Contributions:
 
-If you are authoring and submitting content to this o3de-multiplayer-assets repository, you should abide by the best practices outlined in the the following guides. 
+If you are authoring and submitting content to this o3de-multiplayer-assets repository, you should abide by the best practices outlined in the guides located in the following location [o3de-multiplayersample-assets/Guides](https://github.com/o3de/o3de-multiplayersample-assets/tree/main/Guides) 
 
-### Content Authoring Guidelines
+These guide are a work in progress, may not be complete and are maintained by the community.  If there are important workflows or information that is critical but missing, please [file a GHI for this repo (link)](https://github.com/o3de/o3de-multiplayersample-assets/issues/new) We encourage contributors and the community to also write additional content for these guides, so feel free to make changes and push a PR with updates.
 
-This guide will help you get up and running with Digital Content Creation tools (DCC)
+#### [Getting Started (link)](https://github.com/o3de/o3de-multiplayersample-assets/blob/main/Guides/GettingStarted.md)
 
-#### Getting Started with Content Guide (link)
+This guide will help you get up and running with Digital Content Creation tools (DCC), such as Blender or Maya.
 
-This guide outlines in depth best practices about our standards for asset contributions such as 3D model props, characters, etc.
+#### [Content Guide (link)](https://github.com/o3de/o3de-multiplayersample-assets/blob/main/Guides/ContentGuide.md)
+
+This guide outlines in depth best practices about our standards for asset contributions such as 3D model props, materials, terrain, and other general asset types etc.
+
+#### [Kitbash3D Guide (link)](https://github.com/o3de/o3de-multiplayersample-assets/blob/main/Guides/Kb3dGuide.md)
+
+This guide has additional information related to converting assets from the [Kitbash3D High Tech Street (kit)](https://kitbash3d.com/products/high-tech-streets) and ported them for use in the MultiPlayerSample NewStarbase level.
+
+
 
 #### Content Authoring Guidelines (link)
 
 ## Licensing and Legal Guidance
 
-You must be aware of asset licensing restrictions present in this repo.
+You must be aware of asset licensing restrictions present in this repository.
 
-Some Assets have been developed by third parties and are subject to separate license terms (such as the Kitbash3D assets or Adobe Mixamo files). It is your responsibility to comply with the applicable licenses for such content should you choose to use this assets in another project. Information on third party materials, and the applicable license terms, are referenced in or included with the asset artifacts (3d models, texture images, etc.), such as in separate LICENSE*.txt files accompanying the materials in each Gem or Asset subfolders. 
+Some Assets have been developed by third parties and are subject to separate license terms (such as the Kitbash3D assets or Adobe Mixamo files). It is your responsibility to comply with the applicable licenses for such content should you choose to use these assets in any other project. Information on third party materials, and the applicable license terms, are referenced in or included with the asset artifacts (3d models, texture images, etc.), such as in separate LICENSE*.txt files accompanying the materials in each Gem or Asset subfolders. 
+
+If you are contributing new assets to this repository, all contributions must be freely available public domain content, wholly new works of art, or modified and ported conversions of assets with similarly permissible licensing. You must document the origin of assets even if modified and include licensing information for the assets within the assets subfolder (add a LICENSE.txt). Generally all new asset contributions must be made under a permissible open source license, such as: Creative-Commons license (such as LICENSE-CC0.txt or LICENSE-CC-BY-4.0.txt)
 
 ### License
 
-For terms please see the LICENSE*.TXT files at the root of this distribution.
+For general terms please see the LICENSE*.TXT files at the root of this distribution.

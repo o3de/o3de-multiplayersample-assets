@@ -1,14 +1,20 @@
 # MPS Getting Started with Content Tools
 
-You can follow on of these guide to get up and running:
+You can follow on of these guide to get up MPS and running:
 
 [Multiplayer sample (MPS) project for the Open 3D Engine](https://github.com/o3de/o3de-multiplayersample)
 
-[O3DE multiplayer sample assets](https://github.com/o3de/o3de-multiplayersample-assets) (this guides parent repo)
+[O3DE multiplayer sample assets](https://github.com/o3de/o3de-multiplayersample-assets) (this guides parent repository)
 
 Or you could work with these assets in your own game project.
 
-Be aware of asset licensing restrictions present in this repo. Some Assets have been developed by third parties and are subject  to separate license terms (such as the Kitbash3D assets or Adobe Mixamo files).  It is your responsibility to comply with the applicable licenses. Information on third party materials, and the applicable license terms, are referenced in or included with the materials, such as in separate LICENSE*.txt files accompanying the materials in each Gem or subfolder. For terms please see the LICENSE*.TXT files at the root of this distribution.
+## Licensing
+
+You must be aware of asset licensing restrictions present in this repository.
+
+Some Assets have been developed by third parties and are subject to separate license terms (such as the Kitbash3D assets or Adobe Mixamo files). It is your responsibility to comply with the applicable licenses for such content should you choose to use these assets in any other project. Information on third party materials, and the applicable license terms, are referenced in or included with the asset artifacts (3d models, texture images, etc.), such as in separate LICENSE*.txt files accompanying the materials in each Gem or Asset subfolders.
+
+If you are contributing new assets to this repository, all contributions must be freely available public domain content, wholly new works of art, or modified and ported conversions of assets with similarly permissible licensing. You must document the origin of assets even if modified and include licensing information for the assets within the assets subfolder (add a LICENSE.txt). Generally all new asset contributions must be made under a permissible open source license, such as: Creative-Commons license (such as LICENSE-CC0.txt or LICENSE-CC-BY-4.0.txt)
 
 ## Asset Gems
 
@@ -22,7 +28,7 @@ Blender works with relative paths, with the current scene file as the root. Maya
 
 Maya does allow you to [Organize Files into Projects](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-ManagingScenes/files/GUID-9CE78B5A-7E9F-45E6-AB6D-66795E5656F4-htm.html), and utilize the project root to enable relative paths.  Essentially, the project root is marked by a `workspace.mel` file, a file that also contains project folder rules. This can be extremely useful, and it's what makes portability work.  These Gems contain this file at the root of each Gem.
 
-![](img/2023-01-20-14-24-01-image.png)
+![](https://github.com/o3de/o3de-multiplayersample-assets/tree/main/Guides/img/2023-01-20-14-24-01-image.png)
 
 There are several ways you could go about correctly utilizing this feature.
 
@@ -109,11 +115,11 @@ In Maya, you can validate that:
 
     Maya > File > Project Window
 
-    ![](img/2023-01-23-15-45-07-image.png)
+    ![](https://github.com/o3de/o3de-multiplayersample-assets/tree/main/Guides/img/2023-01-23-15-45-07-image.png)
 
 Now when you use an open command, it will conveniently place you in the Assets folder of the current Gem.  Beyond making assets more portable (relative file path references), working with Maya project workspaces brings a lot of conveniences.  This open dialog also gives you quick access to the root, asset folder (and other folder rules if they were added), and the ability to set the project without leaving the open dialog box.
 
-![](img/2023-01-23-16-23-12-image.png)
+![](https://github.com/o3de/o3de-multiplayersample-assets/tree/main/Guides/img/2023-01-23-16-23-12-image.png)
 
 ([check out Pipeline2](https://liorbenhorin.gumroad.com/l/pipeline2) an extended project manager for Maya)
 
