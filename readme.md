@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/23222931/225686938-a89ff5e9-31c9-41c7-99d0-f17328c07313.png)
+![image](https://user-images.githubusercontent.com/23222931/225687331-b0f3ada2-447c-404f-8892-f278aac8e11f.png)
 
 # O3DE MultiPlayerSample Assets
 
