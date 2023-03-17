@@ -6,7 +6,7 @@ This repository contains:
 
 1. A collection of O3DE Asset Gems, used in o3de-multiplayersample project
    1. The source folder for each Gem, for development by Contributors.
-   2. e.g. a gem for sample characters: https://github.com/o3de/o3de-multiplayersample-assets/Gems/character_mps
+   2. E.g. an Asset Gem for sample characters: https://github.com/o3de/o3de-multiplayersample-assets/Gems/character_mps
 2. "MPS-Asset-Test" project in: o3de-multiplayersample-assets/tree/main/Project
 3. (Future) A `repo.json` file containing information about this O3DE Remote Gem Repository
 4. (Future) A GitHub release folder
