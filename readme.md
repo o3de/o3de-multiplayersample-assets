@@ -190,7 +190,11 @@ This will make this the project that launches by default if you manually directl
 
 # Contributing to the MPS Asset Repo
 
-After following all the steps above, you should be ready to start working.  Once you are in the Editor, you can develop assets to be committed to the asset repo.  Working with the o3de-multiplayersample-assets repo is a similar workflow to the o3de codebase, the contributor guide is here for reference: https://docs.o3de.org/docs/contributing/to-code/git-workflow/
+After following all the steps above, you should be ready to start working.  Once you are in the Editor, you can develop assets to be committed to the asset repo.  Working with the o3de-multiplayersample-assets repo is a similar workflow to the o3de codebase, the general git contributor guide is here for reference: https://docs.o3de.org/docs/contributing/to-code/git-workflow/
+
+The main O3DE contributor guide is here: https://www.o3de.org/contribute/#contribution-guidelines
+
+And the CONTRIBUTING guide for this asset repo has addtional information regarding best practices for developing and cotributing assets such as 3D models, texture images and materials, characters and animations, etc.: https://github.com/o3de/o3de-multiplayersample-assets/blob/main/CONTRIBUTING.md
 
 The following steps help you validate you are set up correctly and get working to contribute changes.
 
