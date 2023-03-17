@@ -28,7 +28,7 @@ Blender works with relative paths, with the current scene file as the root. Maya
 
 Maya does allow you to [Organize Files into Projects](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-ManagingScenes/files/GUID-9CE78B5A-7E9F-45E6-AB6D-66795E5656F4-htm.html), and utilize the project root to enable relative paths.  Essentially, the project root is marked by a `workspace.mel` file, a file that also contains project folder rules. This can be extremely useful, and it's what makes portability work.  These Gems contain this file at the root of each Gem.
 
-![](https://github.com/o3de/o3de-multiplayersample-assets/tree/main/Guides/img/2023-01-20-14-24-01-image.png)
+![image](https://user-images.githubusercontent.com/23222931/225958367-c2df01b2-427a-4464-ac88-000f47630008.png)
 
 There are several ways you could go about correctly utilizing this feature.
 
@@ -119,7 +119,7 @@ In Maya, you can validate that:
 
 Now when you use an open command, it will conveniently place you in the Assets folder of the current Gem.  Beyond making assets more portable (relative file path references), working with Maya project workspaces brings a lot of conveniences.  This open dialog also gives you quick access to the root, asset folder (and other folder rules if they were added), and the ability to set the project without leaving the open dialog box.
 
-![](https://github.com/o3de/o3de-multiplayersample-assets/tree/main/Guides/img/2023-01-23-16-23-12-image.png)
+![image](https://user-images.githubusercontent.com/23222931/225958556-69dfce81-76b0-4352-b373-45b9f1889e5d.png)
 
 ([check out Pipeline2](https://liorbenhorin.gumroad.com/l/pipeline2) an extended project manager for Maya)
 
