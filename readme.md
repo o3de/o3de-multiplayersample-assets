@@ -242,14 +242,17 @@ The folder structure for each asset gem is retained and accessible in the Editor
 
 ### Create a new branch in your local workspace
 
-*Switch to the branch you want to use as a base (e.g. create a feature branch off of development)*
+*Switch to the branch you want to use as a base (e.g. create a feature branch off of development):*
 
-> git switch development
-> git pull
+`git switch development`
 
-*Create a new branch*
+*Pull the branch state:*
 
-> git switch -c <user/branch_name>
+`git pull`
+
+*Create a new branch from that state:*
+
+`git switch -c <user/branch_name>`
 
 ### Develop on Branch
 
@@ -257,19 +260,25 @@ Make changes (like adding new asset files) and commit these locally
 
 *This will display files that have changes:*
 
-> git status
-> git add <filename_or_directory>
-> git commit -s -m "<description of your change>"
+`git status`
+
+*This action will stage your work:*
+
+`git add <filename_or_directory>`
+
+*This action will commit the new work:*
+
+`git commit -s -m "<description of your change>"`
 
 Push changes to the origin. This is required to share your changes, run Automated Reviews, and submit Pull Requests.
 
-*Use the following to push the commits in your current branch to origin. -u will set the branch to track the origin repo. Only required one time.*
+*Use the following to push the commits in your current branch to origin. -u will set the branch to track the origin repo. Only required one time:*
 
-> git push -u origin HEAD
+`git push -u origin HEAD`
 
-*After using -u, the next time, you can just run a simple push for that branch*
+*After using -u, the next time, you can just run a simple push for that branch:*
 
-> git push
+`git push`
 
 ## Submit a Pull Request
 
