@@ -115,7 +115,7 @@ In Maya, you can validate that:
 
     Maya > File > Project Window
 
-    ![](https://github.com/o3de/o3de-multiplayersample-assets/tree/main/Guides/img/2023-01-23-15-45-07-image.png)
+    ![image](https://user-images.githubusercontent.com/23222931/225958877-cdb6aa6a-7b6f-44e6-ad1c-6db24099586d.png)
 
 Now when you use an open command, it will conveniently place you in the Assets folder of the current Gem.  Beyond making assets more portable (relative file path references), working with Maya project workspaces brings a lot of conveniences.  This open dialog also gives you quick access to the root, asset folder (and other folder rules if they were added), and the ability to set the project without leaving the open dialog box.
 
