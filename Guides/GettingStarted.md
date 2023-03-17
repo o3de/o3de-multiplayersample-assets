@@ -136,3 +136,26 @@ Point the file dialog to another location with a `workspace.mel` such as the oth
 `o3de-multiplayersample-assets\Gems\kb3d_mps`
 
 `...`
+
+## Exporting Content from Maya
+This section of the guide covers best practices for Exporting 3D FBX files from Maya for O3DE.
+< to do: write this section >
+
+### Maya Standard FBX Exporter
+< to do >
+
+### Maya Game Exporter
+< to do >
+
+### O3DE Scene Exporter
+< to do >
+
+## Exporting Content from Blender
+< to do >
+
+### Blender Standard FBX Exporter
+< to do >
+
+### O3DE Blender Scene Exporter AddOn
+< to do >
+
