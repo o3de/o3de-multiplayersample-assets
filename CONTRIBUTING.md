@@ -10,15 +10,77 @@ Please use a changelog.md or worklog.md file alongside your asset work, especial
 
 Contributions are more than just welcome. Fork this repo and create a new branch, then submit a pull request:
 
-1. Fork it: https://github.com/aws-lumberyard/o3de-dreamstudio
+### General workflow
 
-2. Create your feature branch `git checkout -b my-new-feature`
+1. Fork the asset repo: https://github.com/aws-lumberyard/o3de-dreamstudio
+2. Clone your fork `git clone https://github.com/aws-lumberyard/o3de-dreamstudio-your-fork`
+4. Create your feature branch `git checkout -b my-new-feature`
+5. Commit your changes `git commit -am 'Add some feature'`
+6. Push to the branch `git push origin my-new-feature`
+7. Create new Pull Request
 
-3. Commit your changes `git commit -am 'Add some feature'`
+### Create a new branch in your local workspace
 
-4. Push to the branch `git push origin my-new-feature`
+*Switch to the branch you want to use as a base (e.g. create a feature branch off of development)*
 
-5. Create new Pull Request
+> git switch development
+> git pull
+
+*Create a new branch*
+
+> git switch -c <user/branch_name>
+
+### Develop on Branch
+
+Make changes (like adding new asset files) and commit these locally
+
+*This will display files that have changes:*
+
+> git status
+> git add <filename_or_directory>
+> git commit -s -m "<description of your change>"
+
+Push changes to the origin. This is required to share your changes, run Automated Reviews, and submit Pull Requests.
+
+*Use the following to push the commits in your current branch to origin. -u will set the branch to track the origin repo. Only required one time.*
+
+> git push -u origin HEAD
+
+*After using -u, the next time, you can just run a simple push for that branch*
+
+> git push
+
+### Submit a Pull Request
+
+You’ll want to submit a Pull Request and get 2 reviewers before you merge your changes to the public repo.
+
+1. Go to: https://github.com/o3de/o3de-multiplayersample-assets 
+2. Click *New Pull Request*
+3. Click compare and select your branch. 
+   1. Base branch: development
+   2. Compare: <user/branch_name>
+   3. Click *Create pull request*
+
+Note: If you are comparing across forks (if you made one), the workflow will be slightly different.  If you have any trouble, let us know so we can help.
+
+Configuring your PR should look something like:
+
+![image](https://user-images.githubusercontent.com/67011188/201199896-ce1e070c-7533-44b8-a4d0-ca6e3f4e4b5f.png)
+
+Add the necessary details to the PR
+
+1. Enter title and description
+2. Add reviewers: assign to GitHub users or teams
+3. Get reviews and approvals needed
+4. Then merge your PR
+
+#### Notes:
+* Get a few distinctly different people to review your PR, this repo only requires 2 approvals to merge, but it’s not a bad idea to get others to not only look at the changes but also try the asset changes themselves.
+* This repo is not set up with AR, so make sure your changes work before merging to development, or from development to main.
+* Test your changes, you don’t need to test them in MultiplayerSample (game)
+  * You can use the MPS Asset Test Project folder:
+    * C:\path\to\repo\o3de-multiplayersample-assets\Project
+  * Or, you can activate these asset gems into your own test project...
 
 ## Asset Contributions:
 
@@ -37,8 +99,6 @@ This guide outlines in depth best practices about our standards for asset contri
 #### [Kitbash3D Guide (link)](https://github.com/o3de/o3de-multiplayersample-assets/blob/main/Guides/Kb3dGuide.md)
 
 This guide has additional information related to converting assets from the [Kitbash3D High Tech Street (kit)](https://kitbash3d.com/products/high-tech-streets) and ported them for use in the MultiPlayerSample NewStarbase level.
-
-#### Content Authoring Guidelines (link)
 
 ## Licensing and Legal Guidance
 
