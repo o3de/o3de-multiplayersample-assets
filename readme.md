@@ -87,24 +87,24 @@ Make sure your engine is registered.
 
 ```batch
 :: register the gems with the engine, you only need to do this once
-> c:\path\to\o3de\scripts\o3de register --this-engine
+> C:\path\to\o3de\scripts\o3de register --this-engine
 ```
 
 Make sure your project is registered.
 
 ```batch
 :: register the project with the engine, you only need to do this once
-> c:\path\to\o3de\scripts\o3de register -p c:\path\to\o3de-multiplayersample
+> C:\path\to\o3de\scripts\o3de register -p C:\path\to\o3de-multiplayersample
 ```
 
 Now make sure that the source gems are registered
 
 ```batch
 :: register the gems with the engine, you only need to do this once
-> o3de register --all-gems-path c:\path\to\o3de-multiplayersample-assets\Gems
+> o3de register --all-gems-path C:\path\to\o3de-multiplayersample-assets\Gems
 ```
 
- The above command will recursively scan the input path, then registers all paths with gem.json files into the ~/.o3de/o3de_manifest.json
+The above command will recursively scan the input path, then registers all paths with gem.json files into the `~/.o3de/o3de_manifest.json`
 
 Now these Gems will be available in the Project Manager and can be added to your Project.
 
@@ -123,7 +123,7 @@ This repository contains it's own O3DE Game project, which can be used by contri
 
 2. Use the blue button in the upper right labeled "New Project ...", and with the pulldown select "Open Existing Project"
 
-3. Browse to and add the MPS Asset Test Project folder:  C:\path\to\repo\o3de-multiplayersample-assets\Project
+3. Browse to and add the MPS Asset Test Project folder: `C:\path\to\repo\o3de-multiplayersample-assets\Project`
 
 4. You may be prompted to rebuild the project (there are other options for building as a developer)
 
@@ -135,7 +135,7 @@ You can use the o3de cli tools to register your project with your engine.
 
 ```shell
 # change directory to the engine root folder
-> cd c:\path\to\your\o3de-engine
+> cd C:\path\to\your\o3de-engine
 # register the gems with the engine, you only need to do this once
 > scripts\o3de register --project-path C:\depot\o3de-multiplayersample-assets\Project
 ```
@@ -148,7 +148,7 @@ As a developer, I often find it useful to build in an engine-centric way
 
 ```shell
 # change directory to the engine root folder
-> cd c:\path\to\your\o3de-engine
+> cd C:\path\to\your\o3de-engine
 # create a build folder
 > mkdir build
 > cd build
@@ -156,7 +156,7 @@ As a developer, I often find it useful to build in an engine-centric way
 > cmake .. -G "Visual Studio 16" -A x64 -DLY_3RDPARTY_PATH="%LY_3RDPARTY_PATH%" -DLY_UNITY_BUILD=OFF -DLY_PROJECTS="C:\path\to\repo\o3de-multiplayersample-assets\Project"
 ```
 
-This should generate a build\O3DE.sln file, which can be opened in Visual Studio 2019 and compiled.
+This should generate a `build\O3DE.sln` file, which can be opened in Visual Studio 2019 and compiled.
 
 Don't forget to build the project in Profile
 
@@ -170,10 +170,10 @@ The built binary executables will be in:
 
 ```shell
 # bin folder
-> cd C:\depot\o3de-dev\build\bin\profile\
+> cd C:\path\to\your\o3de-engine\build\bin\profile\
 # executables
-# C:\depot\o3de-dev\build\bin\profile\o3de.exe
-# C:\depot\o3de-dev\build\bin\profile\editor.exe
+# C:\path\to\your\o3de-engine\build\bin\profile\o3de.exe
+# C:\path\to\your\o3de-engine\build\bin\profile\editor.exe
 # ...
 ```
 
@@ -181,7 +181,7 @@ If this is the project you are primarily working with, you can also set it as th
 
 ```shell
 # change directory to the engine root folder
-> cd c:\path\to\your\o3de-engine
+> cd C:\path\to\your\o3de-engine
 # register the gems with the engine, you only need to do this once
 > scripts\o3de set-global-project -pp <project-path>
 ```
@@ -207,7 +207,7 @@ After the Asset Processor (https://www.o3de.org/docs/user-guide/assets/asset-pro
 2. To view the Asset Processor interface, *right-click* the  Asset Processor icon in the system tray and select *Show*.
 3. Click on the Assets tab
 4. The Project: path should be visible, something like: 
-   - C:\path\to\repo\o3de-multiplayersample-assets\Project
+   - `C:\path\to\repo\o3de-multiplayersample-assets\Project`
 5. The Root: is the path to the active engine install
 6. The o3de-multiplayersample-assets\Gems should be visible:
 7. ![image](https://user-images.githubusercontent.com/67011188/201198240-fb9aa04c-9f62-4849-afd8-4e13e890cf96.png)
