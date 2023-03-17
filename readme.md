@@ -224,17 +224,17 @@ This is a collection of modular Asset Gems used in o3de-multiplayersample game, 
    2. Right-click, from the context menu select ‘Open in Explorer’
 3. Or you can manually browse to them on disk in Windows File Explorer
    1. Examples:
-      1. C:\path\to\repo\o3de-multiplayersample-assets\Gems\kb3d_mps\Assets
-      2. C:\path\to\repo\o3de-multiplayersample-assets\Gems\character_mps\Assets
-      3. ...
+      1. `C:\path\to\repo\o3de-multiplayersample-assets\Gems\kb3d_mps\Assets`
+      2. `C:\path\to\repo\o3de-multiplayersample-assets\Gems\character_mps\Assets`
+      3. `...`
 4. Organize your files into the \Assets folder.  We prefer one-folder per-asset, such as:
-   1. Gems\character_mps\Assets\MyCharacter\
-   2. Gems\character_mps\Assets\MyCharacter\mycharacter.fbx
-   3. Gems\character_mps\Assets\MyCharacter\mycharacter.material
-   4. Gems\character_mps\Assets\MyCharacter\textures
-   5. Gems\character_mps\Assets\MyCharacter\textures\mycharacter_basecolor.png
-   6. Gems\character_mps\Assets\MyCharacter\textures\mycharacter_roughness.png
-   7. ...
+   1. `Gems\character_mps\Assets\MyCharacter\`
+   2. `Gems\character_mps\Assets\MyCharacter\mycharacter.fbx`
+   3. `Gems\character_mps\Assets\MyCharacter\mycharacter.material`
+   4. `Gems\character_mps\Assets\MyCharacter\textures`
+   5. `Gems\character_mps\Assets\MyCharacter\textures\mycharacter_basecolor.png`
+   6. `Gems\character_mps\Assets\MyCharacter\textures\mycharacter_roughness.png`
+   7. `...`
 5. As you add asset files to the Gem folder, the AP will scan and process them (into runtime ready assets); so they will show up in your Game Project data in the Editor
 
 ### Asset/ Folders in Editor
@@ -314,7 +314,7 @@ Notes:
 * This repo is not set up with AR, so make sure your changes work before merging to development, or from development to main.
 * Test your changes, you don’t need to test them in MultiplayerSample (game)
   * You can use the MPS Asset Test Project folder:
-    * C:\path\to\repo\o3de-multiplayersample-assets\Project
+    * `C:\path\to\repo\o3de-multiplayersample-assets\Project`
   * Or, you can activate these asset gems into your own test project...
 
 # Appendix
@@ -327,7 +327,7 @@ How these Asset Gems were made with O3DE.
 
 1. The Gems were created from the Asset Gem template
 
-2. Then the gem.json (metadata) was manually updated per-gem
+2. Then the `gem.json` (metadata) was manually updated per-gem in a text editor to customize the information to display when browsing and viewing the Gems from the O3DE project manager.
 
 ```batch
 cd c:\path\to\o3de\
