@@ -12,8 +12,8 @@ Contributions are more than just welcome. Fork this repo and create a new branch
 
 ### General workflow
 
-1. Fork the asset repo: https://github.com/aws-lumberyard/o3de-dreamstudio
-2. Clone your fork `git clone https://github.com/aws-lumberyard/o3de-dreamstudio-your-fork`
+1. Fork the asset repo: https://github.com/o3de/o3de-multiplayersample-assets
+2. Clone your fork `git clone https://github.com/o3de/o3de-multiplayersample-assets-your-fork`
 4. Create your feature branch `git checkout -b my-new-feature`
 5. Commit your changes `git commit -am 'Add some feature'`
 6. Push to the branch `git push origin my-new-feature`
