@@ -216,6 +216,31 @@
                     "$type": "EditorLockComponent",
                     "Id": 14490958793073194265
                 },
+                "Component_[16396523672802690395]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 16396523672802690395,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{3D5FC3EE-2EA9-5827-B70A-0FF93D95BE8A}",
+                            "path": "scriptcanvas/ShieldGeneratorRoundEffects.scriptcanvas"
+                        },
+                        "sourceName": "ShieldGeneratorRoundEffects.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{3D5FC3EE-2EA9-5827-B70A-0FF93D95BE8A}",
+                                "path": "scriptcanvas/ShieldGeneratorRoundEffects.scriptcanvas"
+                            }
+                        }
+                    }
+                },
+                "Component_[169667739041604196]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 169667739041604196,
+                    "Play Trigger": {
+                        "controlName": "play_sx_int_energyballtrap_projectile"
+                    },
+                    "Plays Immediately": true
+                },
                 "Component_[17189487875759770322]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 17189487875759770322
@@ -278,9 +303,12 @@
                         ]
                     }
                 },
-                "Component_[7907764792166045922]": {
-                    "$type": "PopcornFXHelperLoopEmitterEditorComponent",
-                    "Id": 7907764792166045922
+                "Component_[9419889065553881852]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 9419889065553881852,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
                 }
             }
         }
