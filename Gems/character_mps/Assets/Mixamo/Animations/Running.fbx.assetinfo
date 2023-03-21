@@ -18,7 +18,31 @@
                                     {
                                         "$type": "AnimGraphSyncTrack",
                                         "name": "Sync",
-                                        "deletable": false
+                                        "deletable": false,
+                                        "events": [
+                                            {
+                                                "eventDatas": [
+                                                    {
+                                                        "$type": "TwoStringEventData",
+                                                        "subject": "LeftFoot",
+                                                        "mirrorSubject": "RightFoot"
+                                                    }
+                                                ],
+                                                "startTime": 0.30684933066368103,
+                                                "endTime": 0.30684933066368103
+                                            },
+                                            {
+                                                "eventDatas": [
+                                                    {
+                                                        "$type": "TwoStringEventData",
+                                                        "subject": "RightFoot",
+                                                        "mirrorSubject": "LeftFoot"
+                                                    }
+                                                ],
+                                                "startTime": 0.6280822157859802,
+                                                "endTime": 0.6280822157859802
+                                            }
+                                        ]
                                     }
                                 ]
                             }
@@ -35,8 +59,8 @@
         },
         {
             "$type": "PrefabGroup",
-            "name": "Mixamo/Animations/Running_fbx.procprefab",
-            "id": "{F3D55416-608D-5856-A11A-AC39A41D6FB0}"
+            "name": "Mixamo/Animations/running_fbx.procprefab",
+            "id": "{E2826F03-491B-5107-9D5E-3AD9F72D20D1}"
         }
     ]
 }
