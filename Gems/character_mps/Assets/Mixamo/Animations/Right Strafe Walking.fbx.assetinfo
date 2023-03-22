@@ -18,7 +18,31 @@
                                     {
                                         "$type": "AnimGraphSyncTrack",
                                         "name": "Sync",
-                                        "deletable": false
+                                        "deletable": false,
+                                        "events": [
+                                            {
+                                                "eventDatas": [
+                                                    {
+                                                        "$type": "TwoStringEventData",
+                                                        "subject": "LeftFoot",
+                                                        "mirrorSubject": "RightFoot"
+                                                    }
+                                                ],
+                                                "startTime": 0.31495437026023865,
+                                                "endTime": 0.31495437026023865
+                                            },
+                                            {
+                                                "eventDatas": [
+                                                    {
+                                                        "$type": "TwoStringEventData",
+                                                        "subject": "RightFoot",
+                                                        "mirrorSubject": "LeftFoot"
+                                                    }
+                                                ],
+                                                "startTime": 0.799771785736084,
+                                                "endTime": 0.799771785736084
+                                            }
+                                        ]
                                     }
                                 ]
                             }
