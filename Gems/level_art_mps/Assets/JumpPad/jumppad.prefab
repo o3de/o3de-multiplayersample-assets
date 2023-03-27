@@ -58,6 +58,97 @@
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 10078836605200387099
                 },
+                "Component_[10277696138249967250]": {
+                    "$type": "PopcornFXEmitterEditorComponent",
+                    "Id": 10277696138249967250,
+                    "ParticleSystem": {
+                        "assetId": {
+                            "guid": "{3FD29CAB-9815-5751-BFE2-31C5795D03EC}"
+                        },
+                        "assetHint": "popcornfx/particles/fx_jumppad.pkfx"
+                    },
+                    "PrewarmTime": 0.0,
+                    "AttributeList": {
+                        "Attributes": [
+                            {
+                                "Name": "GlobalScale",
+                                "Type": 31
+                            },
+                            {
+                                "Name": "Color",
+                                "Type": 34
+                            },
+                            {
+                                "Name": "Launch",
+                                "Type": 1
+                            },
+                            {
+                                "Name": "Range",
+                                "Type": 31
+                            },
+                            {
+                                "Name": "Brightness",
+                                "Type": 31
+                            },
+                            {
+                                "Name": "Bursts",
+                                "Type": 31
+                            },
+                            {
+                                "Name": "DistortionPower",
+                                "Type": 31
+                            }
+                        ],
+                        "AttributesRawData": "mpmZPwAAAAAAAAAAAAAAAAAAAAAAAIA/GFRAPgAAgD8AAAAAAAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAoEAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=="
+                    },
+                    "EditorAttributeList": {
+                        "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 1.0
+                                    },
+                                    {
+                                        "ValueFX": 2.0
+                                    }
+                                ]
+                            },
+                            {
+                                "Attributes": [
+                                    {
+                                        "Color": [
+                                            0.0,
+                                            1.0,
+                                            0.18782079219818115
+                                        ]
+                                    },
+                                    {
+                                        "ValueFX": 5.0
+                                    }
+                                ]
+                            },
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 1.0
+                                    }
+                                ]
+                            },
+                            {
+                                "Attributes": [
+                                    {}
+                                ]
+                            },
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 1.2000000476837158
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
                 "Component_[10423858960960691779]": {
                     "$type": "AZ::Render::EditorMeshComponent",
                     "Id": 10423858960960691779,
@@ -76,6 +167,20 @@
                 "Component_[12283440537049891922]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 12283440537049891922
+                },
+                "Component_[12818888677478174901]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 12818888677478174901,
+                    "Play Trigger": {
+                        "controlName": "play_sx_int_jumppad_launch"
+                    }
+                },
+                "Component_[13047132521723915878]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 13047132521723915878,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
                 },
                 "Component_[1342242030955226421]": {
                     "$type": "EditorVisibilityComponent",
@@ -129,6 +234,70 @@
                 "Component_[1735639133782999286]": {
                     "$type": "EditorStaticRigidBodyComponent",
                     "Id": 1735639133782999286
+                },
+                "Component_[39629120857318069]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 39629120857318069,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{DCBC58DF-6DB8-5E71-B35B-769F46FA5B10}",
+                            "path": "scriptcanvas/JumpPad.scriptcanvas"
+                        },
+                        "sourceName": "JumpPad.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{DCBC58DF-6DB8-5E71-B35B-769F46FA5B10}",
+                                "path": "scriptcanvas/JumpPad.scriptcanvas"
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 8
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "Vector3",
+                                        "value": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ]
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{A3DAF982-0699-49BA-8E12-A20851DEDF38}"
+                                    },
+                                    "VariableName": "Impulse",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 8
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "Vector3",
+                                        "value": [
+                                            0.0,
+                                            0.0,
+                                            25.0
+                                        ]
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{A3DAF982-0699-49BA-8E12-A20851DEDF38}"
+                                    },
+                                    "VariableName": "Impulse",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
                 },
                 "Component_[4457373516699865523]": {
                     "$type": "EditorInspectorComponent",
