@@ -2,12 +2,6 @@
     "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
     "materialTypeVersion": 5,
     "propertyValues": {
-        "baseColor.color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "textures/spaceCannon_BaseColor.png",
         "emissive.color": [
@@ -19,6 +13,7 @@
         "emissive.enable": true,
         "emissive.intensity": 4.599999904632568,
         "emissive.textureMap": "textures/spaceCannon_Emissive.png",
+        "irradiance.irradianceColorSource": "BaseColor",
         "metallic.textureMap": "textures/spaceCannon_Metallic.png",
         "normal.textureMap": "textures/spaceCannon_Normal.png",
         "opacity.factor": 1.0,
