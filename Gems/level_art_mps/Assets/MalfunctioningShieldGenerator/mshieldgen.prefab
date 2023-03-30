@@ -279,6 +279,22 @@
                                     },
                                     "VariableName": "DamageDistance",
                                     "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": ""
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{F3137783-4DB6-46FD-B1CF-3C8D44D12F72}"
+                                    },
+                                    "VariableName": "ExplosionEffect",
+                                    "InitialValueSource": 1
                                 }
                             ],
                             "overrides": [
@@ -309,7 +325,7 @@
                                         },
                                         "isNullPointer": false,
                                         "$type": "double",
-                                        "value": 80.0
+                                        "value": 5.0
                                     },
                                     "InputControlVisibility": {
                                         "Value": 850104567
@@ -328,7 +344,7 @@
                                         },
                                         "isNullPointer": false,
                                         "$type": "double",
-                                        "value": 12.0
+                                        "value": 8.0
                                     },
                                     "InputControlVisibility": {
                                         "Value": 850104567
@@ -337,6 +353,25 @@
                                         "m_id": "{95843EC3-D528-453B-940D-9E78061CCE0F}"
                                     },
                                     "VariableName": "DamageDistance",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": "Entity_[9833571067542]"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{F3137783-4DB6-46FD-B1CF-3C8D44D12F72}"
+                                    },
+                                    "VariableName": "ExplosionEffect",
                                     "InitialValueSource": 1
                                 }
                             ]
@@ -445,23 +480,6 @@
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 13341644611575863749
                 },
-                "Component_[1428767951105775892]": {
-                    "$type": "EditorScriptCanvasComponent",
-                    "Id": 1428767951105775892,
-                    "configuration": {
-                        "sourceHandle": {
-                            "id": "{9767C953-7B55-5DD8-BFDA-14CB8E7C2D51}",
-                            "path": "scriptcanvas/ShieldGeneratorExplosionEffects.scriptcanvas"
-                        },
-                        "sourceName": "ShieldGeneratorExplosionEffects.scriptcanvas",
-                        "propertyOverrides": {
-                            "source": {
-                                "id": "{9767C953-7B55-5DD8-BFDA-14CB8E7C2D51}",
-                                "path": "scriptcanvas/ShieldGeneratorExplosionEffects.scriptcanvas"
-                            }
-                        }
-                    }
-                },
                 "Component_[16113105889926656189]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 16113105889926656189
@@ -487,11 +505,36 @@
                                 "Type": 31
                             },
                             {
-                                "Name": "Color Intensity",
+                                "Name": "Distortion Power",
                                 "Type": 31
+                            },
+                            {
+                                "Name": "Smoke Color",
+                                "Type": 34
                             }
                         ],
-                        "AttributesRawData": "AACAQAAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAA="
+                        "AttributesRawData": "AACAQAAAAAAAAAAAAAAAAAAAwD8AAAAAAAAAAAAAAACf6QU/UQL1PkBNmj4AAIA/"
+                    },
+                    "EditorAttributeList": {
+                        "AttributeCategories": [
+                            {
+                                "Attributes": [
+                                    {
+                                        "ValueFX": 4.0
+                                    },
+                                    {
+                                        "ValueFX": 1.5
+                                    },
+                                    {
+                                        "Color": [
+                                            0.5230960249900818,
+                                            0.4785332977771759,
+                                            0.30137062072753906
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 },
                 "Component_[17760274181297249561]": {
