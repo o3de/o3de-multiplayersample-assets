@@ -78,6 +78,13 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 17378392183732976486
                 },
+                "Component_[17850922953879111174]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 17850922953879111174,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
+                },
                 "Component_[18060162751226989950]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 18060162751226989950
@@ -169,6 +176,17 @@
                 "Component_[867313258523532320]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 867313258523532320
+                },
+                "Component_[9874714061085432355]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 9874714061085432355,
+                    "Play Trigger": {
+                        "controlName": "play_sx_int_teleporter_idle"
+                    },
+                    "Stop Trigger": {
+                        "controlName": "stop_sx_int_teleporter_idle"
+                    },
+                    "Plays Immediately": true
                 }
             }
         },
