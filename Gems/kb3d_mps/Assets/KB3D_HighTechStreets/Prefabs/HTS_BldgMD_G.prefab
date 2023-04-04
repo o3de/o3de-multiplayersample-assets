@@ -415,6 +415,13 @@
                     "$type": "EditorLockComponent",
                     "Id": 276023020415925966
                 },
+                "Component_[324479580313661198]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 324479580313661198,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
+                },
                 "Component_[5564789716330677387]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 5564789716330677387
@@ -540,6 +547,17 @@
                 "Component_[97446744851507173]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 97446744851507173
+                },
+                "Component_[9957966670136288551]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 9957966670136288551,
+                    "Play Trigger": {
+                        "controlName": "play_sx_env_lamp_loop"
+                    },
+                    "Stop Trigger": {
+                        "controlName": "stop_sx_env_lamp_loop"
+                    },
+                    "Plays Immediately": true
                 }
             }
         },
