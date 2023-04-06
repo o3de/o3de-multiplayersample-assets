@@ -252,6 +252,22 @@
                                     "Datum": {
                                         "isOverloadedStorage": false,
                                         "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{FC3DA616-174B-48FD-9BFB-BC277132FB47}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "MultiplayerSample::SpawnDecalConfig"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{62E2846B-1201-4A3D-9C17-2A85C76998BE}"
+                                    },
+                                    "VariableName": "Weapon Impact Decal Config",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
                                             "m_type": 3
                                         },
                                         "isNullPointer": false,
@@ -315,6 +331,34 @@
                                         "m_id": "{251012C9-C4D6-4FB3-AA03-EB593EE1BFEC}"
                                     },
                                     "VariableName": "ExplodeTimesDuringMatch",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{FC3DA616-174B-48FD-9BFB-BC277132FB47}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "MultiplayerSample::SpawnDecalConfig",
+                                        "value": {
+                                            "MaterialAssetId": {
+                                                "guid": "{FD203077-616F-53C5-9553-660CCB88DB7B}"
+                                            },
+                                            "Scale": 8.0,
+                                            "LifeTimeSec": 8.0,
+                                            "FadeInTimeSec": 0.25,
+                                            "FadeOutTimeSec": 4.0
+                                        }
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{62E2846B-1201-4A3D-9C17-2A85C76998BE}"
+                                    },
+                                    "VariableName": "Weapon Impact Decal Config",
                                     "InitialValueSource": 1
                                 },
                                 {
