@@ -75,24 +75,7 @@
                 },
                 "Component_[12283440537049891922]": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 12283440537049891922,
-                    "Child Entity Order": [
-                        "Entity_[20239823635620]"
-                    ]
-                },
-                "Component_[12818888677478174901]": {
-                    "$type": "EditorAudioTriggerComponent",
-                    "Id": 12818888677478174901,
-                    "Play Trigger": {
-                        "controlName": "play_sx_int_jumppad_launch"
-                    }
-                },
-                "Component_[13047132521723915878]": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 13047132521723915878,
-                    "m_template": {
-                        "$type": "AudioProxyComponent"
-                    }
+                    "Id": 12283440537049891922
                 },
                 "Component_[1342242030955226421]": {
                     "$type": "EditorVisibilityComponent",
@@ -106,9 +89,6 @@
                     "$type": "EditorMeshColliderComponent",
                     "Id": 14766259045021778464,
                     "ColliderConfiguration": {
-                        "CollisionLayer": {
-                            "Index": 2
-                        },
                         "MaterialSlots": {
                             "Slots": [
                                 {
@@ -149,70 +129,6 @@
                 "Component_[1735639133782999286]": {
                     "$type": "EditorStaticRigidBodyComponent",
                     "Id": 1735639133782999286
-                },
-                "Component_[39629120857318069]": {
-                    "$type": "EditorScriptCanvasComponent",
-                    "Id": 39629120857318069,
-                    "configuration": {
-                        "sourceHandle": {
-                            "id": "{DCBC58DF-6DB8-5E71-B35B-769F46FA5B10}",
-                            "path": "scriptcanvas/JumpPad.scriptcanvas"
-                        },
-                        "sourceName": "JumpPad.scriptcanvas",
-                        "propertyOverrides": {
-                            "source": {
-                                "id": "{DCBC58DF-6DB8-5E71-B35B-769F46FA5B10}",
-                                "path": "scriptcanvas/JumpPad.scriptcanvas"
-                            },
-                            "variables": [
-                                {
-                                    "Datum": {
-                                        "isOverloadedStorage": false,
-                                        "scriptCanvasType": {
-                                            "m_type": 8
-                                        },
-                                        "isNullPointer": false,
-                                        "$type": "Vector3",
-                                        "value": [
-                                            0.0,
-                                            0.0,
-                                            0.0
-                                        ]
-                                    },
-                                    "VariableId": {
-                                        "m_id": "{A3DAF982-0699-49BA-8E12-A20851DEDF38}"
-                                    },
-                                    "VariableName": "Impulse",
-                                    "InitialValueSource": 1
-                                }
-                            ],
-                            "overrides": [
-                                {
-                                    "Datum": {
-                                        "isOverloadedStorage": false,
-                                        "scriptCanvasType": {
-                                            "m_type": 8
-                                        },
-                                        "isNullPointer": false,
-                                        "$type": "Vector3",
-                                        "value": [
-                                            0.0,
-                                            0.0,
-                                            25.0
-                                        ]
-                                    },
-                                    "InputControlVisibility": {
-                                        "Value": 850104567
-                                    },
-                                    "VariableId": {
-                                        "m_id": "{A3DAF982-0699-49BA-8E12-A20851DEDF38}"
-                                    },
-                                    "VariableName": "Impulse",
-                                    "InitialValueSource": 1
-                                }
-                            ]
-                        }
-                    }
                 },
                 "Component_[4457373516699865523]": {
                     "$type": "EditorInspectorComponent",
@@ -270,152 +186,6 @@
                 "Component_[9239518287260626782]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 9239518287260626782
-                }
-            }
-        },
-        "Entity_[20239823635620]": {
-            "Id": "Entity_[20239823635620]",
-            "Name": "jumppadFx",
-            "Components": {
-                "Component_[10039726488493153784]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 10039726488493153784
-                },
-                "Component_[10918246284294112742]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 10918246284294112742,
-                    "Parent Entity": "Entity_[1104171344821059]",
-                    "Transform Data": {
-                        "Translate": [
-                            0.0,
-                            0.0,
-                            0.12310004234313965
-                        ],
-                        "Rotate": [
-                            180.0,
-                            0.0,
-                            180.0
-                        ]
-                    }
-                },
-                "Component_[1541676746712690353]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 1541676746712690353
-                },
-                "Component_[1613717797376241316]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 1613717797376241316
-                },
-                "Component_[16570740466809034129]": {
-                    "$type": "PopcornFXEmitterEditorComponent",
-                    "Id": 16570740466809034129,
-                    "ParticleSystem": {
-                        "assetId": {
-                            "guid": "{3FD29CAB-9815-5751-BFE2-31C5795D03EC}"
-                        },
-                        "assetHint": "popcornfx/particles/fx_jumppad.pkfx"
-                    },
-                    "PrewarmTime": 0.0,
-                    "AttributeList": {
-                        "Attributes": [
-                            {
-                                "Name": "GlobalScale",
-                                "Type": 31
-                            },
-                            {
-                                "Name": "Color",
-                                "Type": 34
-                            },
-                            {
-                                "Name": "Launch",
-                                "Type": 1
-                            },
-                            {
-                                "Name": "Range",
-                                "Type": 31
-                            },
-                            {
-                                "Name": "Brightness",
-                                "Type": 31
-                            },
-                            {
-                                "Name": "Bursts",
-                                "Type": 31
-                            },
-                            {
-                                "Name": "DistortionPower",
-                                "Type": 31
-                            }
-                        ],
-                        "AttributesRawData": "mpmZPwAAAAAAAAAAAAAAAAAAAAAAAIA/GFRAPgAAgD8AAAAAAAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAoEAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=="
-                    },
-                    "EditorAttributeList": {
-                        "AttributeCategories": [
-                            {
-                                "Attributes": [
-                                    {
-                                        "ValueFX": 1.0
-                                    },
-                                    {
-                                        "ValueFX": 2.0
-                                    }
-                                ]
-                            },
-                            {
-                                "Attributes": [
-                                    {
-                                        "Color": [
-                                            0.0,
-                                            1.0,
-                                            0.18782079219818115
-                                        ]
-                                    },
-                                    {
-                                        "ValueFX": 5.0
-                                    }
-                                ]
-                            },
-                            {
-                                "Attributes": [
-                                    {
-                                        "ValueFX": 1.0
-                                    }
-                                ]
-                            },
-                            {
-                                "Attributes": [
-                                    {}
-                                ]
-                            },
-                            {
-                                "Attributes": [
-                                    {
-                                        "ValueFX": 1.2000000476837158
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                },
-                "Component_[18363391600917116732]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 18363391600917116732
-                },
-                "Component_[2236560654144302887]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 2236560654144302887
-                },
-                "Component_[5961259476451355829]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 5961259476451355829
-                },
-                "Component_[6955340436542433750]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 6955340436542433750
-                },
-                "Component_[9227924109322544032]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 9227924109322544032
                 }
             }
         }
