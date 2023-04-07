@@ -252,6 +252,22 @@
                                     "Datum": {
                                         "isOverloadedStorage": false,
                                         "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{FC3DA616-174B-48FD-9BFB-BC277132FB47}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "MultiplayerSample::SpawnDecalConfig"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{62E2846B-1201-4A3D-9C17-2A85C76998BE}"
+                                    },
+                                    "VariableName": "Weapon Impact Decal Config",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
                                             "m_type": 3
                                         },
                                         "isNullPointer": false,
@@ -306,7 +322,7 @@
                                         },
                                         "isNullPointer": false,
                                         "$type": "double",
-                                        "value": 8.0
+                                        "value": 20.0
                                     },
                                     "InputControlVisibility": {
                                         "Value": 850104567
@@ -321,11 +337,39 @@
                                     "Datum": {
                                         "isOverloadedStorage": false,
                                         "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{FC3DA616-174B-48FD-9BFB-BC277132FB47}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "MultiplayerSample::SpawnDecalConfig",
+                                        "value": {
+                                            "MaterialAssetId": {
+                                                "guid": "{FD203077-616F-53C5-9553-660CCB88DB7B}"
+                                            },
+                                            "Scale": 8.0,
+                                            "LifeTimeSec": 8.0,
+                                            "FadeInTimeSec": 0.25,
+                                            "FadeOutTimeSec": 4.0
+                                        }
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{62E2846B-1201-4A3D-9C17-2A85C76998BE}"
+                                    },
+                                    "VariableName": "Weapon Impact Decal Config",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
                                             "m_type": 3
                                         },
                                         "isNullPointer": false,
                                         "$type": "double",
-                                        "value": 5.0
+                                        "value": 2.0
                                     },
                                     "InputControlVisibility": {
                                         "Value": 850104567
@@ -344,7 +388,7 @@
                                         },
                                         "isNullPointer": false,
                                         "$type": "double",
-                                        "value": 8.0
+                                        "value": 6.0
                                     },
                                     "InputControlVisibility": {
                                         "Value": 850104567
@@ -513,14 +557,14 @@
                                 "Type": 34
                             }
                         ],
-                        "AttributesRawData": "AACAQAAAAAAAAAAAAAAAAAAAwD8AAAAAAAAAAAAAAACf6QU/UQL1PkBNmj4AAIA/"
+                        "AttributesRawData": "AAAAQAAAAAAAAAAAAAAAAAAAwD8AAAAAAAAAAAAAAACf6QU/UQL1PkBNmj4AAIA/"
                     },
                     "EditorAttributeList": {
                         "AttributeCategories": [
                             {
                                 "Attributes": [
                                     {
-                                        "ValueFX": 4.0
+                                        "ValueFX": 2.0
                                     },
                                     {
                                         "ValueFX": 1.5
