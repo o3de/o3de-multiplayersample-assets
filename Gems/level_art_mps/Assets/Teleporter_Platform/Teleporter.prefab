@@ -78,6 +78,13 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 17378392183732976486
                 },
+                "Component_[17850922953879111174]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 17850922953879111174,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
+                },
                 "Component_[18060162751226989950]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 18060162751226989950
@@ -90,7 +97,7 @@
                         "Translate": [
                             0.0,
                             0.0,
-                            1.6311988830566406
+                            1.6426494121551514
                         ]
                     }
                 },
@@ -104,13 +111,25 @@
                     "Id": 7892090471544718256,
                     "ParticleSystem": {
                         "assetId": {
-                            "guid": "{F16C718B-7B3D-5F6B-877C-0CA15AAE7544}"
+                            "guid": "{EAD91758-94E3-597E-94CF-FB52F72B7252}"
                         },
-                        "assetHint": "popcornfx/particles/energyballtrap/fx_energyballtrap_buildup.pkfx"
+                        "assetHint": "popcornfx/particles/defenseturret/fx_defenseturret_projectile.pkfx"
                     },
                     "PrewarmTime": 0.0,
                     "AttributeList": {
                         "Attributes": [
+                            {
+                                "Name": "Fire Rate",
+                                "Type": 31
+                            },
+                            {
+                                "Name": "Color1",
+                                "Type": 34
+                            },
+                            {
+                                "Name": "Color2",
+                                "Type": 34
+                            },
                             {
                                 "Name": "Color Intensity",
                                 "Type": 31
@@ -120,17 +139,34 @@
                                 "Type": 31
                             }
                         ],
-                        "AttributesRawData": "AAAAQAAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAA="
+                        "AttributesRawData": "AABAQAAAAAAAAAAAAAAAAAAAgD/YGNM+AAAAAAAAgD9Qv/E+AAAAAAAAgD8AAIA/AACAPwAAAAAAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAAA="
                     },
                     "EditorAttributeList": {
                         "AttributeCategories": [
                             {
                                 "Attributes": [
                                     {
-                                        "ValueFX": 2.0
+                                        "ValueFX": 3.0
+                                    },
+                                    {
+                                        "Color": [
+                                            1.0,
+                                            0.41229891777038574,
+                                            0.0
+                                        ]
+                                    },
+                                    {
+                                        "Color": [
+                                            0.47216272354125977,
+                                            0.0,
+                                            1.0
+                                        ]
                                     },
                                     {
                                         "ValueFX": 1.0
+                                    },
+                                    {
+                                        "ValueFX": 4.0
                                     }
                                 ]
                             }
@@ -140,6 +176,17 @@
                 "Component_[867313258523532320]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 867313258523532320
+                },
+                "Component_[9874714061085432355]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 9874714061085432355,
+                    "Play Trigger": {
+                        "controlName": "play_sx_int_teleporter_idle"
+                    },
+                    "Stop Trigger": {
+                        "controlName": "stop_sx_int_teleporter_idle"
+                    },
+                    "Plays Immediately": true
                 }
             }
         },

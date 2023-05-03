@@ -236,6 +236,24 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 4894639065274315892
                 },
+                "Component_[642417647231732146]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 642417647231732146,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
+                },
+                "Component_[8125702530470979581]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 8125702530470979581,
+                    "Play Trigger": {
+                        "controlName": "play_sx_env_lamp_loop"
+                    },
+                    "Stop Trigger": {
+                        "controlName": "stop_sx_env_lamp_loop"
+                    },
+                    "Plays Immediately": true
+                },
                 "Component_[841319223343298906]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 841319223343298906,
@@ -305,7 +323,8 @@
                             "Intensity": 250.0,
                             "AttenuationRadiusMode": 0,
                             "AttenuationRadius": 6.0,
-                            "UseFastApproximation": true
+                            "UseFastApproximation": true,
+                            "Affects GI": false
                         }
                     }
                 },
