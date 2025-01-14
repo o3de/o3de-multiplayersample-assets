@@ -32,6 +32,6 @@ set(ENABLED_GEMS
     DccScriptingInterface
     QtForPython
     PopcornFX
-	PhysXDebug
+	  PhysXDebug
     Stars
 )
