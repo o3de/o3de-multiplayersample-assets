@@ -1,59 +1,63 @@
 # MPS Character Guide
 
-This is a contributors guide for those doing character work, such as rigging, and animation, other assets such as level art and props are described in the ContentGuide.md (to: do link to)
+This is a contributors guide for those doing character work, such as rigging, and animation.
 
 You can follow on of these guide to O3DE get up and running:
 
 [Multiplayer sample (MPS) project for the Open 3D Engine](https://github.com/o3de/o3de-multiplayersample)
 
-[O3DE multiplayer sample assets](https://github.com/o3de/o3de-multiplayersample-assets) (this guides parent repo)
+[O3DE multiplayer sample assets](https://github.com/o3de/o3de-multiplayersample-assets) (this guides parent repository)
 
-( to do: link the local GettingStarted.md guide here)
+[o3de-multiplayersample-assets/GettingStarted.md](https://github.com/o3de/o3de-multiplayersample-assets/blob/main/Guides/GettingStarted.md)
+
+This guide will help you get up and running with Digital Content Creation tools (DCC), such as Blender or Maya.
 
 ## Licensing
 
-Be aware of asset licensing restrictions present in this repo. Some Assets have been developed by third parties and are subject to separate license terms (such as the Kitbash3D assets or Adobe Mixamo files). It is your responsibility to comply with the applicable licenses. Information on third party materials, and the applicable license terms, are referenced in or included with the materials, such as in separate LICENSE*.txt files accompanying the materials in each Gem or sub-folder. For terms please see the LICENSE*.TXT files at the root of this distribution.
+You must be aware of asset licensing restrictions present in this repository.
 
-( to do: put information about appropriate licensing for new contributions )
+Some Assets have been developed by third parties and are subject to separate license terms (such as the Kitbash3D assets or Adobe Mixamo files). It is your responsibility to comply with the applicable licenses for such content should you choose to use these assets in any other project. Information on third party materials, and the applicable license terms, are referenced in or included with the asset artifacts (3d models, texture images, etc.), such as in separate LICENSE*.txt files accompanying the materials in each Gem or Asset subfolders.
+
+If you are contributing new assets to this repository, all contributions must be freely available public domain content, wholly new works of art, or modified and ported conversions of assets with similarly permissible licensing. You must document the origin of assets even if modified and include licensing information for the assets within the assets subfolder (add a LICENSE.txt). Generally all new asset contributions must be made under a permissible open source license, such as: Creative-Commons license (such as LICENSE-CC0.txt or LICENSE-CC-BY-4.0.txt)
 
 # YBot Model, Adobe Mixamo
 
 The main character model for the MPS game, is based on the YBot Mixamo character from Adobe (along with the actor using the Mixamo skeleton and animations.)  This section covers the construction of the YBot model, with a target of a character with roughly 15K polys in the highest LOD, while trying to retain the visual quality.
 
-<img src="img/2023-01-28-14-41-39-image.png" width="512px" title="native_mesh.fbx" alt="2023-01-28-14-41-39-image.png" data-align="inline">
+![image](https://user-images.githubusercontent.com/23222931/225964981-6a549437-cf31-47b8-a642-2818ea56541a.png)
 
 This is the native download for the Mixamo YBot:
 
 - `Gems\character_mps\Assets\Mixamo\Ybot\.src\native_mesh.fbx`
 - You could use this 'as is' but the polygon count is 55320 tri's which pretty heavy when we have many players.
 - We are shooting for the guidance of 17K or less per-character and 30 players.
-- we'd like to be more representative of a AAA game character, with attachments, support player skins, etc.
+- We'd like to be more representative of a AAA game character, with attachments, support player skins, etc.
 - This model has hard-crease edges, but we want to use a MikkT tangents modern bake workflows for player skins.
 - For reasons such as these, we are going to replace the base model with a representative game version.
 
-<img src="../Gems/character_mps/Assets/Mixamo/Ybot/.src/wrk_img/Screenshot 2023-01-28 145128.png" width="512px" title="native_mesh.fbx" alt="Screenshot 2023-01-28 145128.png" data-align="inline">
+![image](https://user-images.githubusercontent.com/23222931/225965243-68123f24-8e26-46b5-b73f-32be035149b4.png)
 
 The first thing we did, was make a 'High Poly' asset for use in a baking workflow.
 
 - Retained the crease edged by beveling them.
 - Then create a smooth subdivision model.
 
-<img src="../Gems/character_mps/Assets/Mixamo/Ybot/.src/wrk_img/Screenshot 2023-01-27 135446.png" width="512px" title="native_mesh.fbx" alt="Screenshot 2023-01-27 135446.png" data-align="inline">
+![image](https://user-images.githubusercontent.com/23222931/225965311-72b0c855-af9b-4dec-8862-59b21df1c717.png)
 
 This will allow us to have some natural creased edges and smooth topology to bake against.
 
 - Exported as `Native_smooth_HIGH.fbx`
 
-<img src="../Gems/character_mps/Assets/Mixamo/Ybot/.src/wrk_img/Screenshot 2023-01-27 135518.png" width="512px" title="native_mesh.fbx" alt="Screenshot 2023-01-27 135518.png" data-align="inline">
+![image](https://user-images.githubusercontent.com/23222931/225965392-c5c63329-38c6-4500-8f98-439a3628c70c.png)
 
 1. Exported the High Poly as a .obj (`character_mps\Assets\Mixamo\Ybot\.src\LODs\Native_smooth_fix_HIGH.obj`)
 2. Brought this into [GitHub - wjakob/instant-meshes: Interactive field-aligned mesh generator](https://github.com/wjakob/instant-meshes)
 3. Generated a Mid-poly model (quads) with a polygon flow that matched the topology of the High-poly model
 4. Then used [Mesh Lab](https://www.meshlab.net/) to crunch down a triangulated mesh at the target poly count (15k)
 
-<img src="../Gems/character_mps/Assets/Mixamo/Ybot/.src/wrk_img/Screenshot 2023-01-27 135554.png" width="512px" title="native_mesh.fbx" alt="Screenshot 2023-01-27 135554.png" data-align="inline">
+![image](https://user-images.githubusercontent.com/23222931/225965450-2fd39c8e-fca5-4ec5-85f5-eaf0c2c28515.png)
 
-<img src="../Gems/character_mps/Assets/Mixamo/Ybot/.src/wrk_img/Screenshot 2023-01-27 135620.png" width="512px" title="native_mesh.fbx" alt="Screenshot 2023-01-27 135620.png" data-align="inline">
+![image](https://user-images.githubusercontent.com/23222931/225965528-45c91117-3143-4787-8fe1-2207220f143b.png)
 
 Here is what the model body and UVs look like:
 
@@ -63,7 +67,7 @@ Here is what the model body and UVs look like:
 - `Gems\character_mps\Assets\Mixamo\Ybot\.src\Native_mesh_working.mb`
 - Export as `Alpha_mesh_LOW.fbx`
 
-<img src="../Gems/character_mps/Assets/Mixamo/Ybot/.src/wrk_img/Screenshot 2023-01-27 135832.png" width="512px" title="native_mesh.fbx" alt="Screenshot 2023-01-27 135832.png" data-align="inline">
+![image](https://user-images.githubusercontent.com/23222931/225965631-a8f53e7f-e578-4e9c-9599-12e762be5d11.png)
 
 Then we create a bake set file:
 
@@ -77,9 +81,9 @@ Then we create a bake set file:
 - Export both HIGH and LOW together as: `Alpha_Bake_Set.fbx`
 - Export just the LOW over: `Alpha_mesh_LOW.fbx` (this is the final model version we will now be importing up a level into the actually game asset files)
 
-<img src="../Gems/character_mps/Assets/Mixamo/Ybot/.src/wrk_img/2023-01-28-15-38-26-image.png" width="256px" title="native_mesh.fbx" alt="2023-01-28-15-38-26-image.png" data-align="inline">
+![image](https://user-images.githubusercontent.com/23222931/225965743-a0b71924-6ecf-4ccd-8a93-34053b5bd471.png)
 
-Then we bring into Marmoset Toolbag 4 which we will be using as our bake tool:
+Then we bring into [Marmoset Toolbag 4](https://marmoset.co/) which we will be using as our bake tool:
 
 1. I set up one bake file, it has 3 bake projects, to just generate only the <u>color</u> and <u>normal</u> map texture channels for each piece of the model: head, body, joints.
 
@@ -95,7 +99,7 @@ Then we bring into Marmoset Toolbag 4 which we will be using as our bake tool:
    
    3. Tangent Orientation: Left-Handed
    
-   4. <img src="../Gems/character_mps/Assets/Mixamo/Ybot/.src/wrk_img/Screenshot 2023-01-28 161652.png" width="512px" title="native_mesh.fbx" alt="Screenshot 2023-01-28 161652.png" data-align="inline">
+   4. ![image](https://user-images.githubusercontent.com/23222931/225965929-befbf50d-1a85-4b04-a3f3-4b47bad38c8d.png)
 
 5. Make sure to set up each bake project with an output path, the texture channels to generate, etc.
 
@@ -103,7 +107,7 @@ Then we bring into Marmoset Toolbag 4 which we will be using as our bake tool:
 
 7. We load the baked texture channels into materials assigned to the low poly meshes, so we can preview the results (looks pretty clean, can't really tell at all we dropped from 55k to 15k. Woot!)
 
-<img src="../Gems/character_mps/Assets/Mixamo/Ybot/.src/wrk_img/Screenshot 2023-01-27 140007.png" width="512px" title="native_mesh.fbx" alt="Screenshot 2023-01-27 140007.png" data-align="inline">
+![image](https://user-images.githubusercontent.com/23222931/225965992-401b0d6a-f6e2-40ac-8db6-7032cb21c515.png)
 
 Then we make a second bake file, this time to capture other texture channels such as Ambient Occlusion (AO)
 
@@ -111,7 +115,7 @@ Then we make a second bake file, this time to capture other texture channels suc
 2. This is so that we can sample all of the meshes of the assembly, when generating the AO where the model pieces meet.
 3. Our preview materials in this scene, load the color and normal from the previous bake and now load the AO 
 
-<img src="../Gems/character_mps/Assets/Mixamo/Ybot/.src/wrk_img/Screenshot 2023-01-27 140039.png" width="512px" title="native_mesh.fbx" alt="Screenshot 2023-01-27 140039.png" data-align="inline">
+![image](https://user-images.githubusercontent.com/23222931/225966052-cdfcb896-c5e1-41f9-8176-614ac2adcd47.png)
 
 The data (models and textures) are all brought together in the final asset source file, which is a level up from `/.src`
 
@@ -153,7 +157,7 @@ The data (models and textures) are all brought together in the final asset sourc
    
    6. This can now be exported so we can test the model and materials in the game engine, export as: `ybot_mesh_test.fbx`
 
-<img src="../Gems/character_mps/Assets/Mixamo/Ybot/.src/wrk_img/Screenshot 2023-01-28 163006.png" width="512px" title="native_mesh.fbx" alt="Screenshot 2023-01-28 163006.png" data-align="inline">
+![image](https://user-images.githubusercontent.com/23222931/225991499-671885bd-d955-4290-b112-4a63c327c727.png)
 
 Now we can bring this into a game level and validate the mesh and materials.
 
@@ -170,12 +174,20 @@ We used the Material Editor, to create 3 base materials: ybot_head_base.material
 3. Use the material assignment slots, to assign our base materials.  Note: we shared the ybot_body_base.material, on the body, both arms and both legs.
 4. Here are the results ...
 
-<img src="../Gems/character_mps/Assets/Mixamo/Ybot/.src/wrk_img/Screenshot 2023-01-28 164302.png" width="512px" title="native_mesh.fbx" alt="Screenshot 2023-01-28 164302.png" data-align="inline">
+![image](https://user-images.githubusercontent.com/23222931/225991600-701c6fe7-7444-459e-a7bb-f5443090f0b0.png)
 
 # YBot Model, LODs
 
 Next we exported the Ybot Alpha_Mesh (the final optimized model), as an .OBJ and imported it into [Mesh Lab](https://www.meshlab.net/) to generate additions mesh LODs, I used this as well as mix-and-match of Maya reduction tools and some manual adjustments.
 
+< to do: finish >
+
 # YBot Actor, Skeleton LODs
 
 < to do: nest steps, setting up the Actor with Mesh LODs, skeleton LODs, etc. >
+
+# YBot Actor, Character Attachments
+
+< to do >
+
+

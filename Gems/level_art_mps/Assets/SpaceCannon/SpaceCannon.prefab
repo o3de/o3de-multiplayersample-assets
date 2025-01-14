@@ -1,0 +1,148 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "SpaceCannon",
+        "Components": {
+            "Component_[12260923054265117392]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12260923054265117392
+            },
+            "Component_[14475864726251301240]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 14475864726251301240
+            },
+            "Component_[14548366916721332320]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 14548366916721332320
+            },
+            "Component_[16272519018538906213]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 16272519018538906213
+            },
+            "Component_[2789416777032712678]": {
+                "$type": "EditorLockComponent",
+                "Id": 2789416777032712678
+            },
+            "Component_[4448374011120995340]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4448374011120995340,
+                "Child Entity Order": [
+                    "Entity_[44836866052087]"
+                ]
+            },
+            "Component_[5002108055628533175]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5002108055628533175
+            },
+            "Component_[5029268238355038168]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 5029268238355038168,
+                "Parent Entity": ""
+            },
+            "Component_[5254126961592671108]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5254126961592671108
+            },
+            "Component_[7364939310263977367]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7364939310263977367
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[44836866052087]": {
+            "Id": "Entity_[44836866052087]",
+            "Name": "spacecannon",
+            "Components": {
+                "Component_[1017808656361049360]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1017808656361049360,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[10520605389658503030]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10520605389658503030
+                },
+                "Component_[12819789098545125543]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12819789098545125543,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 1017808656361049360
+                        },
+                        {
+                            "ComponentId": 8023992471971848207,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16128708604193800536,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[16012513259245667113]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16012513259245667113
+                },
+                "Component_[16128708604193800536]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 16128708604193800536,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3418566086
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7F678F45-39F0-573F-A178-34E76532397E}"
+                                            },
+                                            "assetHint": "spacecannon/spacecannon_base_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[18209147820177422102]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 18209147820177422102
+                },
+                "Component_[18311980901326004759]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 18311980901326004759
+                },
+                "Component_[7796209288224312526]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7796209288224312526
+                },
+                "Component_[8023992471971848207]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8023992471971848207,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{251F7A49-FA34-57EC-919D-399EAF8F9770}",
+                                    "subId": 269561695
+                                },
+                                "assetHint": "spacecannon/spacecannon.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[9706403434023011913]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9706403434023011913
+                },
+                "Component_[9735472405486826848]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9735472405486826848
+                }
+            }
+        }
+    }
+}
