@@ -336,6 +336,5 @@ scripts\o3de create-gem --gem-path C:\o3de-multiplayersample-assets\Gems\level_a
 scripts\o3de create-gem --gem-path C:\o3de-multiplayersample-assets\Gems\character_mps --template-path C:\o3de\Templates\AssetGem
 scripts\o3de create-gem --gem-path C:\o3de-multiplayersample-assets\Gems\landscape_mps --template-path C:\o3de\Templates\AssetGem
 scripts\o3de create-gem --gem-path C:\o3de-multiplayersample-assets\Gems\pbr_material_pack_mps --template-path C:\o3de\Templates\AssetGem
-scripts\o3de create-gem --gem-path C:\o3de-multiplayersample-assets\Gems\particlefx_mps --template-path C:\o3de\Templates\AssetGem
 scripts\o3de create-gem --gem-path C:\o3de-multiplayersample-assets\Gems\kb3d_mps --template-path C:\o3de\Templates\AssetGem
 ```
