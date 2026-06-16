@@ -1,0 +1,148 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Large_Pauldron",
+        "Components": {
+            "Component_[11513088888223446602]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 11513088888223446602
+            },
+            "Component_[13519797038764624050]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 13519797038764624050
+            },
+            "Component_[14939117169724038409]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14939117169724038409,
+                "Child Entity Order": [
+                    "Entity_[2388859953733]"
+                ]
+            },
+            "Component_[17421680418198843416]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 17421680418198843416
+            },
+            "Component_[17907619337730121724]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 17907619337730121724
+            },
+            "Component_[7533125696104504855]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7533125696104504855
+            },
+            "Component_[7570199419159811846]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7570199419159811846
+            },
+            "Component_[7594128671669731670]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7594128671669731670
+            },
+            "Component_[9142114325332116602]": {
+                "$type": "EditorLockComponent",
+                "Id": 9142114325332116602
+            },
+            "Component_[9777431534420283651]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 9777431534420283651,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2388859953733]": {
+            "Id": "Entity_[2388859953733]",
+            "Name": "Large_Pauldron",
+            "Components": {
+                "Component_[13967767701423881351]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13967767701423881351
+                },
+                "Component_[15016363702749851680]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15016363702749851680,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15380228318863916874
+                        },
+                        {
+                            "ComponentId": 3794250699996571193,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 6313017894316182045,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[15380228318863916874]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15380228318863916874,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[201169203147537708]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 201169203147537708
+                },
+                "Component_[2660462547122959721]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2660462547122959721
+                },
+                "Component_[3757262650544105580]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3757262650544105580
+                },
+                "Component_[3794250699996571193]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 3794250699996571193,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{8B7AC7FC-A49D-52BB-9772-E0D062DEA6C2}",
+                                    "subId": 278649746
+                                },
+                                "assetHint": "attachments/large_pauldron_01/large pauldron_01.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[4563848143878642586]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4563848143878642586
+                },
+                "Component_[6313017894316182045]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6313017894316182045,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1952446642
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4D482FB0-C3C2-5CFE-ACE9-B9ECF56686CC}"
+                                            },
+                                            "assetHint": "attachments/large_pauldron_01/large_pauldron_large_pauldron_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8914348825238767558]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8914348825238767558
+                },
+                "Component_[944548804779300923]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 944548804779300923
+                }
+            }
+        }
+    }
+}
